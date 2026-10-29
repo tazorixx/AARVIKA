@@ -1,0 +1,3803 @@
+{
+  "wedding-root": {
+    "title": "Wedding",
+    "imagePath": "/category-photo/14df4435d01a21f812db7590.webp",
+    "imageAlt": "Wedding editorial photograph",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/wedding-root.svg",
+    "images": [
+      {
+        "imagePath": "/category-photo/9f3f70be603723bbdc156c32.webp",
+        "imageAlt": "Wedding collection photograph",
+        "imageFit": "cover"
+      }
+    ]
+  },
+  "birthday-root": {
+    "title": "Birthday",
+    "imagePath": "/category-art/birthday-root.svg",
+    "imageAlt": "Birthday category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/birthday-root.svg",
+    "images": [
+      {
+        "imagePath": "/category-art/birthday-root-mobile.svg",
+        "imageAlt": "Birthday collection illustration",
+        "imageFit": "cover"
+      }
+    ]
+  },
+  "personalized-root": {
+    "title": "Personalized Gifts",
+    "imagePath": "/category-art/personalized-root.svg",
+    "imageAlt": "Personalized Gifts category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-root.svg",
+    "images": [
+      {
+        "imagePath": "/category-art/personalized-root-mobile.svg",
+        "imageAlt": "Personalized Gifts collection illustration",
+        "imageFit": "cover"
+      }
+    ]
+  },
+  "anniversary-root": {
+    "title": "Anniversary",
+    "imagePath": "/category-photo/d5cab3e3e0627ea40a0e47e6.webp",
+    "imageAlt": "Anniversary editorial photograph",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/anniversary-root.svg",
+    "images": [
+      {
+        "imagePath": "/category-photo/48ae87ac40e98e86fa0e46a4.webp",
+        "imageAlt": "Anniversary collection photograph",
+        "imageFit": "cover"
+      }
+    ]
+  },
+  "hampers-root": {
+    "title": "Hampers",
+    "imagePath": "/category-art/hampers-root.svg",
+    "imageAlt": "Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-root.svg",
+    "images": [
+      {
+        "imagePath": "/category-art/hampers-root-mobile.svg",
+        "imageAlt": "Hampers collection illustration",
+        "imageFit": "cover"
+      }
+    ]
+  },
+  "clothing-root": {
+    "title": "Clothing",
+    "imagePath": "/category-photo/bb2ffaacc629799bae3d3e52.webp",
+    "imageAlt": "Clothing editorial photograph",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-root.svg",
+    "images": [
+      {
+        "imagePath": "/category-photo/88f4a1edef28135d7e8ccd3c.webp",
+        "imageAlt": "Clothing collection photograph",
+        "imageFit": "cover"
+      }
+    ]
+  },
+  "stationery-root": {
+    "title": "Stationery",
+    "imagePath": "/category-art/stationery-root.svg",
+    "imageAlt": "Stationery category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-root.svg",
+    "images": [
+      {
+        "imagePath": "/category-art/stationery-root-mobile.svg",
+        "imageAlt": "Stationery collection illustration",
+        "imageFit": "cover"
+      }
+    ]
+  },
+  "furniture-root": {
+    "title": "Furniture",
+    "imagePath": "/category-art/furniture-root.svg",
+    "imageAlt": "Furniture category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-root.svg",
+    "images": [
+      {
+        "imagePath": "/category-art/furniture-root-mobile.svg",
+        "imageAlt": "Furniture collection illustration",
+        "imageFit": "cover"
+      }
+    ]
+  },
+  "hampers-1": {
+    "title": "Birthday Hampers",
+    "imagePath": "/category-art/hampers-1.svg",
+    "imageAlt": "Birthday Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-1.svg"
+  },
+  "hampers-1-1": {
+    "title": "For Her",
+    "imagePath": "/category-art/hampers-1-1.svg",
+    "imageAlt": "For Her category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-1-1.svg"
+  },
+  "hampers-1-2": {
+    "title": "For Him",
+    "imagePath": "/category-art/hampers-1-2.svg",
+    "imageAlt": "For Him category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-1-2.svg"
+  },
+  "hampers-1-3": {
+    "title": "For Kids",
+    "imagePath": "/category-art/hampers-1-3.svg",
+    "imageAlt": "For Kids category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-1-3.svg"
+  },
+  "hampers-1-4": {
+    "title": "For Friends",
+    "imagePath": "/category-art/hampers-1-4.svg",
+    "imageAlt": "For Friends category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-1-4.svg"
+  },
+  "hampers-1-5": {
+    "title": "For Couples",
+    "imagePath": "/category-art/hampers-1-5.svg",
+    "imageAlt": "For Couples category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-1-5.svg"
+  },
+  "hampers-2": {
+    "title": "Festival Hampers",
+    "imagePath": "/category-art/hampers-2.svg",
+    "imageAlt": "Festival Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-2.svg"
+  },
+  "hampers-2-1": {
+    "title": "Diwali Hampers",
+    "imagePath": "/category-art/hampers-2-1.svg",
+    "imageAlt": "Diwali Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-2-1.svg"
+  },
+  "hampers-2-2": {
+    "title": "Raksha Bandhan Hampers",
+    "imagePath": "/category-art/hampers-2-2.svg",
+    "imageAlt": "Raksha Bandhan Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-2-2.svg"
+  },
+  "hampers-2-3": {
+    "title": "Christmas Hampers",
+    "imagePath": "/category-art/hampers-2-3.svg",
+    "imageAlt": "Christmas Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-2-3.svg"
+  },
+  "hampers-2-4": {
+    "title": "New Year Hampers",
+    "imagePath": "/category-art/hampers-2-4.svg",
+    "imageAlt": "New Year Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-2-4.svg"
+  },
+  "hampers-2-5": {
+    "title": "Holi Hampers",
+    "imagePath": "/category-art/hampers-2-5.svg",
+    "imageAlt": "Holi Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-2-5.svg"
+  },
+  "hampers-2-6": {
+    "title": "Other Festival Hampers",
+    "imagePath": "/category-art/hampers-2-6.svg",
+    "imageAlt": "Other Festival Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-2-6.svg"
+  },
+  "hampers-3": {
+    "title": "Wedding & Engagement Hampers",
+    "imagePath": "/category-art/hampers-3.svg",
+    "imageAlt": "Wedding & Engagement Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-3.svg"
+  },
+  "hampers-3-1": {
+    "title": "Wedding Hampers",
+    "imagePath": "/category-art/hampers-3-1.svg",
+    "imageAlt": "Wedding Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-3-1.svg"
+  },
+  "hampers-3-2": {
+    "title": "Engagement Hampers",
+    "imagePath": "/category-art/hampers-3-2.svg",
+    "imageAlt": "Engagement Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-3-2.svg"
+  },
+  "hampers-3-3": {
+    "title": "Bridal Hampers",
+    "imagePath": "/category-art/hampers-3-3.svg",
+    "imageAlt": "Bridal Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-3-3.svg"
+  },
+  "hampers-3-4": {
+    "title": "Groom Hampers",
+    "imagePath": "/category-art/hampers-3-4.svg",
+    "imageAlt": "Groom Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-3-4.svg"
+  },
+  "hampers-3-5": {
+    "title": "Bridesmaid Hampers",
+    "imagePath": "/category-art/hampers-3-5.svg",
+    "imageAlt": "Bridesmaid Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-3-5.svg"
+  },
+  "hampers-3-6": {
+    "title": "Wedding Return Gifts",
+    "imagePath": "/category-art/hampers-3-6.svg",
+    "imageAlt": "Wedding Return Gifts category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-3-6.svg"
+  },
+  "hampers-4": {
+    "title": "Anniversary & Romantic Hampers",
+    "imagePath": "/category-art/hampers-4.svg",
+    "imageAlt": "Anniversary & Romantic Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-4.svg"
+  },
+  "hampers-4-1": {
+    "title": "Anniversary Hampers",
+    "imagePath": "/category-art/hampers-4-1.svg",
+    "imageAlt": "Anniversary Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-4-1.svg"
+  },
+  "hampers-4-2": {
+    "title": "Valentine's Day Hampers",
+    "imagePath": "/category-art/hampers-4-2.svg",
+    "imageAlt": "Valentine's Day Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-4-2.svg"
+  },
+  "hampers-4-3": {
+    "title": "Couple Hampers",
+    "imagePath": "/category-art/hampers-4-3.svg",
+    "imageAlt": "Couple Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-4-3.svg"
+  },
+  "hampers-4-4": {
+    "title": "Romantic Hampers",
+    "imagePath": "/category-art/hampers-4-4.svg",
+    "imageAlt": "Romantic Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-4-4.svg"
+  },
+  "hampers-5": {
+    "title": "Corporate Hampers",
+    "imagePath": "/category-art/hampers-5.svg",
+    "imageAlt": "Corporate Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-5.svg"
+  },
+  "hampers-5-1": {
+    "title": "Employee Welcome Kits",
+    "imagePath": "/category-art/hampers-5-1.svg",
+    "imageAlt": "Employee Welcome Kits category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-5-1.svg"
+  },
+  "hampers-5-2": {
+    "title": "Employee Appreciation Hampers",
+    "imagePath": "/category-art/hampers-5-2.svg",
+    "imageAlt": "Employee Appreciation Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-5-2.svg"
+  },
+  "hampers-5-3": {
+    "title": "Client Gift Hampers",
+    "imagePath": "/category-art/hampers-5-3.svg",
+    "imageAlt": "Client Gift Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-5-3.svg"
+  },
+  "hampers-5-4": {
+    "title": "Corporate Festival Hampers",
+    "imagePath": "/category-art/hampers-5-4.svg",
+    "imageAlt": "Corporate Festival Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-5-4.svg"
+  },
+  "hampers-5-5": {
+    "title": "Conference & Event Hampers",
+    "imagePath": "/category-art/hampers-5-5.svg",
+    "imageAlt": "Conference & Event Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-5-5.svg"
+  },
+  "hampers-6": {
+    "title": "Stationery Hampers",
+    "imagePath": "/category-art/hampers-6.svg",
+    "imageAlt": "Stationery Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-6.svg"
+  },
+  "hampers-6-1": {
+    "title": "Student Hampers",
+    "imagePath": "/category-art/hampers-6-1.svg",
+    "imageAlt": "Student Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-6-1.svg"
+  },
+  "hampers-6-2": {
+    "title": "Office Hampers",
+    "imagePath": "/category-art/hampers-6-2.svg",
+    "imageAlt": "Office Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-6-2.svg"
+  },
+  "hampers-6-3": {
+    "title": "Journaling Hampers",
+    "imagePath": "/category-art/hampers-6-3.svg",
+    "imageAlt": "Journaling Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-6-3.svg"
+  },
+  "hampers-6-4": {
+    "title": "Art & Craft Hampers",
+    "imagePath": "/category-art/hampers-6-4.svg",
+    "imageAlt": "Art & Craft Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-6-4.svg"
+  },
+  "hampers-6-5": {
+    "title": "Premium Stationery Hampers",
+    "imagePath": "/category-art/hampers-6-5.svg",
+    "imageAlt": "Premium Stationery Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-6-5.svg"
+  },
+  "hampers-7": {
+    "title": "Self-Care & Lifestyle Hampers",
+    "imagePath": "/category-art/hampers-7.svg",
+    "imageAlt": "Self-Care & Lifestyle Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-7.svg"
+  },
+  "hampers-7-1": {
+    "title": "Bath Accessories Hampers",
+    "imagePath": "/category-art/hampers-7-1.svg",
+    "imageAlt": "Bath Accessories Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-7-1.svg"
+  },
+  "hampers-7-2": {
+    "title": "Grooming Accessories Hampers",
+    "imagePath": "/category-art/hampers-7-2.svg",
+    "imageAlt": "Grooming Accessories Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-7-2.svg"
+  },
+  "hampers-7-3": {
+    "title": "Travel Essentials Hampers",
+    "imagePath": "/category-art/hampers-7-3.svg",
+    "imageAlt": "Travel Essentials Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-7-3.svg"
+  },
+  "hampers-7-4": {
+    "title": "Relaxation Accessories Hampers",
+    "imagePath": "/category-art/hampers-7-4.svg",
+    "imageAlt": "Relaxation Accessories Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-7-4.svg"
+  },
+  "hampers-7-5": {
+    "title": "Lifestyle Accessories Hampers",
+    "imagePath": "/category-art/hampers-7-5.svg",
+    "imageAlt": "Lifestyle Accessories Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-7-5.svg"
+  },
+  "hampers-8": {
+    "title": "Home & Décor Hampers",
+    "imagePath": "/category-art/hampers-8.svg",
+    "imageAlt": "Home & Décor Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-8.svg"
+  },
+  "hampers-8-1": {
+    "title": "Housewarming Hampers",
+    "imagePath": "/category-art/hampers-8-1.svg",
+    "imageAlt": "Housewarming Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-8-1.svg"
+  },
+  "hampers-8-2": {
+    "title": "Home Décor Hampers",
+    "imagePath": "/category-art/hampers-8-2.svg",
+    "imageAlt": "Home Décor Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-8-2.svg"
+  },
+  "hampers-8-3": {
+    "title": "Desk Décor Hampers",
+    "imagePath": "/category-art/hampers-8-3.svg",
+    "imageAlt": "Desk Décor Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-8-3.svg"
+  },
+  "hampers-8-4": {
+    "title": "Kitchen Accessories Hampers",
+    "imagePath": "/category-art/hampers-8-4.svg",
+    "imageAlt": "Kitchen Accessories Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-8-4.svg"
+  },
+  "hampers-8-5": {
+    "title": "Pooja Accessories Hampers",
+    "imagePath": "/category-art/hampers-8-5.svg",
+    "imageAlt": "Pooja Accessories Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-8-5.svg"
+  },
+  "hampers-9": {
+    "title": "Baby & Kids Hampers",
+    "imagePath": "/category-art/hampers-9.svg",
+    "imageAlt": "Baby & Kids Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-9.svg"
+  },
+  "hampers-9-1": {
+    "title": "Newborn Gift Hampers",
+    "imagePath": "/category-art/hampers-9-1.svg",
+    "imageAlt": "Newborn Gift Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-9-1.svg"
+  },
+  "hampers-9-2": {
+    "title": "Baby Shower Hampers",
+    "imagePath": "/category-art/hampers-9-2.svg",
+    "imageAlt": "Baby Shower Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-9-2.svg"
+  },
+  "hampers-9-3": {
+    "title": "Kids Activity Hampers",
+    "imagePath": "/category-art/hampers-9-3.svg",
+    "imageAlt": "Kids Activity Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-9-3.svg"
+  },
+  "hampers-9-4": {
+    "title": "Kids Stationery Hampers",
+    "imagePath": "/category-art/hampers-9-4.svg",
+    "imageAlt": "Kids Stationery Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-9-4.svg"
+  },
+  "hampers-9-5": {
+    "title": "Baby Keepsake Hampers",
+    "imagePath": "/category-art/hampers-9-5.svg",
+    "imageAlt": "Baby Keepsake Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-9-5.svg"
+  },
+  "hampers-10": {
+    "title": "Custom Hampers",
+    "imagePath": "/category-art/hampers-10.svg",
+    "imageAlt": "Custom Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-10.svg"
+  },
+  "hampers-10-1": {
+    "title": "Build Your Own Hamper",
+    "imagePath": "/category-art/hampers-10-1.svg",
+    "imageAlt": "Build Your Own Hamper category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-10-1.svg"
+  },
+  "hampers-10-2": {
+    "title": "Personalised Hampers",
+    "imagePath": "/category-art/hampers-10-2.svg",
+    "imageAlt": "Personalised Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-10-2.svg"
+  },
+  "hampers-10-3": {
+    "title": "Budget-Based Hampers",
+    "imagePath": "/category-art/hampers-10-3.svg",
+    "imageAlt": "Budget-Based Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-10-3.svg"
+  },
+  "hampers-10-4": {
+    "title": "Corporate Custom Hampers",
+    "imagePath": "/category-art/hampers-10-4.svg",
+    "imageAlt": "Corporate Custom Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-10-4.svg"
+  },
+  "hampers-10-5": {
+    "title": "Occasion-Based Hampers",
+    "imagePath": "/category-art/hampers-10-5.svg",
+    "imageAlt": "Occasion-Based Hampers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/hampers-10-5.svg"
+  },
+  "stationery-1": {
+    "title": "Notebooks & Diaries",
+    "imagePath": "/category-art/stationery-1.svg",
+    "imageAlt": "Notebooks & Diaries category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-1.svg"
+  },
+  "stationery-1-1": {
+    "title": "Notebooks",
+    "imagePath": "/category-art/stationery-1-1.svg",
+    "imageAlt": "Notebooks category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-1-1.svg"
+  },
+  "stationery-1-2": {
+    "title": "Diaries",
+    "imagePath": "/category-art/stationery-1-2.svg",
+    "imageAlt": "Diaries category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-1-2.svg"
+  },
+  "stationery-1-3": {
+    "title": "Journals",
+    "imagePath": "/category-art/stationery-1-3.svg",
+    "imageAlt": "Journals category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-1-3.svg"
+  },
+  "stationery-1-4": {
+    "title": "Writing Pads",
+    "imagePath": "/category-art/stationery-1-4.svg",
+    "imageAlt": "Writing Pads category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-1-4.svg"
+  },
+  "stationery-1-5": {
+    "title": "Memo Pads",
+    "imagePath": "/category-art/stationery-1-5.svg",
+    "imageAlt": "Memo Pads category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-1-5.svg"
+  },
+  "stationery-2": {
+    "title": "Pens & Writing Supplies",
+    "imagePath": "/category-art/stationery-2.svg",
+    "imageAlt": "Pens & Writing Supplies category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-2.svg"
+  },
+  "stationery-2-1": {
+    "title": "Ball Pens",
+    "imagePath": "/category-art/stationery-2-1.svg",
+    "imageAlt": "Ball Pens category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-2-1.svg"
+  },
+  "stationery-2-2": {
+    "title": "Gel Pens",
+    "imagePath": "/category-art/stationery-2-2.svg",
+    "imageAlt": "Gel Pens category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-2-2.svg"
+  },
+  "stationery-2-3": {
+    "title": "Fountain Pens",
+    "imagePath": "/category-art/stationery-2-3.svg",
+    "imageAlt": "Fountain Pens category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-2-3.svg"
+  },
+  "stationery-2-4": {
+    "title": "Pencils",
+    "imagePath": "/category-art/stationery-2-4.svg",
+    "imageAlt": "Pencils category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-2-4.svg"
+  },
+  "stationery-2-5": {
+    "title": "Mechanical Pencils",
+    "imagePath": "/category-art/stationery-2-5.svg",
+    "imageAlt": "Mechanical Pencils category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-2-5.svg"
+  },
+  "stationery-2-6": {
+    "title": "Highlighters",
+    "imagePath": "/category-art/stationery-2-6.svg",
+    "imageAlt": "Highlighters category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-2-6.svg"
+  },
+  "stationery-2-7": {
+    "title": "Pen Accessories",
+    "imagePath": "/category-art/stationery-2-7.svg",
+    "imageAlt": "Pen Accessories category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-2-7.svg"
+  },
+  "stationery-3": {
+    "title": "School Stationery",
+    "imagePath": "/category-art/stationery-3.svg",
+    "imageAlt": "School Stationery category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-3.svg"
+  },
+  "stationery-3-1": {
+    "title": "Writing Essentials",
+    "imagePath": "/category-art/stationery-3-1.svg",
+    "imageAlt": "Writing Essentials category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-3-1.svg"
+  },
+  "stationery-3-2": {
+    "title": "Geometry & Mathematics Supplies",
+    "imagePath": "/category-art/stationery-3-2.svg",
+    "imageAlt": "Geometry & Mathematics Supplies category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-3-2.svg"
+  },
+  "stationery-3-3": {
+    "title": "School Organisation",
+    "imagePath": "/category-art/stationery-3-3.svg",
+    "imageAlt": "School Organisation category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-3-3.svg"
+  },
+  "stationery-3-4": {
+    "title": "Exam Supplies",
+    "imagePath": "/category-art/stationery-3-4.svg",
+    "imageAlt": "Exam Supplies category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-3-4.svg"
+  },
+  "stationery-3-5": {
+    "title": "Student Stationery Kits",
+    "imagePath": "/category-art/stationery-3-5.svg",
+    "imageAlt": "Student Stationery Kits category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-3-5.svg"
+  },
+  "stationery-4": {
+    "title": "Office Stationery",
+    "imagePath": "/category-art/stationery-4.svg",
+    "imageAlt": "Office Stationery category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-4.svg"
+  },
+  "stationery-4-1": {
+    "title": "Paper Products",
+    "imagePath": "/category-art/stationery-4-1.svg",
+    "imageAlt": "Paper Products category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-4-1.svg"
+  },
+  "stationery-4-2": {
+    "title": "Filing & Organisation",
+    "imagePath": "/category-art/stationery-4-2.svg",
+    "imageAlt": "Filing & Organisation category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-4-2.svg"
+  },
+  "stationery-4-3": {
+    "title": "Desk Supplies",
+    "imagePath": "/category-art/stationery-4-3.svg",
+    "imageAlt": "Desk Supplies category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-4-3.svg"
+  },
+  "stationery-4-4": {
+    "title": "Office Accessories",
+    "imagePath": "/category-art/stationery-4-4.svg",
+    "imageAlt": "Office Accessories category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-4-4.svg"
+  },
+  "stationery-4-5": {
+    "title": "Business Stationery",
+    "imagePath": "/category-art/stationery-4-5.svg",
+    "imageAlt": "Business Stationery category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-4-5.svg"
+  },
+  "stationery-5": {
+    "title": "Planners & Calendars",
+    "imagePath": "/category-art/stationery-5.svg",
+    "imageAlt": "Planners & Calendars category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-5.svg"
+  },
+  "stationery-5-1": {
+    "title": "Daily Planners",
+    "imagePath": "/category-art/stationery-5-1.svg",
+    "imageAlt": "Daily Planners category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-5-1.svg"
+  },
+  "stationery-5-2": {
+    "title": "Weekly Planners",
+    "imagePath": "/category-art/stationery-5-2.svg",
+    "imageAlt": "Weekly Planners category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-5-2.svg"
+  },
+  "stationery-5-3": {
+    "title": "Monthly Planners",
+    "imagePath": "/category-art/stationery-5-3.svg",
+    "imageAlt": "Monthly Planners category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-5-3.svg"
+  },
+  "stationery-5-4": {
+    "title": "Academic Planners",
+    "imagePath": "/category-art/stationery-5-4.svg",
+    "imageAlt": "Academic Planners category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-5-4.svg"
+  },
+  "stationery-5-5": {
+    "title": "Habit Trackers",
+    "imagePath": "/category-art/stationery-5-5.svg",
+    "imageAlt": "Habit Trackers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-5-5.svg"
+  },
+  "stationery-5-6": {
+    "title": "Calendars",
+    "imagePath": "/category-art/stationery-5-6.svg",
+    "imageAlt": "Calendars category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-5-6.svg"
+  },
+  "stationery-6": {
+    "title": "Art & Craft Supplies",
+    "imagePath": "/category-art/stationery-6.svg",
+    "imageAlt": "Art & Craft Supplies category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-6.svg"
+  },
+  "stationery-6-1": {
+    "title": "Drawing Supplies",
+    "imagePath": "/category-art/stationery-6-1.svg",
+    "imageAlt": "Drawing Supplies category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-6-1.svg"
+  },
+  "stationery-6-2": {
+    "title": "Painting Supplies",
+    "imagePath": "/category-art/stationery-6-2.svg",
+    "imageAlt": "Painting Supplies category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-6-2.svg"
+  },
+  "stationery-6-3": {
+    "title": "Paper Craft",
+    "imagePath": "/category-art/stationery-6-3.svg",
+    "imageAlt": "Paper Craft category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-6-3.svg"
+  },
+  "stationery-6-4": {
+    "title": "Scrapbooking Supplies",
+    "imagePath": "/category-art/stationery-6-4.svg",
+    "imageAlt": "Scrapbooking Supplies category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-6-4.svg"
+  },
+  "stationery-6-5": {
+    "title": "DIY Craft Supplies",
+    "imagePath": "/category-art/stationery-6-5.svg",
+    "imageAlt": "DIY Craft Supplies category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-6-5.svg"
+  },
+  "stationery-6-6": {
+    "title": "Art & Craft Kits",
+    "imagePath": "/category-art/stationery-6-6.svg",
+    "imageAlt": "Art & Craft Kits category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-6-6.svg"
+  },
+  "stationery-7": {
+    "title": "Aesthetic Stationery",
+    "imagePath": "/category-art/stationery-7.svg",
+    "imageAlt": "Aesthetic Stationery category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-7.svg"
+  },
+  "stationery-7-1": {
+    "title": "Decorative Stickers",
+    "imagePath": "/category-art/stationery-7-1.svg",
+    "imageAlt": "Decorative Stickers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-7-1.svg"
+  },
+  "stationery-7-2": {
+    "title": "Washi Tapes",
+    "imagePath": "/category-art/stationery-7-2.svg",
+    "imageAlt": "Washi Tapes category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-7-2.svg"
+  },
+  "stationery-7-3": {
+    "title": "Decorative Paper",
+    "imagePath": "/category-art/stationery-7-3.svg",
+    "imageAlt": "Decorative Paper category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-7-3.svg"
+  },
+  "stationery-7-4": {
+    "title": "Bookmarks",
+    "imagePath": "/category-art/stationery-7-4.svg",
+    "imageAlt": "Bookmarks category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-7-4.svg"
+  },
+  "stationery-7-5": {
+    "title": "Journaling Accessories",
+    "imagePath": "/category-art/stationery-7-5.svg",
+    "imageAlt": "Journaling Accessories category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-7-5.svg"
+  },
+  "stationery-7-6": {
+    "title": "Cute Desk Accessories",
+    "imagePath": "/category-art/stationery-7-6.svg",
+    "imageAlt": "Cute Desk Accessories category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-7-6.svg"
+  },
+  "stationery-8": {
+    "title": "Desk Accessories",
+    "imagePath": "/category-art/stationery-8.svg",
+    "imageAlt": "Desk Accessories category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-8.svg"
+  },
+  "stationery-8-1": {
+    "title": "Desk Organisers",
+    "imagePath": "/category-art/stationery-8-1.svg",
+    "imageAlt": "Desk Organisers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-8-1.svg"
+  },
+  "stationery-8-2": {
+    "title": "Pen Holders",
+    "imagePath": "/category-art/stationery-8-2.svg",
+    "imageAlt": "Pen Holders category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-8-2.svg"
+  },
+  "stationery-8-3": {
+    "title": "Desk Mats",
+    "imagePath": "/category-art/stationery-8-3.svg",
+    "imageAlt": "Desk Mats category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-8-3.svg"
+  },
+  "stationery-8-4": {
+    "title": "Desktop Accessories",
+    "imagePath": "/category-art/stationery-8-4.svg",
+    "imageAlt": "Desktop Accessories category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-8-4.svg"
+  },
+  "stationery-8-5": {
+    "title": "Workspace Organisation",
+    "imagePath": "/category-art/stationery-8-5.svg",
+    "imageAlt": "Workspace Organisation category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-8-5.svg"
+  },
+  "stationery-9": {
+    "title": "Packaging & Gift Wrapping",
+    "imagePath": "/category-art/stationery-9.svg",
+    "imageAlt": "Packaging & Gift Wrapping category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-9.svg"
+  },
+  "stationery-9-1": {
+    "title": "Gift Wrapping Paper",
+    "imagePath": "/category-art/stationery-9-1.svg",
+    "imageAlt": "Gift Wrapping Paper category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-9-1.svg"
+  },
+  "stationery-9-2": {
+    "title": "Gift Bags",
+    "imagePath": "/category-art/stationery-9-2.svg",
+    "imageAlt": "Gift Bags category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-9-2.svg"
+  },
+  "stationery-9-3": {
+    "title": "Gift Boxes",
+    "imagePath": "/category-art/stationery-9-3.svg",
+    "imageAlt": "Gift Boxes category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-9-3.svg"
+  },
+  "stationery-9-4": {
+    "title": "Ribbons & Bows",
+    "imagePath": "/category-art/stationery-9-4.svg",
+    "imageAlt": "Ribbons & Bows category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-9-4.svg"
+  },
+  "stationery-9-5": {
+    "title": "Gift Tags",
+    "imagePath": "/category-art/stationery-9-5.svg",
+    "imageAlt": "Gift Tags category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-9-5.svg"
+  },
+  "stationery-9-6": {
+    "title": "Greeting Cards",
+    "imagePath": "/category-art/stationery-9-6.svg",
+    "imageAlt": "Greeting Cards category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-9-6.svg"
+  },
+  "stationery-9-7": {
+    "title": "Decorative Packaging",
+    "imagePath": "/category-art/stationery-9-7.svg",
+    "imageAlt": "Decorative Packaging category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-9-7.svg"
+  },
+  "stationery-10": {
+    "title": "Educational Supplies",
+    "imagePath": "/category-art/stationery-10.svg",
+    "imageAlt": "Educational Supplies category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-10.svg"
+  },
+  "stationery-10-1": {
+    "title": "Learning Cards",
+    "imagePath": "/category-art/stationery-10-1.svg",
+    "imageAlt": "Learning Cards category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-10-1.svg"
+  },
+  "stationery-10-2": {
+    "title": "Educational Charts",
+    "imagePath": "/category-art/stationery-10-2.svg",
+    "imageAlt": "Educational Charts category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-10-2.svg"
+  },
+  "stationery-10-3": {
+    "title": "Activity Books",
+    "imagePath": "/category-art/stationery-10-3.svg",
+    "imageAlt": "Activity Books category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-10-3.svg"
+  },
+  "stationery-10-4": {
+    "title": "Handwriting Practice Materials",
+    "imagePath": "/category-art/stationery-10-4.svg",
+    "imageAlt": "Handwriting Practice Materials category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-10-4.svg"
+  },
+  "stationery-10-5": {
+    "title": "Learning Kits",
+    "imagePath": "/category-art/stationery-10-5.svg",
+    "imageAlt": "Learning Kits category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-10-5.svg"
+  },
+  "stationery-11": {
+    "title": "Stationery Gift Sets",
+    "imagePath": "/category-art/stationery-11.svg",
+    "imageAlt": "Stationery Gift Sets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-11.svg"
+  },
+  "stationery-11-1": {
+    "title": "Student Gift Sets",
+    "imagePath": "/category-art/stationery-11-1.svg",
+    "imageAlt": "Student Gift Sets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-11-1.svg"
+  },
+  "stationery-11-2": {
+    "title": "Office Gift Sets",
+    "imagePath": "/category-art/stationery-11-2.svg",
+    "imageAlt": "Office Gift Sets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-11-2.svg"
+  },
+  "stationery-11-3": {
+    "title": "Premium Stationery Sets",
+    "imagePath": "/category-art/stationery-11-3.svg",
+    "imageAlt": "Premium Stationery Sets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-11-3.svg"
+  },
+  "stationery-11-4": {
+    "title": "Journaling Sets",
+    "imagePath": "/category-art/stationery-11-4.svg",
+    "imageAlt": "Journaling Sets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-11-4.svg"
+  },
+  "stationery-11-5": {
+    "title": "Teacher Appreciation Sets",
+    "imagePath": "/category-art/stationery-11-5.svg",
+    "imageAlt": "Teacher Appreciation Sets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-11-5.svg"
+  },
+  "stationery-11-6": {
+    "title": "Creative Stationery Sets",
+    "imagePath": "/category-art/stationery-11-6.svg",
+    "imageAlt": "Creative Stationery Sets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/stationery-11-6.svg"
+  },
+  "personalized-1": {
+    "title": "Personalised Drinkware",
+    "imagePath": "/category-art/personalized-1.svg",
+    "imageAlt": "Personalised Drinkware category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-1.svg"
+  },
+  "personalized-1-1": {
+    "title": "Mugs",
+    "imagePath": "/category-art/personalized-1-1.svg",
+    "imageAlt": "Mugs category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-1-1.svg"
+  },
+  "personalized-1-2": {
+    "title": "Water Bottles",
+    "imagePath": "/category-art/personalized-1-2.svg",
+    "imageAlt": "Water Bottles category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-1-2.svg"
+  },
+  "personalized-1-3": {
+    "title": "Tumblers",
+    "imagePath": "/category-art/personalized-1-3.svg",
+    "imageAlt": "Tumblers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-1-3.svg"
+  },
+  "personalized-1-4": {
+    "title": "Flasks",
+    "imagePath": "/category-art/personalized-1-4.svg",
+    "imageAlt": "Flasks category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-1-4.svg"
+  },
+  "personalized-2": {
+    "title": "Personalised Stationery",
+    "imagePath": "/category-art/personalized-2.svg",
+    "imageAlt": "Personalised Stationery category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-2.svg"
+  },
+  "personalized-2-1": {
+    "title": "Notebooks & Diaries",
+    "imagePath": "/category-art/personalized-2-1.svg",
+    "imageAlt": "Notebooks & Diaries category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-2-1.svg"
+  },
+  "personalized-2-2": {
+    "title": "Pens",
+    "imagePath": "/category-art/personalized-2-2.svg",
+    "imageAlt": "Pens category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-2-2.svg"
+  },
+  "personalized-2-3": {
+    "title": "Planners",
+    "imagePath": "/category-art/personalized-2-3.svg",
+    "imageAlt": "Planners category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-2-3.svg"
+  },
+  "personalized-2-4": {
+    "title": "Journals",
+    "imagePath": "/category-art/personalized-2-4.svg",
+    "imageAlt": "Journals category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-2-4.svg"
+  },
+  "personalized-2-5": {
+    "title": "Bookmarks",
+    "imagePath": "/category-art/personalized-2-5.svg",
+    "imageAlt": "Bookmarks category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-2-5.svg"
+  },
+  "personalized-3": {
+    "title": "Personalised Photo Gifts",
+    "imagePath": "/category-art/personalized-3.svg",
+    "imageAlt": "Personalised Photo Gifts category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-3.svg"
+  },
+  "personalized-3-1": {
+    "title": "Photo Frames",
+    "imagePath": "/category-art/personalized-3-1.svg",
+    "imageAlt": "Photo Frames category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-3-1.svg"
+  },
+  "personalized-3-2": {
+    "title": "Photo Albums",
+    "imagePath": "/category-art/personalized-3-2.svg",
+    "imageAlt": "Photo Albums category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-3-2.svg"
+  },
+  "personalized-3-3": {
+    "title": "Photo Collages",
+    "imagePath": "/category-art/personalized-3-3.svg",
+    "imageAlt": "Photo Collages category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-3-3.svg"
+  },
+  "personalized-3-4": {
+    "title": "Photo Prints",
+    "imagePath": "/category-art/personalized-3-4.svg",
+    "imageAlt": "Photo Prints category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-3-4.svg"
+  },
+  "personalized-4": {
+    "title": "Personalised Accessories",
+    "imagePath": "/category-art/personalized-4.svg",
+    "imageAlt": "Personalised Accessories category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-4.svg"
+  },
+  "personalized-4-1": {
+    "title": "Keychains",
+    "imagePath": "/category-art/personalized-4-1.svg",
+    "imageAlt": "Keychains category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-4-1.svg"
+  },
+  "personalized-4-2": {
+    "title": "Wallets",
+    "imagePath": "/category-art/personalized-4-2.svg",
+    "imageAlt": "Wallets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-4-2.svg"
+  },
+  "personalized-4-3": {
+    "title": "Bags & Pouches",
+    "imagePath": "/category-art/personalized-4-3.svg",
+    "imageAlt": "Bags & Pouches category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-4-3.svg"
+  },
+  "personalized-4-4": {
+    "title": "Phone Cases",
+    "imagePath": "/category-art/personalized-4-4.svg",
+    "imageAlt": "Phone Cases category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-4-4.svg"
+  },
+  "personalized-4-5": {
+    "title": "Passport Covers",
+    "imagePath": "/category-art/personalized-4-5.svg",
+    "imageAlt": "Passport Covers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-4-5.svg"
+  },
+  "personalized-5": {
+    "title": "Personalised Home Décor",
+    "imagePath": "/category-art/personalized-5.svg",
+    "imageAlt": "Personalised Home Décor category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-5.svg"
+  },
+  "personalized-5-1": {
+    "title": "Name Plates",
+    "imagePath": "/category-art/personalized-5-1.svg",
+    "imageAlt": "Name Plates category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-5-1.svg"
+  },
+  "personalized-5-2": {
+    "title": "Cushions",
+    "imagePath": "/category-art/personalized-5-2.svg",
+    "imageAlt": "Cushions category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-5-2.svg"
+  },
+  "personalized-5-3": {
+    "title": "Lamps",
+    "imagePath": "/category-art/personalized-5-3.svg",
+    "imageAlt": "Lamps category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-5-3.svg"
+  },
+  "personalized-5-4": {
+    "title": "Wall Décor",
+    "imagePath": "/category-art/personalized-5-4.svg",
+    "imageAlt": "Wall Décor category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-5-4.svg"
+  },
+  "personalized-5-5": {
+    "title": "Decorative Keepsakes",
+    "imagePath": "/category-art/personalized-5-5.svg",
+    "imageAlt": "Decorative Keepsakes category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-5-5.svg"
+  },
+  "personalized-6": {
+    "title": "Personalised Wearables",
+    "imagePath": "/category-art/personalized-6.svg",
+    "imageAlt": "Personalised Wearables category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-6.svg"
+  },
+  "personalized-6-1": {
+    "title": "T-Shirts",
+    "imagePath": "/category-art/personalized-6-1.svg",
+    "imageAlt": "T-Shirts category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-6-1.svg"
+  },
+  "personalized-6-2": {
+    "title": "Hoodies",
+    "imagePath": "/category-art/personalized-6-2.svg",
+    "imageAlt": "Hoodies category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-6-2.svg"
+  },
+  "personalized-6-3": {
+    "title": "Caps",
+    "imagePath": "/category-art/personalized-6-3.svg",
+    "imageAlt": "Caps category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-6-3.svg"
+  },
+  "personalized-6-4": {
+    "title": "Tote Bags",
+    "imagePath": "/category-art/personalized-6-4.svg",
+    "imageAlt": "Tote Bags category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-6-4.svg"
+  },
+  "personalized-7": {
+    "title": "Personalised Lifestyle Products",
+    "imagePath": "/category-art/personalized-7.svg",
+    "imageAlt": "Personalised Lifestyle Products category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-7.svg"
+  },
+  "personalized-7-1": {
+    "title": "Desk Accessories",
+    "imagePath": "/category-art/personalized-7-1.svg",
+    "imageAlt": "Desk Accessories category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-7-1.svg"
+  },
+  "personalized-7-2": {
+    "title": "Travel Accessories",
+    "imagePath": "/category-art/personalized-7-2.svg",
+    "imageAlt": "Travel Accessories category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-7-2.svg"
+  },
+  "personalized-7-3": {
+    "title": "Organisers",
+    "imagePath": "/category-art/personalized-7-3.svg",
+    "imageAlt": "Organisers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-7-3.svg"
+  },
+  "personalized-7-4": {
+    "title": "Reusable Accessories",
+    "imagePath": "/category-art/personalized-7-4.svg",
+    "imageAlt": "Reusable Accessories category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-7-4.svg"
+  },
+  "personalized-8": {
+    "title": "Personalised Jewellery",
+    "imagePath": "/category-art/personalized-8.svg",
+    "imageAlt": "Personalised Jewellery category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-8.svg"
+  },
+  "personalized-8-1": {
+    "title": "Necklaces & Pendants",
+    "imagePath": "/category-art/personalized-8-1.svg",
+    "imageAlt": "Necklaces & Pendants category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-8-1.svg"
+  },
+  "personalized-8-2": {
+    "title": "Bracelets",
+    "imagePath": "/category-art/personalized-8-2.svg",
+    "imageAlt": "Bracelets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-8-2.svg"
+  },
+  "personalized-8-3": {
+    "title": "Rings",
+    "imagePath": "/category-art/personalized-8-3.svg",
+    "imageAlt": "Rings category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-8-3.svg"
+  },
+  "personalized-8-4": {
+    "title": "Engraved Accessories",
+    "imagePath": "/category-art/personalized-8-4.svg",
+    "imageAlt": "Engraved Accessories category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-8-4.svg"
+  },
+  "personalized-9": {
+    "title": "Create Your Own Combo",
+    "imagePath": "/category-art/personalized-9.svg",
+    "imageAlt": "Create Your Own Combo category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-9.svg"
+  },
+  "personalized-9-1": {
+    "title": "Build Your Own Gift Box",
+    "imagePath": "/category-art/personalized-9-1.svg",
+    "imageAlt": "Build Your Own Gift Box category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-9-1.svg"
+  },
+  "personalized-9-2": {
+    "title": "Personalised Birthday Combo",
+    "imagePath": "/category-art/personalized-9-2.svg",
+    "imageAlt": "Personalised Birthday Combo category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-9-2.svg"
+  },
+  "personalized-9-3": {
+    "title": "Personalised Anniversary Combo",
+    "imagePath": "/category-art/personalized-9-3.svg",
+    "imageAlt": "Personalised Anniversary Combo category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-9-3.svg"
+  },
+  "personalized-9-4": {
+    "title": "Personalised Couple Combo",
+    "imagePath": "/category-art/personalized-9-4.svg",
+    "imageAlt": "Personalised Couple Combo category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-9-4.svg"
+  },
+  "personalized-9-5": {
+    "title": "Personalised Friendship Combo",
+    "imagePath": "/category-art/personalized-9-5.svg",
+    "imageAlt": "Personalised Friendship Combo category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-9-5.svg"
+  },
+  "personalized-9-6": {
+    "title": "Personalised Wedding Combo",
+    "imagePath": "/category-art/personalized-9-6.svg",
+    "imageAlt": "Personalised Wedding Combo category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-9-6.svg"
+  },
+  "personalized-9-7": {
+    "title": "Personalised Corporate Combo",
+    "imagePath": "/category-art/personalized-9-7.svg",
+    "imageAlt": "Personalised Corporate Combo category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-9-7.svg"
+  },
+  "personalized-9-8": {
+    "title": "Custom Occasion Combo",
+    "imagePath": "/category-art/personalized-9-8.svg",
+    "imageAlt": "Custom Occasion Combo category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/personalized-9-8.svg"
+  },
+  "wedding-1": {
+    "title": "Ceremony Essentials",
+    "imagePath": "/category-art/wedding-1.svg",
+    "imageAlt": "Ceremony Essentials category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/wedding-1.svg"
+  },
+  "wedding-2": {
+    "title": "Fashion",
+    "imagePath": "/category-art/wedding-2.svg",
+    "imageAlt": "Fashion category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/wedding-2.svg"
+  },
+  "wedding-3": {
+    "title": "Jewellery",
+    "imagePath": "/category-art/wedding-3.svg",
+    "imageAlt": "Jewellery category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/wedding-3.svg"
+  },
+  "wedding-4": {
+    "title": "Decorations",
+    "imagePath": "/category-photo/14df4435d01a21f812db7590.webp",
+    "imageAlt": "Decorations editorial photograph",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/wedding-4.svg"
+  },
+  "wedding-5": {
+    "title": "Gifts & Return Gifts",
+    "imagePath": "/category-art/wedding-5.svg",
+    "imageAlt": "Gifts & Return Gifts category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/wedding-5.svg"
+  },
+  "wedding-6": {
+    "title": "Custom Combos",
+    "imagePath": "/category-art/wedding-6.svg",
+    "imageAlt": "Custom Combos category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/wedding-6.svg"
+  },
+  "birthday-1": {
+    "title": "Shop by Category",
+    "imagePath": "/category-art/birthday-1.svg",
+    "imageAlt": "Shop by Category category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/birthday-1.svg"
+  },
+  "birthday-2": {
+    "title": "Recipient",
+    "imagePath": "/category-art/birthday-2.svg",
+    "imageAlt": "Recipient category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/birthday-2.svg"
+  },
+  "birthday-3": {
+    "title": "Budget",
+    "imagePath": "/category-art/birthday-3.svg",
+    "imageAlt": "Budget category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/birthday-3.svg"
+  },
+  "birthday-4": {
+    "title": "Interest",
+    "imagePath": "/category-art/birthday-4.svg",
+    "imageAlt": "Interest category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/birthday-4.svg"
+  },
+  "birthday-5": {
+    "title": "Personalized Gifts",
+    "imagePath": "/category-art/birthday-5.svg",
+    "imageAlt": "Personalized Gifts category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/birthday-5.svg"
+  },
+  "birthday-6": {
+    "title": "Gift Hampers & Combos",
+    "imagePath": "/category-art/birthday-6.svg",
+    "imageAlt": "Gift Hampers & Combos category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/birthday-6.svg"
+  },
+  "birthday-7": {
+    "title": "Birthday Milestones",
+    "imagePath": "/category-art/birthday-7.svg",
+    "imageAlt": "Birthday Milestones category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/birthday-7.svg"
+  },
+  "birthday-8": {
+    "title": "Delivery Options",
+    "imagePath": "/category-art/birthday-8.svg",
+    "imageAlt": "Delivery Options category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/birthday-8.svg"
+  },
+  "birthday-9": {
+    "title": "Trending Gifts",
+    "imagePath": "/category-art/birthday-9.svg",
+    "imageAlt": "Trending Gifts category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/birthday-9.svg"
+  },
+  "birthday-10": {
+    "title": "All Gifts",
+    "imagePath": "/category-art/birthday-10.svg",
+    "imageAlt": "All Gifts category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/birthday-10.svg"
+  },
+  "anniversary-1": {
+    "title": "Shop by Category",
+    "imagePath": "/category-art/anniversary-1.svg",
+    "imageAlt": "Shop by Category category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/anniversary-1.svg"
+  },
+  "anniversary-2": {
+    "title": "Recipient",
+    "imagePath": "/category-art/anniversary-2.svg",
+    "imageAlt": "Recipient category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/anniversary-2.svg"
+  },
+  "anniversary-3": {
+    "title": "Anniversary Milestone",
+    "imagePath": "/category-art/anniversary-3.svg",
+    "imageAlt": "Anniversary Milestone category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/anniversary-3.svg"
+  },
+  "anniversary-4": {
+    "title": "Personalized Gifts",
+    "imagePath": "/category-art/anniversary-4.svg",
+    "imageAlt": "Personalized Gifts category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/anniversary-4.svg"
+  },
+  "anniversary-5": {
+    "title": "Hampers & Combos",
+    "imagePath": "/category-art/anniversary-5.svg",
+    "imageAlt": "Hampers & Combos category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/anniversary-5.svg"
+  },
+  "anniversary-6": {
+    "title": "Budget",
+    "imagePath": "/category-art/anniversary-6.svg",
+    "imageAlt": "Budget category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/anniversary-6.svg"
+  },
+  "anniversary-7": {
+    "title": "Interest",
+    "imagePath": "/category-art/anniversary-7.svg",
+    "imageAlt": "Interest category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/anniversary-7.svg"
+  },
+  "anniversary-8": {
+    "title": "Delivery",
+    "imagePath": "/category-art/anniversary-8.svg",
+    "imageAlt": "Delivery category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/anniversary-8.svg"
+  },
+  "anniversary-9": {
+    "title": "Trending",
+    "imagePath": "/category-art/anniversary-9.svg",
+    "imageAlt": "Trending category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/anniversary-9.svg"
+  },
+  "anniversary-10": {
+    "title": "All Anniversary Gifts",
+    "imagePath": "/category-art/anniversary-10.svg",
+    "imageAlt": "All Anniversary Gifts category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/anniversary-10.svg"
+  },
+  "clothing-1": {
+    "title": "Men",
+    "imagePath": "/category-art/clothing-1.svg",
+    "imageAlt": "Men category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-1.svg"
+  },
+  "clothing-2": {
+    "title": "Women",
+    "imagePath": "/category-art/clothing-2.svg",
+    "imageAlt": "Women category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2.svg"
+  },
+  "clothing-3": {
+    "title": "Kids",
+    "imagePath": "/category-art/clothing-3.svg",
+    "imageAlt": "Kids category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-3.svg"
+  },
+  "clothing-4": {
+    "title": "Shop by Clothing Type",
+    "imagePath": "/category-photo/bb2ffaacc629799bae3d3e52.webp",
+    "imageAlt": "Shop by Clothing Type editorial photograph",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-4.svg"
+  },
+  "clothing-5": {
+    "title": "Shop by Style",
+    "imagePath": "/category-art/clothing-5.svg",
+    "imageAlt": "Shop by Style category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-5.svg"
+  },
+  "clothing-6": {
+    "title": "Shop by Occasion",
+    "imagePath": "/category-art/clothing-6.svg",
+    "imageAlt": "Shop by Occasion category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-6.svg"
+  },
+  "clothing-7": {
+    "title": "Trending & Collections",
+    "imagePath": "/category-art/clothing-7.svg",
+    "imageAlt": "Trending & Collections category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-7.svg"
+  },
+  "clothing-8": {
+    "title": "Deals & Budget",
+    "imagePath": "/category-art/clothing-8.svg",
+    "imageAlt": "Deals & Budget category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-8.svg"
+  },
+  "furniture-1": {
+    "title": "Living Room",
+    "imagePath": "/category-art/furniture-1.svg",
+    "imageAlt": "Living Room category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-1.svg"
+  },
+  "furniture-2": {
+    "title": "Bedroom",
+    "imagePath": "/category-art/furniture-2.svg",
+    "imageAlt": "Bedroom category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-2.svg"
+  },
+  "furniture-3": {
+    "title": "Dining Room",
+    "imagePath": "/category-art/furniture-3.svg",
+    "imageAlt": "Dining Room category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-3.svg"
+  },
+  "furniture-4": {
+    "title": "Kitchen Furniture",
+    "imagePath": "/category-art/furniture-4.svg",
+    "imageAlt": "Kitchen Furniture category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-4.svg"
+  },
+  "furniture-5": {
+    "title": "Study & Home Office",
+    "imagePath": "/category-art/furniture-5.svg",
+    "imageAlt": "Study & Home Office category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-5.svg"
+  },
+  "furniture-6": {
+    "title": "Kids & Nursery",
+    "imagePath": "/category-art/furniture-6.svg",
+    "imageAlt": "Kids & Nursery category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-6.svg"
+  },
+  "furniture-7": {
+    "title": "Storage & Utility",
+    "imagePath": "/category-art/furniture-7.svg",
+    "imageAlt": "Storage & Utility category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-7.svg"
+  },
+  "furniture-8": {
+    "title": "Outdoor & Balcony",
+    "imagePath": "/category-art/furniture-8.svg",
+    "imageAlt": "Outdoor & Balcony category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-8.svg"
+  },
+  "furniture-9": {
+    "title": "Special & Space-Saving",
+    "imagePath": "/category-art/furniture-9.svg",
+    "imageAlt": "Special & Space-Saving category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-9.svg"
+  },
+  "furniture-10": {
+    "title": "Office & Corporate",
+    "imagePath": "/category-art/furniture-10.svg",
+    "imageAlt": "Office & Corporate category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-10.svg"
+  },
+  "furniture-11": {
+    "title": "Retail Shops",
+    "imagePath": "/category-art/furniture-11.svg",
+    "imageAlt": "Retail Shops category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-11.svg"
+  },
+  "furniture-12": {
+    "title": "Restaurants & Cafés",
+    "imagePath": "/category-art/furniture-12.svg",
+    "imageAlt": "Restaurants & Cafés category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-12.svg"
+  },
+  "furniture-13": {
+    "title": "Hotels & Hospitality",
+    "imagePath": "/category-art/furniture-13.svg",
+    "imageAlt": "Hotels & Hospitality category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-13.svg"
+  },
+  "furniture-14": {
+    "title": "Salon, Spa & Beauty",
+    "imagePath": "/category-art/furniture-14.svg",
+    "imageAlt": "Salon, Spa & Beauty category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-14.svg"
+  },
+  "furniture-15": {
+    "title": "Education & Library",
+    "imagePath": "/category-art/furniture-15.svg",
+    "imageAlt": "Education & Library category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-15.svg"
+  },
+  "furniture-16": {
+    "title": "Clinics & Healthcare",
+    "imagePath": "/category-art/furniture-16.svg",
+    "imageAlt": "Clinics & Healthcare category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-16.svg"
+  },
+  "furniture-17": {
+    "title": "Warehouse & Workshop",
+    "imagePath": "/category-art/furniture-17.svg",
+    "imageAlt": "Warehouse & Workshop category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-17.svg"
+  },
+  "furniture-18": {
+    "title": "Events & Venues",
+    "imagePath": "/category-art/furniture-18.svg",
+    "imageAlt": "Events & Venues category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-18.svg"
+  },
+  "clothing-1-1": {
+    "title": "T-shirts",
+    "imagePath": "/category-art/clothing-1-1.svg",
+    "imageAlt": "T-shirts category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-1-1.svg"
+  },
+  "clothing-1-2": {
+    "title": "Shirts",
+    "imagePath": "/category-art/clothing-1-2.svg",
+    "imageAlt": "Shirts category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-1-2.svg"
+  },
+  "clothing-1-3": {
+    "title": "Polos",
+    "imagePath": "/category-art/clothing-1-3.svg",
+    "imageAlt": "Polos category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-1-3.svg"
+  },
+  "clothing-1-4": {
+    "title": "Sweatshirts",
+    "imagePath": "/category-art/clothing-1-4.svg",
+    "imageAlt": "Sweatshirts category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-1-4.svg"
+  },
+  "clothing-1-5": {
+    "title": "Hoodies",
+    "imagePath": "/category-art/clothing-1-5.svg",
+    "imageAlt": "Hoodies category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-1-5.svg"
+  },
+  "clothing-1-6": {
+    "title": "Sweaters",
+    "imagePath": "/category-art/clothing-1-6.svg",
+    "imageAlt": "Sweaters category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-1-6.svg"
+  },
+  "clothing-1-7": {
+    "title": "Jackets",
+    "imagePath": "/category-art/clothing-1-7.svg",
+    "imageAlt": "Jackets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-1-7.svg"
+  },
+  "clothing-1-8": {
+    "title": "Blazers & Coats",
+    "imagePath": "/category-art/clothing-1-8.svg",
+    "imageAlt": "Blazers & Coats category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-1-8.svg"
+  },
+  "clothing-1-9": {
+    "title": "Jeans",
+    "imagePath": "/category-art/clothing-1-9.svg",
+    "imageAlt": "Jeans category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-1-9.svg"
+  },
+  "clothing-1-10": {
+    "title": "Trousers",
+    "imagePath": "/category-art/clothing-1-10.svg",
+    "imageAlt": "Trousers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-1-10.svg"
+  },
+  "clothing-1-11": {
+    "title": "Cargo Pants",
+    "imagePath": "/category-art/clothing-1-11.svg",
+    "imageAlt": "Cargo Pants category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-1-11.svg"
+  },
+  "clothing-1-12": {
+    "title": "Joggers",
+    "imagePath": "/category-art/clothing-1-12.svg",
+    "imageAlt": "Joggers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-1-12.svg"
+  },
+  "clothing-1-13": {
+    "title": "Shorts",
+    "imagePath": "/category-art/clothing-1-13.svg",
+    "imageAlt": "Shorts category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-1-13.svg"
+  },
+  "clothing-1-14": {
+    "title": "Track Pants",
+    "imagePath": "/category-art/clothing-1-14.svg",
+    "imageAlt": "Track Pants category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-1-14.svg"
+  },
+  "clothing-1-15": {
+    "title": "3/4 Pants",
+    "imagePath": "/category-art/clothing-1-15.svg",
+    "imageAlt": "3/4 Pants category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-1-15.svg"
+  },
+  "clothing-1-16": {
+    "title": "Kurtas",
+    "imagePath": "/category-art/clothing-1-16.svg",
+    "imageAlt": "Kurtas category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-1-16.svg"
+  },
+  "clothing-1-17": {
+    "title": "Kurta Sets",
+    "imagePath": "/category-art/clothing-1-17.svg",
+    "imageAlt": "Kurta Sets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-1-17.svg"
+  },
+  "clothing-1-18": {
+    "title": "Sherwanis",
+    "imagePath": "/category-art/clothing-1-18.svg",
+    "imageAlt": "Sherwanis category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-1-18.svg"
+  },
+  "clothing-1-19": {
+    "title": "Nehru Jackets",
+    "imagePath": "/category-art/clothing-1-19.svg",
+    "imageAlt": "Nehru Jackets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-1-19.svg"
+  },
+  "clothing-1-20": {
+    "title": "Dhoti Pants",
+    "imagePath": "/category-art/clothing-1-20.svg",
+    "imageAlt": "Dhoti Pants category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-1-20.svg"
+  },
+  "clothing-1-21": {
+    "title": "Gym T-shirts",
+    "imagePath": "/category-art/clothing-1-21.svg",
+    "imageAlt": "Gym T-shirts category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-1-21.svg"
+  },
+  "clothing-1-22": {
+    "title": "Sports Jackets",
+    "imagePath": "/category-art/clothing-1-22.svg",
+    "imageAlt": "Sports Jackets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-1-22.svg"
+  },
+  "clothing-1-23": {
+    "title": "Swimwear",
+    "imagePath": "/category-art/clothing-1-23.svg",
+    "imageAlt": "Swimwear category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-1-23.svg"
+  },
+  "clothing-1-24": {
+    "title": "Boxers & Briefs",
+    "imagePath": "/category-art/clothing-1-24.svg",
+    "imageAlt": "Boxers & Briefs category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-1-24.svg"
+  },
+  "clothing-1-25": {
+    "title": "Vests",
+    "imagePath": "/category-art/clothing-1-25.svg",
+    "imageAlt": "Vests category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-1-25.svg"
+  },
+  "clothing-1-26": {
+    "title": "Pyjama Sets",
+    "imagePath": "/category-art/clothing-1-26.svg",
+    "imageAlt": "Pyjama Sets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-1-26.svg"
+  },
+  "clothing-1-27": {
+    "title": "Night Suits",
+    "imagePath": "/category-art/clothing-1-27.svg",
+    "imageAlt": "Night Suits category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-1-27.svg"
+  },
+  "clothing-1-28": {
+    "title": "Lounge Sets",
+    "imagePath": "/category-art/clothing-1-28.svg",
+    "imageAlt": "Lounge Sets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-1-28.svg"
+  },
+  "clothing-1-29": {
+    "title": "Thermals",
+    "imagePath": "/category-art/clothing-1-29.svg",
+    "imageAlt": "Thermals category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-1-29.svg"
+  },
+  "clothing-2-1": {
+    "title": "T-shirts",
+    "imagePath": "/category-art/clothing-2-1.svg",
+    "imageAlt": "T-shirts category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-1.svg"
+  },
+  "clothing-2-2": {
+    "title": "Crop Tops",
+    "imagePath": "/category-art/clothing-2-2.svg",
+    "imageAlt": "Crop Tops category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-2.svg"
+  },
+  "clothing-2-3": {
+    "title": "Shirts",
+    "imagePath": "/category-art/clothing-2-3.svg",
+    "imageAlt": "Shirts category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-3.svg"
+  },
+  "clothing-2-4": {
+    "title": "Blouses",
+    "imagePath": "/category-art/clothing-2-4.svg",
+    "imageAlt": "Blouses category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-4.svg"
+  },
+  "clothing-2-5": {
+    "title": "Tunics",
+    "imagePath": "/category-art/clothing-2-5.svg",
+    "imageAlt": "Tunics category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-5.svg"
+  },
+  "clothing-2-6": {
+    "title": "Tank Tops",
+    "imagePath": "/category-art/clothing-2-6.svg",
+    "imageAlt": "Tank Tops category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-6.svg"
+  },
+  "clothing-2-7": {
+    "title": "Polos",
+    "imagePath": "/category-art/clothing-2-7.svg",
+    "imageAlt": "Polos category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-7.svg"
+  },
+  "clothing-2-8": {
+    "title": "Knit Tops",
+    "imagePath": "/category-art/clothing-2-8.svg",
+    "imageAlt": "Knit Tops category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-8.svg"
+  },
+  "clothing-2-9": {
+    "title": "Mini Dresses",
+    "imagePath": "/category-art/clothing-2-9.svg",
+    "imageAlt": "Mini Dresses category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-9.svg"
+  },
+  "clothing-2-10": {
+    "title": "Midi Dresses",
+    "imagePath": "/category-art/clothing-2-10.svg",
+    "imageAlt": "Midi Dresses category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-10.svg"
+  },
+  "clothing-2-11": {
+    "title": "Maxi Dresses",
+    "imagePath": "/category-art/clothing-2-11.svg",
+    "imageAlt": "Maxi Dresses category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-11.svg"
+  },
+  "clothing-2-12": {
+    "title": "Shirt Dresses",
+    "imagePath": "/category-art/clothing-2-12.svg",
+    "imageAlt": "Shirt Dresses category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-12.svg"
+  },
+  "clothing-2-13": {
+    "title": "Jumpsuits",
+    "imagePath": "/category-art/clothing-2-13.svg",
+    "imageAlt": "Jumpsuits category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-13.svg"
+  },
+  "clothing-2-14": {
+    "title": "Rompers",
+    "imagePath": "/category-art/clothing-2-14.svg",
+    "imageAlt": "Rompers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-14.svg"
+  },
+  "clothing-2-15": {
+    "title": "Party Dresses",
+    "imagePath": "/category-art/clothing-2-15.svg",
+    "imageAlt": "Party Dresses category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-15.svg"
+  },
+  "clothing-2-16": {
+    "title": "Jeans",
+    "imagePath": "/category-art/clothing-2-16.svg",
+    "imageAlt": "Jeans category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-16.svg"
+  },
+  "clothing-2-17": {
+    "title": "Trousers",
+    "imagePath": "/category-art/clothing-2-17.svg",
+    "imageAlt": "Trousers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-17.svg"
+  },
+  "clothing-2-18": {
+    "title": "Leggings",
+    "imagePath": "/category-art/clothing-2-18.svg",
+    "imageAlt": "Leggings category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-18.svg"
+  },
+  "clothing-2-19": {
+    "title": "Shorts",
+    "imagePath": "/category-art/clothing-2-19.svg",
+    "imageAlt": "Shorts category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-19.svg"
+  },
+  "clothing-2-20": {
+    "title": "Skirts",
+    "imagePath": "/category-art/clothing-2-20.svg",
+    "imageAlt": "Skirts category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-20.svg"
+  },
+  "clothing-2-21": {
+    "title": "Culottes",
+    "imagePath": "/category-art/clothing-2-21.svg",
+    "imageAlt": "Culottes category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-21.svg"
+  },
+  "clothing-2-22": {
+    "title": "Palazzos",
+    "imagePath": "/category-art/clothing-2-22.svg",
+    "imageAlt": "Palazzos category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-22.svg"
+  },
+  "clothing-2-23": {
+    "title": "Kurtis",
+    "imagePath": "/category-art/clothing-2-23.svg",
+    "imageAlt": "Kurtis category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-23.svg"
+  },
+  "clothing-2-24": {
+    "title": "Kurta Sets",
+    "imagePath": "/category-art/clothing-2-24.svg",
+    "imageAlt": "Kurta Sets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-24.svg"
+  },
+  "clothing-2-25": {
+    "title": "Sarees",
+    "imagePath": "/category-art/clothing-2-25.svg",
+    "imageAlt": "Sarees category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-25.svg"
+  },
+  "clothing-2-26": {
+    "title": "Lehenga Sets",
+    "imagePath": "/category-art/clothing-2-26.svg",
+    "imageAlt": "Lehenga Sets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-26.svg"
+  },
+  "clothing-2-27": {
+    "title": "Salwar Suits",
+    "imagePath": "/category-art/clothing-2-27.svg",
+    "imageAlt": "Salwar Suits category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-27.svg"
+  },
+  "clothing-2-28": {
+    "title": "Dupattas",
+    "imagePath": "/category-art/clothing-2-28.svg",
+    "imageAlt": "Dupattas category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-28.svg"
+  },
+  "clothing-2-29": {
+    "title": "Co-ord Sets",
+    "imagePath": "/category-art/clothing-2-29.svg",
+    "imageAlt": "Co-ord Sets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-29.svg"
+  },
+  "clothing-2-30": {
+    "title": "Matching Sets",
+    "imagePath": "/category-art/clothing-2-30.svg",
+    "imageAlt": "Matching Sets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-30.svg"
+  },
+  "clothing-2-31": {
+    "title": "Indo-Western",
+    "imagePath": "/category-art/clothing-2-31.svg",
+    "imageAlt": "Indo-Western category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-31.svg"
+  },
+  "clothing-2-32": {
+    "title": "Blazer Sets",
+    "imagePath": "/category-art/clothing-2-32.svg",
+    "imageAlt": "Blazer Sets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-32.svg"
+  },
+  "clothing-2-33": {
+    "title": "Skirt Sets",
+    "imagePath": "/category-art/clothing-2-33.svg",
+    "imageAlt": "Skirt Sets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-33.svg"
+  },
+  "clothing-2-34": {
+    "title": "Sweaters",
+    "imagePath": "/category-art/clothing-2-34.svg",
+    "imageAlt": "Sweaters category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-34.svg"
+  },
+  "clothing-2-35": {
+    "title": "Hoodies",
+    "imagePath": "/category-art/clothing-2-35.svg",
+    "imageAlt": "Hoodies category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-35.svg"
+  },
+  "clothing-2-36": {
+    "title": "Jackets",
+    "imagePath": "/category-art/clothing-2-36.svg",
+    "imageAlt": "Jackets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-36.svg"
+  },
+  "clothing-2-37": {
+    "title": "Coats",
+    "imagePath": "/category-art/clothing-2-37.svg",
+    "imageAlt": "Coats category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-37.svg"
+  },
+  "clothing-2-38": {
+    "title": "Shrugs",
+    "imagePath": "/category-art/clothing-2-38.svg",
+    "imageAlt": "Shrugs category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-38.svg"
+  },
+  "clothing-2-39": {
+    "title": "Thermals",
+    "imagePath": "/category-art/clothing-2-39.svg",
+    "imageAlt": "Thermals category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-39.svg"
+  },
+  "clothing-2-40": {
+    "title": "Bras & Panties",
+    "imagePath": "/category-art/clothing-2-40.svg",
+    "imageAlt": "Bras & Panties category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-40.svg"
+  },
+  "clothing-2-41": {
+    "title": "Shapewear",
+    "imagePath": "/category-art/clothing-2-41.svg",
+    "imageAlt": "Shapewear category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-41.svg"
+  },
+  "clothing-2-42": {
+    "title": "Night Suits",
+    "imagePath": "/category-art/clothing-2-42.svg",
+    "imageAlt": "Night Suits category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-42.svg"
+  },
+  "clothing-2-43": {
+    "title": "Lounge Sets",
+    "imagePath": "/category-art/clothing-2-43.svg",
+    "imageAlt": "Lounge Sets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-43.svg"
+  },
+  "clothing-2-44": {
+    "title": "Swimwear",
+    "imagePath": "/category-art/clothing-2-44.svg",
+    "imageAlt": "Swimwear category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-2-44.svg"
+  },
+  "clothing-3-1": {
+    "title": "0–2 Years (Infants)",
+    "imagePath": "/category-art/clothing-3-1.svg",
+    "imageAlt": "0–2 Years (Infants) category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-3-1.svg"
+  },
+  "clothing-3-2": {
+    "title": "3–5 Years (Toddlers)",
+    "imagePath": "/category-art/clothing-3-2.svg",
+    "imageAlt": "3–5 Years (Toddlers) category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-3-2.svg"
+  },
+  "clothing-3-3": {
+    "title": "6–8 Years (Young Kids)",
+    "imagePath": "/category-art/clothing-3-3.svg",
+    "imageAlt": "6–8 Years (Young Kids) category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-3-3.svg"
+  },
+  "clothing-3-4": {
+    "title": "9–12 Years (Kids)",
+    "imagePath": "/category-art/clothing-3-4.svg",
+    "imageAlt": "9–12 Years (Kids) category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-3-4.svg"
+  },
+  "clothing-3-5": {
+    "title": "13–15 Years (Young Teens)",
+    "imagePath": "/category-art/clothing-3-5.svg",
+    "imageAlt": "13–15 Years (Young Teens) category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-3-5.svg"
+  },
+  "clothing-3-6": {
+    "title": "16–18 Years (Teens)",
+    "imagePath": "/category-art/clothing-3-6.svg",
+    "imageAlt": "16–18 Years (Teens) category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-3-6.svg"
+  },
+  "clothing-3-7": {
+    "title": "Boys Clothing",
+    "imagePath": "/category-art/clothing-3-7.svg",
+    "imageAlt": "Boys Clothing category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-3-7.svg"
+  },
+  "clothing-3-8": {
+    "title": "Girls Clothing",
+    "imagePath": "/category-art/clothing-3-8.svg",
+    "imageAlt": "Girls Clothing category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-3-8.svg"
+  },
+  "clothing-3-9": {
+    "title": "Infants Clothing",
+    "imagePath": "/category-art/clothing-3-9.svg",
+    "imageAlt": "Infants Clothing category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-3-9.svg"
+  },
+  "clothing-3-10": {
+    "title": "T-shirts",
+    "imagePath": "/category-art/clothing-3-10.svg",
+    "imageAlt": "T-shirts category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-3-10.svg"
+  },
+  "clothing-3-11": {
+    "title": "Shirts",
+    "imagePath": "/category-art/clothing-3-11.svg",
+    "imageAlt": "Shirts category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-3-11.svg"
+  },
+  "clothing-3-12": {
+    "title": "Jeans & Trousers",
+    "imagePath": "/category-art/clothing-3-12.svg",
+    "imageAlt": "Jeans & Trousers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-3-12.svg"
+  },
+  "clothing-3-13": {
+    "title": "Shorts & Joggers",
+    "imagePath": "/category-art/clothing-3-13.svg",
+    "imageAlt": "Shorts & Joggers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-3-13.svg"
+  },
+  "clothing-3-14": {
+    "title": "Hoodies & Jackets",
+    "imagePath": "/category-art/clothing-3-14.svg",
+    "imageAlt": "Hoodies & Jackets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-3-14.svg"
+  },
+  "clothing-3-15": {
+    "title": "Ethnic Wear",
+    "imagePath": "/category-art/clothing-3-15.svg",
+    "imageAlt": "Ethnic Wear category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-3-15.svg"
+  },
+  "clothing-3-16": {
+    "title": "Nightwear",
+    "imagePath": "/category-art/clothing-3-16.svg",
+    "imageAlt": "Nightwear category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-3-16.svg"
+  },
+  "clothing-3-17": {
+    "title": "School Basics",
+    "imagePath": "/category-art/clothing-3-17.svg",
+    "imageAlt": "School Basics category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-3-17.svg"
+  },
+  "clothing-3-18": {
+    "title": "Dresses & Frocks",
+    "imagePath": "/category-art/clothing-3-18.svg",
+    "imageAlt": "Dresses & Frocks category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-3-18.svg"
+  },
+  "clothing-3-19": {
+    "title": "Tops & T-shirts",
+    "imagePath": "/category-art/clothing-3-19.svg",
+    "imageAlt": "Tops & T-shirts category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-3-19.svg"
+  },
+  "clothing-3-20": {
+    "title": "Jeans & Leggings",
+    "imagePath": "/category-art/clothing-3-20.svg",
+    "imageAlt": "Jeans & Leggings category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-3-20.svg"
+  },
+  "clothing-3-21": {
+    "title": "Skirts & Shorts",
+    "imagePath": "/category-art/clothing-3-21.svg",
+    "imageAlt": "Skirts & Shorts category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-3-21.svg"
+  },
+  "clothing-3-22": {
+    "title": "Co-ord Sets",
+    "imagePath": "/category-art/clothing-3-22.svg",
+    "imageAlt": "Co-ord Sets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-3-22.svg"
+  },
+  "clothing-3-23": {
+    "title": "Jackets & Sweaters",
+    "imagePath": "/category-art/clothing-3-23.svg",
+    "imageAlt": "Jackets & Sweaters category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-3-23.svg"
+  },
+  "clothing-3-24": {
+    "title": "Rompers",
+    "imagePath": "/category-art/clothing-3-24.svg",
+    "imageAlt": "Rompers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-3-24.svg"
+  },
+  "clothing-3-25": {
+    "title": "Bodysuits",
+    "imagePath": "/category-art/clothing-3-25.svg",
+    "imageAlt": "Bodysuits category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-3-25.svg"
+  },
+  "clothing-3-26": {
+    "title": "Clothing Sets",
+    "imagePath": "/category-art/clothing-3-26.svg",
+    "imageAlt": "Clothing Sets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-3-26.svg"
+  },
+  "clothing-3-27": {
+    "title": "Sleepwear",
+    "imagePath": "/category-art/clothing-3-27.svg",
+    "imageAlt": "Sleepwear category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-3-27.svg"
+  },
+  "clothing-3-28": {
+    "title": "Winterwear",
+    "imagePath": "/category-art/clothing-3-28.svg",
+    "imageAlt": "Winterwear category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-3-28.svg"
+  },
+  "clothing-3-29": {
+    "title": "Occasion Wear",
+    "imagePath": "/category-art/clothing-3-29.svg",
+    "imageAlt": "Occasion Wear category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-3-29.svg"
+  },
+  "clothing-4-1": {
+    "title": "T-shirts",
+    "imagePath": "/category-art/clothing-4-1.svg",
+    "imageAlt": "T-shirts category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-4-1.svg"
+  },
+  "clothing-4-2": {
+    "title": "Shirts",
+    "imagePath": "/category-art/clothing-4-2.svg",
+    "imageAlt": "Shirts category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-4-2.svg"
+  },
+  "clothing-4-3": {
+    "title": "Tops",
+    "imagePath": "/category-art/clothing-4-3.svg",
+    "imageAlt": "Tops category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-4-3.svg"
+  },
+  "clothing-4-4": {
+    "title": "Jeans",
+    "imagePath": "/category-art/clothing-4-4.svg",
+    "imageAlt": "Jeans category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-4-4.svg"
+  },
+  "clothing-4-5": {
+    "title": "Trousers",
+    "imagePath": "/category-art/clothing-4-5.svg",
+    "imageAlt": "Trousers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-4-5.svg"
+  },
+  "clothing-4-6": {
+    "title": "Shorts",
+    "imagePath": "/category-art/clothing-4-6.svg",
+    "imageAlt": "Shorts category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-4-6.svg"
+  },
+  "clothing-4-7": {
+    "title": "Dresses",
+    "imagePath": "/category-art/clothing-4-7.svg",
+    "imageAlt": "Dresses category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-4-7.svg"
+  },
+  "clothing-4-8": {
+    "title": "Ethnic Wear",
+    "imagePath": "/category-art/clothing-4-8.svg",
+    "imageAlt": "Ethnic Wear category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-4-8.svg"
+  },
+  "clothing-4-9": {
+    "title": "Co-ord Sets",
+    "imagePath": "/category-art/clothing-4-9.svg",
+    "imageAlt": "Co-ord Sets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-4-9.svg"
+  },
+  "clothing-4-10": {
+    "title": "Sweatshirts",
+    "imagePath": "/category-art/clothing-4-10.svg",
+    "imageAlt": "Sweatshirts category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-4-10.svg"
+  },
+  "clothing-4-11": {
+    "title": "Hoodies",
+    "imagePath": "/category-art/clothing-4-11.svg",
+    "imageAlt": "Hoodies category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-4-11.svg"
+  },
+  "clothing-4-12": {
+    "title": "Jackets",
+    "imagePath": "/category-art/clothing-4-12.svg",
+    "imageAlt": "Jackets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-4-12.svg"
+  },
+  "clothing-4-13": {
+    "title": "Sweaters",
+    "imagePath": "/category-art/clothing-4-13.svg",
+    "imageAlt": "Sweaters category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-4-13.svg"
+  },
+  "clothing-4-14": {
+    "title": "Activewear",
+    "imagePath": "/category-art/clothing-4-14.svg",
+    "imageAlt": "Activewear category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-4-14.svg"
+  },
+  "clothing-4-15": {
+    "title": "Innerwear",
+    "imagePath": "/category-art/clothing-4-15.svg",
+    "imageAlt": "Innerwear category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-4-15.svg"
+  },
+  "clothing-4-16": {
+    "title": "Sleepwear",
+    "imagePath": "/category-art/clothing-4-16.svg",
+    "imageAlt": "Sleepwear category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-4-16.svg"
+  },
+  "clothing-4-17": {
+    "title": "Swimwear",
+    "imagePath": "/category-art/clothing-4-17.svg",
+    "imageAlt": "Swimwear category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-4-17.svg"
+  },
+  "clothing-5-1": {
+    "title": "Streetwear",
+    "imagePath": "/category-art/clothing-5-1.svg",
+    "imageAlt": "Streetwear category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-5-1.svg"
+  },
+  "clothing-5-2": {
+    "title": "Minimal & Basics",
+    "imagePath": "/category-art/clothing-5-2.svg",
+    "imageAlt": "Minimal & Basics category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-5-2.svg"
+  },
+  "clothing-5-3": {
+    "title": "Casual Everyday",
+    "imagePath": "/category-art/clothing-5-3.svg",
+    "imageAlt": "Casual Everyday category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-5-3.svg"
+  },
+  "clothing-5-4": {
+    "title": "Smart Casual",
+    "imagePath": "/category-art/clothing-5-4.svg",
+    "imageAlt": "Smart Casual category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-5-4.svg"
+  },
+  "clothing-5-5": {
+    "title": "Formal & Office",
+    "imagePath": "/category-art/clothing-5-5.svg",
+    "imageAlt": "Formal & Office category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-5-5.svg"
+  },
+  "clothing-5-6": {
+    "title": "Athleisure",
+    "imagePath": "/category-art/clothing-5-6.svg",
+    "imageAlt": "Athleisure category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-5-6.svg"
+  },
+  "clothing-5-7": {
+    "title": "Y2K & Retro",
+    "imagePath": "/category-art/clothing-5-7.svg",
+    "imageAlt": "Y2K & Retro category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-5-7.svg"
+  },
+  "clothing-5-8": {
+    "title": "Graphic & Fandom",
+    "imagePath": "/category-art/clothing-5-8.svg",
+    "imageAlt": "Graphic & Fandom category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-5-8.svg"
+  },
+  "clothing-5-9": {
+    "title": "Modest & Relaxed",
+    "imagePath": "/category-art/clothing-5-9.svg",
+    "imageAlt": "Modest & Relaxed category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-5-9.svg"
+  },
+  "clothing-5-10": {
+    "title": "Premium & Luxury",
+    "imagePath": "/category-art/clothing-5-10.svg",
+    "imageAlt": "Premium & Luxury category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-5-10.svg"
+  },
+  "clothing-6-1": {
+    "title": "College & Campus",
+    "imagePath": "/category-art/clothing-6-1.svg",
+    "imageAlt": "College & Campus category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-6-1.svg"
+  },
+  "clothing-6-2": {
+    "title": "Office & Work",
+    "imagePath": "/category-art/clothing-6-2.svg",
+    "imageAlt": "Office & Work category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-6-2.svg"
+  },
+  "clothing-6-3": {
+    "title": "Party & Night Out",
+    "imagePath": "/category-art/clothing-6-3.svg",
+    "imageAlt": "Party & Night Out category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-6-3.svg"
+  },
+  "clothing-6-4": {
+    "title": "Weddings & Festive",
+    "imagePath": "/category-art/clothing-6-4.svg",
+    "imageAlt": "Weddings & Festive category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-6-4.svg"
+  },
+  "clothing-6-5": {
+    "title": "Vacation & Travel",
+    "imagePath": "/category-art/clothing-6-5.svg",
+    "imageAlt": "Vacation & Travel category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-6-5.svg"
+  },
+  "clothing-6-6": {
+    "title": "Gym & Sports",
+    "imagePath": "/category-art/clothing-6-6.svg",
+    "imageAlt": "Gym & Sports category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-6-6.svg"
+  },
+  "clothing-6-7": {
+    "title": "Winter & Cold Weather",
+    "imagePath": "/category-art/clothing-6-7.svg",
+    "imageAlt": "Winter & Cold Weather category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-6-7.svg"
+  },
+  "clothing-6-8": {
+    "title": "Everyday Essentials",
+    "imagePath": "/category-art/clothing-6-8.svg",
+    "imageAlt": "Everyday Essentials category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-6-8.svg"
+  },
+  "clothing-6-9": {
+    "title": "Date Night",
+    "imagePath": "/category-art/clothing-6-9.svg",
+    "imageAlt": "Date Night category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-6-9.svg"
+  },
+  "clothing-6-10": {
+    "title": "Gifting",
+    "imagePath": "/category-art/clothing-6-10.svg",
+    "imageAlt": "Gifting category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-6-10.svg"
+  },
+  "clothing-7-1": {
+    "title": "New Arrivals",
+    "imagePath": "/category-art/clothing-7-1.svg",
+    "imageAlt": "New Arrivals category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-7-1.svg"
+  },
+  "clothing-7-2": {
+    "title": "Bestsellers",
+    "imagePath": "/category-art/clothing-7-2.svg",
+    "imageAlt": "Bestsellers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-7-2.svg"
+  },
+  "clothing-7-3": {
+    "title": "Trending This Week",
+    "imagePath": "/category-art/clothing-7-3.svg",
+    "imageAlt": "Trending This Week category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-7-3.svg"
+  },
+  "clothing-7-4": {
+    "title": "Most-Wishlisted",
+    "imagePath": "/category-art/clothing-7-4.svg",
+    "imageAlt": "Most-Wishlisted category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-7-4.svg"
+  },
+  "clothing-7-5": {
+    "title": "Seasonal Edit",
+    "imagePath": "/category-art/clothing-7-5.svg",
+    "imageAlt": "Seasonal Edit category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-7-5.svg"
+  },
+  "clothing-7-6": {
+    "title": "Premium Collection",
+    "imagePath": "/category-art/clothing-7-6.svg",
+    "imageAlt": "Premium Collection category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-7-6.svg"
+  },
+  "clothing-7-7": {
+    "title": "Graphic Tees Collection",
+    "imagePath": "/category-art/clothing-7-7.svg",
+    "imageAlt": "Graphic Tees Collection category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-7-7.svg"
+  },
+  "clothing-7-8": {
+    "title": "Oversized Collections",
+    "imagePath": "/category-art/clothing-7-8.svg",
+    "imageAlt": "Oversized Collections category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-7-8.svg"
+  },
+  "clothing-7-9": {
+    "title": "Denim Edit",
+    "imagePath": "/category-art/clothing-7-9.svg",
+    "imageAlt": "Denim Edit category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-7-9.svg"
+  },
+  "clothing-7-10": {
+    "title": "Linen Collection",
+    "imagePath": "/category-art/clothing-7-10.svg",
+    "imageAlt": "Linen Collection category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-7-10.svg"
+  },
+  "clothing-7-11": {
+    "title": "Matching Sets",
+    "imagePath": "/category-art/clothing-7-11.svg",
+    "imageAlt": "Matching Sets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-7-11.svg"
+  },
+  "clothing-7-12": {
+    "title": "Limited Edition Drops",
+    "imagePath": "/category-art/clothing-7-12.svg",
+    "imageAlt": "Limited Edition Drops category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-7-12.svg"
+  },
+  "clothing-7-13": {
+    "title": "Giftable Apparel",
+    "imagePath": "/category-art/clothing-7-13.svg",
+    "imageAlt": "Giftable Apparel category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-7-13.svg"
+  },
+  "clothing-7-14": {
+    "title": "Sustainable Collection",
+    "imagePath": "/category-art/clothing-7-14.svg",
+    "imageAlt": "Sustainable Collection category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-7-14.svg"
+  },
+  "clothing-8-1": {
+    "title": "Under ₹299",
+    "imagePath": "/category-art/clothing-8-1.svg",
+    "imageAlt": "Under ₹299 category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-8-1.svg"
+  },
+  "clothing-8-2": {
+    "title": "₹300–₹499",
+    "imagePath": "/category-art/clothing-8-2.svg",
+    "imageAlt": "₹300–₹499 category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-8-2.svg"
+  },
+  "clothing-8-3": {
+    "title": "₹500–₹999",
+    "imagePath": "/category-art/clothing-8-3.svg",
+    "imageAlt": "₹500–₹999 category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-8-3.svg"
+  },
+  "clothing-8-4": {
+    "title": "₹1,000–₹1,999",
+    "imagePath": "/category-art/clothing-8-4.svg",
+    "imageAlt": "₹1,000–₹1,999 category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-8-4.svg"
+  },
+  "clothing-8-5": {
+    "title": "₹2,000 and above",
+    "imagePath": "/category-art/clothing-8-5.svg",
+    "imageAlt": "₹2,000 and above category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-8-5.svg"
+  },
+  "clothing-8-6": {
+    "title": "Flat 50% Off",
+    "imagePath": "/category-art/clothing-8-6.svg",
+    "imageAlt": "Flat 50% Off category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-8-6.svg"
+  },
+  "clothing-8-7": {
+    "title": "Buy 1 Get 1",
+    "imagePath": "/category-art/clothing-8-7.svg",
+    "imageAlt": "Buy 1 Get 1 category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-8-7.svg"
+  },
+  "clothing-8-8": {
+    "title": "Combo Offers",
+    "imagePath": "/category-art/clothing-8-8.svg",
+    "imageAlt": "Combo Offers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-8-8.svg"
+  },
+  "clothing-8-9": {
+    "title": "Clearance Sale",
+    "imagePath": "/category-art/clothing-8-9.svg",
+    "imageAlt": "Clearance Sale category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/clothing-8-9.svg"
+  },
+  "furniture-1-1": {
+    "title": "Sofas: 1–4 seater, sectional, L/corner",
+    "imagePath": "/category-art/furniture-1-1.svg",
+    "imageAlt": "Sofas: 1–4 seater, sectional, L/corner category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-1-1.svg"
+  },
+  "furniture-1-2": {
+    "title": "Recliners, sofa-beds, modular sofas",
+    "imagePath": "/category-art/furniture-1-2.svg",
+    "imageAlt": "Recliners, sofa-beds, modular sofas category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-1-2.svg"
+  },
+  "furniture-1-3": {
+    "title": "Armchairs, accent, lounge, rockers",
+    "imagePath": "/category-art/furniture-1-3.svg",
+    "imageAlt": "Armchairs, accent, lounge, rockers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-1-3.svg"
+  },
+  "furniture-1-4": {
+    "title": "Coffee, centre, side & nesting tables",
+    "imagePath": "/category-art/furniture-1-4.svg",
+    "imageAlt": "Coffee, centre, side & nesting tables category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-1-4.svg"
+  },
+  "furniture-1-5": {
+    "title": "TV units, consoles, media cabinets",
+    "imagePath": "/category-art/furniture-1-5.svg",
+    "imageAlt": "TV units, consoles, media cabinets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-1-5.svg"
+  },
+  "furniture-1-6": {
+    "title": "Ottomans, pouffes, bean bags, benches",
+    "imagePath": "/category-art/furniture-1-6.svg",
+    "imageAlt": "Ottomans, pouffes, bean bags, benches category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-1-6.svg"
+  },
+  "furniture-1-7": {
+    "title": "Cabinets, display units, indoor swings",
+    "imagePath": "/category-art/furniture-1-7.svg",
+    "imageAlt": "Cabinets, display units, indoor swings category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-1-7.svg"
+  },
+  "furniture-2-1": {
+    "title": "Single, double, queen & king beds",
+    "imagePath": "/category-art/furniture-2-1.svg",
+    "imageAlt": "Single, double, queen & king beds category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-2-1.svg"
+  },
+  "furniture-2-2": {
+    "title": "Storage, hydraulic, divan, folding beds",
+    "imagePath": "/category-art/furniture-2-2.svg",
+    "imageAlt": "Storage, hydraulic, divan, folding beds category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-2-2.svg"
+  },
+  "furniture-2-3": {
+    "title": "Sliding / hinged / corner wardrobes",
+    "imagePath": "/category-art/furniture-2-3.svg",
+    "imageAlt": "Sliding / hinged / corner wardrobes category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-2-3.svg"
+  },
+  "furniture-2-4": {
+    "title": "Modular & walk-in wardrobe systems",
+    "imagePath": "/category-art/furniture-2-4.svg",
+    "imageAlt": "Modular & walk-in wardrobe systems category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-2-4.svg"
+  },
+  "furniture-2-5": {
+    "title": "Dressing tables, vanity units, mirrors",
+    "imagePath": "/category-art/furniture-2-5.svg",
+    "imageAlt": "Dressing tables, vanity units, mirrors category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-2-5.svg"
+  },
+  "furniture-2-6": {
+    "title": "Bedside tables, chest of drawers",
+    "imagePath": "/category-art/furniture-2-6.svg",
+    "imageAlt": "Bedside tables, chest of drawers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-2-6.svg"
+  },
+  "furniture-2-7": {
+    "title": "Headboards, bedroom benches, bed bases",
+    "imagePath": "/category-art/furniture-2-7.svg",
+    "imageAlt": "Headboards, bedroom benches, bed bases category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-2-7.svg"
+  },
+  "furniture-3-1": {
+    "title": "2 / 4 / 6 / 8+ seater dining tables",
+    "imagePath": "/category-art/furniture-3-1.svg",
+    "imageAlt": "2 / 4 / 6 / 8+ seater dining tables category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-3-1.svg"
+  },
+  "furniture-3-2": {
+    "title": "Round, square, rectangular, extendable",
+    "imagePath": "/category-art/furniture-3-2.svg",
+    "imageAlt": "Round, square, rectangular, extendable category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-3-2.svg"
+  },
+  "furniture-3-3": {
+    "title": "Dining chairs, benches & complete sets",
+    "imagePath": "/category-art/furniture-3-3.svg",
+    "imageAlt": "Dining chairs, benches & complete sets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-3-3.svg"
+  },
+  "furniture-3-4": {
+    "title": "Crockery cabinets & display storage",
+    "imagePath": "/category-art/furniture-3-4.svg",
+    "imageAlt": "Crockery cabinets & display storage category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-3-4.svg"
+  },
+  "furniture-3-5": {
+    "title": "Buffets, sideboards, serving consoles",
+    "imagePath": "/category-art/furniture-3-5.svg",
+    "imageAlt": "Buffets, sideboards, serving consoles category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-3-5.svg"
+  },
+  "furniture-3-6": {
+    "title": "Bar units, cabinets, carts & stools",
+    "imagePath": "/category-art/furniture-3-6.svg",
+    "imageAlt": "Bar units, cabinets, carts & stools category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-3-6.svg"
+  },
+  "furniture-3-7": {
+    "title": "Marble, glass, wood-top options",
+    "imagePath": "/category-art/furniture-3-7.svg",
+    "imageAlt": "Marble, glass, wood-top options category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-3-7.svg"
+  },
+  "furniture-4-1": {
+    "title": "Base, wall & tall cabinets",
+    "imagePath": "/category-art/furniture-4-1.svg",
+    "imageAlt": "Base, wall & tall cabinets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-4-1.svg"
+  },
+  "furniture-4-2": {
+    "title": "Pantry units and modular kitchen sets",
+    "imagePath": "/category-art/furniture-4-2.svg",
+    "imageAlt": "Pantry units and modular kitchen sets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-4-2.svg"
+  },
+  "furniture-4-3": {
+    "title": "Kitchen islands, peninsulas",
+    "imagePath": "/category-art/furniture-4-3.svg",
+    "imageAlt": "Kitchen islands, peninsulas category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-4-3.svg"
+  },
+  "furniture-4-4": {
+    "title": "Breakfast counters and bar stools",
+    "imagePath": "/category-art/furniture-4-4.svg",
+    "imageAlt": "Breakfast counters and bar stools category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-4-4.svg"
+  },
+  "furniture-4-5": {
+    "title": "Kitchen trolleys and utility racks",
+    "imagePath": "/category-art/furniture-4-5.svg",
+    "imageAlt": "Kitchen trolleys and utility racks category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-4-5.svg"
+  },
+  "furniture-4-6": {
+    "title": "Pull-out storage and shelving",
+    "imagePath": "/category-art/furniture-4-6.svg",
+    "imageAlt": "Pull-out storage and shelving category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-4-6.svg"
+  },
+  "furniture-4-7": {
+    "title": "Made-to-measure kitchen systems",
+    "imagePath": "/category-art/furniture-4-7.svg",
+    "imageAlt": "Made-to-measure kitchen systems category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-4-7.svg"
+  },
+  "furniture-5-1": {
+    "title": "Writing, computer and study desks",
+    "imagePath": "/category-art/furniture-5-1.svg",
+    "imageAlt": "Writing, computer and study desks category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-5-1.svg"
+  },
+  "furniture-5-2": {
+    "title": "L-shaped, height-adjustable desks",
+    "imagePath": "/category-art/furniture-5-2.svg",
+    "imageAlt": "L-shaped, height-adjustable desks category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-5-2.svg"
+  },
+  "furniture-5-3": {
+    "title": "Ergonomic and student chairs",
+    "imagePath": "/category-art/furniture-5-3.svg",
+    "imageAlt": "Ergonomic and student chairs category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-5-3.svg"
+  },
+  "furniture-5-4": {
+    "title": "Bookshelves and bookcases",
+    "imagePath": "/category-art/furniture-5-4.svg",
+    "imageAlt": "Bookshelves and bookcases category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-5-4.svg"
+  },
+  "furniture-5-5": {
+    "title": "File drawers and storage pedestals",
+    "imagePath": "/category-art/furniture-5-5.svg",
+    "imageAlt": "File drawers and storage pedestals category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-5-5.svg"
+  },
+  "furniture-5-6": {
+    "title": "Desk + chair combinations",
+    "imagePath": "/category-art/furniture-5-6.svg",
+    "imageAlt": "Desk + chair combinations category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-5-6.svg"
+  },
+  "furniture-5-7": {
+    "title": "Work-from-home workstation sets",
+    "imagePath": "/category-art/furniture-5-7.svg",
+    "imageAlt": "Work-from-home workstation sets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-5-7.svg"
+  },
+  "furniture-6-1": {
+    "title": "Baby cots and cribs",
+    "imagePath": "/category-art/furniture-6-1.svg",
+    "imageAlt": "Baby cots and cribs category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-6-1.svg"
+  },
+  "furniture-6-2": {
+    "title": "Bunk, loft, trundle and junior beds",
+    "imagePath": "/category-art/furniture-6-2.svg",
+    "imageAlt": "Bunk, loft, trundle and junior beds category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-6-2.svg"
+  },
+  "furniture-6-3": {
+    "title": "Children’s tables, chairs, study desks",
+    "imagePath": "/category-art/furniture-6-3.svg",
+    "imageAlt": "Children’s tables, chairs, study desks category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-6-3.svg"
+  },
+  "furniture-6-4": {
+    "title": "Toy storage, shelves and cabinets",
+    "imagePath": "/category-art/furniture-6-4.svg",
+    "imageAlt": "Toy storage, shelves and cabinets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-6-4.svg"
+  },
+  "furniture-6-5": {
+    "title": "Kids wardrobes and dressers",
+    "imagePath": "/category-art/furniture-6-5.svg",
+    "imageAlt": "Kids wardrobes and dressers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-6-5.svg"
+  },
+  "furniture-6-6": {
+    "title": "Activity and play furniture",
+    "imagePath": "/category-art/furniture-6-6.svg",
+    "imageAlt": "Activity and play furniture category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-6-6.svg"
+  },
+  "furniture-6-7": {
+    "title": "Age-suitable safety-led options",
+    "imagePath": "/category-art/furniture-6-7.svg",
+    "imageAlt": "Age-suitable safety-led options category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-6-7.svg"
+  },
+  "furniture-7-1": {
+    "title": "Shoe racks, benches and cabinets",
+    "imagePath": "/category-art/furniture-7-1.svg",
+    "imageAlt": "Shoe racks, benches and cabinets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-7-1.svg"
+  },
+  "furniture-7-2": {
+    "title": "Bookcases, wall and floating shelves",
+    "imagePath": "/category-art/furniture-7-2.svg",
+    "imageAlt": "Bookcases, wall and floating shelves category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-7-2.svg"
+  },
+  "furniture-7-3": {
+    "title": "Display, multipurpose storage cabinets",
+    "imagePath": "/category-art/furniture-7-3.svg",
+    "imageAlt": "Display, multipurpose storage cabinets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-7-3.svg"
+  },
+  "furniture-7-4": {
+    "title": "Chests, drawers and organizers",
+    "imagePath": "/category-art/furniture-7-4.svg",
+    "imageAlt": "Chests, drawers and organizers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-7-4.svg"
+  },
+  "furniture-7-5": {
+    "title": "Laundry and cleaning utility cabinets",
+    "imagePath": "/category-art/furniture-7-5.svg",
+    "imageAlt": "Laundry and cleaning utility cabinets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-7-5.svg"
+  },
+  "furniture-7-6": {
+    "title": "Entryway storage and consoles",
+    "imagePath": "/category-art/furniture-7-6.svg",
+    "imageAlt": "Entryway storage and consoles category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-7-6.svg"
+  },
+  "furniture-7-7": {
+    "title": "Room dividers, partitions, coat racks",
+    "imagePath": "/category-art/furniture-7-7.svg",
+    "imageAlt": "Room dividers, partitions, coat racks category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-7-7.svg"
+  },
+  "furniture-8-1": {
+    "title": "Patio sofa, chair and dining sets",
+    "imagePath": "/category-art/furniture-8-1.svg",
+    "imageAlt": "Patio sofa, chair and dining sets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-8-1.svg"
+  },
+  "furniture-8-2": {
+    "title": "Garden benches, swings and loungers",
+    "imagePath": "/category-art/furniture-8-2.svg",
+    "imageAlt": "Garden benches, swings and loungers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-8-2.svg"
+  },
+  "furniture-8-3": {
+    "title": "Balcony chairs, folding bistro tables",
+    "imagePath": "/category-art/furniture-8-3.svg",
+    "imageAlt": "Balcony chairs, folding bistro tables category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-8-3.svg"
+  },
+  "furniture-8-4": {
+    "title": "Outdoor side and coffee tables",
+    "imagePath": "/category-art/furniture-8-4.svg",
+    "imageAlt": "Outdoor side and coffee tables category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-8-4.svg"
+  },
+  "furniture-8-5": {
+    "title": "Weather-resistant outdoor storage",
+    "imagePath": "/category-art/furniture-8-5.svg",
+    "imageAlt": "Weather-resistant outdoor storage category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-8-5.svg"
+  },
+  "furniture-8-6": {
+    "title": "Outdoor bar and serving furniture",
+    "imagePath": "/category-art/furniture-8-6.svg",
+    "imageAlt": "Outdoor bar and serving furniture category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-8-6.svg"
+  },
+  "furniture-8-7": {
+    "title": "Garden and terrace furniture combos",
+    "imagePath": "/category-art/furniture-8-7.svg",
+    "imageAlt": "Garden and terrace furniture combos category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-8-7.svg"
+  },
+  "furniture-9-1": {
+    "title": "Pooja mandirs and prayer cabinets",
+    "imagePath": "/category-art/furniture-9-1.svg",
+    "imageAlt": "Pooja mandirs and prayer cabinets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-9-1.svg"
+  },
+  "furniture-9-2": {
+    "title": "Folding, wall-mounted furniture",
+    "imagePath": "/category-art/furniture-9-2.svg",
+    "imageAlt": "Folding, wall-mounted furniture category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-9-2.svg"
+  },
+  "furniture-9-3": {
+    "title": "Convertible and space-saving units",
+    "imagePath": "/category-art/furniture-9-3.svg",
+    "imageAlt": "Convertible and space-saving units category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-9-3.svg"
+  },
+  "furniture-9-4": {
+    "title": "Senior-friendly and accessible designs",
+    "imagePath": "/category-art/furniture-9-4.svg",
+    "imageAlt": "Senior-friendly and accessible designs category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-9-4.svg"
+  },
+  "furniture-9-5": {
+    "title": "Pet furniture and integrated units",
+    "imagePath": "/category-art/furniture-9-5.svg",
+    "imageAlt": "Pet furniture and integrated units category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-9-5.svg"
+  },
+  "furniture-9-6": {
+    "title": "Custom-sized niche furniture",
+    "imagePath": "/category-art/furniture-9-6.svg",
+    "imageAlt": "Custom-sized niche furniture category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-9-6.svg"
+  },
+  "furniture-9-7": {
+    "title": "Modular and multifunctional furniture",
+    "imagePath": "/category-art/furniture-9-7.svg",
+    "imageAlt": "Modular and multifunctional furniture category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-9-7.svg"
+  },
+  "furniture-10-1": {
+    "title": "Executive desks and staff workstations",
+    "imagePath": "/category-art/furniture-10-1.svg",
+    "imageAlt": "Executive desks and staff workstations category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-10-1.svg"
+  },
+  "furniture-10-2": {
+    "title": "Office chairs, conference seating",
+    "imagePath": "/category-art/furniture-10-2.svg",
+    "imageAlt": "Office chairs, conference seating category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-10-2.svg"
+  },
+  "furniture-10-3": {
+    "title": "Meeting and training tables",
+    "imagePath": "/category-art/furniture-10-3.svg",
+    "imageAlt": "Meeting and training tables category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-10-3.svg"
+  },
+  "furniture-10-4": {
+    "title": "Reception desks and visitor seating",
+    "imagePath": "/category-art/furniture-10-4.svg",
+    "imageAlt": "Reception desks and visitor seating category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-10-4.svg"
+  },
+  "furniture-10-5": {
+    "title": "Cubicles, partitions, hot desks",
+    "imagePath": "/category-art/furniture-10-5.svg",
+    "imageAlt": "Cubicles, partitions, hot desks category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-10-5.svg"
+  },
+  "furniture-10-6": {
+    "title": "Filing cabinets, lockers, storage",
+    "imagePath": "/category-art/furniture-10-6.svg",
+    "imageAlt": "Filing cabinets, lockers, storage category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-10-6.svg"
+  },
+  "furniture-10-7": {
+    "title": "Collaborative sofas and lounge sets",
+    "imagePath": "/category-art/furniture-10-7.svg",
+    "imageAlt": "Collaborative sofas and lounge sets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-10-7.svg"
+  },
+  "furniture-11-1": {
+    "title": "Billing counters and cash desks",
+    "imagePath": "/category-art/furniture-11-1.svg",
+    "imageAlt": "Billing counters and cash desks category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-11-1.svg"
+  },
+  "furniture-11-2": {
+    "title": "Sales, service and glass display counters",
+    "imagePath": "/category-art/furniture-11-2.svg",
+    "imageAlt": "Sales, service and glass display counters category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-11-2.svg"
+  },
+  "furniture-11-3": {
+    "title": "Gondola, wall and product racks",
+    "imagePath": "/category-art/furniture-11-3.svg",
+    "imageAlt": "Gondola, wall and product racks category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-11-3.svg"
+  },
+  "furniture-11-4": {
+    "title": "Jewellery showcases, boutique displays",
+    "imagePath": "/category-art/furniture-11-4.svg",
+    "imageAlt": "Jewellery showcases, boutique displays category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-11-4.svg"
+  },
+  "furniture-11-5": {
+    "title": "Clothing rails and trial-room fixtures",
+    "imagePath": "/category-art/furniture-11-5.svg",
+    "imageAlt": "Clothing rails and trial-room fixtures category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-11-5.svg"
+  },
+  "furniture-11-6": {
+    "title": "Kiosks, product islands, shelving",
+    "imagePath": "/category-art/furniture-11-6.svg",
+    "imageAlt": "Kiosks, product islands, shelving category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-11-6.svg"
+  },
+  "furniture-11-7": {
+    "title": "Backroom storage and shop fitting",
+    "imagePath": "/category-art/furniture-11-7.svg",
+    "imageAlt": "Backroom storage and shop fitting category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-11-7.svg"
+  },
+  "furniture-12-1": {
+    "title": "Café tables, bistro and dining sets",
+    "imagePath": "/category-art/furniture-12-1.svg",
+    "imageAlt": "Café tables, bistro and dining sets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-12-1.svg"
+  },
+  "furniture-12-2": {
+    "title": "Bar counters, high tables and stools",
+    "imagePath": "/category-art/furniture-12-2.svg",
+    "imageAlt": "Bar counters, high tables and stools category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-12-2.svg"
+  },
+  "furniture-12-3": {
+    "title": "Booth and banquette seating",
+    "imagePath": "/category-art/furniture-12-3.svg",
+    "imageAlt": "Booth and banquette seating category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-12-3.svg"
+  },
+  "furniture-12-4": {
+    "title": "Indoor and outdoor restaurant chairs",
+    "imagePath": "/category-art/furniture-12-4.svg",
+    "imageAlt": "Indoor and outdoor restaurant chairs category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-12-4.svg"
+  },
+  "furniture-12-5": {
+    "title": "Serving stations and sideboards",
+    "imagePath": "/category-art/furniture-12-5.svg",
+    "imageAlt": "Serving stations and sideboards category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-12-5.svg"
+  },
+  "furniture-12-6": {
+    "title": "Host, cashier and reception counters",
+    "imagePath": "/category-art/furniture-12-6.svg",
+    "imageAlt": "Host, cashier and reception counters category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-12-6.svg"
+  },
+  "furniture-12-7": {
+    "title": "Restaurant-ready coordinated packages",
+    "imagePath": "/category-art/furniture-12-7.svg",
+    "imageAlt": "Restaurant-ready coordinated packages category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-12-7.svg"
+  },
+  "furniture-13-1": {
+    "title": "Hotel beds, headboards, side tables",
+    "imagePath": "/category-art/furniture-13-1.svg",
+    "imageAlt": "Hotel beds, headboards, side tables category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-13-1.svg"
+  },
+  "furniture-13-2": {
+    "title": "Wardrobes, mini bars, luggage racks",
+    "imagePath": "/category-art/furniture-13-2.svg",
+    "imageAlt": "Wardrobes, mini bars, luggage racks category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-13-2.svg"
+  },
+  "furniture-13-3": {
+    "title": "Guest-room desks, chairs and sofas",
+    "imagePath": "/category-art/furniture-13-3.svg",
+    "imageAlt": "Guest-room desks, chairs and sofas category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-13-3.svg"
+  },
+  "furniture-13-4": {
+    "title": "Lobby lounge and reception furniture",
+    "imagePath": "/category-art/furniture-13-4.svg",
+    "imageAlt": "Lobby lounge and reception furniture category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-13-4.svg"
+  },
+  "furniture-13-5": {
+    "title": "Banquet and breakfast dining setups",
+    "imagePath": "/category-art/furniture-13-5.svg",
+    "imageAlt": "Banquet and breakfast dining setups category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-13-5.svg"
+  },
+  "furniture-13-6": {
+    "title": "Hotel storage and console furniture",
+    "imagePath": "/category-art/furniture-13-6.svg",
+    "imageAlt": "Hotel storage and console furniture category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-13-6.svg"
+  },
+  "furniture-13-7": {
+    "title": "Bulk room furnishing packages",
+    "imagePath": "/category-art/furniture-13-7.svg",
+    "imageAlt": "Bulk room furnishing packages category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-13-7.svg"
+  },
+  "furniture-14-1": {
+    "title": "Styling chairs and salon stations",
+    "imagePath": "/category-art/furniture-14-1.svg",
+    "imageAlt": "Styling chairs and salon stations category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-14-1.svg"
+  },
+  "furniture-14-2": {
+    "title": "Barber chairs and reception desks",
+    "imagePath": "/category-art/furniture-14-2.svg",
+    "imageAlt": "Barber chairs and reception desks category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-14-2.svg"
+  },
+  "furniture-14-3": {
+    "title": "Mirrors, storage and trolley units",
+    "imagePath": "/category-art/furniture-14-3.svg",
+    "imageAlt": "Mirrors, storage and trolley units category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-14-3.svg"
+  },
+  "furniture-14-4": {
+    "title": "Manicure and pedicure workstations",
+    "imagePath": "/category-art/furniture-14-4.svg",
+    "imageAlt": "Manicure and pedicure workstations category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-14-4.svg"
+  },
+  "furniture-14-5": {
+    "title": "Spa beds and treatment furniture",
+    "imagePath": "/category-art/furniture-14-5.svg",
+    "imageAlt": "Spa beds and treatment furniture category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-14-5.svg"
+  },
+  "furniture-14-6": {
+    "title": "Waiting lounge and retail displays",
+    "imagePath": "/category-art/furniture-14-6.svg",
+    "imageAlt": "Waiting lounge and retail displays category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-14-6.svg"
+  },
+  "furniture-14-7": {
+    "title": "Custom salon interior furniture",
+    "imagePath": "/category-art/furniture-14-7.svg",
+    "imageAlt": "Custom salon interior furniture category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-14-7.svg"
+  },
+  "furniture-15-1": {
+    "title": "Classroom desks and benches",
+    "imagePath": "/category-art/furniture-15-1.svg",
+    "imageAlt": "Classroom desks and benches category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-15-1.svg"
+  },
+  "furniture-15-2": {
+    "title": "Teacher tables and office furniture",
+    "imagePath": "/category-art/furniture-15-2.svg",
+    "imageAlt": "Teacher tables and office furniture category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-15-2.svg"
+  },
+  "furniture-15-3": {
+    "title": "Library shelving, book racks",
+    "imagePath": "/category-art/furniture-15-3.svg",
+    "imageAlt": "Library shelving, book racks category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-15-3.svg"
+  },
+  "furniture-15-4": {
+    "title": "Reading desks and chairs",
+    "imagePath": "/category-art/furniture-15-4.svg",
+    "imageAlt": "Reading desks and chairs category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-15-4.svg"
+  },
+  "furniture-15-5": {
+    "title": "Training / computer room furniture",
+    "imagePath": "/category-art/furniture-15-5.svg",
+    "imageAlt": "Training / computer room furniture category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-15-5.svg"
+  },
+  "furniture-15-6": {
+    "title": "Student lockers and lab workbenches",
+    "imagePath": "/category-art/furniture-15-6.svg",
+    "imageAlt": "Student lockers and lab workbenches category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-15-6.svg"
+  },
+  "furniture-15-7": {
+    "title": "Hostel and institutional furniture",
+    "imagePath": "/category-art/furniture-15-7.svg",
+    "imageAlt": "Hostel and institutional furniture category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-15-7.svg"
+  },
+  "furniture-16-1": {
+    "title": "Clinic reception and billing desks",
+    "imagePath": "/category-art/furniture-16-1.svg",
+    "imageAlt": "Clinic reception and billing desks category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-16-1.svg"
+  },
+  "furniture-16-2": {
+    "title": "Consultation desks and chairs",
+    "imagePath": "/category-art/furniture-16-2.svg",
+    "imageAlt": "Consultation desks and chairs category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-16-2.svg"
+  },
+  "furniture-16-3": {
+    "title": "Patient waiting-area seating",
+    "imagePath": "/category-art/furniture-16-3.svg",
+    "imageAlt": "Patient waiting-area seating category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-16-3.svg"
+  },
+  "furniture-16-4": {
+    "title": "Storage, filing and medicine cabinets",
+    "imagePath": "/category-art/furniture-16-4.svg",
+    "imageAlt": "Storage, filing and medicine cabinets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-16-4.svg"
+  },
+  "furniture-16-5": {
+    "title": "Clinic display and utility units",
+    "imagePath": "/category-art/furniture-16-5.svg",
+    "imageAlt": "Clinic display and utility units category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-16-5.svg"
+  },
+  "furniture-16-6": {
+    "title": "Accessible reception counters",
+    "imagePath": "/category-art/furniture-16-6.svg",
+    "imageAlt": "Accessible reception counters category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-16-6.svg"
+  },
+  "furniture-16-7": {
+    "title": "Clinical-use items: verify compliance",
+    "imagePath": "/category-art/furniture-16-7.svg",
+    "imageAlt": "Clinical-use items: verify compliance category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-16-7.svg"
+  },
+  "furniture-17-1": {
+    "title": "Industrial racks and shelving",
+    "imagePath": "/category-art/furniture-17-1.svg",
+    "imageAlt": "Industrial racks and shelving category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-17-1.svg"
+  },
+  "furniture-17-2": {
+    "title": "Heavy-duty workbenches",
+    "imagePath": "/category-art/furniture-17-2.svg",
+    "imageAlt": "Heavy-duty workbenches category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-17-2.svg"
+  },
+  "furniture-17-3": {
+    "title": "Tool cabinets and storage drawers",
+    "imagePath": "/category-art/furniture-17-3.svg",
+    "imageAlt": "Tool cabinets and storage drawers category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-17-3.svg"
+  },
+  "furniture-17-4": {
+    "title": "Factory lockers and utility cabinets",
+    "imagePath": "/category-art/furniture-17-4.svg",
+    "imageAlt": "Factory lockers and utility cabinets category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-17-4.svg"
+  },
+  "furniture-17-5": {
+    "title": "Industrial tables and prep stations",
+    "imagePath": "/category-art/furniture-17-5.svg",
+    "imageAlt": "Industrial tables and prep stations category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-17-5.svg"
+  },
+  "furniture-17-6": {
+    "title": "Packing and maintenance workstations",
+    "imagePath": "/category-art/furniture-17-6.svg",
+    "imageAlt": "Packing and maintenance workstations category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-17-6.svg"
+  },
+  "furniture-17-7": {
+    "title": "Rated shelving / load-capacity options",
+    "imagePath": "/category-art/furniture-17-7.svg",
+    "imageAlt": "Rated shelving / load-capacity options category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-17-7.svg"
+  },
+  "furniture-18-1": {
+    "title": "Banquet and folding tables",
+    "imagePath": "/category-art/furniture-18-1.svg",
+    "imageAlt": "Banquet and folding tables category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-18-1.svg"
+  },
+  "furniture-18-2": {
+    "title": "Stackable and folding chairs",
+    "imagePath": "/category-art/furniture-18-2.svg",
+    "imageAlt": "Stackable and folding chairs category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-18-2.svg"
+  },
+  "furniture-18-3": {
+    "title": "Event sofas, lounge and VIP seating",
+    "imagePath": "/category-art/furniture-18-3.svg",
+    "imageAlt": "Event sofas, lounge and VIP seating category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-18-3.svg"
+  },
+  "furniture-18-4": {
+    "title": "Stage, display and reception furniture",
+    "imagePath": "/category-art/furniture-18-4.svg",
+    "imageAlt": "Stage, display and reception furniture category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-18-4.svg"
+  },
+  "furniture-18-5": {
+    "title": "Portable counters, bar units, kiosks",
+    "imagePath": "/category-art/furniture-18-5.svg",
+    "imageAlt": "Portable counters, bar units, kiosks category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-18-5.svg"
+  },
+  "furniture-18-6": {
+    "title": "Wedding-venue furniture packages",
+    "imagePath": "/category-art/furniture-18-6.svg",
+    "imageAlt": "Wedding-venue furniture packages category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-18-6.svg"
+  },
+  "furniture-18-7": {
+    "title": "Event and exhibition booth furniture",
+    "imagePath": "/category-art/furniture-18-7.svg",
+    "imageAlt": "Event and exhibition booth furniture category illustration",
+    "imageFit": "cover",
+    "fallbackPath": "/category-art/furniture-18-7.svg"
+  }
+}

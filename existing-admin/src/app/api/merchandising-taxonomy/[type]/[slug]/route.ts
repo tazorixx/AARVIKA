@@ -1,0 +1,5 @@
+import { NextResponse } from "next/server";
+import { getAdminDb } from "@/lib/firebase-admin";
+import { getTaxonomyPageCms, type MerchandisingCmsType } from "@/lib/merchandising/cms";
+export const runtime = "nodejs"; export const dynamic = "force-dynamic";
+export async function GET(_request: Request, { params }: { params: Promise<{ type: string; slug: string }> }) { const { type: rawType, slug } = await params; if (rawType !== "category" && rawType !== "occasion") return NextResponse.json({ error: "Not found" }, { status: 404 }); const collection = rawType === "category" ? "categories" : "occasions"; const taxonomySnap = await getAdminDb().collection(collection).where("slug", "==", slug).limit(1).get(); if (taxonomySnap.empty) return NextResponse.json({ error: "Not found" }, { status: 404 }); const taxonomy = { id: taxonomySnap.docs[0].id, ...taxonomySnap.docs[0].data() }; const cms = await getTaxonomyPageCms(rawType as MerchandisingCmsType, taxonomySnap.docs[0].id); return NextResponse.json({ taxonomy, cms: cms?.active ? cms : null }, { headers: { "Cache-Control": "public, s-maxage=60, stale-while-revalidate=300" } }); }

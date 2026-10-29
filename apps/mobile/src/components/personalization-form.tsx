@@ -1,0 +1,15 @@
+import { useCatalogue } from '../state/catalogue';
+import { useState } from 'react';
+import { Image, Text, View } from 'react-native';
+import type { MediaAsset, PersonalizationValues, Product } from '../domain/contracts';
+
+import { selectLocalPhoto } from '../services/media';
+import { Button, Card, Input, Label, styles } from './ui';
+import { theme } from '../theme';
+export function PersonalizationForm({ product, values, media, ownerId, onChange }: { product: Product; values: PersonalizationValues; media: MediaAsset[]; ownerId: string; onChange(values: PersonalizationValues, media: MediaAsset[]): Promise<void> }) { const { schemas } = useCatalogue();
+  const schema = schemas.find(s => s.id === product.personalizationSchemaId), [error, setError] = useState(''), [busy, setBusy] = useState(false);
+  if (!schema) return null;
+  function change(next: PersonalizationValues, photos = media) { void onChange(next, photos).catch(e => setError(e.message)); }
+  async function pick() { setBusy(true); setError(''); try { const photo = await selectLocalPhoto(ownerId); if (photo) await onChange(values, [photo]); } catch (e) { setError((e as Error).message); } finally { setBusy(false); } }
+  return <Card><Label heading>Make it personal</Label><Label muted>Photos stay on this device in demo mode. Use sample images. No upload or production proof is created.</Label>{schema.fields.map(field => <View key={field.key} style={{ gap: 6 }}>{field.kind === 'text' ? <Input label={`${field.label}${field.required ? ' *' : ''}`} value={values[field.key] ?? ''} onChangeText={text => change({ ...values, [field.key]: text })} maxLength={field.maxLength} /> : field.kind === 'choice' ? <><Label>{field.label} *</Label><View style={styles.row}>{field.choices?.map(choice => <Button key={choice} title={`${values[field.key] === choice ? '✓ ' : ''}${choice}`} secondary selected={values[field.key] === choice} onPress={() => change({ ...values, [field.key]: choice })} />)}</View></> : <><Button title={busy ? 'Reading photo…' : 'Choose local photo'} disabled={busy} secondary onPress={() => { void pick(); }} />{media.length > 0 && <><Image accessibilityLabel="Selected personalization photo" source={{ uri: media[0].uri }} style={{ width: 100, height: 100, borderRadius: 8 }} /><Button title="Remove local photo" secondary onPress={() => change(values, [])} /></>}</>}</View>)}<View style={{ backgroundColor: theme.colors.pale, padding: 12, gap: 8, borderRadius: 10 }}><Text style={{ color: theme.colors.primary, fontSize: 11 }}>TEMPLATE PREVIEW · Placement and colour may differ</Text><View style={{alignItems: 'center',gap:10,paddingVertical:12,borderWidth:1,borderColor:theme.colors.border,borderRadius:8,backgroundColor:'white'}}>{media[0]&&<Image accessibilityLabel="Photo in template preview" source={{uri:media[0].uri}} style={{width:112,height:96,borderRadius:6}}/>}<Text style={{ fontSize: 18, color: theme.colors.plum, fontFamily: values.font === 'Classic' ? 'serif' : undefined }}>{values.name || values.engraving || values.caption || 'Your text here'}</Text></View></View>{!!error && <Label>{error}</Label>}</Card>;
+}

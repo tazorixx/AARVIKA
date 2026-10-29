@@ -1,0 +1,5747 @@
+{
+  "source": "Gift4U_Indian_Wedding_Taxonomy_Research.xlsx",
+  "status": "research-only-not-reviewed",
+  "traditions": [
+    {
+      "id": "north-indian-hindu",
+      "name": "North Indian Hindu",
+      "faith": "Hindu",
+      "regions": [
+        "Delhi, UP, Haryana, Bihar and other regions"
+      ],
+      "ceremonyIds": [
+        "north-indian-hindu-1-roka-or-engagement",
+        "north-indian-hindu-2-mehendi",
+        "north-indian-hindu-3-haldi",
+        "north-indian-hindu-4-sangeet",
+        "north-indian-hindu-1-baraat",
+        "north-indian-hindu-2-milni-or-welcome",
+        "north-indian-hindu-3-varmala",
+        "north-indian-hindu-4-ganesh-puja",
+        "north-indian-hindu-5-kanyadaan-or-alternative-family-blessing",
+        "north-indian-hindu-6-havan-or-pheras",
+        "north-indian-hindu-7-saptapadi",
+        "north-indian-hindu-8-sindoor-and-or-mangalsutra",
+        "north-indian-hindu-1-vidaai",
+        "north-indian-hindu-2-grihapravesh",
+        "north-indian-hindu-3-reception"
+      ],
+      "reviewStatus": "research-template",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions"
+    },
+    {
+      "id": "marathi-hindu",
+      "name": "Marathi Hindu",
+      "faith": "Hindu",
+      "regions": [
+        "Maharashtra"
+      ],
+      "ceremonyIds": [
+        "marathi-hindu-1-sakharpuda",
+        "marathi-hindu-2-muhurt-karane",
+        "marathi-hindu-3-kelvan",
+        "marathi-hindu-4-halad-chadavane",
+        "marathi-hindu-1-simant-puja",
+        "marathi-hindu-2-gaurihar-puja",
+        "marathi-hindu-3-antarpat",
+        "marathi-hindu-4-mangalashtak-and-akshata",
+        "marathi-hindu-5-varmala",
+        "marathi-hindu-6-lajahom",
+        "marathi-hindu-7-saptapadi",
+        "marathi-hindu-8-mangalsutra",
+        "marathi-hindu-1-rukhwat-display",
+        "marathi-hindu-2-grihapravesh",
+        "marathi-hindu-3-reception"
+      ],
+      "reviewStatus": "research-template",
+      "source": "https://www.weddingwire.in/wedding-tips/maharashtrian-wedding--c754"
+    },
+    {
+      "id": "gujarati-hindu",
+      "name": "Gujarati Hindu",
+      "faith": "Hindu",
+      "regions": [
+        "Gujarat"
+      ],
+      "ceremonyIds": [
+        "gujarati-hindu-1-gol-dhana-or-engagement",
+        "gujarati-hindu-2-mandap-muhurat",
+        "gujarati-hindu-3-griha-shanti",
+        "gujarati-hindu-4-pithi",
+        "gujarati-hindu-5-mehendi",
+        "gujarati-hindu-6-sangeet-or-garba",
+        "gujarati-hindu-7-mameru-or-mosalu",
+        "gujarati-hindu-1-jaan-or-groom-arrival",
+        "gujarati-hindu-2-ponkhvu",
+        "gujarati-hindu-3-antarpat",
+        "gujarati-hindu-4-hastamelap",
+        "gujarati-hindu-5-mangal-pheras",
+        "gujarati-hindu-6-saptapadi-or-family-variation",
+        "gujarati-hindu-1-vidaai",
+        "gujarati-hindu-2-ghar-nu-laxmi",
+        "gujarati-hindu-3-aeki-beki",
+        "gujarati-hindu-4-reception"
+      ],
+      "reviewStatus": "research-template",
+      "source": "https://www.weddingwire.in/wedding-tips/gujarati-wedding--c1225"
+    },
+    {
+      "id": "punjabi-hindu",
+      "name": "Punjabi Hindu",
+      "faith": "Hindu",
+      "regions": [
+        "Punjab, Haryana, Delhi"
+      ],
+      "ceremonyIds": [
+        "punjabi-hindu-1-roka-or-thaka",
+        "punjabi-hindu-2-sagai",
+        "punjabi-hindu-3-mehendi",
+        "punjabi-hindu-4-maiyan-or-vatna",
+        "punjabi-hindu-5-chooda",
+        "punjabi-hindu-6-kalire",
+        "punjabi-hindu-7-jaggo",
+        "punjabi-hindu-8-sangeet",
+        "punjabi-hindu-1-baraat",
+        "punjabi-hindu-2-milni",
+        "punjabi-hindu-3-jaimala",
+        "punjabi-hindu-4-havan",
+        "punjabi-hindu-5-pheras",
+        "punjabi-hindu-1-doli",
+        "punjabi-hindu-2-grihapravesh",
+        "punjabi-hindu-3-reception"
+      ],
+      "reviewStatus": "research-template",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions"
+    },
+    {
+      "id": "punjabi-sikh",
+      "name": "Punjabi Sikh",
+      "faith": "Sikh",
+      "regions": [
+        "Punjab and diaspora"
+      ],
+      "ceremonyIds": [
+        "punjabi-sikh-1-kurmai-or-engagement",
+        "punjabi-sikh-2-maiyan-or-vatna-if-family-chooses",
+        "punjabi-sikh-3-mehendi-optional",
+        "punjabi-sikh-4-chooda-and-kalire-optional",
+        "punjabi-sikh-5-jaggo-optional",
+        "punjabi-sikh-1-milni-optional-cultural",
+        "punjabi-sikh-2-anand-karaj-and-four-laavan",
+        "punjabi-sikh-3-ardas",
+        "punjabi-sikh-4-karah-prasad",
+        "punjabi-sikh-1-doli-optional-cultural",
+        "punjabi-sikh-2-reception"
+      ],
+      "reviewStatus": "research-template",
+      "source": "https://sikhri.org/articles/anand-karaj-the-sikh-marriage"
+    },
+    {
+      "id": "bengali-hindu",
+      "name": "Bengali Hindu",
+      "faith": "Hindu",
+      "regions": [
+        "West Bengal"
+      ],
+      "ceremonyIds": [
+        "bengali-hindu-1-aashirbaad",
+        "bengali-hindu-2-aiburobhaat",
+        "bengali-hindu-3-gaye-holud",
+        "bengali-hindu-4-vridhi-puja",
+        "bengali-hindu-1-bor-jatri-and-bor-boron",
+        "bengali-hindu-2-saat-paak",
+        "bengali-hindu-3-shubho-drishti",
+        "bengali-hindu-4-mala-bodol",
+        "bengali-hindu-5-sampradan-where-practiced",
+        "bengali-hindu-6-anjali",
+        "bengali-hindu-7-sindoor-daan",
+        "bengali-hindu-1-bidaay",
+        "bengali-hindu-2-kaal-ratri",
+        "bengali-hindu-3-bou-bhaat",
+        "bengali-hindu-4-phool-shojja"
+      ],
+      "reviewStatus": "research-template",
+      "source": "https://www.theknot.com/content/bengali-wedding"
+    },
+    {
+      "id": "tamil-iyer-iyengar-hindu",
+      "name": "Tamil Iyer / Iyengar Hindu",
+      "faith": "Hindu",
+      "regions": [
+        "Tamil Nadu, Puducherry"
+      ],
+      "ceremonyIds": [
+        "tamil-iyer-iyengar-hindu-1-nichayathartham",
+        "tamil-iyer-iyengar-hindu-2-panda-kaal-muhurtham",
+        "tamil-iyer-iyengar-hindu-3-vratham",
+        "tamil-iyer-iyengar-hindu-4-janavasam",
+        "tamil-iyer-iyengar-hindu-5-nalangu",
+        "tamil-iyer-iyengar-hindu-1-kashi-yatra",
+        "tamil-iyer-iyengar-hindu-2-maalai-maatral",
+        "tamil-iyer-iyengar-hindu-3-oonjal",
+        "tamil-iyer-iyengar-hindu-4-kanyadanam",
+        "tamil-iyer-iyengar-hindu-5-mangalya-dharanam",
+        "tamil-iyer-iyengar-hindu-6-saptapadi",
+        "tamil-iyer-iyengar-hindu-1-nalangu-games",
+        "tamil-iyer-iyengar-hindu-2-reception"
+      ],
+      "reviewStatus": "research-template",
+      "source": "https://www.weddingwire.in/wedding-tips/tamil-marriage--c6381"
+    },
+    {
+      "id": "tamil-chettiar",
+      "name": "Tamil Chettiar",
+      "faith": "Hindu",
+      "regions": [
+        "Tamil Nadu"
+      ],
+      "ceremonyIds": [
+        "tamil-chettiar-1-nichayathartham",
+        "tamil-chettiar-2-padaipu",
+        "tamil-chettiar-3-arasanikkal",
+        "tamil-chettiar-4-pooram-kazhitha",
+        "tamil-chettiar-1-ganesh-puja",
+        "tamil-chettiar-2-mangalya-dharanam",
+        "tamil-chettiar-3-community-specific-wedding-rites",
+        "tamil-chettiar-1-padapuja",
+        "tamil-chettiar-2-family-blessing",
+        "tamil-chettiar-3-feast"
+      ],
+      "reviewStatus": "research-template",
+      "source": "https://www.weddingwire.in/wedding-tips/south-indian-wedding-traditions--c734"
+    },
+    {
+      "id": "telugu-hindu",
+      "name": "Telugu Hindu",
+      "faith": "Hindu",
+      "regions": [
+        "Andhra Pradesh, Telangana"
+      ],
+      "ceremonyIds": [
+        "telugu-hindu-1-nishchitartham",
+        "telugu-hindu-2-pellikuthuru-or-pellikoduku",
+        "telugu-hindu-3-mangala-snanam",
+        "telugu-hindu-4-snathakam",
+        "telugu-hindu-1-kashi-yatra-some-communities",
+        "telugu-hindu-2-kanyadanam",
+        "telugu-hindu-3-jeelakarra-bellam",
+        "telugu-hindu-4-mangalsutra",
+        "telugu-hindu-5-talambralu",
+        "telugu-hindu-6-saptapadi",
+        "telugu-hindu-7-arundhati-nakshatram",
+        "telugu-hindu-1-appagintalu",
+        "telugu-hindu-2-grihapravesham",
+        "telugu-hindu-3-reception"
+      ],
+      "reviewStatus": "research-template",
+      "source": "https://www.weddingwire.in/wedding-tips/telugu-marriage--c4539"
+    },
+    {
+      "id": "kannada-hindu",
+      "name": "Kannada Hindu",
+      "faith": "Hindu",
+      "regions": [
+        "Karnataka"
+      ],
+      "ceremonyIds": [
+        "kannada-hindu-1-nischaya-tamulam",
+        "kannada-hindu-2-nandi-puja",
+        "kannada-hindu-3-bale-shastra",
+        "kannada-hindu-4-dev-karya",
+        "kannada-hindu-1-kashi-yatra-some-communities",
+        "kannada-hindu-2-vara-puja",
+        "kannada-hindu-3-dhare-herdu",
+        "kannada-hindu-4-mangalya-dharane",
+        "kannada-hindu-5-saptapadi",
+        "kannada-hindu-1-grihapravesha",
+        "kannada-hindu-2-reception"
+      ],
+      "reviewStatus": "research-template",
+      "source": "https://www.weddingwire.in/wedding-tips/south-indian-wedding-traditions--c734"
+    },
+    {
+      "id": "kodava",
+      "name": "Kodava",
+      "faith": "Customary / community",
+      "regions": [
+        "Kodagu, Karnataka"
+      ],
+      "ceremonyIds": [
+        "kodava-1-oor-kooduvo",
+        "kodava-2-community-gathering",
+        "kodava-1-mangala-or-muhurtham",
+        "kodava-2-baale-birud",
+        "kodava-3-sammanda-kodupo",
+        "kodava-4-pathaak",
+        "kodava-1-wedding-feast",
+        "kodava-2-family-welcome"
+      ],
+      "reviewStatus": "research-template",
+      "source": "https://www.ndtv.com/lifestyle/vijay-deverakonda-and-rashmika-mandannas-udaipur-wedding-how-are-telugu-and-kodava-rituals-different-11138537"
+    },
+    {
+      "id": "kerala-hindu-nair",
+      "name": "Kerala Hindu - Nair",
+      "faith": "Hindu",
+      "regions": [
+        "Kerala"
+      ],
+      "ceremonyIds": [
+        "kerala-hindu-nair-1-nischayam",
+        "kerala-hindu-nair-2-prewedding-blessings-family-choice",
+        "kerala-hindu-nair-1-thalikettu",
+        "kerala-hindu-nair-2-pudamuri",
+        "kerala-hindu-nair-3-garland-exchange",
+        "kerala-hindu-nair-1-sadya",
+        "kerala-hindu-nair-2-family-welcome",
+        "kerala-hindu-nair-3-reception"
+      ],
+      "reviewStatus": "research-template",
+      "source": "https://www.weddingwire.in/wedding-tips/south-indian-wedding-traditions--c734"
+    },
+    {
+      "id": "kerala-syrian-christian",
+      "name": "Kerala Syrian Christian",
+      "faith": "Christian",
+      "regions": [
+        "Kerala"
+      ],
+      "ceremonyIds": [
+        "kerala-syrian-christian-1-manasammatham",
+        "kerala-syrian-christian-2-madhuram-vekkal",
+        "kerala-syrian-christian-1-holy-mass-or-church-service",
+        "kerala-syrian-christian-2-vows",
+        "kerala-syrian-christian-3-minnukettu",
+        "kerala-syrian-christian-4-manthrakodi",
+        "kerala-syrian-christian-5-blessing",
+        "kerala-syrian-christian-6-church-register",
+        "kerala-syrian-christian-1-reception",
+        "kerala-syrian-christian-2-family-feast"
+      ],
+      "reviewStatus": "research-template",
+      "source": "https://www.kalyanco.com/guides/kerala-christian-wedding"
+    },
+    {
+      "id": "goan-catholic",
+      "name": "Goan Catholic",
+      "faith": "Christian",
+      "regions": [
+        "Goa"
+      ],
+      "ceremonyIds": [
+        "goan-catholic-1-engagement",
+        "goan-catholic-2-roce-or-ros-family-community-specific",
+        "goan-catholic-3-bride-and-groom-preparation",
+        "goan-catholic-1-church-service-or-nuptial-mass",
+        "goan-catholic-2-vows-and-rings",
+        "goan-catholic-3-blessing-and-signing",
+        "goan-catholic-1-reception",
+        "goan-catholic-2-toast-and-dance",
+        "goan-catholic-3-family-gathering"
+      ],
+      "reviewStatus": "research-template",
+      "source": "https://www.kalyanco.com/guides/kerala-christian-wedding"
+    },
+    {
+      "id": "christian-other-indian-traditions",
+      "name": "Christian - other Indian traditions",
+      "faith": "Christian",
+      "regions": [
+        "Pan-India"
+      ],
+      "ceremonyIds": [
+        "christian-other-indian-traditions-1-engagement-or-betrothal",
+        "christian-other-indian-traditions-2-bridal-shower-optional",
+        "christian-other-indian-traditions-3-family-prayer",
+        "christian-other-indian-traditions-1-church-or-chapel-service",
+        "christian-other-indian-traditions-2-vows-and-ring-exchange",
+        "christian-other-indian-traditions-3-blessing",
+        "christian-other-indian-traditions-4-signing-of-records",
+        "christian-other-indian-traditions-1-reception",
+        "christian-other-indian-traditions-2-cake-cutting",
+        "christian-other-indian-traditions-3-thank-you-gifts"
+      ],
+      "reviewStatus": "research-template",
+      "source": "https://www.kalyanco.com/guides/kerala-christian-wedding"
+    },
+    {
+      "id": "muslim-south-asian",
+      "name": "Muslim - South Asian",
+      "faith": "Muslim",
+      "regions": [
+        "Pan-India"
+      ],
+      "ceremonyIds": [
+        "muslim-south-asian-1-mangni-or-engagement-optional",
+        "muslim-south-asian-2-mehendi-optional-cultural",
+        "muslim-south-asian-3-manjha-or-haldi-optional-cultural",
+        "muslim-south-asian-1-nikah",
+        "muslim-south-asian-2-consent-and-witnesses",
+        "muslim-south-asian-3-mahr",
+        "muslim-south-asian-4-nikahnama-or-marriage-record",
+        "muslim-south-asian-5-dua",
+        "muslim-south-asian-1-rukhsati-optional-cultural",
+        "muslim-south-asian-2-walima",
+        "muslim-south-asian-3-reception"
+      ],
+      "reviewStatus": "research-template",
+      "source": "https://www.theknot.com/content/muslim-wedding-ceremony-rituals"
+    },
+    {
+      "id": "bengali-muslim",
+      "name": "Bengali Muslim",
+      "faith": "Muslim",
+      "regions": [
+        "West Bengal"
+      ],
+      "ceremonyIds": [
+        "bengali-muslim-1-paan-chini-optional",
+        "bengali-muslim-2-gaye-holud-optional-cultural",
+        "bengali-muslim-3-mehendi-optional",
+        "bengali-muslim-1-nikah",
+        "bengali-muslim-2-mahr",
+        "bengali-muslim-3-kabinnama",
+        "bengali-muslim-1-rukhsati",
+        "bengali-muslim-2-walima-or-bou-bhaat-cultural"
+      ],
+      "reviewStatus": "research-template",
+      "source": "https://www.theknot.com/content/bengali-wedding"
+    },
+    {
+      "id": "jain-regional",
+      "name": "Jain - regional",
+      "faith": "Jain",
+      "regions": [
+        "Gujarat, Rajasthan, Maharashtra and elsewhere"
+      ],
+      "ceremonyIds": [
+        "jain-regional-1-lagna-lekhan-optional",
+        "jain-regional-2-engagement",
+        "jain-regional-3-bana-betai-or-community-turmeric-ceremony",
+        "jain-regional-1-marriage-rite-with-jain-officiant-or-customary-ritual",
+        "jain-regional-2-garland-exchange",
+        "jain-regional-3-community-specific-vows",
+        "jain-regional-1-family-blessings",
+        "jain-regional-2-reception"
+      ],
+      "reviewStatus": "research-template",
+      "source": "https://www.theknot.com/content/indian-wedding-traditions"
+    },
+    {
+      "id": "parsi-zoroastrian",
+      "name": "Parsi / Zoroastrian",
+      "faith": "Parsi / Zoroastrian",
+      "regions": [
+        "Maharashtra, Gujarat and elsewhere"
+      ],
+      "ceremonyIds": [
+        "parsi-zoroastrian-1-rupia-peravanu",
+        "parsi-zoroastrian-2-adravanu-or-engagement",
+        "parsi-zoroastrian-3-madhavsaro",
+        "parsi-zoroastrian-4-adarni",
+        "parsi-zoroastrian-5-supra-nu-murat",
+        "parsi-zoroastrian-6-nahn",
+        "parsi-zoroastrian-1-achu-michu",
+        "parsi-zoroastrian-2-ara-antar",
+        "parsi-zoroastrian-3-hathevaro",
+        "parsi-zoroastrian-4-chero-bandhvanu",
+        "parsi-zoroastrian-5-ashirvad",
+        "parsi-zoroastrian-1-reception-and-bhonu",
+        "parsi-zoroastrian-2-fire-temple-visit-where-practiced"
+      ],
+      "reviewStatus": "research-template",
+      "source": "https://www.heritageinstitute.com/zoroastrianism/marriage/index.htm"
+    },
+    {
+      "id": "assamese-hindu-biya",
+      "name": "Assamese Hindu Biya",
+      "faith": "Hindu",
+      "regions": [
+        "Assam"
+      ],
+      "ceremonyIds": [
+        "assamese-hindu-biya-1-juroon",
+        "assamese-hindu-biya-2-pani-tola-or-nouwa",
+        "assamese-hindu-biya-3-wedding-songs-and-family-invitations",
+        "assamese-hindu-biya-1-bor-jatri",
+        "assamese-hindu-biya-2-groom-welcome",
+        "assamese-hindu-biya-3-biya-marriage-rite",
+        "assamese-hindu-biya-1-bride-welcome",
+        "assamese-hindu-biya-2-family-feast"
+      ],
+      "reviewStatus": "research-template",
+      "source": "https://www.vkic.org/The-Hindu-Marriage-Tradition-in-Assam"
+    },
+    {
+      "id": "odia-hindu",
+      "name": "Odia Hindu",
+      "faith": "Hindu",
+      "regions": [
+        "Odisha"
+      ],
+      "ceremonyIds": [
+        "odia-hindu-1-nirbandha",
+        "odia-hindu-2-mangan-or-turmeric",
+        "odia-hindu-3-diya-mangula-puja",
+        "odia-hindu-1-barajatri",
+        "odia-hindu-2-hata-ganthi",
+        "odia-hindu-3-laja-homa",
+        "odia-hindu-4-saptapadi-where-practiced",
+        "odia-hindu-1-chauthi",
+        "odia-hindu-2-family-reception"
+      ],
+      "reviewStatus": "research-template",
+      "source": "https://shaadiguide.in/odisha-wedding-traditions-guide.html"
+    },
+    {
+      "id": "maithil-hindu",
+      "name": "Maithil Hindu",
+      "faith": "Hindu",
+      "regions": [
+        "Bihar, Nepal Mithila region"
+      ],
+      "ceremonyIds": [
+        "maithil-hindu-1-tilak",
+        "maithil-hindu-2-matikor",
+        "maithil-hindu-3-haldi-or-ubtan",
+        "maithil-hindu-1-barat",
+        "maithil-hindu-2-jaimala",
+        "maithil-hindu-3-panigrahan",
+        "maithil-hindu-4-sindurdaan",
+        "maithil-hindu-5-kohbar",
+        "maithil-hindu-1-bidai",
+        "maithil-hindu-2-dwarachar",
+        "maithil-hindu-3-chauthari"
+      ],
+      "reviewStatus": "research-template",
+      "source": "https://csts.org.in/maithil-wedding-rituals/"
+    },
+    {
+      "id": "kumaoni-garhwali-hindu",
+      "name": "Kumaoni / Garhwali Hindu",
+      "faith": "Hindu",
+      "regions": [
+        "Uttarakhand"
+      ],
+      "ceremonyIds": [
+        "kumaoni-garhwali-hindu-1-engagement",
+        "kumaoni-garhwali-hindu-2-aipan-decorations",
+        "kumaoni-garhwali-hindu-3-suwal-pathai-some-regions",
+        "kumaoni-garhwali-hindu-1-chholiya-procession-some-regions",
+        "kumaoni-garhwali-hindu-2-dhuliarghya",
+        "kumaoni-garhwali-hindu-3-kanyadaan",
+        "kumaoni-garhwali-hindu-4-pheras",
+        "kumaoni-garhwali-hindu-1-vidaai",
+        "kumaoni-garhwali-hindu-2-family-welcome",
+        "kumaoni-garhwali-hindu-3-pahari-feast"
+      ],
+      "reviewStatus": "research-template",
+      "source": "https://www.euttaranchal.com/culture/marriage-rites.php"
+    },
+    {
+      "id": "kashmiri-pandit",
+      "name": "Kashmiri Pandit",
+      "faith": "Hindu",
+      "regions": [
+        "Jammu and Kashmir"
+      ],
+      "ceremonyIds": [
+        "kashmiri-pandit-1-livun",
+        "kashmiri-pandit-2-wanwun",
+        "kashmiri-pandit-3-maenziraat",
+        "kashmiri-pandit-4-devgon",
+        "kashmiri-pandit-1-lagan",
+        "kashmiri-pandit-2-posh-puza",
+        "kashmiri-pandit-1-satraat",
+        "kashmiri-pandit-2-reception"
+      ],
+      "reviewStatus": "research-template",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions"
+    },
+    {
+      "id": "chhattisgarhi-hindu",
+      "name": "Chhattisgarhi Hindu",
+      "faith": "Hindu",
+      "regions": [
+        "Chhattisgarh"
+      ],
+      "ceremonyIds": [
+        "chhattisgarhi-hindu-1-chulmati-or-local-earth-rite",
+        "chhattisgarhi-hindu-2-tel-haldi",
+        "chhattisgarhi-hindu-3-mangrohan-or-mandap",
+        "chhattisgarhi-hindu-1-parghani-or-paradhani-welcome",
+        "chhattisgarhi-hindu-2-bhanwar-or-pheras",
+        "chhattisgarhi-hindu-3-saptapadi-songs",
+        "chhattisgarhi-hindu-1-vidaai",
+        "chhattisgarhi-hindu-2-welcome-feast"
+      ],
+      "reviewStatus": "research-template",
+      "source": "https://ignca.gov.in/coilnet/chgr0059.htm"
+    },
+    {
+      "id": "oraon-kurukh-customary",
+      "name": "Oraon / Kurukh customary",
+      "faith": "Customary / Indigenous",
+      "regions": [
+        "Jharkhand, Chhattisgarh, Odisha"
+      ],
+      "ceremonyIds": [
+        "oraon-kurukh-customary-1-families-agreement",
+        "oraon-kurukh-customary-2-community-preparations",
+        "oraon-kurukh-customary-1-procession-and-community-dancing",
+        "oraon-kurukh-customary-2-community-wedding-rites",
+        "oraon-kurukh-customary-3-sindoor-rite-where-practiced",
+        "oraon-kurukh-customary-1-community-feast-and-welcome"
+      ],
+      "reviewStatus": "research-template",
+      "source": "https://www.trijharkhand.in/en/oraon"
+    },
+    {
+      "id": "khasi-customary",
+      "name": "Khasi customary",
+      "faith": "Customary / Indigenous",
+      "regions": [
+        "Meghalaya"
+      ],
+      "ceremonyIds": [
+        "khasi-customary-1-family-and-clan-consultation",
+        "khasi-customary-2-community-specific-betrothal",
+        "khasi-customary-1-pynhiarsynjat-or-other-ceremony-specific-practice-varies",
+        "khasi-customary-1-community-meal",
+        "khasi-customary-2-family-gathering"
+      ],
+      "reviewStatus": "research-template",
+      "source": "https://www.megartsculture.gov.in/herit-volI.html"
+    },
+    {
+      "id": "meitei-hindu-sanamahi",
+      "name": "Meitei Hindu / Sanamahi",
+      "faith": "Hindu / Sanamahi",
+      "regions": [
+        "Manipur"
+      ],
+      "ceremonyIds": [
+        "meitei-hindu-sanamahi-1-hainaba",
+        "meitei-hindu-sanamahi-2-yathang-thanaba",
+        "meitei-hindu-sanamahi-3-heijingpot",
+        "meitei-hindu-sanamahi-1-luhongba",
+        "meitei-hindu-sanamahi-2-lei-chaiba-practice-differs-by-tradition",
+        "meitei-hindu-sanamahi-1-chakouba-where-practiced",
+        "meitei-hindu-sanamahi-2-family-welcome"
+      ],
+      "reviewStatus": "research-template",
+      "source": "https://tijer.org/tijer/viewpaperforall.php?paper=TIJER2608075"
+    },
+    {
+      "id": "tripuri-customary",
+      "name": "Tripuri customary",
+      "faith": "Customary / Indigenous",
+      "regions": [
+        "Tripura"
+      ],
+      "ceremonyIds": [
+        "tripuri-customary-1-family-negotiation",
+        "tripuri-customary-2-community-preparations",
+        "tripuri-customary-1-wathop-worship-some-traditions",
+        "tripuri-customary-2-bedi-and-chanduwa-cloth",
+        "tripuri-customary-3-traditional-marriage-rites",
+        "tripuri-customary-1-community-feast",
+        "tripuri-customary-2-family-welcome"
+      ],
+      "reviewStatus": "research-template",
+      "source": "https://ijcrt.org/viewfull.php?p_id=IJCRT2603279"
+    },
+    {
+      "id": "sherpa-sikkim",
+      "name": "Sherpa / Sikkim",
+      "faith": "Buddhist / community",
+      "regions": [
+        "Sikkim and Himalayas"
+      ],
+      "ceremonyIds": [
+        "sherpa-sikkim-1-longchhag",
+        "sherpa-sikkim-2-thichhang",
+        "sherpa-sikkim-3-pechang",
+        "sherpa-sikkim-4-demchhang",
+        "sherpa-sikkim-1-zendi-or-chhangdu",
+        "sherpa-sikkim-2-ngagpa-blessing-or-proclamation",
+        "sherpa-sikkim-1-community-feast",
+        "sherpa-sikkim-2-family-visit"
+      ],
+      "reviewStatus": "research-template",
+      "source": "https://trisikkim.org/en/tribes/sherpa-tribe"
+    },
+    {
+      "id": "neo-buddhist-buddhist-indian",
+      "name": "Neo-Buddhist / Buddhist - Indian",
+      "faith": "Buddhist",
+      "regions": [
+        "Maharashtra and other states"
+      ],
+      "ceremonyIds": [
+        "neo-buddhist-buddhist-indian-1-family-engagement-optional",
+        "neo-buddhist-buddhist-indian-2-ceremony-arrangements",
+        "neo-buddhist-buddhist-indian-1-buddha-vandana-or-homage",
+        "neo-buddhist-buddhist-indian-2-panchsheel-and-couple-s-vows-when-chosen",
+        "neo-buddhist-buddhist-indian-3-witnesses-and-marriage-formalities",
+        "neo-buddhist-buddhist-indian-1-family-blessing",
+        "neo-buddhist-buddhist-indian-2-reception"
+      ],
+      "reviewStatus": "research-template",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions"
+    }
+  ],
+  "ceremonies": [
+    {
+      "id": "north-indian-hindu-1-roka-or-engagement",
+      "traditionId": "north-indian-hindu",
+      "name": "Roka or engagement",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Gift trays",
+        "sweets",
+        "clothing",
+        "invitations",
+        "decor (where appropriate)"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A2:J2"
+    },
+    {
+      "id": "north-indian-hindu-2-mehendi",
+      "traditionId": "north-indian-hindu",
+      "name": "Mehendi",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Verified henna",
+        "artists",
+        "cushions",
+        "gift trays",
+        "guest favors"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A3:J3"
+    },
+    {
+      "id": "north-indian-hindu-3-haldi",
+      "traditionId": "north-indian-hindu",
+      "name": "Haldi",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Turmeric/halad kit",
+        "vessels",
+        "floral accessories",
+        "outfit",
+        "backdrop"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A4:J4"
+    },
+    {
+      "id": "north-indian-hindu-4-sangeet",
+      "traditionId": "north-indian-hindu",
+      "name": "Sangeet",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Music/event service",
+        "decor",
+        "dance accessories",
+        "personalized gifts"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A5:J5"
+    },
+    {
+      "id": "north-indian-hindu-1-baraat",
+      "traditionId": "north-indian-hindu",
+      "name": "Baraat",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A6:J6"
+    },
+    {
+      "id": "north-indian-hindu-2-milni-or-welcome",
+      "traditionId": "north-indian-hindu",
+      "name": "Milni or welcome",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Welcome decor",
+        "housewarming items",
+        "sweets",
+        "gift hamper"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A7:J7"
+    },
+    {
+      "id": "north-indian-hindu-3-varmala",
+      "traditionId": "north-indian-hindu",
+      "name": "Varmala",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Fresh or artificial garlands",
+        "venue delivery"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A8:J8"
+    },
+    {
+      "id": "north-indian-hindu-4-ganesh-puja",
+      "traditionId": "north-indian-hindu",
+      "name": "Ganesh puja",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A9:J9"
+    },
+    {
+      "id": "north-indian-hindu-5-kanyadaan-or-alternative-family-blessing",
+      "traditionId": "north-indian-hindu",
+      "name": "Kanyadaan or alternative family blessing",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Optional / confirm",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A10:J10"
+    },
+    {
+      "id": "north-indian-hindu-6-havan-or-pheras",
+      "traditionId": "north-indian-hindu",
+      "name": "Havan or pheras",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A11:J11"
+    },
+    {
+      "id": "north-indian-hindu-7-saptapadi",
+      "traditionId": "north-indian-hindu",
+      "name": "Saptapadi",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A12:J12"
+    },
+    {
+      "id": "north-indian-hindu-8-sindoor-and-or-mangalsutra",
+      "traditionId": "north-indian-hindu",
+      "name": "Sindoor and/or mangalsutra",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Community-selected jewelry",
+        "certified vendors",
+        "sizing and proof"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A13:J13"
+    },
+    {
+      "id": "north-indian-hindu-1-vidaai",
+      "traditionId": "north-indian-hindu",
+      "name": "Vidaai",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Farewell gift boxes",
+        "car decor",
+        "photo gifts"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A14:J14"
+    },
+    {
+      "id": "north-indian-hindu-2-grihapravesh",
+      "traditionId": "north-indian-hindu",
+      "name": "Grihapravesh",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Welcome decor",
+        "housewarming items",
+        "sweets",
+        "gift hamper"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A15:J15"
+    },
+    {
+      "id": "north-indian-hindu-3-reception",
+      "traditionId": "north-indian-hindu",
+      "name": "Reception",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Reception favors",
+        "guest hampers",
+        "table decor",
+        "signage",
+        "catering enquiry"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A16:J16"
+    },
+    {
+      "id": "marathi-hindu-1-sakharpuda",
+      "traditionId": "marathi-hindu",
+      "name": "Sakharpuda",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Gift trays",
+        "sweets",
+        "clothing",
+        "invitations",
+        "decor (where appropriate)"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/maharashtrian-wedding--c754",
+      "sourceRange": "Ceremony Catalogue!A17:J17"
+    },
+    {
+      "id": "marathi-hindu-2-muhurt-karane",
+      "traditionId": "marathi-hindu",
+      "name": "Muhurt Karane",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/maharashtrian-wedding--c754",
+      "sourceRange": "Ceremony Catalogue!A18:J18"
+    },
+    {
+      "id": "marathi-hindu-3-kelvan",
+      "traditionId": "marathi-hindu",
+      "name": "Kelvan",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/maharashtrian-wedding--c754",
+      "sourceRange": "Ceremony Catalogue!A19:J19"
+    },
+    {
+      "id": "marathi-hindu-4-halad-chadavane",
+      "traditionId": "marathi-hindu",
+      "name": "Halad Chadavane",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Turmeric/halad kit",
+        "vessels",
+        "floral accessories",
+        "outfit",
+        "backdrop"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/maharashtrian-wedding--c754",
+      "sourceRange": "Ceremony Catalogue!A20:J20"
+    },
+    {
+      "id": "marathi-hindu-1-simant-puja",
+      "traditionId": "marathi-hindu",
+      "name": "Simant Puja",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/maharashtrian-wedding--c754",
+      "sourceRange": "Ceremony Catalogue!A21:J21"
+    },
+    {
+      "id": "marathi-hindu-2-gaurihar-puja",
+      "traditionId": "marathi-hindu",
+      "name": "Gaurihar Puja",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/maharashtrian-wedding--c754",
+      "sourceRange": "Ceremony Catalogue!A22:J22"
+    },
+    {
+      "id": "marathi-hindu-3-antarpat",
+      "traditionId": "marathi-hindu",
+      "name": "Antarpat",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Antarpat cloth",
+        "garment accessories",
+        "floral decor"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/maharashtrian-wedding--c754",
+      "sourceRange": "Ceremony Catalogue!A23:J23"
+    },
+    {
+      "id": "marathi-hindu-4-mangalashtak-and-akshata",
+      "traditionId": "marathi-hindu",
+      "name": "Mangalashtak and Akshata",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/maharashtrian-wedding--c754",
+      "sourceRange": "Ceremony Catalogue!A24:J24"
+    },
+    {
+      "id": "marathi-hindu-5-varmala",
+      "traditionId": "marathi-hindu",
+      "name": "Varmala",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Fresh or artificial garlands",
+        "venue delivery"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/maharashtrian-wedding--c754",
+      "sourceRange": "Ceremony Catalogue!A25:J25"
+    },
+    {
+      "id": "marathi-hindu-6-lajahom",
+      "traditionId": "marathi-hindu",
+      "name": "Lajahom",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/maharashtrian-wedding--c754",
+      "sourceRange": "Ceremony Catalogue!A26:J26"
+    },
+    {
+      "id": "marathi-hindu-7-saptapadi",
+      "traditionId": "marathi-hindu",
+      "name": "Saptapadi",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/maharashtrian-wedding--c754",
+      "sourceRange": "Ceremony Catalogue!A27:J27"
+    },
+    {
+      "id": "marathi-hindu-8-mangalsutra",
+      "traditionId": "marathi-hindu",
+      "name": "Mangalsutra",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Community-selected jewelry",
+        "certified vendors",
+        "sizing and proof"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/maharashtrian-wedding--c754",
+      "sourceRange": "Ceremony Catalogue!A28:J28"
+    },
+    {
+      "id": "marathi-hindu-1-rukhwat-display",
+      "traditionId": "marathi-hindu",
+      "name": "Rukhwat display",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Customary gift/display trays",
+        "textiles",
+        "gift wrap",
+        "local products"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/maharashtrian-wedding--c754",
+      "sourceRange": "Ceremony Catalogue!A29:J29"
+    },
+    {
+      "id": "marathi-hindu-2-grihapravesh",
+      "traditionId": "marathi-hindu",
+      "name": "Grihapravesh",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Welcome decor",
+        "housewarming items",
+        "sweets",
+        "gift hamper"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/maharashtrian-wedding--c754",
+      "sourceRange": "Ceremony Catalogue!A30:J30"
+    },
+    {
+      "id": "marathi-hindu-3-reception",
+      "traditionId": "marathi-hindu",
+      "name": "Reception",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Reception favors",
+        "guest hampers",
+        "table decor",
+        "signage",
+        "catering enquiry"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/maharashtrian-wedding--c754",
+      "sourceRange": "Ceremony Catalogue!A31:J31"
+    },
+    {
+      "id": "gujarati-hindu-1-gol-dhana-or-engagement",
+      "traditionId": "gujarati-hindu",
+      "name": "Gol Dhana or engagement",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Gift trays",
+        "sweets",
+        "clothing",
+        "invitations",
+        "decor (where appropriate)"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/gujarati-wedding--c1225",
+      "sourceRange": "Ceremony Catalogue!A32:J32"
+    },
+    {
+      "id": "gujarati-hindu-2-mandap-muhurat",
+      "traditionId": "gujarati-hindu",
+      "name": "Mandap Muhurat",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/gujarati-wedding--c1225",
+      "sourceRange": "Ceremony Catalogue!A33:J33"
+    },
+    {
+      "id": "gujarati-hindu-3-griha-shanti",
+      "traditionId": "gujarati-hindu",
+      "name": "Griha Shanti",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Welcome decor",
+        "housewarming items",
+        "sweets",
+        "gift hamper"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/gujarati-wedding--c1225",
+      "sourceRange": "Ceremony Catalogue!A34:J34"
+    },
+    {
+      "id": "gujarati-hindu-4-pithi",
+      "traditionId": "gujarati-hindu",
+      "name": "Pithi",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Turmeric/halad kit",
+        "vessels",
+        "floral accessories",
+        "outfit",
+        "backdrop"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/gujarati-wedding--c1225",
+      "sourceRange": "Ceremony Catalogue!A35:J35"
+    },
+    {
+      "id": "gujarati-hindu-5-mehendi",
+      "traditionId": "gujarati-hindu",
+      "name": "Mehendi",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Verified henna",
+        "artists",
+        "cushions",
+        "gift trays",
+        "guest favors"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/gujarati-wedding--c1225",
+      "sourceRange": "Ceremony Catalogue!A36:J36"
+    },
+    {
+      "id": "gujarati-hindu-6-sangeet-or-garba",
+      "traditionId": "gujarati-hindu",
+      "name": "Sangeet or Garba",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Music/event service",
+        "decor",
+        "dance accessories",
+        "personalized gifts"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/gujarati-wedding--c1225",
+      "sourceRange": "Ceremony Catalogue!A37:J37"
+    },
+    {
+      "id": "gujarati-hindu-7-mameru-or-mosalu",
+      "traditionId": "gujarati-hindu",
+      "name": "Mameru or Mosalu",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Customary gift/display trays",
+        "textiles",
+        "gift wrap",
+        "local products"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/gujarati-wedding--c1225",
+      "sourceRange": "Ceremony Catalogue!A38:J38"
+    },
+    {
+      "id": "gujarati-hindu-1-jaan-or-groom-arrival",
+      "traditionId": "gujarati-hindu",
+      "name": "Jaan or groom arrival",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/gujarati-wedding--c1225",
+      "sourceRange": "Ceremony Catalogue!A39:J39"
+    },
+    {
+      "id": "gujarati-hindu-2-ponkhvu",
+      "traditionId": "gujarati-hindu",
+      "name": "Ponkhvu",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/gujarati-wedding--c1225",
+      "sourceRange": "Ceremony Catalogue!A40:J40"
+    },
+    {
+      "id": "gujarati-hindu-3-antarpat",
+      "traditionId": "gujarati-hindu",
+      "name": "Antarpat",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Antarpat cloth",
+        "garment accessories",
+        "floral decor"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/gujarati-wedding--c1225",
+      "sourceRange": "Ceremony Catalogue!A41:J41"
+    },
+    {
+      "id": "gujarati-hindu-4-hastamelap",
+      "traditionId": "gujarati-hindu",
+      "name": "Hastamelap",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/gujarati-wedding--c1225",
+      "sourceRange": "Ceremony Catalogue!A42:J42"
+    },
+    {
+      "id": "gujarati-hindu-5-mangal-pheras",
+      "traditionId": "gujarati-hindu",
+      "name": "Mangal Pheras",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/gujarati-wedding--c1225",
+      "sourceRange": "Ceremony Catalogue!A43:J43"
+    },
+    {
+      "id": "gujarati-hindu-6-saptapadi-or-family-variation",
+      "traditionId": "gujarati-hindu",
+      "name": "Saptapadi or family variation",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/gujarati-wedding--c1225",
+      "sourceRange": "Ceremony Catalogue!A44:J44"
+    },
+    {
+      "id": "gujarati-hindu-1-vidaai",
+      "traditionId": "gujarati-hindu",
+      "name": "Vidaai",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Farewell gift boxes",
+        "car decor",
+        "photo gifts"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/gujarati-wedding--c1225",
+      "sourceRange": "Ceremony Catalogue!A45:J45"
+    },
+    {
+      "id": "gujarati-hindu-2-ghar-nu-laxmi",
+      "traditionId": "gujarati-hindu",
+      "name": "Ghar Nu Laxmi",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Welcome decor",
+        "housewarming items",
+        "sweets",
+        "gift hamper"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/gujarati-wedding--c1225",
+      "sourceRange": "Ceremony Catalogue!A46:J46"
+    },
+    {
+      "id": "gujarati-hindu-3-aeki-beki",
+      "traditionId": "gujarati-hindu",
+      "name": "Aeki Beki",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Guest gifting",
+        "ceremony keepsakes",
+        "custom decor where applicable"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/gujarati-wedding--c1225",
+      "sourceRange": "Ceremony Catalogue!A47:J47"
+    },
+    {
+      "id": "gujarati-hindu-4-reception",
+      "traditionId": "gujarati-hindu",
+      "name": "Reception",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Reception favors",
+        "guest hampers",
+        "table decor",
+        "signage",
+        "catering enquiry"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/gujarati-wedding--c1225",
+      "sourceRange": "Ceremony Catalogue!A48:J48"
+    },
+    {
+      "id": "punjabi-hindu-1-roka-or-thaka",
+      "traditionId": "punjabi-hindu",
+      "name": "Roka or Thaka",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Gift trays",
+        "sweets",
+        "clothing",
+        "invitations",
+        "decor (where appropriate)"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A49:J49"
+    },
+    {
+      "id": "punjabi-hindu-2-sagai",
+      "traditionId": "punjabi-hindu",
+      "name": "Sagai",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Gift trays",
+        "sweets",
+        "clothing",
+        "invitations",
+        "decor (where appropriate)"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A50:J50"
+    },
+    {
+      "id": "punjabi-hindu-3-mehendi",
+      "traditionId": "punjabi-hindu",
+      "name": "Mehendi",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Verified henna",
+        "artists",
+        "cushions",
+        "gift trays",
+        "guest favors"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A51:J51"
+    },
+    {
+      "id": "punjabi-hindu-4-maiyan-or-vatna",
+      "traditionId": "punjabi-hindu",
+      "name": "Maiyan or Vatna",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Turmeric/halad kit",
+        "vessels",
+        "floral accessories",
+        "outfit",
+        "backdrop"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A52:J52"
+    },
+    {
+      "id": "punjabi-hindu-5-chooda",
+      "traditionId": "punjabi-hindu",
+      "name": "Chooda",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A53:J53"
+    },
+    {
+      "id": "punjabi-hindu-6-kalire",
+      "traditionId": "punjabi-hindu",
+      "name": "Kalire",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A54:J54"
+    },
+    {
+      "id": "punjabi-hindu-7-jaggo",
+      "traditionId": "punjabi-hindu",
+      "name": "Jaggo",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Music/event service",
+        "decor",
+        "dance accessories",
+        "personalized gifts"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A55:J55"
+    },
+    {
+      "id": "punjabi-hindu-8-sangeet",
+      "traditionId": "punjabi-hindu",
+      "name": "Sangeet",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Music/event service",
+        "decor",
+        "dance accessories",
+        "personalized gifts"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A56:J56"
+    },
+    {
+      "id": "punjabi-hindu-1-baraat",
+      "traditionId": "punjabi-hindu",
+      "name": "Baraat",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A57:J57"
+    },
+    {
+      "id": "punjabi-hindu-2-milni",
+      "traditionId": "punjabi-hindu",
+      "name": "Milni",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A58:J58"
+    },
+    {
+      "id": "punjabi-hindu-3-jaimala",
+      "traditionId": "punjabi-hindu",
+      "name": "Jaimala",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Fresh or artificial garlands",
+        "venue delivery"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A59:J59"
+    },
+    {
+      "id": "punjabi-hindu-4-havan",
+      "traditionId": "punjabi-hindu",
+      "name": "Havan",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A60:J60"
+    },
+    {
+      "id": "punjabi-hindu-5-pheras",
+      "traditionId": "punjabi-hindu",
+      "name": "Pheras",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A61:J61"
+    },
+    {
+      "id": "punjabi-hindu-1-doli",
+      "traditionId": "punjabi-hindu",
+      "name": "Doli",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Farewell gift boxes",
+        "car decor",
+        "photo gifts"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A62:J62"
+    },
+    {
+      "id": "punjabi-hindu-2-grihapravesh",
+      "traditionId": "punjabi-hindu",
+      "name": "Grihapravesh",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Welcome decor",
+        "housewarming items",
+        "sweets",
+        "gift hamper"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A63:J63"
+    },
+    {
+      "id": "punjabi-hindu-3-reception",
+      "traditionId": "punjabi-hindu",
+      "name": "Reception",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Reception favors",
+        "guest hampers",
+        "table decor",
+        "signage",
+        "catering enquiry"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A64:J64"
+    },
+    {
+      "id": "punjabi-sikh-1-kurmai-or-engagement",
+      "traditionId": "punjabi-sikh",
+      "name": "Kurmai or engagement",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Gift trays",
+        "sweets",
+        "clothing",
+        "invitations",
+        "decor (where appropriate)"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://sikhri.org/articles/anand-karaj-the-sikh-marriage",
+      "sourceRange": "Ceremony Catalogue!A65:J65"
+    },
+    {
+      "id": "punjabi-sikh-2-maiyan-or-vatna-if-family-chooses",
+      "traditionId": "punjabi-sikh",
+      "name": "Maiyan or Vatna (if family chooses)",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Turmeric/halad kit",
+        "vessels",
+        "floral accessories",
+        "outfit",
+        "backdrop"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://sikhri.org/articles/anand-karaj-the-sikh-marriage",
+      "sourceRange": "Ceremony Catalogue!A66:J66"
+    },
+    {
+      "id": "punjabi-sikh-3-mehendi-optional",
+      "traditionId": "punjabi-sikh",
+      "name": "Mehendi (optional)",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Verified henna",
+        "artists",
+        "cushions",
+        "gift trays",
+        "guest favors"
+      ],
+      "reviewRule": "Optional / confirm",
+      "source": "https://sikhri.org/articles/anand-karaj-the-sikh-marriage",
+      "sourceRange": "Ceremony Catalogue!A67:J67"
+    },
+    {
+      "id": "punjabi-sikh-4-chooda-and-kalire-optional",
+      "traditionId": "punjabi-sikh",
+      "name": "Chooda and Kalire (optional)",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Optional / confirm",
+      "source": "https://sikhri.org/articles/anand-karaj-the-sikh-marriage",
+      "sourceRange": "Ceremony Catalogue!A68:J68"
+    },
+    {
+      "id": "punjabi-sikh-5-jaggo-optional",
+      "traditionId": "punjabi-sikh",
+      "name": "Jaggo (optional)",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Music/event service",
+        "decor",
+        "dance accessories",
+        "personalized gifts"
+      ],
+      "reviewRule": "Optional / confirm",
+      "source": "https://sikhri.org/articles/anand-karaj-the-sikh-marriage",
+      "sourceRange": "Ceremony Catalogue!A69:J69"
+    },
+    {
+      "id": "punjabi-sikh-1-milni-optional-cultural",
+      "traditionId": "punjabi-sikh",
+      "name": "Milni (optional cultural)",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Optional / confirm",
+      "source": "https://sikhri.org/articles/anand-karaj-the-sikh-marriage",
+      "sourceRange": "Ceremony Catalogue!A70:J70"
+    },
+    {
+      "id": "punjabi-sikh-2-anand-karaj-and-four-laavan",
+      "traditionId": "punjabi-sikh",
+      "name": "Anand Karaj and four Laavan",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Guest communication",
+        "family gifts",
+        "gurdwara-approved accessories only"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://sikhri.org/articles/anand-karaj-the-sikh-marriage",
+      "sourceRange": "Ceremony Catalogue!A71:J71"
+    },
+    {
+      "id": "punjabi-sikh-3-ardas",
+      "traditionId": "punjabi-sikh",
+      "name": "Ardas",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Guest communication",
+        "family gifts",
+        "gurdwara-approved accessories only"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://sikhri.org/articles/anand-karaj-the-sikh-marriage",
+      "sourceRange": "Ceremony Catalogue!A72:J72"
+    },
+    {
+      "id": "punjabi-sikh-4-karah-prasad",
+      "traditionId": "punjabi-sikh",
+      "name": "Karah Prasad",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Guest communication",
+        "family gifts",
+        "gurdwara-approved accessories only"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://sikhri.org/articles/anand-karaj-the-sikh-marriage",
+      "sourceRange": "Ceremony Catalogue!A73:J73"
+    },
+    {
+      "id": "punjabi-sikh-1-doli-optional-cultural",
+      "traditionId": "punjabi-sikh",
+      "name": "Doli (optional cultural)",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Farewell gift boxes",
+        "car decor",
+        "photo gifts"
+      ],
+      "reviewRule": "Optional / confirm",
+      "source": "https://sikhri.org/articles/anand-karaj-the-sikh-marriage",
+      "sourceRange": "Ceremony Catalogue!A74:J74"
+    },
+    {
+      "id": "punjabi-sikh-2-reception",
+      "traditionId": "punjabi-sikh",
+      "name": "Reception",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Reception favors",
+        "guest hampers",
+        "table decor",
+        "signage",
+        "catering enquiry"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://sikhri.org/articles/anand-karaj-the-sikh-marriage",
+      "sourceRange": "Ceremony Catalogue!A75:J75"
+    },
+    {
+      "id": "bengali-hindu-1-aashirbaad",
+      "traditionId": "bengali-hindu",
+      "name": "Aashirbaad",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Gift trays",
+        "sweets",
+        "clothing",
+        "invitations",
+        "decor (where appropriate)"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/bengali-wedding",
+      "sourceRange": "Ceremony Catalogue!A76:J76"
+    },
+    {
+      "id": "bengali-hindu-2-aiburobhaat",
+      "traditionId": "bengali-hindu",
+      "name": "Aiburobhaat",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Gift trays",
+        "sweets",
+        "clothing",
+        "invitations",
+        "decor (where appropriate)"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/bengali-wedding",
+      "sourceRange": "Ceremony Catalogue!A77:J77"
+    },
+    {
+      "id": "bengali-hindu-3-gaye-holud",
+      "traditionId": "bengali-hindu",
+      "name": "Gaye Holud",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Turmeric/halad kit",
+        "vessels",
+        "floral accessories",
+        "outfit",
+        "backdrop"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/bengali-wedding",
+      "sourceRange": "Ceremony Catalogue!A78:J78"
+    },
+    {
+      "id": "bengali-hindu-4-vridhi-puja",
+      "traditionId": "bengali-hindu",
+      "name": "Vridhi Puja",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/bengali-wedding",
+      "sourceRange": "Ceremony Catalogue!A79:J79"
+    },
+    {
+      "id": "bengali-hindu-1-bor-jatri-and-bor-boron",
+      "traditionId": "bengali-hindu",
+      "name": "Bor Jatri and Bor Boron",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/bengali-wedding",
+      "sourceRange": "Ceremony Catalogue!A80:J80"
+    },
+    {
+      "id": "bengali-hindu-2-saat-paak",
+      "traditionId": "bengali-hindu",
+      "name": "Saat Paak",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/bengali-wedding",
+      "sourceRange": "Ceremony Catalogue!A81:J81"
+    },
+    {
+      "id": "bengali-hindu-3-shubho-drishti",
+      "traditionId": "bengali-hindu",
+      "name": "Shubho Drishti",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/bengali-wedding",
+      "sourceRange": "Ceremony Catalogue!A82:J82"
+    },
+    {
+      "id": "bengali-hindu-4-mala-bodol",
+      "traditionId": "bengali-hindu",
+      "name": "Mala Bodol",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Fresh or artificial garlands",
+        "venue delivery"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/bengali-wedding",
+      "sourceRange": "Ceremony Catalogue!A83:J83"
+    },
+    {
+      "id": "bengali-hindu-5-sampradan-where-practiced",
+      "traditionId": "bengali-hindu",
+      "name": "Sampradan (where practiced)",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Optional / confirm",
+      "source": "https://www.theknot.com/content/bengali-wedding",
+      "sourceRange": "Ceremony Catalogue!A84:J84"
+    },
+    {
+      "id": "bengali-hindu-6-anjali",
+      "traditionId": "bengali-hindu",
+      "name": "Anjali",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/bengali-wedding",
+      "sourceRange": "Ceremony Catalogue!A85:J85"
+    },
+    {
+      "id": "bengali-hindu-7-sindoor-daan",
+      "traditionId": "bengali-hindu",
+      "name": "Sindoor Daan",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/bengali-wedding",
+      "sourceRange": "Ceremony Catalogue!A86:J86"
+    },
+    {
+      "id": "bengali-hindu-1-bidaay",
+      "traditionId": "bengali-hindu",
+      "name": "Bidaay",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Guest gifting",
+        "ceremony keepsakes",
+        "custom decor where applicable"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/bengali-wedding",
+      "sourceRange": "Ceremony Catalogue!A87:J87"
+    },
+    {
+      "id": "bengali-hindu-2-kaal-ratri",
+      "traditionId": "bengali-hindu",
+      "name": "Kaal Ratri",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Guest gifting",
+        "ceremony keepsakes",
+        "custom decor where applicable"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/bengali-wedding",
+      "sourceRange": "Ceremony Catalogue!A88:J88"
+    },
+    {
+      "id": "bengali-hindu-3-bou-bhaat",
+      "traditionId": "bengali-hindu",
+      "name": "Bou Bhaat",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Reception favors",
+        "guest hampers",
+        "table decor",
+        "signage",
+        "catering enquiry"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/bengali-wedding",
+      "sourceRange": "Ceremony Catalogue!A89:J89"
+    },
+    {
+      "id": "bengali-hindu-4-phool-shojja",
+      "traditionId": "bengali-hindu",
+      "name": "Phool Shojja",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Guest gifting",
+        "ceremony keepsakes",
+        "custom decor where applicable"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/bengali-wedding",
+      "sourceRange": "Ceremony Catalogue!A90:J90"
+    },
+    {
+      "id": "tamil-iyer-iyengar-hindu-1-nichayathartham",
+      "traditionId": "tamil-iyer-iyengar-hindu",
+      "name": "Nichayathartham",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Gift trays",
+        "sweets",
+        "clothing",
+        "invitations",
+        "decor (where appropriate)"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/tamil-marriage--c6381",
+      "sourceRange": "Ceremony Catalogue!A91:J91"
+    },
+    {
+      "id": "tamil-iyer-iyengar-hindu-2-panda-kaal-muhurtham",
+      "traditionId": "tamil-iyer-iyengar-hindu",
+      "name": "Panda Kaal Muhurtham",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/tamil-marriage--c6381",
+      "sourceRange": "Ceremony Catalogue!A92:J92"
+    },
+    {
+      "id": "tamil-iyer-iyengar-hindu-3-vratham",
+      "traditionId": "tamil-iyer-iyengar-hindu",
+      "name": "Vratham",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/tamil-marriage--c6381",
+      "sourceRange": "Ceremony Catalogue!A93:J93"
+    },
+    {
+      "id": "tamil-iyer-iyengar-hindu-4-janavasam",
+      "traditionId": "tamil-iyer-iyengar-hindu",
+      "name": "Janavasam",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/tamil-marriage--c6381",
+      "sourceRange": "Ceremony Catalogue!A94:J94"
+    },
+    {
+      "id": "tamil-iyer-iyengar-hindu-5-nalangu",
+      "traditionId": "tamil-iyer-iyengar-hindu",
+      "name": "Nalangu",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/tamil-marriage--c6381",
+      "sourceRange": "Ceremony Catalogue!A95:J95"
+    },
+    {
+      "id": "tamil-iyer-iyengar-hindu-1-kashi-yatra",
+      "traditionId": "tamil-iyer-iyengar-hindu",
+      "name": "Kashi Yatra",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Umbrella",
+        "walking stick",
+        "garment props",
+        "ceremony info"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/tamil-marriage--c6381",
+      "sourceRange": "Ceremony Catalogue!A96:J96"
+    },
+    {
+      "id": "tamil-iyer-iyengar-hindu-2-maalai-maatral",
+      "traditionId": "tamil-iyer-iyengar-hindu",
+      "name": "Maalai Maatral",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Fresh or artificial garlands",
+        "venue delivery"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/tamil-marriage--c6381",
+      "sourceRange": "Ceremony Catalogue!A97:J97"
+    },
+    {
+      "id": "tamil-iyer-iyengar-hindu-3-oonjal",
+      "traditionId": "tamil-iyer-iyengar-hindu",
+      "name": "Oonjal",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Swing hire/accessories",
+        "flowers",
+        "cushions",
+        "ceremony trays"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/tamil-marriage--c6381",
+      "sourceRange": "Ceremony Catalogue!A98:J98"
+    },
+    {
+      "id": "tamil-iyer-iyengar-hindu-4-kanyadanam",
+      "traditionId": "tamil-iyer-iyengar-hindu",
+      "name": "Kanyadanam",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/tamil-marriage--c6381",
+      "sourceRange": "Ceremony Catalogue!A99:J99"
+    },
+    {
+      "id": "tamil-iyer-iyengar-hindu-5-mangalya-dharanam",
+      "traditionId": "tamil-iyer-iyengar-hindu",
+      "name": "Mangalya Dharanam",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Community-selected jewelry",
+        "certified vendors",
+        "sizing and proof"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/tamil-marriage--c6381",
+      "sourceRange": "Ceremony Catalogue!A100:J100"
+    },
+    {
+      "id": "tamil-iyer-iyengar-hindu-6-saptapadi",
+      "traditionId": "tamil-iyer-iyengar-hindu",
+      "name": "Saptapadi",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/tamil-marriage--c6381",
+      "sourceRange": "Ceremony Catalogue!A101:J101"
+    },
+    {
+      "id": "tamil-iyer-iyengar-hindu-1-nalangu-games",
+      "traditionId": "tamil-iyer-iyengar-hindu",
+      "name": "Nalangu games",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Guest gifting",
+        "ceremony keepsakes",
+        "custom decor where applicable"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/tamil-marriage--c6381",
+      "sourceRange": "Ceremony Catalogue!A102:J102"
+    },
+    {
+      "id": "tamil-iyer-iyengar-hindu-2-reception",
+      "traditionId": "tamil-iyer-iyengar-hindu",
+      "name": "Reception",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Reception favors",
+        "guest hampers",
+        "table decor",
+        "signage",
+        "catering enquiry"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/tamil-marriage--c6381",
+      "sourceRange": "Ceremony Catalogue!A103:J103"
+    },
+    {
+      "id": "tamil-chettiar-1-nichayathartham",
+      "traditionId": "tamil-chettiar",
+      "name": "Nichayathartham",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Gift trays",
+        "sweets",
+        "clothing",
+        "invitations",
+        "decor (where appropriate)"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/south-indian-wedding-traditions--c734",
+      "sourceRange": "Ceremony Catalogue!A104:J104"
+    },
+    {
+      "id": "tamil-chettiar-2-padaipu",
+      "traditionId": "tamil-chettiar",
+      "name": "Padaipu",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/south-indian-wedding-traditions--c734",
+      "sourceRange": "Ceremony Catalogue!A105:J105"
+    },
+    {
+      "id": "tamil-chettiar-3-arasanikkal",
+      "traditionId": "tamil-chettiar",
+      "name": "Arasanikkal",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/south-indian-wedding-traditions--c734",
+      "sourceRange": "Ceremony Catalogue!A106:J106"
+    },
+    {
+      "id": "tamil-chettiar-4-pooram-kazhitha",
+      "traditionId": "tamil-chettiar",
+      "name": "Pooram Kazhitha",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/south-indian-wedding-traditions--c734",
+      "sourceRange": "Ceremony Catalogue!A107:J107"
+    },
+    {
+      "id": "tamil-chettiar-1-ganesh-puja",
+      "traditionId": "tamil-chettiar",
+      "name": "Ganesh Puja",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/south-indian-wedding-traditions--c734",
+      "sourceRange": "Ceremony Catalogue!A108:J108"
+    },
+    {
+      "id": "tamil-chettiar-2-mangalya-dharanam",
+      "traditionId": "tamil-chettiar",
+      "name": "Mangalya Dharanam",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Community-selected jewelry",
+        "certified vendors",
+        "sizing and proof"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/south-indian-wedding-traditions--c734",
+      "sourceRange": "Ceremony Catalogue!A109:J109"
+    },
+    {
+      "id": "tamil-chettiar-3-community-specific-wedding-rites",
+      "traditionId": "tamil-chettiar",
+      "name": "Community-specific wedding rites",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/south-indian-wedding-traditions--c734",
+      "sourceRange": "Ceremony Catalogue!A110:J110"
+    },
+    {
+      "id": "tamil-chettiar-1-padapuja",
+      "traditionId": "tamil-chettiar",
+      "name": "Padapuja",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Guest gifting",
+        "ceremony keepsakes",
+        "custom decor where applicable"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/south-indian-wedding-traditions--c734",
+      "sourceRange": "Ceremony Catalogue!A111:J111"
+    },
+    {
+      "id": "tamil-chettiar-2-family-blessing",
+      "traditionId": "tamil-chettiar",
+      "name": "Family blessing",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Guest gifting",
+        "ceremony keepsakes",
+        "custom decor where applicable"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/south-indian-wedding-traditions--c734",
+      "sourceRange": "Ceremony Catalogue!A112:J112"
+    },
+    {
+      "id": "tamil-chettiar-3-feast",
+      "traditionId": "tamil-chettiar",
+      "name": "Feast",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Reception favors",
+        "guest hampers",
+        "table decor",
+        "signage",
+        "catering enquiry"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/south-indian-wedding-traditions--c734",
+      "sourceRange": "Ceremony Catalogue!A113:J113"
+    },
+    {
+      "id": "telugu-hindu-1-nishchitartham",
+      "traditionId": "telugu-hindu",
+      "name": "Nishchitartham",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/telugu-marriage--c4539",
+      "sourceRange": "Ceremony Catalogue!A114:J114"
+    },
+    {
+      "id": "telugu-hindu-2-pellikuthuru-or-pellikoduku",
+      "traditionId": "telugu-hindu",
+      "name": "Pellikuthuru or Pellikoduku",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/telugu-marriage--c4539",
+      "sourceRange": "Ceremony Catalogue!A115:J115"
+    },
+    {
+      "id": "telugu-hindu-3-mangala-snanam",
+      "traditionId": "telugu-hindu",
+      "name": "Mangala Snanam",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/telugu-marriage--c4539",
+      "sourceRange": "Ceremony Catalogue!A116:J116"
+    },
+    {
+      "id": "telugu-hindu-4-snathakam",
+      "traditionId": "telugu-hindu",
+      "name": "Snathakam",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/telugu-marriage--c4539",
+      "sourceRange": "Ceremony Catalogue!A117:J117"
+    },
+    {
+      "id": "telugu-hindu-1-kashi-yatra-some-communities",
+      "traditionId": "telugu-hindu",
+      "name": "Kashi Yatra (some communities)",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Umbrella",
+        "walking stick",
+        "garment props",
+        "ceremony info"
+      ],
+      "reviewRule": "Optional / confirm",
+      "source": "https://www.weddingwire.in/wedding-tips/telugu-marriage--c4539",
+      "sourceRange": "Ceremony Catalogue!A118:J118"
+    },
+    {
+      "id": "telugu-hindu-2-kanyadanam",
+      "traditionId": "telugu-hindu",
+      "name": "Kanyadanam",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/telugu-marriage--c4539",
+      "sourceRange": "Ceremony Catalogue!A119:J119"
+    },
+    {
+      "id": "telugu-hindu-3-jeelakarra-bellam",
+      "traditionId": "telugu-hindu",
+      "name": "Jeelakarra Bellam",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Cumin and jaggery",
+        "vessels and leaves, as approved by family"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/telugu-marriage--c4539",
+      "sourceRange": "Ceremony Catalogue!A120:J120"
+    },
+    {
+      "id": "telugu-hindu-4-mangalsutra",
+      "traditionId": "telugu-hindu",
+      "name": "Mangalsutra",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Community-selected jewelry",
+        "certified vendors",
+        "sizing and proof"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/telugu-marriage--c4539",
+      "sourceRange": "Ceremony Catalogue!A121:J121"
+    },
+    {
+      "id": "telugu-hindu-5-talambralu",
+      "traditionId": "telugu-hindu",
+      "name": "Talambralu",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Rice",
+        "vessels",
+        "personalized trays, as approved by family"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/telugu-marriage--c4539",
+      "sourceRange": "Ceremony Catalogue!A122:J122"
+    },
+    {
+      "id": "telugu-hindu-6-saptapadi",
+      "traditionId": "telugu-hindu",
+      "name": "Saptapadi",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/telugu-marriage--c4539",
+      "sourceRange": "Ceremony Catalogue!A123:J123"
+    },
+    {
+      "id": "telugu-hindu-7-arundhati-nakshatram",
+      "traditionId": "telugu-hindu",
+      "name": "Arundhati Nakshatram",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/telugu-marriage--c4539",
+      "sourceRange": "Ceremony Catalogue!A124:J124"
+    },
+    {
+      "id": "telugu-hindu-1-appagintalu",
+      "traditionId": "telugu-hindu",
+      "name": "Appagintalu",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Farewell gift boxes",
+        "car decor",
+        "photo gifts"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/telugu-marriage--c4539",
+      "sourceRange": "Ceremony Catalogue!A125:J125"
+    },
+    {
+      "id": "telugu-hindu-2-grihapravesham",
+      "traditionId": "telugu-hindu",
+      "name": "Grihapravesham",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Welcome decor",
+        "housewarming items",
+        "sweets",
+        "gift hamper"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/telugu-marriage--c4539",
+      "sourceRange": "Ceremony Catalogue!A126:J126"
+    },
+    {
+      "id": "telugu-hindu-3-reception",
+      "traditionId": "telugu-hindu",
+      "name": "Reception",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Reception favors",
+        "guest hampers",
+        "table decor",
+        "signage",
+        "catering enquiry"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/telugu-marriage--c4539",
+      "sourceRange": "Ceremony Catalogue!A127:J127"
+    },
+    {
+      "id": "kannada-hindu-1-nischaya-tamulam",
+      "traditionId": "kannada-hindu",
+      "name": "Nischaya Tamulam",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/south-indian-wedding-traditions--c734",
+      "sourceRange": "Ceremony Catalogue!A128:J128"
+    },
+    {
+      "id": "kannada-hindu-2-nandi-puja",
+      "traditionId": "kannada-hindu",
+      "name": "Nandi Puja",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/south-indian-wedding-traditions--c734",
+      "sourceRange": "Ceremony Catalogue!A129:J129"
+    },
+    {
+      "id": "kannada-hindu-3-bale-shastra",
+      "traditionId": "kannada-hindu",
+      "name": "Bale Shastra",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/south-indian-wedding-traditions--c734",
+      "sourceRange": "Ceremony Catalogue!A130:J130"
+    },
+    {
+      "id": "kannada-hindu-4-dev-karya",
+      "traditionId": "kannada-hindu",
+      "name": "Dev Karya",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/south-indian-wedding-traditions--c734",
+      "sourceRange": "Ceremony Catalogue!A131:J131"
+    },
+    {
+      "id": "kannada-hindu-1-kashi-yatra-some-communities",
+      "traditionId": "kannada-hindu",
+      "name": "Kashi Yatra (some communities)",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Umbrella",
+        "walking stick",
+        "garment props",
+        "ceremony info"
+      ],
+      "reviewRule": "Optional / confirm",
+      "source": "https://www.weddingwire.in/wedding-tips/south-indian-wedding-traditions--c734",
+      "sourceRange": "Ceremony Catalogue!A132:J132"
+    },
+    {
+      "id": "kannada-hindu-2-vara-puja",
+      "traditionId": "kannada-hindu",
+      "name": "Vara Puja",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/south-indian-wedding-traditions--c734",
+      "sourceRange": "Ceremony Catalogue!A133:J133"
+    },
+    {
+      "id": "kannada-hindu-3-dhare-herdu",
+      "traditionId": "kannada-hindu",
+      "name": "Dhare Herdu",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/south-indian-wedding-traditions--c734",
+      "sourceRange": "Ceremony Catalogue!A134:J134"
+    },
+    {
+      "id": "kannada-hindu-4-mangalya-dharane",
+      "traditionId": "kannada-hindu",
+      "name": "Mangalya Dharane",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Community-selected jewelry",
+        "certified vendors",
+        "sizing and proof"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/south-indian-wedding-traditions--c734",
+      "sourceRange": "Ceremony Catalogue!A135:J135"
+    },
+    {
+      "id": "kannada-hindu-5-saptapadi",
+      "traditionId": "kannada-hindu",
+      "name": "Saptapadi",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/south-indian-wedding-traditions--c734",
+      "sourceRange": "Ceremony Catalogue!A136:J136"
+    },
+    {
+      "id": "kannada-hindu-1-grihapravesha",
+      "traditionId": "kannada-hindu",
+      "name": "Grihapravesha",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Welcome decor",
+        "housewarming items",
+        "sweets",
+        "gift hamper"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/south-indian-wedding-traditions--c734",
+      "sourceRange": "Ceremony Catalogue!A137:J137"
+    },
+    {
+      "id": "kannada-hindu-2-reception",
+      "traditionId": "kannada-hindu",
+      "name": "Reception",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Reception favors",
+        "guest hampers",
+        "table decor",
+        "signage",
+        "catering enquiry"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/south-indian-wedding-traditions--c734",
+      "sourceRange": "Ceremony Catalogue!A138:J138"
+    },
+    {
+      "id": "kodava-1-oor-kooduvo",
+      "traditionId": "kodava",
+      "name": "Oor Kooduvo",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.ndtv.com/lifestyle/vijay-deverakonda-and-rashmika-mandannas-udaipur-wedding-how-are-telugu-and-kodava-rituals-different-11138537",
+      "sourceRange": "Ceremony Catalogue!A139:J139"
+    },
+    {
+      "id": "kodava-2-community-gathering",
+      "traditionId": "kodava",
+      "name": "Community gathering",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.ndtv.com/lifestyle/vijay-deverakonda-and-rashmika-mandannas-udaipur-wedding-how-are-telugu-and-kodava-rituals-different-11138537",
+      "sourceRange": "Ceremony Catalogue!A140:J140"
+    },
+    {
+      "id": "kodava-1-mangala-or-muhurtham",
+      "traditionId": "kodava",
+      "name": "Mangala or Muhurtham",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.ndtv.com/lifestyle/vijay-deverakonda-and-rashmika-mandannas-udaipur-wedding-how-are-telugu-and-kodava-rituals-different-11138537",
+      "sourceRange": "Ceremony Catalogue!A141:J141"
+    },
+    {
+      "id": "kodava-2-baale-birud",
+      "traditionId": "kodava",
+      "name": "Baale Birud",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.ndtv.com/lifestyle/vijay-deverakonda-and-rashmika-mandannas-udaipur-wedding-how-are-telugu-and-kodava-rituals-different-11138537",
+      "sourceRange": "Ceremony Catalogue!A142:J142"
+    },
+    {
+      "id": "kodava-3-sammanda-kodupo",
+      "traditionId": "kodava",
+      "name": "Sammanda Kodupo",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.ndtv.com/lifestyle/vijay-deverakonda-and-rashmika-mandannas-udaipur-wedding-how-are-telugu-and-kodava-rituals-different-11138537",
+      "sourceRange": "Ceremony Catalogue!A143:J143"
+    },
+    {
+      "id": "kodava-4-pathaak",
+      "traditionId": "kodava",
+      "name": "Pathaak",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.ndtv.com/lifestyle/vijay-deverakonda-and-rashmika-mandannas-udaipur-wedding-how-are-telugu-and-kodava-rituals-different-11138537",
+      "sourceRange": "Ceremony Catalogue!A144:J144"
+    },
+    {
+      "id": "kodava-1-wedding-feast",
+      "traditionId": "kodava",
+      "name": "Wedding feast",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Reception favors",
+        "guest hampers",
+        "table decor",
+        "signage",
+        "catering enquiry"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.ndtv.com/lifestyle/vijay-deverakonda-and-rashmika-mandannas-udaipur-wedding-how-are-telugu-and-kodava-rituals-different-11138537",
+      "sourceRange": "Ceremony Catalogue!A145:J145"
+    },
+    {
+      "id": "kodava-2-family-welcome",
+      "traditionId": "kodava",
+      "name": "Family welcome",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Welcome decor",
+        "housewarming items",
+        "sweets",
+        "gift hamper"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.ndtv.com/lifestyle/vijay-deverakonda-and-rashmika-mandannas-udaipur-wedding-how-are-telugu-and-kodava-rituals-different-11138537",
+      "sourceRange": "Ceremony Catalogue!A146:J146"
+    },
+    {
+      "id": "kerala-hindu-nair-1-nischayam",
+      "traditionId": "kerala-hindu-nair",
+      "name": "Nischayam",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/south-indian-wedding-traditions--c734",
+      "sourceRange": "Ceremony Catalogue!A147:J147"
+    },
+    {
+      "id": "kerala-hindu-nair-2-prewedding-blessings-family-choice",
+      "traditionId": "kerala-hindu-nair",
+      "name": "Prewedding blessings (family choice)",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/south-indian-wedding-traditions--c734",
+      "sourceRange": "Ceremony Catalogue!A148:J148"
+    },
+    {
+      "id": "kerala-hindu-nair-1-thalikettu",
+      "traditionId": "kerala-hindu-nair",
+      "name": "Thalikettu",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Community-selected jewelry",
+        "certified vendors",
+        "sizing and proof"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/south-indian-wedding-traditions--c734",
+      "sourceRange": "Ceremony Catalogue!A149:J149"
+    },
+    {
+      "id": "kerala-hindu-nair-2-pudamuri",
+      "traditionId": "kerala-hindu-nair",
+      "name": "Pudamuri",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/south-indian-wedding-traditions--c734",
+      "sourceRange": "Ceremony Catalogue!A150:J150"
+    },
+    {
+      "id": "kerala-hindu-nair-3-garland-exchange",
+      "traditionId": "kerala-hindu-nair",
+      "name": "Garland exchange",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Fresh or artificial garlands",
+        "venue delivery"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/south-indian-wedding-traditions--c734",
+      "sourceRange": "Ceremony Catalogue!A151:J151"
+    },
+    {
+      "id": "kerala-hindu-nair-1-sadya",
+      "traditionId": "kerala-hindu-nair",
+      "name": "Sadya",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Reception favors",
+        "guest hampers",
+        "table decor",
+        "signage",
+        "catering enquiry"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/south-indian-wedding-traditions--c734",
+      "sourceRange": "Ceremony Catalogue!A152:J152"
+    },
+    {
+      "id": "kerala-hindu-nair-2-family-welcome",
+      "traditionId": "kerala-hindu-nair",
+      "name": "Family welcome",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Welcome decor",
+        "housewarming items",
+        "sweets",
+        "gift hamper"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/south-indian-wedding-traditions--c734",
+      "sourceRange": "Ceremony Catalogue!A153:J153"
+    },
+    {
+      "id": "kerala-hindu-nair-3-reception",
+      "traditionId": "kerala-hindu-nair",
+      "name": "Reception",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Reception favors",
+        "guest hampers",
+        "table decor",
+        "signage",
+        "catering enquiry"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.weddingwire.in/wedding-tips/south-indian-wedding-traditions--c734",
+      "sourceRange": "Ceremony Catalogue!A154:J154"
+    },
+    {
+      "id": "kerala-syrian-christian-1-manasammatham",
+      "traditionId": "kerala-syrian-christian",
+      "name": "Manasammatham",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Gift trays",
+        "sweets",
+        "clothing",
+        "invitations",
+        "decor (where appropriate)"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.kalyanco.com/guides/kerala-christian-wedding",
+      "sourceRange": "Ceremony Catalogue!A155:J155"
+    },
+    {
+      "id": "kerala-syrian-christian-2-madhuram-vekkal",
+      "traditionId": "kerala-syrian-christian",
+      "name": "Madhuram Vekkal",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.kalyanco.com/guides/kerala-christian-wedding",
+      "sourceRange": "Ceremony Catalogue!A156:J156"
+    },
+    {
+      "id": "kerala-syrian-christian-1-holy-mass-or-church-service",
+      "traditionId": "kerala-syrian-christian",
+      "name": "Holy Mass or church service",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.kalyanco.com/guides/kerala-christian-wedding",
+      "sourceRange": "Ceremony Catalogue!A157:J157"
+    },
+    {
+      "id": "kerala-syrian-christian-2-vows",
+      "traditionId": "kerala-syrian-christian",
+      "name": "Vows",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.kalyanco.com/guides/kerala-christian-wedding",
+      "sourceRange": "Ceremony Catalogue!A158:J158"
+    },
+    {
+      "id": "kerala-syrian-christian-3-minnukettu",
+      "traditionId": "kerala-syrian-christian",
+      "name": "Minnukettu",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family-approved minnu jewelry",
+        "manthrakodi textile",
+        "presentation box"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.kalyanco.com/guides/kerala-christian-wedding",
+      "sourceRange": "Ceremony Catalogue!A159:J159"
+    },
+    {
+      "id": "kerala-syrian-christian-4-manthrakodi",
+      "traditionId": "kerala-syrian-christian",
+      "name": "Manthrakodi",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family-approved minnu jewelry",
+        "manthrakodi textile",
+        "presentation box"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.kalyanco.com/guides/kerala-christian-wedding",
+      "sourceRange": "Ceremony Catalogue!A160:J160"
+    },
+    {
+      "id": "kerala-syrian-christian-5-blessing",
+      "traditionId": "kerala-syrian-christian",
+      "name": "Blessing",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.kalyanco.com/guides/kerala-christian-wedding",
+      "sourceRange": "Ceremony Catalogue!A161:J161"
+    },
+    {
+      "id": "kerala-syrian-christian-6-church-register",
+      "traditionId": "kerala-syrian-christian",
+      "name": "Church register",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.kalyanco.com/guides/kerala-christian-wedding",
+      "sourceRange": "Ceremony Catalogue!A162:J162"
+    },
+    {
+      "id": "kerala-syrian-christian-1-reception",
+      "traditionId": "kerala-syrian-christian",
+      "name": "Reception",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Reception favors",
+        "guest hampers",
+        "table decor",
+        "signage",
+        "catering enquiry"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.kalyanco.com/guides/kerala-christian-wedding",
+      "sourceRange": "Ceremony Catalogue!A163:J163"
+    },
+    {
+      "id": "kerala-syrian-christian-2-family-feast",
+      "traditionId": "kerala-syrian-christian",
+      "name": "Family feast",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Reception favors",
+        "guest hampers",
+        "table decor",
+        "signage",
+        "catering enquiry"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.kalyanco.com/guides/kerala-christian-wedding",
+      "sourceRange": "Ceremony Catalogue!A164:J164"
+    },
+    {
+      "id": "goan-catholic-1-engagement",
+      "traditionId": "goan-catholic",
+      "name": "Engagement",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Gift trays",
+        "sweets",
+        "clothing",
+        "invitations",
+        "decor (where appropriate)"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.kalyanco.com/guides/kerala-christian-wedding",
+      "sourceRange": "Ceremony Catalogue!A165:J165"
+    },
+    {
+      "id": "goan-catholic-2-roce-or-ros-family-community-specific",
+      "traditionId": "goan-catholic",
+      "name": "Roce or Ros (family/community-specific)",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.kalyanco.com/guides/kerala-christian-wedding",
+      "sourceRange": "Ceremony Catalogue!A166:J166"
+    },
+    {
+      "id": "goan-catholic-3-bride-and-groom-preparation",
+      "traditionId": "goan-catholic",
+      "name": "Bride and groom preparation",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.kalyanco.com/guides/kerala-christian-wedding",
+      "sourceRange": "Ceremony Catalogue!A167:J167"
+    },
+    {
+      "id": "goan-catholic-1-church-service-or-nuptial-mass",
+      "traditionId": "goan-catholic",
+      "name": "Church service or Nuptial Mass",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.kalyanco.com/guides/kerala-christian-wedding",
+      "sourceRange": "Ceremony Catalogue!A168:J168"
+    },
+    {
+      "id": "goan-catholic-2-vows-and-rings",
+      "traditionId": "goan-catholic",
+      "name": "Vows and rings",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.kalyanco.com/guides/kerala-christian-wedding",
+      "sourceRange": "Ceremony Catalogue!A169:J169"
+    },
+    {
+      "id": "goan-catholic-3-blessing-and-signing",
+      "traditionId": "goan-catholic",
+      "name": "Blessing and signing",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.kalyanco.com/guides/kerala-christian-wedding",
+      "sourceRange": "Ceremony Catalogue!A170:J170"
+    },
+    {
+      "id": "goan-catholic-1-reception",
+      "traditionId": "goan-catholic",
+      "name": "Reception",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Reception favors",
+        "guest hampers",
+        "table decor",
+        "signage",
+        "catering enquiry"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.kalyanco.com/guides/kerala-christian-wedding",
+      "sourceRange": "Ceremony Catalogue!A171:J171"
+    },
+    {
+      "id": "goan-catholic-2-toast-and-dance",
+      "traditionId": "goan-catholic",
+      "name": "Toast and dance",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Guest gifting",
+        "ceremony keepsakes",
+        "custom decor where applicable"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.kalyanco.com/guides/kerala-christian-wedding",
+      "sourceRange": "Ceremony Catalogue!A172:J172"
+    },
+    {
+      "id": "goan-catholic-3-family-gathering",
+      "traditionId": "goan-catholic",
+      "name": "Family gathering",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Guest gifting",
+        "ceremony keepsakes",
+        "custom decor where applicable"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.kalyanco.com/guides/kerala-christian-wedding",
+      "sourceRange": "Ceremony Catalogue!A173:J173"
+    },
+    {
+      "id": "christian-other-indian-traditions-1-engagement-or-betrothal",
+      "traditionId": "christian-other-indian-traditions",
+      "name": "Engagement or betrothal",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Gift trays",
+        "sweets",
+        "clothing",
+        "invitations",
+        "decor (where appropriate)"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.kalyanco.com/guides/kerala-christian-wedding",
+      "sourceRange": "Ceremony Catalogue!A174:J174"
+    },
+    {
+      "id": "christian-other-indian-traditions-2-bridal-shower-optional",
+      "traditionId": "christian-other-indian-traditions",
+      "name": "Bridal shower (optional)",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Optional / confirm",
+      "source": "https://www.kalyanco.com/guides/kerala-christian-wedding",
+      "sourceRange": "Ceremony Catalogue!A175:J175"
+    },
+    {
+      "id": "christian-other-indian-traditions-3-family-prayer",
+      "traditionId": "christian-other-indian-traditions",
+      "name": "Family prayer",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.kalyanco.com/guides/kerala-christian-wedding",
+      "sourceRange": "Ceremony Catalogue!A176:J176"
+    },
+    {
+      "id": "christian-other-indian-traditions-1-church-or-chapel-service",
+      "traditionId": "christian-other-indian-traditions",
+      "name": "Church or chapel service",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.kalyanco.com/guides/kerala-christian-wedding",
+      "sourceRange": "Ceremony Catalogue!A177:J177"
+    },
+    {
+      "id": "christian-other-indian-traditions-2-vows-and-ring-exchange",
+      "traditionId": "christian-other-indian-traditions",
+      "name": "Vows and ring exchange",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.kalyanco.com/guides/kerala-christian-wedding",
+      "sourceRange": "Ceremony Catalogue!A178:J178"
+    },
+    {
+      "id": "christian-other-indian-traditions-3-blessing",
+      "traditionId": "christian-other-indian-traditions",
+      "name": "Blessing",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.kalyanco.com/guides/kerala-christian-wedding",
+      "sourceRange": "Ceremony Catalogue!A179:J179"
+    },
+    {
+      "id": "christian-other-indian-traditions-4-signing-of-records",
+      "traditionId": "christian-other-indian-traditions",
+      "name": "Signing of records",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.kalyanco.com/guides/kerala-christian-wedding",
+      "sourceRange": "Ceremony Catalogue!A180:J180"
+    },
+    {
+      "id": "christian-other-indian-traditions-1-reception",
+      "traditionId": "christian-other-indian-traditions",
+      "name": "Reception",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Reception favors",
+        "guest hampers",
+        "table decor",
+        "signage",
+        "catering enquiry"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.kalyanco.com/guides/kerala-christian-wedding",
+      "sourceRange": "Ceremony Catalogue!A181:J181"
+    },
+    {
+      "id": "christian-other-indian-traditions-2-cake-cutting",
+      "traditionId": "christian-other-indian-traditions",
+      "name": "Cake cutting",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Guest gifting",
+        "ceremony keepsakes",
+        "custom decor where applicable"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.kalyanco.com/guides/kerala-christian-wedding",
+      "sourceRange": "Ceremony Catalogue!A182:J182"
+    },
+    {
+      "id": "christian-other-indian-traditions-3-thank-you-gifts",
+      "traditionId": "christian-other-indian-traditions",
+      "name": "Thank-you gifts",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Guest gifting",
+        "ceremony keepsakes",
+        "custom decor where applicable"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.kalyanco.com/guides/kerala-christian-wedding",
+      "sourceRange": "Ceremony Catalogue!A183:J183"
+    },
+    {
+      "id": "muslim-south-asian-1-mangni-or-engagement-optional",
+      "traditionId": "muslim-south-asian",
+      "name": "Mangni or engagement (optional)",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Gift trays",
+        "sweets",
+        "clothing",
+        "invitations",
+        "decor (where appropriate)"
+      ],
+      "reviewRule": "Optional / confirm",
+      "source": "https://www.theknot.com/content/muslim-wedding-ceremony-rituals",
+      "sourceRange": "Ceremony Catalogue!A184:J184"
+    },
+    {
+      "id": "muslim-south-asian-2-mehendi-optional-cultural",
+      "traditionId": "muslim-south-asian",
+      "name": "Mehendi (optional cultural)",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Verified henna",
+        "artists",
+        "cushions",
+        "gift trays",
+        "guest favors"
+      ],
+      "reviewRule": "Optional / confirm",
+      "source": "https://www.theknot.com/content/muslim-wedding-ceremony-rituals",
+      "sourceRange": "Ceremony Catalogue!A185:J185"
+    },
+    {
+      "id": "muslim-south-asian-3-manjha-or-haldi-optional-cultural",
+      "traditionId": "muslim-south-asian",
+      "name": "Manjha or Haldi (optional cultural)",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Turmeric/halad kit",
+        "vessels",
+        "floral accessories",
+        "outfit",
+        "backdrop"
+      ],
+      "reviewRule": "Optional / confirm",
+      "source": "https://www.theknot.com/content/muslim-wedding-ceremony-rituals",
+      "sourceRange": "Ceremony Catalogue!A186:J186"
+    },
+    {
+      "id": "muslim-south-asian-1-nikah",
+      "traditionId": "muslim-south-asian",
+      "name": "Nikah",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Celebration decor",
+        "outfit",
+        "gift wrap",
+        "documentation accessories only"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/muslim-wedding-ceremony-rituals",
+      "sourceRange": "Ceremony Catalogue!A187:J187"
+    },
+    {
+      "id": "muslim-south-asian-2-consent-and-witnesses",
+      "traditionId": "muslim-south-asian",
+      "name": "Consent and witnesses",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Celebration decor",
+        "outfit",
+        "gift wrap",
+        "documentation accessories only"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/muslim-wedding-ceremony-rituals",
+      "sourceRange": "Ceremony Catalogue!A188:J188"
+    },
+    {
+      "id": "muslim-south-asian-3-mahr",
+      "traditionId": "muslim-south-asian",
+      "name": "Mahr",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Celebration decor",
+        "outfit",
+        "gift wrap",
+        "documentation accessories only"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/muslim-wedding-ceremony-rituals",
+      "sourceRange": "Ceremony Catalogue!A189:J189"
+    },
+    {
+      "id": "muslim-south-asian-4-nikahnama-or-marriage-record",
+      "traditionId": "muslim-south-asian",
+      "name": "Nikahnama or marriage record",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Celebration decor",
+        "outfit",
+        "gift wrap",
+        "documentation accessories only"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/muslim-wedding-ceremony-rituals",
+      "sourceRange": "Ceremony Catalogue!A190:J190"
+    },
+    {
+      "id": "muslim-south-asian-5-dua",
+      "traditionId": "muslim-south-asian",
+      "name": "Dua",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/muslim-wedding-ceremony-rituals",
+      "sourceRange": "Ceremony Catalogue!A191:J191"
+    },
+    {
+      "id": "muslim-south-asian-1-rukhsati-optional-cultural",
+      "traditionId": "muslim-south-asian",
+      "name": "Rukhsati (optional cultural)",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Farewell gift boxes",
+        "car decor",
+        "photo gifts"
+      ],
+      "reviewRule": "Optional / confirm",
+      "source": "https://www.theknot.com/content/muslim-wedding-ceremony-rituals",
+      "sourceRange": "Ceremony Catalogue!A192:J192"
+    },
+    {
+      "id": "muslim-south-asian-2-walima",
+      "traditionId": "muslim-south-asian",
+      "name": "Walima",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Reception favors",
+        "guest hampers",
+        "table decor",
+        "signage",
+        "catering enquiry"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/muslim-wedding-ceremony-rituals",
+      "sourceRange": "Ceremony Catalogue!A193:J193"
+    },
+    {
+      "id": "muslim-south-asian-3-reception",
+      "traditionId": "muslim-south-asian",
+      "name": "Reception",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Reception favors",
+        "guest hampers",
+        "table decor",
+        "signage",
+        "catering enquiry"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/muslim-wedding-ceremony-rituals",
+      "sourceRange": "Ceremony Catalogue!A194:J194"
+    },
+    {
+      "id": "bengali-muslim-1-paan-chini-optional",
+      "traditionId": "bengali-muslim",
+      "name": "Paan Chini (optional)",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Optional / confirm",
+      "source": "https://www.theknot.com/content/bengali-wedding",
+      "sourceRange": "Ceremony Catalogue!A195:J195"
+    },
+    {
+      "id": "bengali-muslim-2-gaye-holud-optional-cultural",
+      "traditionId": "bengali-muslim",
+      "name": "Gaye Holud (optional cultural)",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Turmeric/halad kit",
+        "vessels",
+        "floral accessories",
+        "outfit",
+        "backdrop"
+      ],
+      "reviewRule": "Optional / confirm",
+      "source": "https://www.theknot.com/content/bengali-wedding",
+      "sourceRange": "Ceremony Catalogue!A196:J196"
+    },
+    {
+      "id": "bengali-muslim-3-mehendi-optional",
+      "traditionId": "bengali-muslim",
+      "name": "Mehendi (optional)",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Verified henna",
+        "artists",
+        "cushions",
+        "gift trays",
+        "guest favors"
+      ],
+      "reviewRule": "Optional / confirm",
+      "source": "https://www.theknot.com/content/bengali-wedding",
+      "sourceRange": "Ceremony Catalogue!A197:J197"
+    },
+    {
+      "id": "bengali-muslim-1-nikah",
+      "traditionId": "bengali-muslim",
+      "name": "Nikah",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Celebration decor",
+        "outfit",
+        "gift wrap",
+        "documentation accessories only"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/bengali-wedding",
+      "sourceRange": "Ceremony Catalogue!A198:J198"
+    },
+    {
+      "id": "bengali-muslim-2-mahr",
+      "traditionId": "bengali-muslim",
+      "name": "Mahr",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Celebration decor",
+        "outfit",
+        "gift wrap",
+        "documentation accessories only"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/bengali-wedding",
+      "sourceRange": "Ceremony Catalogue!A199:J199"
+    },
+    {
+      "id": "bengali-muslim-3-kabinnama",
+      "traditionId": "bengali-muslim",
+      "name": "Kabinnama",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/bengali-wedding",
+      "sourceRange": "Ceremony Catalogue!A200:J200"
+    },
+    {
+      "id": "bengali-muslim-1-rukhsati",
+      "traditionId": "bengali-muslim",
+      "name": "Rukhsati",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Farewell gift boxes",
+        "car decor",
+        "photo gifts"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/bengali-wedding",
+      "sourceRange": "Ceremony Catalogue!A201:J201"
+    },
+    {
+      "id": "bengali-muslim-2-walima-or-bou-bhaat-cultural",
+      "traditionId": "bengali-muslim",
+      "name": "Walima or Bou Bhaat (cultural)",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Reception favors",
+        "guest hampers",
+        "table decor",
+        "signage",
+        "catering enquiry"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/bengali-wedding",
+      "sourceRange": "Ceremony Catalogue!A202:J202"
+    },
+    {
+      "id": "jain-regional-1-lagna-lekhan-optional",
+      "traditionId": "jain-regional",
+      "name": "Lagna Lekhan (optional)",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Optional / confirm",
+      "source": "https://www.theknot.com/content/indian-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A203:J203"
+    },
+    {
+      "id": "jain-regional-2-engagement",
+      "traditionId": "jain-regional",
+      "name": "Engagement",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Gift trays",
+        "sweets",
+        "clothing",
+        "invitations",
+        "decor (where appropriate)"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/indian-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A204:J204"
+    },
+    {
+      "id": "jain-regional-3-bana-betai-or-community-turmeric-ceremony",
+      "traditionId": "jain-regional",
+      "name": "Bana Betai or community turmeric ceremony",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Turmeric/halad kit",
+        "vessels",
+        "floral accessories",
+        "outfit",
+        "backdrop"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/indian-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A205:J205"
+    },
+    {
+      "id": "jain-regional-1-marriage-rite-with-jain-officiant-or-customary-ritual",
+      "traditionId": "jain-regional",
+      "name": "Marriage rite with Jain officiant or customary ritual",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/indian-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A206:J206"
+    },
+    {
+      "id": "jain-regional-2-garland-exchange",
+      "traditionId": "jain-regional",
+      "name": "Garland exchange",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Fresh or artificial garlands",
+        "venue delivery"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/indian-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A207:J207"
+    },
+    {
+      "id": "jain-regional-3-community-specific-vows",
+      "traditionId": "jain-regional",
+      "name": "Community-specific vows",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/indian-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A208:J208"
+    },
+    {
+      "id": "jain-regional-1-family-blessings",
+      "traditionId": "jain-regional",
+      "name": "Family blessings",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Guest gifting",
+        "ceremony keepsakes",
+        "custom decor where applicable"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/indian-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A209:J209"
+    },
+    {
+      "id": "jain-regional-2-reception",
+      "traditionId": "jain-regional",
+      "name": "Reception",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Reception favors",
+        "guest hampers",
+        "table decor",
+        "signage",
+        "catering enquiry"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/indian-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A210:J210"
+    },
+    {
+      "id": "parsi-zoroastrian-1-rupia-peravanu",
+      "traditionId": "parsi-zoroastrian",
+      "name": "Rupia Peravanu",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Gift trays",
+        "sweets",
+        "clothing",
+        "invitations",
+        "decor (where appropriate)"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.heritageinstitute.com/zoroastrianism/marriage/index.htm",
+      "sourceRange": "Ceremony Catalogue!A211:J211"
+    },
+    {
+      "id": "parsi-zoroastrian-2-adravanu-or-engagement",
+      "traditionId": "parsi-zoroastrian",
+      "name": "Adravanu or engagement",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Gift trays",
+        "sweets",
+        "clothing",
+        "invitations",
+        "decor (where appropriate)"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.heritageinstitute.com/zoroastrianism/marriage/index.htm",
+      "sourceRange": "Ceremony Catalogue!A212:J212"
+    },
+    {
+      "id": "parsi-zoroastrian-3-madhavsaro",
+      "traditionId": "parsi-zoroastrian",
+      "name": "Madhavsaro",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.heritageinstitute.com/zoroastrianism/marriage/index.htm",
+      "sourceRange": "Ceremony Catalogue!A213:J213"
+    },
+    {
+      "id": "parsi-zoroastrian-4-adarni",
+      "traditionId": "parsi-zoroastrian",
+      "name": "Adarni",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Customary gift/display trays",
+        "textiles",
+        "gift wrap",
+        "local products"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.heritageinstitute.com/zoroastrianism/marriage/index.htm",
+      "sourceRange": "Ceremony Catalogue!A214:J214"
+    },
+    {
+      "id": "parsi-zoroastrian-5-supra-nu-murat",
+      "traditionId": "parsi-zoroastrian",
+      "name": "Supra Nu Murat",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Community-approved ritual baskets",
+        "textile and gift accessories"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.heritageinstitute.com/zoroastrianism/marriage/index.htm",
+      "sourceRange": "Ceremony Catalogue!A215:J215"
+    },
+    {
+      "id": "parsi-zoroastrian-6-nahn",
+      "traditionId": "parsi-zoroastrian",
+      "name": "Nahn",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.heritageinstitute.com/zoroastrianism/marriage/index.htm",
+      "sourceRange": "Ceremony Catalogue!A216:J216"
+    },
+    {
+      "id": "parsi-zoroastrian-1-achu-michu",
+      "traditionId": "parsi-zoroastrian",
+      "name": "Achu Michu",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.heritageinstitute.com/zoroastrianism/marriage/index.htm",
+      "sourceRange": "Ceremony Catalogue!A217:J217"
+    },
+    {
+      "id": "parsi-zoroastrian-2-ara-antar",
+      "traditionId": "parsi-zoroastrian",
+      "name": "Ara Antar",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.heritageinstitute.com/zoroastrianism/marriage/index.htm",
+      "sourceRange": "Ceremony Catalogue!A218:J218"
+    },
+    {
+      "id": "parsi-zoroastrian-3-hathevaro",
+      "traditionId": "parsi-zoroastrian",
+      "name": "Hathevaro",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.heritageinstitute.com/zoroastrianism/marriage/index.htm",
+      "sourceRange": "Ceremony Catalogue!A219:J219"
+    },
+    {
+      "id": "parsi-zoroastrian-4-chero-bandhvanu",
+      "traditionId": "parsi-zoroastrian",
+      "name": "Chero Bandhvanu",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.heritageinstitute.com/zoroastrianism/marriage/index.htm",
+      "sourceRange": "Ceremony Catalogue!A220:J220"
+    },
+    {
+      "id": "parsi-zoroastrian-5-ashirvad",
+      "traditionId": "parsi-zoroastrian",
+      "name": "Ashirvad",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.heritageinstitute.com/zoroastrianism/marriage/index.htm",
+      "sourceRange": "Ceremony Catalogue!A221:J221"
+    },
+    {
+      "id": "parsi-zoroastrian-1-reception-and-bhonu",
+      "traditionId": "parsi-zoroastrian",
+      "name": "Reception and Bhonu",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Reception favors",
+        "guest hampers",
+        "table decor",
+        "signage",
+        "catering enquiry"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.heritageinstitute.com/zoroastrianism/marriage/index.htm",
+      "sourceRange": "Ceremony Catalogue!A222:J222"
+    },
+    {
+      "id": "parsi-zoroastrian-2-fire-temple-visit-where-practiced",
+      "traditionId": "parsi-zoroastrian",
+      "name": "Fire temple visit (where practiced)",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Guest gifting",
+        "ceremony keepsakes",
+        "custom decor where applicable"
+      ],
+      "reviewRule": "Optional / confirm",
+      "source": "https://www.heritageinstitute.com/zoroastrianism/marriage/index.htm",
+      "sourceRange": "Ceremony Catalogue!A223:J223"
+    },
+    {
+      "id": "assamese-hindu-biya-1-juroon",
+      "traditionId": "assamese-hindu-biya",
+      "name": "Juroon",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Customary gift/display trays",
+        "textiles",
+        "gift wrap",
+        "local products"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.vkic.org/The-Hindu-Marriage-Tradition-in-Assam",
+      "sourceRange": "Ceremony Catalogue!A224:J224"
+    },
+    {
+      "id": "assamese-hindu-biya-2-pani-tola-or-nouwa",
+      "traditionId": "assamese-hindu-biya",
+      "name": "Pani Tola or Nouwa",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.vkic.org/The-Hindu-Marriage-Tradition-in-Assam",
+      "sourceRange": "Ceremony Catalogue!A225:J225"
+    },
+    {
+      "id": "assamese-hindu-biya-3-wedding-songs-and-family-invitations",
+      "traditionId": "assamese-hindu-biya",
+      "name": "Wedding songs and family invitations",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Printed or digital invitations",
+        "ceremony labels"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.vkic.org/The-Hindu-Marriage-Tradition-in-Assam",
+      "sourceRange": "Ceremony Catalogue!A226:J226"
+    },
+    {
+      "id": "assamese-hindu-biya-1-bor-jatri",
+      "traditionId": "assamese-hindu-biya",
+      "name": "Bor Jatri",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.vkic.org/The-Hindu-Marriage-Tradition-in-Assam",
+      "sourceRange": "Ceremony Catalogue!A227:J227"
+    },
+    {
+      "id": "assamese-hindu-biya-2-groom-welcome",
+      "traditionId": "assamese-hindu-biya",
+      "name": "Groom welcome",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Welcome decor",
+        "housewarming items",
+        "sweets",
+        "gift hamper"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.vkic.org/The-Hindu-Marriage-Tradition-in-Assam",
+      "sourceRange": "Ceremony Catalogue!A228:J228"
+    },
+    {
+      "id": "assamese-hindu-biya-3-biya-marriage-rite",
+      "traditionId": "assamese-hindu-biya",
+      "name": "Biya marriage rite",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.vkic.org/The-Hindu-Marriage-Tradition-in-Assam",
+      "sourceRange": "Ceremony Catalogue!A229:J229"
+    },
+    {
+      "id": "assamese-hindu-biya-1-bride-welcome",
+      "traditionId": "assamese-hindu-biya",
+      "name": "Bride welcome",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Welcome decor",
+        "housewarming items",
+        "sweets",
+        "gift hamper"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.vkic.org/The-Hindu-Marriage-Tradition-in-Assam",
+      "sourceRange": "Ceremony Catalogue!A230:J230"
+    },
+    {
+      "id": "assamese-hindu-biya-2-family-feast",
+      "traditionId": "assamese-hindu-biya",
+      "name": "Family feast",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Reception favors",
+        "guest hampers",
+        "table decor",
+        "signage",
+        "catering enquiry"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.vkic.org/The-Hindu-Marriage-Tradition-in-Assam",
+      "sourceRange": "Ceremony Catalogue!A231:J231"
+    },
+    {
+      "id": "odia-hindu-1-nirbandha",
+      "traditionId": "odia-hindu",
+      "name": "Nirbandha",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://shaadiguide.in/odisha-wedding-traditions-guide.html",
+      "sourceRange": "Ceremony Catalogue!A232:J232"
+    },
+    {
+      "id": "odia-hindu-2-mangan-or-turmeric",
+      "traditionId": "odia-hindu",
+      "name": "Mangan or turmeric",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Turmeric/halad kit",
+        "vessels",
+        "floral accessories",
+        "outfit",
+        "backdrop"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://shaadiguide.in/odisha-wedding-traditions-guide.html",
+      "sourceRange": "Ceremony Catalogue!A233:J233"
+    },
+    {
+      "id": "odia-hindu-3-diya-mangula-puja",
+      "traditionId": "odia-hindu",
+      "name": "Diya Mangula Puja",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://shaadiguide.in/odisha-wedding-traditions-guide.html",
+      "sourceRange": "Ceremony Catalogue!A234:J234"
+    },
+    {
+      "id": "odia-hindu-1-barajatri",
+      "traditionId": "odia-hindu",
+      "name": "Barajatri",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://shaadiguide.in/odisha-wedding-traditions-guide.html",
+      "sourceRange": "Ceremony Catalogue!A235:J235"
+    },
+    {
+      "id": "odia-hindu-2-hata-ganthi",
+      "traditionId": "odia-hindu",
+      "name": "Hata Ganthi",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://shaadiguide.in/odisha-wedding-traditions-guide.html",
+      "sourceRange": "Ceremony Catalogue!A236:J236"
+    },
+    {
+      "id": "odia-hindu-3-laja-homa",
+      "traditionId": "odia-hindu",
+      "name": "Laja Homa",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://shaadiguide.in/odisha-wedding-traditions-guide.html",
+      "sourceRange": "Ceremony Catalogue!A237:J237"
+    },
+    {
+      "id": "odia-hindu-4-saptapadi-where-practiced",
+      "traditionId": "odia-hindu",
+      "name": "Saptapadi (where practiced)",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Optional / confirm",
+      "source": "https://shaadiguide.in/odisha-wedding-traditions-guide.html",
+      "sourceRange": "Ceremony Catalogue!A238:J238"
+    },
+    {
+      "id": "odia-hindu-1-chauthi",
+      "traditionId": "odia-hindu",
+      "name": "Chauthi",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Guest gifting",
+        "ceremony keepsakes",
+        "custom decor where applicable"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://shaadiguide.in/odisha-wedding-traditions-guide.html",
+      "sourceRange": "Ceremony Catalogue!A239:J239"
+    },
+    {
+      "id": "odia-hindu-2-family-reception",
+      "traditionId": "odia-hindu",
+      "name": "Family reception",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Reception favors",
+        "guest hampers",
+        "table decor",
+        "signage",
+        "catering enquiry"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://shaadiguide.in/odisha-wedding-traditions-guide.html",
+      "sourceRange": "Ceremony Catalogue!A240:J240"
+    },
+    {
+      "id": "maithil-hindu-1-tilak",
+      "traditionId": "maithil-hindu",
+      "name": "Tilak",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://csts.org.in/maithil-wedding-rituals/",
+      "sourceRange": "Ceremony Catalogue!A241:J241"
+    },
+    {
+      "id": "maithil-hindu-2-matikor",
+      "traditionId": "maithil-hindu",
+      "name": "Matikor",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://csts.org.in/maithil-wedding-rituals/",
+      "sourceRange": "Ceremony Catalogue!A242:J242"
+    },
+    {
+      "id": "maithil-hindu-3-haldi-or-ubtan",
+      "traditionId": "maithil-hindu",
+      "name": "Haldi or Ubtan",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Turmeric/halad kit",
+        "vessels",
+        "floral accessories",
+        "outfit",
+        "backdrop"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://csts.org.in/maithil-wedding-rituals/",
+      "sourceRange": "Ceremony Catalogue!A243:J243"
+    },
+    {
+      "id": "maithil-hindu-1-barat",
+      "traditionId": "maithil-hindu",
+      "name": "Barat",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://csts.org.in/maithil-wedding-rituals/",
+      "sourceRange": "Ceremony Catalogue!A244:J244"
+    },
+    {
+      "id": "maithil-hindu-2-jaimala",
+      "traditionId": "maithil-hindu",
+      "name": "Jaimala",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Fresh or artificial garlands",
+        "venue delivery"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://csts.org.in/maithil-wedding-rituals/",
+      "sourceRange": "Ceremony Catalogue!A245:J245"
+    },
+    {
+      "id": "maithil-hindu-3-panigrahan",
+      "traditionId": "maithil-hindu",
+      "name": "Panigrahan",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://csts.org.in/maithil-wedding-rituals/",
+      "sourceRange": "Ceremony Catalogue!A246:J246"
+    },
+    {
+      "id": "maithil-hindu-4-sindurdaan",
+      "traditionId": "maithil-hindu",
+      "name": "Sindurdaan",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://csts.org.in/maithil-wedding-rituals/",
+      "sourceRange": "Ceremony Catalogue!A247:J247"
+    },
+    {
+      "id": "maithil-hindu-5-kohbar",
+      "traditionId": "maithil-hindu",
+      "name": "Kohbar",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://csts.org.in/maithil-wedding-rituals/",
+      "sourceRange": "Ceremony Catalogue!A248:J248"
+    },
+    {
+      "id": "maithil-hindu-1-bidai",
+      "traditionId": "maithil-hindu",
+      "name": "Bidai",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Farewell gift boxes",
+        "car decor",
+        "photo gifts"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://csts.org.in/maithil-wedding-rituals/",
+      "sourceRange": "Ceremony Catalogue!A249:J249"
+    },
+    {
+      "id": "maithil-hindu-2-dwarachar",
+      "traditionId": "maithil-hindu",
+      "name": "Dwarachar",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Guest gifting",
+        "ceremony keepsakes",
+        "custom decor where applicable"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://csts.org.in/maithil-wedding-rituals/",
+      "sourceRange": "Ceremony Catalogue!A250:J250"
+    },
+    {
+      "id": "maithil-hindu-3-chauthari",
+      "traditionId": "maithil-hindu",
+      "name": "Chauthari",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Guest gifting",
+        "ceremony keepsakes",
+        "custom decor where applicable"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://csts.org.in/maithil-wedding-rituals/",
+      "sourceRange": "Ceremony Catalogue!A251:J251"
+    },
+    {
+      "id": "kumaoni-garhwali-hindu-1-engagement",
+      "traditionId": "kumaoni-garhwali-hindu",
+      "name": "Engagement",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Gift trays",
+        "sweets",
+        "clothing",
+        "invitations",
+        "decor (where appropriate)"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.euttaranchal.com/culture/marriage-rites.php",
+      "sourceRange": "Ceremony Catalogue!A252:J252"
+    },
+    {
+      "id": "kumaoni-garhwali-hindu-2-aipan-decorations",
+      "traditionId": "kumaoni-garhwali-hindu",
+      "name": "Aipan decorations",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.euttaranchal.com/culture/marriage-rites.php",
+      "sourceRange": "Ceremony Catalogue!A253:J253"
+    },
+    {
+      "id": "kumaoni-garhwali-hindu-3-suwal-pathai-some-regions",
+      "traditionId": "kumaoni-garhwali-hindu",
+      "name": "Suwal Pathai (some regions)",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.euttaranchal.com/culture/marriage-rites.php",
+      "sourceRange": "Ceremony Catalogue!A254:J254"
+    },
+    {
+      "id": "kumaoni-garhwali-hindu-1-chholiya-procession-some-regions",
+      "traditionId": "kumaoni-garhwali-hindu",
+      "name": "Chholiya procession (some regions)",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.euttaranchal.com/culture/marriage-rites.php",
+      "sourceRange": "Ceremony Catalogue!A255:J255"
+    },
+    {
+      "id": "kumaoni-garhwali-hindu-2-dhuliarghya",
+      "traditionId": "kumaoni-garhwali-hindu",
+      "name": "Dhuliarghya",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.euttaranchal.com/culture/marriage-rites.php",
+      "sourceRange": "Ceremony Catalogue!A256:J256"
+    },
+    {
+      "id": "kumaoni-garhwali-hindu-3-kanyadaan",
+      "traditionId": "kumaoni-garhwali-hindu",
+      "name": "Kanyadaan",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.euttaranchal.com/culture/marriage-rites.php",
+      "sourceRange": "Ceremony Catalogue!A257:J257"
+    },
+    {
+      "id": "kumaoni-garhwali-hindu-4-pheras",
+      "traditionId": "kumaoni-garhwali-hindu",
+      "name": "Pheras",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.euttaranchal.com/culture/marriage-rites.php",
+      "sourceRange": "Ceremony Catalogue!A258:J258"
+    },
+    {
+      "id": "kumaoni-garhwali-hindu-1-vidaai",
+      "traditionId": "kumaoni-garhwali-hindu",
+      "name": "Vidaai",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Farewell gift boxes",
+        "car decor",
+        "photo gifts"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.euttaranchal.com/culture/marriage-rites.php",
+      "sourceRange": "Ceremony Catalogue!A259:J259"
+    },
+    {
+      "id": "kumaoni-garhwali-hindu-2-family-welcome",
+      "traditionId": "kumaoni-garhwali-hindu",
+      "name": "Family welcome",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Welcome decor",
+        "housewarming items",
+        "sweets",
+        "gift hamper"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.euttaranchal.com/culture/marriage-rites.php",
+      "sourceRange": "Ceremony Catalogue!A260:J260"
+    },
+    {
+      "id": "kumaoni-garhwali-hindu-3-pahari-feast",
+      "traditionId": "kumaoni-garhwali-hindu",
+      "name": "Pahari feast",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Reception favors",
+        "guest hampers",
+        "table decor",
+        "signage",
+        "catering enquiry"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.euttaranchal.com/culture/marriage-rites.php",
+      "sourceRange": "Ceremony Catalogue!A261:J261"
+    },
+    {
+      "id": "kashmiri-pandit-1-livun",
+      "traditionId": "kashmiri-pandit",
+      "name": "Livun",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A262:J262"
+    },
+    {
+      "id": "kashmiri-pandit-2-wanwun",
+      "traditionId": "kashmiri-pandit",
+      "name": "Wanwun",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A263:J263"
+    },
+    {
+      "id": "kashmiri-pandit-3-maenziraat",
+      "traditionId": "kashmiri-pandit",
+      "name": "Maenziraat",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A264:J264"
+    },
+    {
+      "id": "kashmiri-pandit-4-devgon",
+      "traditionId": "kashmiri-pandit",
+      "name": "Devgon",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A265:J265"
+    },
+    {
+      "id": "kashmiri-pandit-1-lagan",
+      "traditionId": "kashmiri-pandit",
+      "name": "Lagan",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A266:J266"
+    },
+    {
+      "id": "kashmiri-pandit-2-posh-puza",
+      "traditionId": "kashmiri-pandit",
+      "name": "Posh Puza",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A267:J267"
+    },
+    {
+      "id": "kashmiri-pandit-1-satraat",
+      "traditionId": "kashmiri-pandit",
+      "name": "Satraat",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Guest gifting",
+        "ceremony keepsakes",
+        "custom decor where applicable"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A268:J268"
+    },
+    {
+      "id": "kashmiri-pandit-2-reception",
+      "traditionId": "kashmiri-pandit",
+      "name": "Reception",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Reception favors",
+        "guest hampers",
+        "table decor",
+        "signage",
+        "catering enquiry"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A269:J269"
+    },
+    {
+      "id": "chhattisgarhi-hindu-1-chulmati-or-local-earth-rite",
+      "traditionId": "chhattisgarhi-hindu",
+      "name": "Chulmati or local earth rite",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://ignca.gov.in/coilnet/chgr0059.htm",
+      "sourceRange": "Ceremony Catalogue!A270:J270"
+    },
+    {
+      "id": "chhattisgarhi-hindu-2-tel-haldi",
+      "traditionId": "chhattisgarhi-hindu",
+      "name": "Tel Haldi",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Turmeric/halad kit",
+        "vessels",
+        "floral accessories",
+        "outfit",
+        "backdrop"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://ignca.gov.in/coilnet/chgr0059.htm",
+      "sourceRange": "Ceremony Catalogue!A271:J271"
+    },
+    {
+      "id": "chhattisgarhi-hindu-3-mangrohan-or-mandap",
+      "traditionId": "chhattisgarhi-hindu",
+      "name": "Mangrohan or Mandap",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://ignca.gov.in/coilnet/chgr0059.htm",
+      "sourceRange": "Ceremony Catalogue!A272:J272"
+    },
+    {
+      "id": "chhattisgarhi-hindu-1-parghani-or-paradhani-welcome",
+      "traditionId": "chhattisgarhi-hindu",
+      "name": "Parghani or Paradhani welcome",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Welcome decor",
+        "housewarming items",
+        "sweets",
+        "gift hamper"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://ignca.gov.in/coilnet/chgr0059.htm",
+      "sourceRange": "Ceremony Catalogue!A273:J273"
+    },
+    {
+      "id": "chhattisgarhi-hindu-2-bhanwar-or-pheras",
+      "traditionId": "chhattisgarhi-hindu",
+      "name": "Bhanwar or Pheras",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://ignca.gov.in/coilnet/chgr0059.htm",
+      "sourceRange": "Ceremony Catalogue!A274:J274"
+    },
+    {
+      "id": "chhattisgarhi-hindu-3-saptapadi-songs",
+      "traditionId": "chhattisgarhi-hindu",
+      "name": "Saptapadi songs",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://ignca.gov.in/coilnet/chgr0059.htm",
+      "sourceRange": "Ceremony Catalogue!A275:J275"
+    },
+    {
+      "id": "chhattisgarhi-hindu-1-vidaai",
+      "traditionId": "chhattisgarhi-hindu",
+      "name": "Vidaai",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Farewell gift boxes",
+        "car decor",
+        "photo gifts"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://ignca.gov.in/coilnet/chgr0059.htm",
+      "sourceRange": "Ceremony Catalogue!A276:J276"
+    },
+    {
+      "id": "chhattisgarhi-hindu-2-welcome-feast",
+      "traditionId": "chhattisgarhi-hindu",
+      "name": "Welcome feast",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Welcome decor",
+        "housewarming items",
+        "sweets",
+        "gift hamper"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://ignca.gov.in/coilnet/chgr0059.htm",
+      "sourceRange": "Ceremony Catalogue!A277:J277"
+    },
+    {
+      "id": "oraon-kurukh-customary-1-families-agreement",
+      "traditionId": "oraon-kurukh-customary",
+      "name": "Families' agreement",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.trijharkhand.in/en/oraon",
+      "sourceRange": "Ceremony Catalogue!A278:J278"
+    },
+    {
+      "id": "oraon-kurukh-customary-2-community-preparations",
+      "traditionId": "oraon-kurukh-customary",
+      "name": "Community preparations",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.trijharkhand.in/en/oraon",
+      "sourceRange": "Ceremony Catalogue!A279:J279"
+    },
+    {
+      "id": "oraon-kurukh-customary-1-procession-and-community-dancing",
+      "traditionId": "oraon-kurukh-customary",
+      "name": "Procession and community dancing",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.trijharkhand.in/en/oraon",
+      "sourceRange": "Ceremony Catalogue!A280:J280"
+    },
+    {
+      "id": "oraon-kurukh-customary-2-community-wedding-rites",
+      "traditionId": "oraon-kurukh-customary",
+      "name": "Community wedding rites",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.trijharkhand.in/en/oraon",
+      "sourceRange": "Ceremony Catalogue!A281:J281"
+    },
+    {
+      "id": "oraon-kurukh-customary-3-sindoor-rite-where-practiced",
+      "traditionId": "oraon-kurukh-customary",
+      "name": "Sindoor rite (where practiced)",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Optional / confirm",
+      "source": "https://www.trijharkhand.in/en/oraon",
+      "sourceRange": "Ceremony Catalogue!A282:J282"
+    },
+    {
+      "id": "oraon-kurukh-customary-1-community-feast-and-welcome",
+      "traditionId": "oraon-kurukh-customary",
+      "name": "Community feast and welcome",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Welcome decor",
+        "housewarming items",
+        "sweets",
+        "gift hamper"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.trijharkhand.in/en/oraon",
+      "sourceRange": "Ceremony Catalogue!A283:J283"
+    },
+    {
+      "id": "khasi-customary-1-family-and-clan-consultation",
+      "traditionId": "khasi-customary",
+      "name": "Family and clan consultation",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.megartsculture.gov.in/herit-volI.html",
+      "sourceRange": "Ceremony Catalogue!A284:J284"
+    },
+    {
+      "id": "khasi-customary-2-community-specific-betrothal",
+      "traditionId": "khasi-customary",
+      "name": "Community-specific betrothal",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.megartsculture.gov.in/herit-volI.html",
+      "sourceRange": "Ceremony Catalogue!A285:J285"
+    },
+    {
+      "id": "khasi-customary-1-pynhiarsynjat-or-other-ceremony-specific-practice-varies",
+      "traditionId": "khasi-customary",
+      "name": "Pynhiarsynjat or other ceremony (specific practice varies)",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.megartsculture.gov.in/herit-volI.html",
+      "sourceRange": "Ceremony Catalogue!A286:J286"
+    },
+    {
+      "id": "khasi-customary-1-community-meal",
+      "traditionId": "khasi-customary",
+      "name": "Community meal",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Guest gifting",
+        "ceremony keepsakes",
+        "custom decor where applicable"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.megartsculture.gov.in/herit-volI.html",
+      "sourceRange": "Ceremony Catalogue!A287:J287"
+    },
+    {
+      "id": "khasi-customary-2-family-gathering",
+      "traditionId": "khasi-customary",
+      "name": "Family gathering",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Guest gifting",
+        "ceremony keepsakes",
+        "custom decor where applicable"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.megartsculture.gov.in/herit-volI.html",
+      "sourceRange": "Ceremony Catalogue!A288:J288"
+    },
+    {
+      "id": "meitei-hindu-sanamahi-1-hainaba",
+      "traditionId": "meitei-hindu-sanamahi",
+      "name": "Hainaba",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://tijer.org/tijer/viewpaperforall.php?paper=TIJER2608075",
+      "sourceRange": "Ceremony Catalogue!A289:J289"
+    },
+    {
+      "id": "meitei-hindu-sanamahi-2-yathang-thanaba",
+      "traditionId": "meitei-hindu-sanamahi",
+      "name": "Yathang Thanaba",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://tijer.org/tijer/viewpaperforall.php?paper=TIJER2608075",
+      "sourceRange": "Ceremony Catalogue!A290:J290"
+    },
+    {
+      "id": "meitei-hindu-sanamahi-3-heijingpot",
+      "traditionId": "meitei-hindu-sanamahi",
+      "name": "Heijingpot",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://tijer.org/tijer/viewpaperforall.php?paper=TIJER2608075",
+      "sourceRange": "Ceremony Catalogue!A291:J291"
+    },
+    {
+      "id": "meitei-hindu-sanamahi-1-luhongba",
+      "traditionId": "meitei-hindu-sanamahi",
+      "name": "Luhongba",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://tijer.org/tijer/viewpaperforall.php?paper=TIJER2608075",
+      "sourceRange": "Ceremony Catalogue!A292:J292"
+    },
+    {
+      "id": "meitei-hindu-sanamahi-2-lei-chaiba-practice-differs-by-tradition",
+      "traditionId": "meitei-hindu-sanamahi",
+      "name": "Lei Chaiba (practice differs by tradition)",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://tijer.org/tijer/viewpaperforall.php?paper=TIJER2608075",
+      "sourceRange": "Ceremony Catalogue!A293:J293"
+    },
+    {
+      "id": "meitei-hindu-sanamahi-1-chakouba-where-practiced",
+      "traditionId": "meitei-hindu-sanamahi",
+      "name": "Chakouba (where practiced)",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Guest gifting",
+        "ceremony keepsakes",
+        "custom decor where applicable"
+      ],
+      "reviewRule": "Optional / confirm",
+      "source": "https://tijer.org/tijer/viewpaperforall.php?paper=TIJER2608075",
+      "sourceRange": "Ceremony Catalogue!A294:J294"
+    },
+    {
+      "id": "meitei-hindu-sanamahi-2-family-welcome",
+      "traditionId": "meitei-hindu-sanamahi",
+      "name": "Family welcome",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Welcome decor",
+        "housewarming items",
+        "sweets",
+        "gift hamper"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://tijer.org/tijer/viewpaperforall.php?paper=TIJER2608075",
+      "sourceRange": "Ceremony Catalogue!A295:J295"
+    },
+    {
+      "id": "tripuri-customary-1-family-negotiation",
+      "traditionId": "tripuri-customary",
+      "name": "Family negotiation",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://ijcrt.org/viewfull.php?p_id=IJCRT2603279",
+      "sourceRange": "Ceremony Catalogue!A296:J296"
+    },
+    {
+      "id": "tripuri-customary-2-community-preparations",
+      "traditionId": "tripuri-customary",
+      "name": "Community preparations",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://ijcrt.org/viewfull.php?p_id=IJCRT2603279",
+      "sourceRange": "Ceremony Catalogue!A297:J297"
+    },
+    {
+      "id": "tripuri-customary-1-wathop-worship-some-traditions",
+      "traditionId": "tripuri-customary",
+      "name": "Wathop worship (some traditions)",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://ijcrt.org/viewfull.php?p_id=IJCRT2603279",
+      "sourceRange": "Ceremony Catalogue!A298:J298"
+    },
+    {
+      "id": "tripuri-customary-2-bedi-and-chanduwa-cloth",
+      "traditionId": "tripuri-customary",
+      "name": "Bedi and Chanduwa cloth",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://ijcrt.org/viewfull.php?p_id=IJCRT2603279",
+      "sourceRange": "Ceremony Catalogue!A299:J299"
+    },
+    {
+      "id": "tripuri-customary-3-traditional-marriage-rites",
+      "traditionId": "tripuri-customary",
+      "name": "Traditional marriage rites",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://ijcrt.org/viewfull.php?p_id=IJCRT2603279",
+      "sourceRange": "Ceremony Catalogue!A300:J300"
+    },
+    {
+      "id": "tripuri-customary-1-community-feast",
+      "traditionId": "tripuri-customary",
+      "name": "Community feast",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Reception favors",
+        "guest hampers",
+        "table decor",
+        "signage",
+        "catering enquiry"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://ijcrt.org/viewfull.php?p_id=IJCRT2603279",
+      "sourceRange": "Ceremony Catalogue!A301:J301"
+    },
+    {
+      "id": "tripuri-customary-2-family-welcome",
+      "traditionId": "tripuri-customary",
+      "name": "Family welcome",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Welcome decor",
+        "housewarming items",
+        "sweets",
+        "gift hamper"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://ijcrt.org/viewfull.php?p_id=IJCRT2603279",
+      "sourceRange": "Ceremony Catalogue!A302:J302"
+    },
+    {
+      "id": "sherpa-sikkim-1-longchhag",
+      "traditionId": "sherpa-sikkim",
+      "name": "Longchhag",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://trisikkim.org/en/tribes/sherpa-tribe",
+      "sourceRange": "Ceremony Catalogue!A303:J303"
+    },
+    {
+      "id": "sherpa-sikkim-2-thichhang",
+      "traditionId": "sherpa-sikkim",
+      "name": "Thichhang",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://trisikkim.org/en/tribes/sherpa-tribe",
+      "sourceRange": "Ceremony Catalogue!A304:J304"
+    },
+    {
+      "id": "sherpa-sikkim-3-pechang",
+      "traditionId": "sherpa-sikkim",
+      "name": "Pechang",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Printed or digital invitations",
+        "ceremony labels"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://trisikkim.org/en/tribes/sherpa-tribe",
+      "sourceRange": "Ceremony Catalogue!A305:J305"
+    },
+    {
+      "id": "sherpa-sikkim-4-demchhang",
+      "traditionId": "sherpa-sikkim",
+      "name": "Demchhang",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://trisikkim.org/en/tribes/sherpa-tribe",
+      "sourceRange": "Ceremony Catalogue!A306:J306"
+    },
+    {
+      "id": "sherpa-sikkim-1-zendi-or-chhangdu",
+      "traditionId": "sherpa-sikkim",
+      "name": "Zendi or Chhangdu",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://trisikkim.org/en/tribes/sherpa-tribe",
+      "sourceRange": "Ceremony Catalogue!A307:J307"
+    },
+    {
+      "id": "sherpa-sikkim-2-ngagpa-blessing-or-proclamation",
+      "traditionId": "sherpa-sikkim",
+      "name": "Ngagpa blessing or proclamation",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://trisikkim.org/en/tribes/sherpa-tribe",
+      "sourceRange": "Ceremony Catalogue!A308:J308"
+    },
+    {
+      "id": "sherpa-sikkim-1-community-feast",
+      "traditionId": "sherpa-sikkim",
+      "name": "Community feast",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Reception favors",
+        "guest hampers",
+        "table decor",
+        "signage",
+        "catering enquiry"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://trisikkim.org/en/tribes/sherpa-tribe",
+      "sourceRange": "Ceremony Catalogue!A309:J309"
+    },
+    {
+      "id": "sherpa-sikkim-2-family-visit",
+      "traditionId": "sherpa-sikkim",
+      "name": "Family visit",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Guest gifting",
+        "ceremony keepsakes",
+        "custom decor where applicable"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://trisikkim.org/en/tribes/sherpa-tribe",
+      "sourceRange": "Ceremony Catalogue!A310:J310"
+    },
+    {
+      "id": "neo-buddhist-buddhist-indian-1-family-engagement-optional",
+      "traditionId": "neo-buddhist-buddhist-indian",
+      "name": "Family engagement (optional)",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Gift trays",
+        "sweets",
+        "clothing",
+        "invitations",
+        "decor (where appropriate)"
+      ],
+      "reviewRule": "Optional / confirm",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A311:J311"
+    },
+    {
+      "id": "neo-buddhist-buddhist-indian-2-ceremony-arrangements",
+      "traditionId": "neo-buddhist-buddhist-indian",
+      "name": "Ceremony arrangements",
+      "stage": "Pre-wedding",
+      "optional": true,
+      "needs": [
+        "Custom checklist",
+        "invitations",
+        "gifts",
+        "family-reviewed ceremony items"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A312:J312"
+    },
+    {
+      "id": "neo-buddhist-buddhist-indian-1-buddha-vandana-or-homage",
+      "traditionId": "neo-buddhist-buddhist-indian",
+      "name": "Buddha Vandana or homage",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A313:J313"
+    },
+    {
+      "id": "neo-buddhist-buddhist-indian-2-panchsheel-and-couple-s-vows-when-chosen",
+      "traditionId": "neo-buddhist-buddhist-indian",
+      "name": "Panchsheel and couple's vows (when chosen)",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A314:J314"
+    },
+    {
+      "id": "neo-buddhist-buddhist-indian-3-witnesses-and-marriage-formalities",
+      "traditionId": "neo-buddhist-buddhist-indian",
+      "name": "Witnesses and marriage formalities",
+      "stage": "Wedding ceremony",
+      "optional": true,
+      "needs": [
+        "Family/officiant-approved ritual essentials",
+        "attire",
+        "decor",
+        "photography"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A315:J315"
+    },
+    {
+      "id": "neo-buddhist-buddhist-indian-1-family-blessing",
+      "traditionId": "neo-buddhist-buddhist-indian",
+      "name": "Family blessing",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Guest gifting",
+        "ceremony keepsakes",
+        "custom decor where applicable"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A316:J316"
+    },
+    {
+      "id": "neo-buddhist-buddhist-indian-2-reception",
+      "traditionId": "neo-buddhist-buddhist-indian",
+      "name": "Reception",
+      "stage": "Post-wedding",
+      "optional": true,
+      "needs": [
+        "Reception favors",
+        "guest hampers",
+        "table decor",
+        "signage",
+        "catering enquiry"
+      ],
+      "reviewRule": "Family/officiant confirmation required",
+      "source": "https://www.theknot.com/content/hindu-wedding-traditions",
+      "sourceRange": "Ceremony Catalogue!A317:J317"
+    }
+  ]
+}

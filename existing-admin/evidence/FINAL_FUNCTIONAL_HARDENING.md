@@ -1,0 +1,13 @@
+# Final functional checkpoint before accent branding
+
+Added compact internal Furniture inquiry review/history inside existing Support; no new admin navigation page. Existing Support roles retained: anonymous and catalogue-manager access are denied. Synthetic requests use revision checks and internal demo quotes only; no message, payment, real order or customer notification is sent. Mobile inquiries/photos remain device-local.
+
+Furniture family validation and Home/Commercial classification now consume active typed catalogue categories, with the original eighteen source families retained. Furniture material/finish/style controls derive from configured specifications. Browser verified an emulator-created family, local inquiry persistence and archiving the temporary category afterward.
+
+Hardened stock validation: negative single-SKU quantity rejected, product reference/variant codes share code locks, concurrent duplicate reference creation admits one winner, and physical combinations with reserved/sold history cannot be rewritten. Authoring errors are no longer incorrectly classified as auth failures. Existing legacy parser and fulfillment behavior remain.
+
+Corrected unpublished cart SKU labels/actions and added current-price notices. Homepage version controls wait for authoritative history instead of displaying an unverified initial zero. Product preview now traps/restores keyboard focus; leaving an edited product prompts once, and cancelling sign-out preserves the session and fields. Login controls are disabled before hydration. Npm aliases now route through guarded demo launch/test/seed commands; no default real-project Firebase CLI alias remains.
+
+Results: 157 admin unit tests, 40 mobile unit tests; admin/mobile TypeScript passed; zero lint errors (97 existing admin warnings, no mobile warnings); copied-admin optimized build passed. HTTP checks: authoring 39, catalogue integration 22, homepage 20, inquiry 9, isolation 6. Browser: editor, homepage, Support inquiry review/history and dynamic mobile family passed; 30 loaded mobile screenshots at 320/390/768 cover all departments plus changed prices, unavailable cart removal, unpublish refresh and offline/retry. No observed external app requests or direct mobile Firebase calls. Earlier failures and their fixes are retained in diagnostics. Final accent-only screenshots/regression/export gate remains.
+
+Package versions, original Firebase IDs, original Gift4U folder, production data, deployment targets and provider integrations were not changed. No real-project migrations. Known dependency advisories in TASK_10A remain unremediated; no blind Expo downgrade/major override was applied. Native device availability is reported separately; exports are not a device-runtime claim.

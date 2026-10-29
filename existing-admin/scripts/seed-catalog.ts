@@ -1,0 +1,31 @@
+import { getAdminDb } from "../src/lib/firebase-admin";
+import { FieldValue } from "firebase-admin/firestore";
+import { slugLockId } from "../src/lib/catalog/slugs";
+
+const categories = [
+  { id: "wedding", name: "Wedding", slug: "wedding" },
+  { id: "occasions", name: "Occasions", slug: "occasions" },
+  { id: "anniversary", name: "Anniversary", slug: "anniversary" },
+  { id: "hampers", name: "Hampers", slug: "hampers" },
+  { id: "personalised", name: "Personalised", slug: "personalised" },
+  { id: "lifestyle", name: "Lifestyle", slug: "lifestyle" },
+];
+const recipients = ["her","him","kids","friends","parents","girlfriend","boyfriend"].map((id, i) => ({ id, name: `For ${id[0].toUpperCase()}${id.slice(1)}`, slug: id, sortOrder: i }));
+const occasions = [
+  { id: "birthday", name: "Birthday", slug: "birthday", sortOrder: 1 },
+  { id: "anniversary", name: "Anniversary", slug: "anniversary", sortOrder: 2 },
+  { id: "wedding", name: "Wedding", slug: "wedding", sortOrder: 3 },
+  { id: "celebration", name: "Celebration", slug: "celebration", sortOrder: 4 },
+];
+const products = [
+  { id:"personalised-photo-frame", sku:"G4U-PF-001", title:"Personalised Photo Frame", slug:"personalised-photo-frame", categoryIds:["personalised"], occasionIds:["birthday","anniversary"], recipientIds:["her","him","friends"], price:799, mrp:999, bestseller:true, newArrival:false },
+  { id:"premium-celebration-hamper", sku:"G4U-HM-001", title:"Premium Celebration Hamper", slug:"premium-celebration-hamper", categoryIds:["hampers"], occasionIds:["celebration","birthday"], recipientIds:["her","him","parents","friends"], price:1499, mrp:1899, bestseller:true, newArrival:false },
+  { id:"couple-memory-gift-box", sku:"G4U-AN-001", title:"Couple Memory Gift Box", slug:"couple-memory-gift-box", categoryIds:["anniversary"], occasionIds:["anniversary"], recipientIds:["girlfriend","boyfriend"], price:1199, mrp:1499, bestseller:true, newArrival:false },
+  { id:"elegant-wedding-gift-set", sku:"G4U-WD-001", title:"Elegant Wedding Gift Set", slug:"elegant-wedding-gift-set", categoryIds:["wedding"], occasionIds:["wedding"], recipientIds:["parents","friends"], price:2499, mrp:2999, bestseller:true, newArrival:false },
+  { id:"custom-name-neon-lamp", sku:"G4U-NL-001", title:"Custom Name Neon Lamp", slug:"custom-name-neon-lamp", categoryIds:["personalised"], occasionIds:["birthday","celebration"], recipientIds:["her","him","friends"], price:1599, mrp:0, bestseller:false, newArrival:true },
+  { id:"luxury-rose-gift-box", sku:"G4U-RG-001", title:"Luxury Rose Gift Box", slug:"luxury-rose-gift-box", categoryIds:["hampers"], occasionIds:["anniversary","celebration"], recipientIds:["girlfriend","boyfriend","her"], price:1899, mrp:0, bestseller:false, newArrival:true },
+  { id:"personalised-memory-journal", sku:"G4U-MJ-001", title:"Personalised Memory Journal", slug:"personalised-memory-journal", categoryIds:["personalised"], occasionIds:["birthday","anniversary"], recipientIds:["her","him","friends"], price:699, mrp:0, bestseller:false, newArrival:true },
+  { id:"minimal-home-fragrance-set", sku:"G4U-HF-001", title:"Minimal Home Fragrance Set", slug:"minimal-home-fragrance-set", categoryIds:["lifestyle"], occasionIds:["celebration","wedding"], recipientIds:["parents","friends"], price:1299, mrp:0, bestseller:false, newArrival:true },
+];
+async function main(){const db=getAdminDb();for(const item of categories){await db.collection('categories').doc(item.id).set({name:item.name,slug:item.slug,sortOrder:categories.indexOf(item),active:true,description:'',createdAt:FieldValue.serverTimestamp(),updatedAt:FieldValue.serverTimestamp()},{merge:true});await db.collection('slugs').doc(slugLockId('categories',item.slug)).set({type:'categories',slug:item.slug,entityId:item.id,updatedAt:FieldValue.serverTimestamp()},{merge:true});}for(const item of recipients){await db.collection('recipients').doc(item.id).set({...item,active:true,description:'',createdAt:FieldValue.serverTimestamp(),updatedAt:FieldValue.serverTimestamp()},{merge:true});await db.collection('slugs').doc(slugLockId('recipients',item.slug)).set({type:'recipients',slug:item.slug,entityId:item.id,updatedAt:FieldValue.serverTimestamp()},{merge:true});}for(const item of occasions){await db.collection('occasions').doc(item.id).set({...item,active:true,description:'',createdAt:FieldValue.serverTimestamp(),updatedAt:FieldValue.serverTimestamp()},{merge:true});await db.collection('slugs').doc(slugLockId('occasions',item.slug)).set({type:'occasions',slug:item.slug,entityId:item.id,updatedAt:FieldValue.serverTimestamp()},{merge:true});}for(const item of products){const product={sku:item.sku,title:item.title,slug:item.slug,shortDescription:'',description:'',categoryIds:item.categoryIds,occasionIds:item.occasionIds,recipientIds:item.recipientIds,tagIds:[],collectionIds:[],images:[],thumbnail:'',price:item.price,mrp:item.mrp,discount:item.mrp>item.price?Math.round((1-item.price/item.mrp)*100):0,variants:[],personalization:{enabled:false},inventory:{quantity:0,reserved:0,sold:0},delivery:{minDays:2,maxDays:5,sameDay:false},serviceability:{nationwide:true,pincodes:[]},status:'live',featured:false,bestseller:item.bestseller,newArrival:item.newArrival,rating:0,reviewCount:0,seo:{title:item.title,description:'',keywords:[]},createdAt:FieldValue.serverTimestamp(),updatedAt:FieldValue.serverTimestamp()};await db.collection('products').doc(item.id).set(product,{merge:true});await db.collection('inventory').doc(item.id).set({productId:item.id,quantity:0,reserved:0,sold:0,updatedAt:FieldValue.serverTimestamp()},{merge:true});await db.collection('slugs').doc(slugLockId('products',item.slug)).set({type:'products',slug:item.slug,entityId:item.id,updatedAt:FieldValue.serverTimestamp()},{merge:true});}await db.collection('collections').doc('featured').set({name:'Featured',slug:'featured',sortOrder:1,active:true,description:'Featured gifts',createdAt:FieldValue.serverTimestamp(),updatedAt:FieldValue.serverTimestamp()},{merge:true});console.log(`Seeded ${categories.length} categories, ${occasions.length} occasions, ${recipients.length} recipients and ${products.length} products.`);}
+main().catch(e=>{console.error(e);process.exit(1)});

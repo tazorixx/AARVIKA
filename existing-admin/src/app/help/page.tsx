@@ -1,0 +1,22 @@
+import Link from "next/link";
+import { ArrowRight, ChevronDown, MessageCircle, Package, Search, ShieldCheck, Truck } from "lucide-react";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import Breadcrumb from "@/components/Breadcrumb";
+const topics = [
+  { title: "Orders & tracking", text: "View order status, delivery information and order details.", href: "/orders", icon: Package },
+  { title: "Delivery", text: "Manage saved addresses and check delivery details during shopping.", href: "/account/addresses", icon: Truck },
+  { title: "Account", text: "Update your profile, saved addresses and gifting preferences.", href: "/account", icon: ShieldCheck },
+  { title: "Need personal help?", text: "Create a support request and keep the conversation in your account.", href: "/support", icon: MessageCircle },
+];
+const faqs = [
+  ["Where can I see my orders?", "Sign in and open My Orders from the header or your account. Each order includes its current status and a link to the full order details."],
+  ["Can I save gifts for later?", "Yes. Use the heart on a product to add it to your wishlist, then return to Wishlist whenever you are ready."],
+  ["What happens to my cart if I sign in?", "Guest cart items are merged into your account cart after successful sign-in so you can continue shopping without starting again."],
+  ["How do I get help with an order?", "Open Customer Support and create a ticket. Include your order ID when the question is related to a specific purchase."],
+];
+export default function HelpPage() { return <><Header/><Breadcrumb currentPage="Help"/><main className="min-h-screen bg-[linear-gradient(180deg,#fffafd_0%,#ffffff_45%,#f5fbff_100%)]"><div className="mx-auto w-[min(1380px,calc(100%-48px))] py-7 sm:py-9 lg:w-[min(1380px,calc(100%-120px))] lg:py-11">
+<section className="rounded-[22px] border border-[#eadfe5] bg-white px-6 py-9 shadow-[0_16px_45px_rgba(33,76,114,.07)] sm:px-10 lg:px-14"><span className="inline-flex items-center gap-2 rounded-full bg-[#fff1f6] px-3 py-1.5 text-[10px] font-extrabold uppercase tracking-[.14em] text-[#bd1d52]"><Search size={13}/> Gift4U help</span><h1 className="gift-heading mt-5 text-4xl font-bold text-[#214c72] sm:text-5xl">How can we help?</h1><p className="mt-3 max-w-2xl text-sm leading-7 text-[#667085]">Find the right place to manage your order, account or saved gifts. If you still need help, our support page keeps your request in one place.</p><div className="mt-6 flex flex-wrap gap-3"><Link href="/support" className="inline-flex items-center gap-2 rounded-full bg-[#d92f66] px-5 py-3 text-sm font-extrabold text-white">Contact support <ArrowRight size={15}/></Link><Link href="/orders" className="inline-flex items-center gap-2 rounded-full border border-[#dce8ef] px-5 py-3 text-sm font-extrabold text-[#214c72]">My orders</Link></div></section>
+<section className="mt-9 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">{topics.map(({title,text,href,icon:Icon})=><Link key={title} href={href} className="group rounded-[16px] border border-[#e5eef4] bg-white p-5 transition hover:-translate-y-1 hover:border-[#e2cbd5] hover:shadow-[0_14px_32px_rgba(33,76,114,.08)]"><span className="grid h-10 w-10 place-items-center rounded-xl bg-[#f5fbff] text-[#2f628f] group-hover:bg-[#fff1f6] group-hover:text-[#d92f66]"><Icon size={18}/></span><h2 className="gift-heading mt-4 text-xl font-bold text-[#214c72]">{title}</h2><p className="mt-1.5 text-xs leading-5 text-slate-500">{text}</p><span className="mt-4 inline-flex items-center gap-1 text-xs font-extrabold text-[#d92f66]">Open <ArrowRight size={13}/></span></Link>)}</section>
+<section className="mt-11 max-w-4xl"><p className="text-[11px] font-extrabold uppercase tracking-[.16em] text-[#d92f66]">Common questions</p><h2 className="gift-heading mt-1.5 text-3xl font-bold text-[#214c72]">Quick answers</h2><div className="mt-5 divide-y overflow-hidden rounded-[16px] border border-[#e5eef4] bg-white">{faqs.map(([question,answer])=><details key={question} className="group p-5"><summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-sm font-extrabold text-[#214c72]"><span>{question}</span><ChevronDown size={17} className="shrink-0 text-[#2f628f] transition group-open:rotate-180"/></summary><p className="mt-3 max-w-3xl text-sm leading-6 text-slate-600">{answer}</p></details>)}</div></section>
+</div></main><Footer/></>; }

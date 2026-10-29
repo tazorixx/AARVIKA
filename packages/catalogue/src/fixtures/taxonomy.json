@@ -1,0 +1,1978 @@
+[
+  {
+    "id": "wedding-root",
+    "departmentId": "wedding",
+    "parentId": null,
+    "level": 1,
+    "name": "Wedding",
+    "active": true
+  },
+  {
+    "id": "birthday-root",
+    "departmentId": "birthday",
+    "parentId": null,
+    "level": 1,
+    "name": "Birthday",
+    "active": true
+  },
+  {
+    "id": "personalized-root",
+    "departmentId": "personalized",
+    "parentId": null,
+    "level": 1,
+    "name": "Personalized Gifts",
+    "active": true
+  },
+  {
+    "id": "anniversary-root",
+    "departmentId": "anniversary",
+    "parentId": null,
+    "level": 1,
+    "name": "Anniversary",
+    "active": true
+  },
+  {
+    "id": "hampers-root",
+    "departmentId": "hampers",
+    "parentId": null,
+    "level": 1,
+    "name": "Hampers",
+    "active": true
+  },
+  {
+    "id": "clothing-root",
+    "departmentId": "clothing",
+    "parentId": null,
+    "level": 1,
+    "name": "Clothing",
+    "active": true
+  },
+  {
+    "id": "stationery-root",
+    "departmentId": "stationery",
+    "parentId": null,
+    "level": 1,
+    "name": "Stationery",
+    "active": true
+  },
+  {
+    "id": "furniture-root",
+    "departmentId": "furniture",
+    "parentId": null,
+    "level": 1,
+    "name": "Furniture",
+    "active": true
+  },
+  {
+    "id": "hampers-1",
+    "departmentId": "hampers",
+    "parentId": "hampers-root",
+    "level": 2,
+    "name": "Birthday Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-1-1",
+    "departmentId": "hampers",
+    "parentId": "hampers-1",
+    "level": 3,
+    "name": "For Her",
+    "active": true
+  },
+  {
+    "id": "hampers-1-2",
+    "departmentId": "hampers",
+    "parentId": "hampers-1",
+    "level": 3,
+    "name": "For Him",
+    "active": true
+  },
+  {
+    "id": "hampers-1-3",
+    "departmentId": "hampers",
+    "parentId": "hampers-1",
+    "level": 3,
+    "name": "For Kids",
+    "active": true
+  },
+  {
+    "id": "hampers-1-4",
+    "departmentId": "hampers",
+    "parentId": "hampers-1",
+    "level": 3,
+    "name": "For Friends",
+    "active": true
+  },
+  {
+    "id": "hampers-1-5",
+    "departmentId": "hampers",
+    "parentId": "hampers-1",
+    "level": 3,
+    "name": "For Couples",
+    "active": true
+  },
+  {
+    "id": "hampers-2",
+    "departmentId": "hampers",
+    "parentId": "hampers-root",
+    "level": 2,
+    "name": "Festival Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-2-1",
+    "departmentId": "hampers",
+    "parentId": "hampers-2",
+    "level": 3,
+    "name": "Diwali Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-2-2",
+    "departmentId": "hampers",
+    "parentId": "hampers-2",
+    "level": 3,
+    "name": "Raksha Bandhan Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-2-3",
+    "departmentId": "hampers",
+    "parentId": "hampers-2",
+    "level": 3,
+    "name": "Christmas Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-2-4",
+    "departmentId": "hampers",
+    "parentId": "hampers-2",
+    "level": 3,
+    "name": "New Year Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-2-5",
+    "departmentId": "hampers",
+    "parentId": "hampers-2",
+    "level": 3,
+    "name": "Holi Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-2-6",
+    "departmentId": "hampers",
+    "parentId": "hampers-2",
+    "level": 3,
+    "name": "Other Festival Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-3",
+    "departmentId": "hampers",
+    "parentId": "hampers-root",
+    "level": 2,
+    "name": "Wedding & Engagement Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-3-1",
+    "departmentId": "hampers",
+    "parentId": "hampers-3",
+    "level": 3,
+    "name": "Wedding Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-3-2",
+    "departmentId": "hampers",
+    "parentId": "hampers-3",
+    "level": 3,
+    "name": "Engagement Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-3-3",
+    "departmentId": "hampers",
+    "parentId": "hampers-3",
+    "level": 3,
+    "name": "Bridal Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-3-4",
+    "departmentId": "hampers",
+    "parentId": "hampers-3",
+    "level": 3,
+    "name": "Groom Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-3-5",
+    "departmentId": "hampers",
+    "parentId": "hampers-3",
+    "level": 3,
+    "name": "Bridesmaid Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-3-6",
+    "departmentId": "hampers",
+    "parentId": "hampers-3",
+    "level": 3,
+    "name": "Wedding Return Gifts",
+    "active": true
+  },
+  {
+    "id": "hampers-4",
+    "departmentId": "hampers",
+    "parentId": "hampers-root",
+    "level": 2,
+    "name": "Anniversary & Romantic Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-4-1",
+    "departmentId": "hampers",
+    "parentId": "hampers-4",
+    "level": 3,
+    "name": "Anniversary Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-4-2",
+    "departmentId": "hampers",
+    "parentId": "hampers-4",
+    "level": 3,
+    "name": "Valentine's Day Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-4-3",
+    "departmentId": "hampers",
+    "parentId": "hampers-4",
+    "level": 3,
+    "name": "Couple Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-4-4",
+    "departmentId": "hampers",
+    "parentId": "hampers-4",
+    "level": 3,
+    "name": "Romantic Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-5",
+    "departmentId": "hampers",
+    "parentId": "hampers-root",
+    "level": 2,
+    "name": "Corporate Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-5-1",
+    "departmentId": "hampers",
+    "parentId": "hampers-5",
+    "level": 3,
+    "name": "Employee Welcome Kits",
+    "active": true
+  },
+  {
+    "id": "hampers-5-2",
+    "departmentId": "hampers",
+    "parentId": "hampers-5",
+    "level": 3,
+    "name": "Employee Appreciation Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-5-3",
+    "departmentId": "hampers",
+    "parentId": "hampers-5",
+    "level": 3,
+    "name": "Client Gift Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-5-4",
+    "departmentId": "hampers",
+    "parentId": "hampers-5",
+    "level": 3,
+    "name": "Corporate Festival Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-5-5",
+    "departmentId": "hampers",
+    "parentId": "hampers-5",
+    "level": 3,
+    "name": "Conference & Event Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-6",
+    "departmentId": "hampers",
+    "parentId": "hampers-root",
+    "level": 2,
+    "name": "Stationery Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-6-1",
+    "departmentId": "hampers",
+    "parentId": "hampers-6",
+    "level": 3,
+    "name": "Student Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-6-2",
+    "departmentId": "hampers",
+    "parentId": "hampers-6",
+    "level": 3,
+    "name": "Office Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-6-3",
+    "departmentId": "hampers",
+    "parentId": "hampers-6",
+    "level": 3,
+    "name": "Journaling Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-6-4",
+    "departmentId": "hampers",
+    "parentId": "hampers-6",
+    "level": 3,
+    "name": "Art & Craft Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-6-5",
+    "departmentId": "hampers",
+    "parentId": "hampers-6",
+    "level": 3,
+    "name": "Premium Stationery Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-7",
+    "departmentId": "hampers",
+    "parentId": "hampers-root",
+    "level": 2,
+    "name": "Self-Care & Lifestyle Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-7-1",
+    "departmentId": "hampers",
+    "parentId": "hampers-7",
+    "level": 3,
+    "name": "Bath Accessories Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-7-2",
+    "departmentId": "hampers",
+    "parentId": "hampers-7",
+    "level": 3,
+    "name": "Grooming Accessories Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-7-3",
+    "departmentId": "hampers",
+    "parentId": "hampers-7",
+    "level": 3,
+    "name": "Travel Essentials Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-7-4",
+    "departmentId": "hampers",
+    "parentId": "hampers-7",
+    "level": 3,
+    "name": "Relaxation Accessories Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-7-5",
+    "departmentId": "hampers",
+    "parentId": "hampers-7",
+    "level": 3,
+    "name": "Lifestyle Accessories Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-8",
+    "departmentId": "hampers",
+    "parentId": "hampers-root",
+    "level": 2,
+    "name": "Home & Décor Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-8-1",
+    "departmentId": "hampers",
+    "parentId": "hampers-8",
+    "level": 3,
+    "name": "Housewarming Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-8-2",
+    "departmentId": "hampers",
+    "parentId": "hampers-8",
+    "level": 3,
+    "name": "Home Décor Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-8-3",
+    "departmentId": "hampers",
+    "parentId": "hampers-8",
+    "level": 3,
+    "name": "Desk Décor Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-8-4",
+    "departmentId": "hampers",
+    "parentId": "hampers-8",
+    "level": 3,
+    "name": "Kitchen Accessories Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-8-5",
+    "departmentId": "hampers",
+    "parentId": "hampers-8",
+    "level": 3,
+    "name": "Pooja Accessories Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-9",
+    "departmentId": "hampers",
+    "parentId": "hampers-root",
+    "level": 2,
+    "name": "Baby & Kids Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-9-1",
+    "departmentId": "hampers",
+    "parentId": "hampers-9",
+    "level": 3,
+    "name": "Newborn Gift Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-9-2",
+    "departmentId": "hampers",
+    "parentId": "hampers-9",
+    "level": 3,
+    "name": "Baby Shower Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-9-3",
+    "departmentId": "hampers",
+    "parentId": "hampers-9",
+    "level": 3,
+    "name": "Kids Activity Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-9-4",
+    "departmentId": "hampers",
+    "parentId": "hampers-9",
+    "level": 3,
+    "name": "Kids Stationery Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-9-5",
+    "departmentId": "hampers",
+    "parentId": "hampers-9",
+    "level": 3,
+    "name": "Baby Keepsake Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-10",
+    "departmentId": "hampers",
+    "parentId": "hampers-root",
+    "level": 2,
+    "name": "Custom Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-10-1",
+    "departmentId": "hampers",
+    "parentId": "hampers-10",
+    "level": 3,
+    "name": "Build Your Own Hamper",
+    "active": true
+  },
+  {
+    "id": "hampers-10-2",
+    "departmentId": "hampers",
+    "parentId": "hampers-10",
+    "level": 3,
+    "name": "Personalised Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-10-3",
+    "departmentId": "hampers",
+    "parentId": "hampers-10",
+    "level": 3,
+    "name": "Budget-Based Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-10-4",
+    "departmentId": "hampers",
+    "parentId": "hampers-10",
+    "level": 3,
+    "name": "Corporate Custom Hampers",
+    "active": true
+  },
+  {
+    "id": "hampers-10-5",
+    "departmentId": "hampers",
+    "parentId": "hampers-10",
+    "level": 3,
+    "name": "Occasion-Based Hampers",
+    "active": true
+  },
+  {
+    "id": "stationery-1",
+    "departmentId": "stationery",
+    "parentId": "stationery-root",
+    "level": 2,
+    "name": "Notebooks & Diaries",
+    "active": true
+  },
+  {
+    "id": "stationery-1-1",
+    "departmentId": "stationery",
+    "parentId": "stationery-1",
+    "level": 3,
+    "name": "Notebooks",
+    "active": true
+  },
+  {
+    "id": "stationery-1-2",
+    "departmentId": "stationery",
+    "parentId": "stationery-1",
+    "level": 3,
+    "name": "Diaries",
+    "active": true
+  },
+  {
+    "id": "stationery-1-3",
+    "departmentId": "stationery",
+    "parentId": "stationery-1",
+    "level": 3,
+    "name": "Journals",
+    "active": true
+  },
+  {
+    "id": "stationery-1-4",
+    "departmentId": "stationery",
+    "parentId": "stationery-1",
+    "level": 3,
+    "name": "Writing Pads",
+    "active": true
+  },
+  {
+    "id": "stationery-1-5",
+    "departmentId": "stationery",
+    "parentId": "stationery-1",
+    "level": 3,
+    "name": "Memo Pads",
+    "active": true
+  },
+  {
+    "id": "stationery-2",
+    "departmentId": "stationery",
+    "parentId": "stationery-root",
+    "level": 2,
+    "name": "Pens & Writing Supplies",
+    "active": true
+  },
+  {
+    "id": "stationery-2-1",
+    "departmentId": "stationery",
+    "parentId": "stationery-2",
+    "level": 3,
+    "name": "Ball Pens",
+    "active": true
+  },
+  {
+    "id": "stationery-2-2",
+    "departmentId": "stationery",
+    "parentId": "stationery-2",
+    "level": 3,
+    "name": "Gel Pens",
+    "active": true
+  },
+  {
+    "id": "stationery-2-3",
+    "departmentId": "stationery",
+    "parentId": "stationery-2",
+    "level": 3,
+    "name": "Fountain Pens",
+    "active": true
+  },
+  {
+    "id": "stationery-2-4",
+    "departmentId": "stationery",
+    "parentId": "stationery-2",
+    "level": 3,
+    "name": "Pencils",
+    "active": true
+  },
+  {
+    "id": "stationery-2-5",
+    "departmentId": "stationery",
+    "parentId": "stationery-2",
+    "level": 3,
+    "name": "Mechanical Pencils",
+    "active": true
+  },
+  {
+    "id": "stationery-2-6",
+    "departmentId": "stationery",
+    "parentId": "stationery-2",
+    "level": 3,
+    "name": "Highlighters",
+    "active": true
+  },
+  {
+    "id": "stationery-2-7",
+    "departmentId": "stationery",
+    "parentId": "stationery-2",
+    "level": 3,
+    "name": "Pen Accessories",
+    "active": true
+  },
+  {
+    "id": "stationery-3",
+    "departmentId": "stationery",
+    "parentId": "stationery-root",
+    "level": 2,
+    "name": "School Stationery",
+    "active": true
+  },
+  {
+    "id": "stationery-3-1",
+    "departmentId": "stationery",
+    "parentId": "stationery-3",
+    "level": 3,
+    "name": "Writing Essentials",
+    "active": true
+  },
+  {
+    "id": "stationery-3-2",
+    "departmentId": "stationery",
+    "parentId": "stationery-3",
+    "level": 3,
+    "name": "Geometry & Mathematics Supplies",
+    "active": true
+  },
+  {
+    "id": "stationery-3-3",
+    "departmentId": "stationery",
+    "parentId": "stationery-3",
+    "level": 3,
+    "name": "School Organisation",
+    "active": true
+  },
+  {
+    "id": "stationery-3-4",
+    "departmentId": "stationery",
+    "parentId": "stationery-3",
+    "level": 3,
+    "name": "Exam Supplies",
+    "active": true
+  },
+  {
+    "id": "stationery-3-5",
+    "departmentId": "stationery",
+    "parentId": "stationery-3",
+    "level": 3,
+    "name": "Student Stationery Kits",
+    "active": true
+  },
+  {
+    "id": "stationery-4",
+    "departmentId": "stationery",
+    "parentId": "stationery-root",
+    "level": 2,
+    "name": "Office Stationery",
+    "active": true
+  },
+  {
+    "id": "stationery-4-1",
+    "departmentId": "stationery",
+    "parentId": "stationery-4",
+    "level": 3,
+    "name": "Paper Products",
+    "active": true
+  },
+  {
+    "id": "stationery-4-2",
+    "departmentId": "stationery",
+    "parentId": "stationery-4",
+    "level": 3,
+    "name": "Filing & Organisation",
+    "active": true
+  },
+  {
+    "id": "stationery-4-3",
+    "departmentId": "stationery",
+    "parentId": "stationery-4",
+    "level": 3,
+    "name": "Desk Supplies",
+    "active": true
+  },
+  {
+    "id": "stationery-4-4",
+    "departmentId": "stationery",
+    "parentId": "stationery-4",
+    "level": 3,
+    "name": "Office Accessories",
+    "active": true
+  },
+  {
+    "id": "stationery-4-5",
+    "departmentId": "stationery",
+    "parentId": "stationery-4",
+    "level": 3,
+    "name": "Business Stationery",
+    "active": true
+  },
+  {
+    "id": "stationery-5",
+    "departmentId": "stationery",
+    "parentId": "stationery-root",
+    "level": 2,
+    "name": "Planners & Calendars",
+    "active": true
+  },
+  {
+    "id": "stationery-5-1",
+    "departmentId": "stationery",
+    "parentId": "stationery-5",
+    "level": 3,
+    "name": "Daily Planners",
+    "active": true
+  },
+  {
+    "id": "stationery-5-2",
+    "departmentId": "stationery",
+    "parentId": "stationery-5",
+    "level": 3,
+    "name": "Weekly Planners",
+    "active": true
+  },
+  {
+    "id": "stationery-5-3",
+    "departmentId": "stationery",
+    "parentId": "stationery-5",
+    "level": 3,
+    "name": "Monthly Planners",
+    "active": true
+  },
+  {
+    "id": "stationery-5-4",
+    "departmentId": "stationery",
+    "parentId": "stationery-5",
+    "level": 3,
+    "name": "Academic Planners",
+    "active": true
+  },
+  {
+    "id": "stationery-5-5",
+    "departmentId": "stationery",
+    "parentId": "stationery-5",
+    "level": 3,
+    "name": "Habit Trackers",
+    "active": true
+  },
+  {
+    "id": "stationery-5-6",
+    "departmentId": "stationery",
+    "parentId": "stationery-5",
+    "level": 3,
+    "name": "Calendars",
+    "active": true
+  },
+  {
+    "id": "stationery-6",
+    "departmentId": "stationery",
+    "parentId": "stationery-root",
+    "level": 2,
+    "name": "Art & Craft Supplies",
+    "active": true
+  },
+  {
+    "id": "stationery-6-1",
+    "departmentId": "stationery",
+    "parentId": "stationery-6",
+    "level": 3,
+    "name": "Drawing Supplies",
+    "active": true
+  },
+  {
+    "id": "stationery-6-2",
+    "departmentId": "stationery",
+    "parentId": "stationery-6",
+    "level": 3,
+    "name": "Painting Supplies",
+    "active": true
+  },
+  {
+    "id": "stationery-6-3",
+    "departmentId": "stationery",
+    "parentId": "stationery-6",
+    "level": 3,
+    "name": "Paper Craft",
+    "active": true
+  },
+  {
+    "id": "stationery-6-4",
+    "departmentId": "stationery",
+    "parentId": "stationery-6",
+    "level": 3,
+    "name": "Scrapbooking Supplies",
+    "active": true
+  },
+  {
+    "id": "stationery-6-5",
+    "departmentId": "stationery",
+    "parentId": "stationery-6",
+    "level": 3,
+    "name": "DIY Craft Supplies",
+    "active": true
+  },
+  {
+    "id": "stationery-6-6",
+    "departmentId": "stationery",
+    "parentId": "stationery-6",
+    "level": 3,
+    "name": "Art & Craft Kits",
+    "active": true
+  },
+  {
+    "id": "stationery-7",
+    "departmentId": "stationery",
+    "parentId": "stationery-root",
+    "level": 2,
+    "name": "Aesthetic Stationery",
+    "active": true
+  },
+  {
+    "id": "stationery-7-1",
+    "departmentId": "stationery",
+    "parentId": "stationery-7",
+    "level": 3,
+    "name": "Decorative Stickers",
+    "active": true
+  },
+  {
+    "id": "stationery-7-2",
+    "departmentId": "stationery",
+    "parentId": "stationery-7",
+    "level": 3,
+    "name": "Washi Tapes",
+    "active": true
+  },
+  {
+    "id": "stationery-7-3",
+    "departmentId": "stationery",
+    "parentId": "stationery-7",
+    "level": 3,
+    "name": "Decorative Paper",
+    "active": true
+  },
+  {
+    "id": "stationery-7-4",
+    "departmentId": "stationery",
+    "parentId": "stationery-7",
+    "level": 3,
+    "name": "Bookmarks",
+    "active": true
+  },
+  {
+    "id": "stationery-7-5",
+    "departmentId": "stationery",
+    "parentId": "stationery-7",
+    "level": 3,
+    "name": "Journaling Accessories",
+    "active": true
+  },
+  {
+    "id": "stationery-7-6",
+    "departmentId": "stationery",
+    "parentId": "stationery-7",
+    "level": 3,
+    "name": "Cute Desk Accessories",
+    "active": true
+  },
+  {
+    "id": "stationery-8",
+    "departmentId": "stationery",
+    "parentId": "stationery-root",
+    "level": 2,
+    "name": "Desk Accessories",
+    "active": true
+  },
+  {
+    "id": "stationery-8-1",
+    "departmentId": "stationery",
+    "parentId": "stationery-8",
+    "level": 3,
+    "name": "Desk Organisers",
+    "active": true
+  },
+  {
+    "id": "stationery-8-2",
+    "departmentId": "stationery",
+    "parentId": "stationery-8",
+    "level": 3,
+    "name": "Pen Holders",
+    "active": true
+  },
+  {
+    "id": "stationery-8-3",
+    "departmentId": "stationery",
+    "parentId": "stationery-8",
+    "level": 3,
+    "name": "Desk Mats",
+    "active": true
+  },
+  {
+    "id": "stationery-8-4",
+    "departmentId": "stationery",
+    "parentId": "stationery-8",
+    "level": 3,
+    "name": "Desktop Accessories",
+    "active": true
+  },
+  {
+    "id": "stationery-8-5",
+    "departmentId": "stationery",
+    "parentId": "stationery-8",
+    "level": 3,
+    "name": "Workspace Organisation",
+    "active": true
+  },
+  {
+    "id": "stationery-9",
+    "departmentId": "stationery",
+    "parentId": "stationery-root",
+    "level": 2,
+    "name": "Packaging & Gift Wrapping",
+    "active": true
+  },
+  {
+    "id": "stationery-9-1",
+    "departmentId": "stationery",
+    "parentId": "stationery-9",
+    "level": 3,
+    "name": "Gift Wrapping Paper",
+    "active": true
+  },
+  {
+    "id": "stationery-9-2",
+    "departmentId": "stationery",
+    "parentId": "stationery-9",
+    "level": 3,
+    "name": "Gift Bags",
+    "active": true
+  },
+  {
+    "id": "stationery-9-3",
+    "departmentId": "stationery",
+    "parentId": "stationery-9",
+    "level": 3,
+    "name": "Gift Boxes",
+    "active": true
+  },
+  {
+    "id": "stationery-9-4",
+    "departmentId": "stationery",
+    "parentId": "stationery-9",
+    "level": 3,
+    "name": "Ribbons & Bows",
+    "active": true
+  },
+  {
+    "id": "stationery-9-5",
+    "departmentId": "stationery",
+    "parentId": "stationery-9",
+    "level": 3,
+    "name": "Gift Tags",
+    "active": true
+  },
+  {
+    "id": "stationery-9-6",
+    "departmentId": "stationery",
+    "parentId": "stationery-9",
+    "level": 3,
+    "name": "Greeting Cards",
+    "active": true
+  },
+  {
+    "id": "stationery-9-7",
+    "departmentId": "stationery",
+    "parentId": "stationery-9",
+    "level": 3,
+    "name": "Decorative Packaging",
+    "active": true
+  },
+  {
+    "id": "stationery-10",
+    "departmentId": "stationery",
+    "parentId": "stationery-root",
+    "level": 2,
+    "name": "Educational Supplies",
+    "active": true
+  },
+  {
+    "id": "stationery-10-1",
+    "departmentId": "stationery",
+    "parentId": "stationery-10",
+    "level": 3,
+    "name": "Learning Cards",
+    "active": true
+  },
+  {
+    "id": "stationery-10-2",
+    "departmentId": "stationery",
+    "parentId": "stationery-10",
+    "level": 3,
+    "name": "Educational Charts",
+    "active": true
+  },
+  {
+    "id": "stationery-10-3",
+    "departmentId": "stationery",
+    "parentId": "stationery-10",
+    "level": 3,
+    "name": "Activity Books",
+    "active": true
+  },
+  {
+    "id": "stationery-10-4",
+    "departmentId": "stationery",
+    "parentId": "stationery-10",
+    "level": 3,
+    "name": "Handwriting Practice Materials",
+    "active": true
+  },
+  {
+    "id": "stationery-10-5",
+    "departmentId": "stationery",
+    "parentId": "stationery-10",
+    "level": 3,
+    "name": "Learning Kits",
+    "active": true
+  },
+  {
+    "id": "stationery-11",
+    "departmentId": "stationery",
+    "parentId": "stationery-root",
+    "level": 2,
+    "name": "Stationery Gift Sets",
+    "active": true
+  },
+  {
+    "id": "stationery-11-1",
+    "departmentId": "stationery",
+    "parentId": "stationery-11",
+    "level": 3,
+    "name": "Student Gift Sets",
+    "active": true
+  },
+  {
+    "id": "stationery-11-2",
+    "departmentId": "stationery",
+    "parentId": "stationery-11",
+    "level": 3,
+    "name": "Office Gift Sets",
+    "active": true
+  },
+  {
+    "id": "stationery-11-3",
+    "departmentId": "stationery",
+    "parentId": "stationery-11",
+    "level": 3,
+    "name": "Premium Stationery Sets",
+    "active": true
+  },
+  {
+    "id": "stationery-11-4",
+    "departmentId": "stationery",
+    "parentId": "stationery-11",
+    "level": 3,
+    "name": "Journaling Sets",
+    "active": true
+  },
+  {
+    "id": "stationery-11-5",
+    "departmentId": "stationery",
+    "parentId": "stationery-11",
+    "level": 3,
+    "name": "Teacher Appreciation Sets",
+    "active": true
+  },
+  {
+    "id": "stationery-11-6",
+    "departmentId": "stationery",
+    "parentId": "stationery-11",
+    "level": 3,
+    "name": "Creative Stationery Sets",
+    "active": true
+  },
+  {
+    "id": "personalized-1",
+    "departmentId": "personalized",
+    "parentId": "personalized-root",
+    "level": 2,
+    "name": "Personalised Drinkware",
+    "active": true
+  },
+  {
+    "id": "personalized-1-1",
+    "departmentId": "personalized",
+    "parentId": "personalized-1",
+    "level": 3,
+    "name": "Mugs",
+    "active": true
+  },
+  {
+    "id": "personalized-1-2",
+    "departmentId": "personalized",
+    "parentId": "personalized-1",
+    "level": 3,
+    "name": "Water Bottles",
+    "active": true
+  },
+  {
+    "id": "personalized-1-3",
+    "departmentId": "personalized",
+    "parentId": "personalized-1",
+    "level": 3,
+    "name": "Tumblers",
+    "active": true
+  },
+  {
+    "id": "personalized-1-4",
+    "departmentId": "personalized",
+    "parentId": "personalized-1",
+    "level": 3,
+    "name": "Flasks",
+    "active": true
+  },
+  {
+    "id": "personalized-2",
+    "departmentId": "personalized",
+    "parentId": "personalized-root",
+    "level": 2,
+    "name": "Personalised Stationery",
+    "active": true
+  },
+  {
+    "id": "personalized-2-1",
+    "departmentId": "personalized",
+    "parentId": "personalized-2",
+    "level": 3,
+    "name": "Notebooks & Diaries",
+    "active": true
+  },
+  {
+    "id": "personalized-2-2",
+    "departmentId": "personalized",
+    "parentId": "personalized-2",
+    "level": 3,
+    "name": "Pens",
+    "active": true
+  },
+  {
+    "id": "personalized-2-3",
+    "departmentId": "personalized",
+    "parentId": "personalized-2",
+    "level": 3,
+    "name": "Planners",
+    "active": true
+  },
+  {
+    "id": "personalized-2-4",
+    "departmentId": "personalized",
+    "parentId": "personalized-2",
+    "level": 3,
+    "name": "Journals",
+    "active": true
+  },
+  {
+    "id": "personalized-2-5",
+    "departmentId": "personalized",
+    "parentId": "personalized-2",
+    "level": 3,
+    "name": "Bookmarks",
+    "active": true
+  },
+  {
+    "id": "personalized-3",
+    "departmentId": "personalized",
+    "parentId": "personalized-root",
+    "level": 2,
+    "name": "Personalised Photo Gifts",
+    "active": true
+  },
+  {
+    "id": "personalized-3-1",
+    "departmentId": "personalized",
+    "parentId": "personalized-3",
+    "level": 3,
+    "name": "Photo Frames",
+    "active": true
+  },
+  {
+    "id": "personalized-3-2",
+    "departmentId": "personalized",
+    "parentId": "personalized-3",
+    "level": 3,
+    "name": "Photo Albums",
+    "active": true
+  },
+  {
+    "id": "personalized-3-3",
+    "departmentId": "personalized",
+    "parentId": "personalized-3",
+    "level": 3,
+    "name": "Photo Collages",
+    "active": true
+  },
+  {
+    "id": "personalized-3-4",
+    "departmentId": "personalized",
+    "parentId": "personalized-3",
+    "level": 3,
+    "name": "Photo Prints",
+    "active": true
+  },
+  {
+    "id": "personalized-4",
+    "departmentId": "personalized",
+    "parentId": "personalized-root",
+    "level": 2,
+    "name": "Personalised Accessories",
+    "active": true
+  },
+  {
+    "id": "personalized-4-1",
+    "departmentId": "personalized",
+    "parentId": "personalized-4",
+    "level": 3,
+    "name": "Keychains",
+    "active": true
+  },
+  {
+    "id": "personalized-4-2",
+    "departmentId": "personalized",
+    "parentId": "personalized-4",
+    "level": 3,
+    "name": "Wallets",
+    "active": true
+  },
+  {
+    "id": "personalized-4-3",
+    "departmentId": "personalized",
+    "parentId": "personalized-4",
+    "level": 3,
+    "name": "Bags & Pouches",
+    "active": true
+  },
+  {
+    "id": "personalized-4-4",
+    "departmentId": "personalized",
+    "parentId": "personalized-4",
+    "level": 3,
+    "name": "Phone Cases",
+    "active": true
+  },
+  {
+    "id": "personalized-4-5",
+    "departmentId": "personalized",
+    "parentId": "personalized-4",
+    "level": 3,
+    "name": "Passport Covers",
+    "active": true
+  },
+  {
+    "id": "personalized-5",
+    "departmentId": "personalized",
+    "parentId": "personalized-root",
+    "level": 2,
+    "name": "Personalised Home Décor",
+    "active": true
+  },
+  {
+    "id": "personalized-5-1",
+    "departmentId": "personalized",
+    "parentId": "personalized-5",
+    "level": 3,
+    "name": "Name Plates",
+    "active": true
+  },
+  {
+    "id": "personalized-5-2",
+    "departmentId": "personalized",
+    "parentId": "personalized-5",
+    "level": 3,
+    "name": "Cushions",
+    "active": true
+  },
+  {
+    "id": "personalized-5-3",
+    "departmentId": "personalized",
+    "parentId": "personalized-5",
+    "level": 3,
+    "name": "Lamps",
+    "active": true
+  },
+  {
+    "id": "personalized-5-4",
+    "departmentId": "personalized",
+    "parentId": "personalized-5",
+    "level": 3,
+    "name": "Wall Décor",
+    "active": true
+  },
+  {
+    "id": "personalized-5-5",
+    "departmentId": "personalized",
+    "parentId": "personalized-5",
+    "level": 3,
+    "name": "Decorative Keepsakes",
+    "active": true
+  },
+  {
+    "id": "personalized-6",
+    "departmentId": "personalized",
+    "parentId": "personalized-root",
+    "level": 2,
+    "name": "Personalised Wearables",
+    "active": true
+  },
+  {
+    "id": "personalized-6-1",
+    "departmentId": "personalized",
+    "parentId": "personalized-6",
+    "level": 3,
+    "name": "T-Shirts",
+    "active": true
+  },
+  {
+    "id": "personalized-6-2",
+    "departmentId": "personalized",
+    "parentId": "personalized-6",
+    "level": 3,
+    "name": "Hoodies",
+    "active": true
+  },
+  {
+    "id": "personalized-6-3",
+    "departmentId": "personalized",
+    "parentId": "personalized-6",
+    "level": 3,
+    "name": "Caps",
+    "active": true
+  },
+  {
+    "id": "personalized-6-4",
+    "departmentId": "personalized",
+    "parentId": "personalized-6",
+    "level": 3,
+    "name": "Tote Bags",
+    "active": true
+  },
+  {
+    "id": "personalized-7",
+    "departmentId": "personalized",
+    "parentId": "personalized-root",
+    "level": 2,
+    "name": "Personalised Lifestyle Products",
+    "active": true
+  },
+  {
+    "id": "personalized-7-1",
+    "departmentId": "personalized",
+    "parentId": "personalized-7",
+    "level": 3,
+    "name": "Desk Accessories",
+    "active": true
+  },
+  {
+    "id": "personalized-7-2",
+    "departmentId": "personalized",
+    "parentId": "personalized-7",
+    "level": 3,
+    "name": "Travel Accessories",
+    "active": true
+  },
+  {
+    "id": "personalized-7-3",
+    "departmentId": "personalized",
+    "parentId": "personalized-7",
+    "level": 3,
+    "name": "Organisers",
+    "active": true
+  },
+  {
+    "id": "personalized-7-4",
+    "departmentId": "personalized",
+    "parentId": "personalized-7",
+    "level": 3,
+    "name": "Reusable Accessories",
+    "active": true
+  },
+  {
+    "id": "personalized-8",
+    "departmentId": "personalized",
+    "parentId": "personalized-root",
+    "level": 2,
+    "name": "Personalised Jewellery",
+    "active": true
+  },
+  {
+    "id": "personalized-8-1",
+    "departmentId": "personalized",
+    "parentId": "personalized-8",
+    "level": 3,
+    "name": "Necklaces & Pendants",
+    "active": true
+  },
+  {
+    "id": "personalized-8-2",
+    "departmentId": "personalized",
+    "parentId": "personalized-8",
+    "level": 3,
+    "name": "Bracelets",
+    "active": true
+  },
+  {
+    "id": "personalized-8-3",
+    "departmentId": "personalized",
+    "parentId": "personalized-8",
+    "level": 3,
+    "name": "Rings",
+    "active": true
+  },
+  {
+    "id": "personalized-8-4",
+    "departmentId": "personalized",
+    "parentId": "personalized-8",
+    "level": 3,
+    "name": "Engraved Accessories",
+    "active": true
+  },
+  {
+    "id": "personalized-9",
+    "departmentId": "personalized",
+    "parentId": "personalized-root",
+    "level": 2,
+    "name": "Create Your Own Combo",
+    "active": true
+  },
+  {
+    "id": "personalized-9-1",
+    "departmentId": "personalized",
+    "parentId": "personalized-9",
+    "level": 3,
+    "name": "Build Your Own Gift Box",
+    "active": true
+  },
+  {
+    "id": "personalized-9-2",
+    "departmentId": "personalized",
+    "parentId": "personalized-9",
+    "level": 3,
+    "name": "Personalised Birthday Combo",
+    "active": true
+  },
+  {
+    "id": "personalized-9-3",
+    "departmentId": "personalized",
+    "parentId": "personalized-9",
+    "level": 3,
+    "name": "Personalised Anniversary Combo",
+    "active": true
+  },
+  {
+    "id": "personalized-9-4",
+    "departmentId": "personalized",
+    "parentId": "personalized-9",
+    "level": 3,
+    "name": "Personalised Couple Combo",
+    "active": true
+  },
+  {
+    "id": "personalized-9-5",
+    "departmentId": "personalized",
+    "parentId": "personalized-9",
+    "level": 3,
+    "name": "Personalised Friendship Combo",
+    "active": true
+  },
+  {
+    "id": "personalized-9-6",
+    "departmentId": "personalized",
+    "parentId": "personalized-9",
+    "level": 3,
+    "name": "Personalised Wedding Combo",
+    "active": true
+  },
+  {
+    "id": "personalized-9-7",
+    "departmentId": "personalized",
+    "parentId": "personalized-9",
+    "level": 3,
+    "name": "Personalised Corporate Combo",
+    "active": true
+  },
+  {
+    "id": "personalized-9-8",
+    "departmentId": "personalized",
+    "parentId": "personalized-9",
+    "level": 3,
+    "name": "Custom Occasion Combo",
+    "active": true
+  },
+  {
+    "id": "wedding-1",
+    "departmentId": "wedding",
+    "parentId": "wedding-root",
+    "level": 2,
+    "name": "Ceremony Essentials",
+    "active": true
+  },
+  {
+    "id": "wedding-2",
+    "departmentId": "wedding",
+    "parentId": "wedding-root",
+    "level": 2,
+    "name": "Fashion",
+    "active": true
+  },
+  {
+    "id": "wedding-3",
+    "departmentId": "wedding",
+    "parentId": "wedding-root",
+    "level": 2,
+    "name": "Jewellery",
+    "active": true
+  },
+  {
+    "id": "wedding-4",
+    "departmentId": "wedding",
+    "parentId": "wedding-root",
+    "level": 2,
+    "name": "Decorations",
+    "active": true
+  },
+  {
+    "id": "wedding-5",
+    "departmentId": "wedding",
+    "parentId": "wedding-root",
+    "level": 2,
+    "name": "Gifts & Return Gifts",
+    "active": true
+  },
+  {
+    "id": "wedding-6",
+    "departmentId": "wedding",
+    "parentId": "wedding-root",
+    "level": 2,
+    "name": "Custom Combos",
+    "active": true
+  },
+  {
+    "id": "birthday-1",
+    "departmentId": "birthday",
+    "parentId": "birthday-root",
+    "level": 2,
+    "name": "Shop by Category",
+    "active": true
+  },
+  {
+    "id": "birthday-2",
+    "departmentId": "birthday",
+    "parentId": "birthday-root",
+    "level": 2,
+    "name": "Recipient",
+    "active": true
+  },
+  {
+    "id": "birthday-3",
+    "departmentId": "birthday",
+    "parentId": "birthday-root",
+    "level": 2,
+    "name": "Budget",
+    "active": true
+  },
+  {
+    "id": "birthday-4",
+    "departmentId": "birthday",
+    "parentId": "birthday-root",
+    "level": 2,
+    "name": "Interest",
+    "active": true
+  },
+  {
+    "id": "birthday-5",
+    "departmentId": "birthday",
+    "parentId": "birthday-root",
+    "level": 2,
+    "name": "Personalized Gifts",
+    "active": true
+  },
+  {
+    "id": "birthday-6",
+    "departmentId": "birthday",
+    "parentId": "birthday-root",
+    "level": 2,
+    "name": "Gift Hampers & Combos",
+    "active": true
+  },
+  {
+    "id": "birthday-7",
+    "departmentId": "birthday",
+    "parentId": "birthday-root",
+    "level": 2,
+    "name": "Birthday Milestones",
+    "active": true
+  },
+  {
+    "id": "birthday-8",
+    "departmentId": "birthday",
+    "parentId": "birthday-root",
+    "level": 2,
+    "name": "Delivery Options",
+    "active": true
+  },
+  {
+    "id": "birthday-9",
+    "departmentId": "birthday",
+    "parentId": "birthday-root",
+    "level": 2,
+    "name": "Trending Gifts",
+    "active": true
+  },
+  {
+    "id": "birthday-10",
+    "departmentId": "birthday",
+    "parentId": "birthday-root",
+    "level": 2,
+    "name": "All Gifts",
+    "active": true
+  },
+  {
+    "id": "anniversary-1",
+    "departmentId": "anniversary",
+    "parentId": "anniversary-root",
+    "level": 2,
+    "name": "Shop by Category",
+    "active": true
+  },
+  {
+    "id": "anniversary-2",
+    "departmentId": "anniversary",
+    "parentId": "anniversary-root",
+    "level": 2,
+    "name": "Recipient",
+    "active": true
+  },
+  {
+    "id": "anniversary-3",
+    "departmentId": "anniversary",
+    "parentId": "anniversary-root",
+    "level": 2,
+    "name": "Anniversary Milestone",
+    "active": true
+  },
+  {
+    "id": "anniversary-4",
+    "departmentId": "anniversary",
+    "parentId": "anniversary-root",
+    "level": 2,
+    "name": "Personalized Gifts",
+    "active": true
+  },
+  {
+    "id": "anniversary-5",
+    "departmentId": "anniversary",
+    "parentId": "anniversary-root",
+    "level": 2,
+    "name": "Hampers & Combos",
+    "active": true
+  },
+  {
+    "id": "anniversary-6",
+    "departmentId": "anniversary",
+    "parentId": "anniversary-root",
+    "level": 2,
+    "name": "Budget",
+    "active": true
+  },
+  {
+    "id": "anniversary-7",
+    "departmentId": "anniversary",
+    "parentId": "anniversary-root",
+    "level": 2,
+    "name": "Interest",
+    "active": true
+  },
+  {
+    "id": "anniversary-8",
+    "departmentId": "anniversary",
+    "parentId": "anniversary-root",
+    "level": 2,
+    "name": "Delivery",
+    "active": true
+  },
+  {
+    "id": "anniversary-9",
+    "departmentId": "anniversary",
+    "parentId": "anniversary-root",
+    "level": 2,
+    "name": "Trending",
+    "active": true
+  },
+  {
+    "id": "anniversary-10",
+    "departmentId": "anniversary",
+    "parentId": "anniversary-root",
+    "level": 2,
+    "name": "All Anniversary Gifts",
+    "active": true
+  },
+  {
+    "id": "clothing-1",
+    "departmentId": "clothing",
+    "parentId": "clothing-root",
+    "level": 2,
+    "name": "Men",
+    "active": true
+  },
+  {
+    "id": "clothing-2",
+    "departmentId": "clothing",
+    "parentId": "clothing-root",
+    "level": 2,
+    "name": "Women",
+    "active": true
+  },
+  {
+    "id": "clothing-3",
+    "departmentId": "clothing",
+    "parentId": "clothing-root",
+    "level": 2,
+    "name": "Kids",
+    "active": true
+  },
+  {
+    "id": "clothing-4",
+    "departmentId": "clothing",
+    "parentId": "clothing-root",
+    "level": 2,
+    "name": "Shop by Clothing Type",
+    "active": true
+  },
+  {
+    "id": "clothing-5",
+    "departmentId": "clothing",
+    "parentId": "clothing-root",
+    "level": 2,
+    "name": "Shop by Style",
+    "active": true
+  },
+  {
+    "id": "clothing-6",
+    "departmentId": "clothing",
+    "parentId": "clothing-root",
+    "level": 2,
+    "name": "Shop by Occasion",
+    "active": true
+  },
+  {
+    "id": "clothing-7",
+    "departmentId": "clothing",
+    "parentId": "clothing-root",
+    "level": 2,
+    "name": "Trending & Collections",
+    "active": true
+  },
+  {
+    "id": "clothing-8",
+    "departmentId": "clothing",
+    "parentId": "clothing-root",
+    "level": 2,
+    "name": "Deals & Budget",
+    "active": true
+  },
+  {
+    "id": "furniture-1",
+    "departmentId": "furniture",
+    "parentId": "furniture-root",
+    "level": 2,
+    "name": "Living Room",
+    "active": true
+  },
+  {
+    "id": "furniture-2",
+    "departmentId": "furniture",
+    "parentId": "furniture-root",
+    "level": 2,
+    "name": "Bedroom",
+    "active": true
+  },
+  {
+    "id": "furniture-3",
+    "departmentId": "furniture",
+    "parentId": "furniture-root",
+    "level": 2,
+    "name": "Dining Room",
+    "active": true
+  },
+  {
+    "id": "furniture-4",
+    "departmentId": "furniture",
+    "parentId": "furniture-root",
+    "level": 2,
+    "name": "Kitchen Furniture",
+    "active": true
+  },
+  {
+    "id": "furniture-5",
+    "departmentId": "furniture",
+    "parentId": "furniture-root",
+    "level": 2,
+    "name": "Study & Home Office",
+    "active": true
+  },
+  {
+    "id": "furniture-6",
+    "departmentId": "furniture",
+    "parentId": "furniture-root",
+    "level": 2,
+    "name": "Kids & Nursery",
+    "active": true
+  },
+  {
+    "id": "furniture-7",
+    "departmentId": "furniture",
+    "parentId": "furniture-root",
+    "level": 2,
+    "name": "Storage & Utility",
+    "active": true
+  },
+  {
+    "id": "furniture-8",
+    "departmentId": "furniture",
+    "parentId": "furniture-root",
+    "level": 2,
+    "name": "Outdoor & Balcony",
+    "active": true
+  },
+  {
+    "id": "furniture-9",
+    "departmentId": "furniture",
+    "parentId": "furniture-root",
+    "level": 2,
+    "name": "Special & Space-Saving",
+    "active": true
+  },
+  {
+    "id": "furniture-10",
+    "departmentId": "furniture",
+    "parentId": "furniture-root",
+    "level": 2,
+    "name": "Office & Corporate",
+    "active": true
+  },
+  {
+    "id": "furniture-11",
+    "departmentId": "furniture",
+    "parentId": "furniture-root",
+    "level": 2,
+    "name": "Retail Shops",
+    "active": true
+  },
+  {
+    "id": "furniture-12",
+    "departmentId": "furniture",
+    "parentId": "furniture-root",
+    "level": 2,
+    "name": "Restaurants & Cafés",
+    "active": true
+  },
+  {
+    "id": "furniture-13",
+    "departmentId": "furniture",
+    "parentId": "furniture-root",
+    "level": 2,
+    "name": "Hotels & Hospitality",
+    "active": true
+  },
+  {
+    "id": "furniture-14",
+    "departmentId": "furniture",
+    "parentId": "furniture-root",
+    "level": 2,
+    "name": "Salon, Spa & Beauty",
+    "active": true
+  },
+  {
+    "id": "furniture-15",
+    "departmentId": "furniture",
+    "parentId": "furniture-root",
+    "level": 2,
+    "name": "Education & Library",
+    "active": true
+  },
+  {
+    "id": "furniture-16",
+    "departmentId": "furniture",
+    "parentId": "furniture-root",
+    "level": 2,
+    "name": "Clinics & Healthcare",
+    "active": true
+  },
+  {
+    "id": "furniture-17",
+    "departmentId": "furniture",
+    "parentId": "furniture-root",
+    "level": 2,
+    "name": "Warehouse & Workshop",
+    "active": true
+  },
+  {
+    "id": "furniture-18",
+    "departmentId": "furniture",
+    "parentId": "furniture-root",
+    "level": 2,
+    "name": "Events & Venues",
+    "active": true
+  }
+]

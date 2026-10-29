@@ -1,0 +1,3 @@
+import { View } from 'react-native';
+import { Button, Label, styles } from './ui';
+export function Choices({ label, values, selected, onSelect }: { label: string; values: string[]; selected?: string; onSelect(value: string): void }) { return <View style={{ gap: 6 }}><Label>{label}</Label><View style={styles.row}><Button title={`Any ${label.toLowerCase()}`} secondary onPress={() => onSelect('')} />{values.map(value => <Button key={value} title={`${selected === value ? '✓ ' : ''}${value}`} selected={selected === value} secondary onPress={() => onSelect(selected === value ? '' : value)} />)}</View></View>; }

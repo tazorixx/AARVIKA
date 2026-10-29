@@ -1,0 +1,930 @@
+diff -ru /mnt/data/gift4u_original/src/app/admin/merchandising/wedding/page.tsx /mnt/data/gift4u_audit/src/app/admin/merchandising/wedding/page.tsx
+--- /mnt/data/gift4u_original/src/app/admin/merchandising/wedding/page.tsx	2026-09-26 19:52:51.000000000 +0000
++++ /mnt/data/gift4u_audit/src/app/admin/merchandising/wedding/page.tsx	2026-10-05 16:44:56.444940714 +0000
+@@ -18,7 +18,7 @@
+   WeddingMerchandisingResponse,
+ } from "@/lib/merchandising/types";
+ 
+-type TaxonomyItem = { id: string; name: string; image?: string };
++type TaxonomyItem = { id: string; name: string; image?: string; active?: boolean };
+ 
+ type ItemDraft = Omit<MerchandisingItem, "id" | "createdAt" | "updatedAt" | "page">;
+ 
+@@ -251,6 +251,10 @@
+ 
+   const typeOptions = TYPE_ORDER.map((type) => ({ type, label: TYPE_LABELS[type], count: data?.items.filter((item) => item.type === type).length || 0 }));
+ 
++  const relationOptions = (draft.type === "event" ? occasions : draft.type === "category" ? categories : [])
++    .filter((item) => item.active !== false);
++  const relationMissing = (draft.type === "event" || draft.type === "category") && relationOptions.length === 0;
++
+   return (
+     <div className="admin-page">
+         <div className="admin-page-heading">
+@@ -319,13 +323,14 @@
+                   <Field label="Slug" value={draft.slug} onChange={(value) => updateDraft("slug", value)} placeholder="hindu" />
+                   <Field label="Subtitle" value={draft.subtitle || ""} onChange={(value) => updateDraft("subtitle", value)} />
+                   <Field label="Description" value={draft.description || ""} onChange={(value) => updateDraft("description", value)} />
+-                  {(draft.type === "event" || draft.type === "category") && <Select label={draft.type === "event" ? "Existing occasion" : "Existing category"} value={draft.relatedId || ""} options={[{ value: "", label: "Select source" }, ...(draft.type === "event" ? occasions : categories).map((item) => ({ value: item.id, label: item.name }))]} onChange={(value) => updateDraft("relatedId", value)} />}
++                  {(draft.type === "event" || draft.type === "category") && <Select label={draft.type === "event" ? "Existing occasion" : "Existing category"} value={draft.relatedId || ""} options={[{ value: "", label: "Select source" }, ...relationOptions.map((item) => ({ value: item.id, label: item.name }))]} onChange={(value) => updateDraft("relatedId", value)} />}
++                  {relationMissing && <p className="-mt-2 rounded-[10px] bg-[#fff8e8] px-3 py-2 text-[11px] font-medium text-[#8a5a00]">No {draft.type === "event" ? "occasions" : "categories"} are available yet. Create one first in <a className="underline" href={draft.type === "event" ? "/admin/occasions" : "/admin/categories"}>Catalog → {draft.type === "event" ? "Occasions" : "Categories"}</a>.</p>}
+                   {draft.type === "budget" && <div className="grid grid-cols-2 gap-3"><NumberField label="Minimum" value={draft.min} onChange={(value) => updateDraft("min", value)} /><NumberField label="Maximum" value={draft.max} onChange={(value) => updateDraft("max", value)} /></div>}
+                   {draft.type === "budget" && <p className="-mt-2 text-[11px] text-slate-400">Leave maximum empty for an open-ended top budget.</p>}
+                   <NumberField label="Display order" value={draft.sortOrder} onChange={(value) => updateDraft("sortOrder", value ?? 0)} />
+                   <ImageField label="Image" value={draft.image || ""} disabled={uploading} onUpload={(file) => void upload(file, "item")} />
+                   <label className="flex items-center gap-3 text-sm font-semibold text-slate-700"><input type="checkbox" checked={draft.active} onChange={(event) => updateDraft("active", event.target.checked)} /> Active</label>
+-                  <button className="admin-primary-button w-full" disabled={saving || uploading} onClick={() => void saveItem()}><Save size={15} /> {saving ? "Saving…" : editingId ? "Save changes" : "Create item"}</button>
++                  <button className="admin-primary-button w-full" disabled={saving || uploading || relationMissing} onClick={() => void saveItem()}><Save size={15} /> {saving ? "Saving…" : editingId ? "Save changes" : "Create item"}</button>
+                 </div>
+               </div>
+             </section>
+diff -ru /mnt/data/gift4u_original/src/components/admin/catalog/TaxonomyManager.tsx /mnt/data/gift4u_audit/src/components/admin/catalog/TaxonomyManager.tsx
+--- /mnt/data/gift4u_original/src/components/admin/catalog/TaxonomyManager.tsx	2026-09-26 19:52:52.000000000 +0000
++++ /mnt/data/gift4u_audit/src/components/admin/catalog/TaxonomyManager.tsx	2026-10-05 16:32:29.463706760 +0000
+@@ -13,7 +13,7 @@
+   image?: string;
+   sortOrder: number;
+   active: boolean;
+-  parentId?: string;
++  parentId?: string | null;
+ };
+ 
+ type FormState = {
+@@ -172,7 +172,7 @@
+         active: editing
+           ? Boolean(items.find((item) => item.id === editing)?.active)
+           : true,
+-        ...(type === "categories" && form.parentId
++        ...(type === "categories"
+           ? { parentId: form.parentId }
+           : {}),
+       };
+@@ -227,8 +227,8 @@
+           image: item.image || "",
+           sortOrder: item.sortOrder || 0,
+           active: true,
+-          ...(type === "categories" && item.parentId
+-            ? { parentId: item.parentId }
++          ...(type === "categories"
++            ? { parentId: item.parentId || "" }
+             : {}),
+         }),
+       });
+@@ -263,8 +263,8 @@
+             image: item.image || "",
+             sortOrder: target.sortOrder || 0,
+             active: item.active,
+-            ...(type === "categories" && item.parentId
+-              ? { parentId: item.parentId }
++            ...(type === "categories"
++              ? { parentId: item.parentId || "" }
+               : {}),
+           }),
+         }),
+@@ -277,8 +277,8 @@
+             image: target.image || "",
+             sortOrder: item.sortOrder || 0,
+             active: target.active,
+-            ...(type === "categories" && target.parentId
+-              ? { parentId: target.parentId }
++            ...(type === "categories"
++              ? { parentId: target.parentId || "" }
+               : {}),
+           }),
+         }),
+@@ -297,8 +297,24 @@
+     [items],
+   );
+ 
++  const invalidParentIds = useMemo(() => {
++    if (type !== "categories" || !editing) return new Set<string>();
++    const invalid = new Set<string>([editing]);
++    let changed = true;
++    while (changed) {
++      changed = false;
++      for (const item of items) {
++        if (item.parentId && invalid.has(item.parentId) && !invalid.has(item.id)) {
++          invalid.add(item.id);
++          changed = true;
++        }
++      }
++    }
++    return invalid;
++  }, [editing, items, type]);
++
+   const parentOptions = type === "categories"
+-    ? items.filter((item) => item.active && item.id !== editing)
++    ? items.filter((item) => item.active && !invalidParentIds.has(item.id))
+     : [];
+ 
+   return (
+diff -ru /mnt/data/gift4u_original/src/components/admin/merchandising/MerchandisingManager.tsx /mnt/data/gift4u_audit/src/components/admin/merchandising/MerchandisingManager.tsx
+--- /mnt/data/gift4u_original/src/components/admin/merchandising/MerchandisingManager.tsx	2026-09-26 19:52:52.000000000 +0000
++++ /mnt/data/gift4u_audit/src/components/admin/merchandising/MerchandisingManager.tsx	2026-10-05 16:44:56.443792680 +0000
+@@ -5,7 +5,7 @@
+ import { auth } from "@/lib/firebase";
+ import type { MerchandisingItem, MerchandisingPage, MerchandisingPageConfig } from "@/lib/merchandising/types";
+ 
+-type TaxonomyItem = { id: string; name: string; image?: string; slug?: string };
++type TaxonomyItem = { id: string; name: string; image?: string; slug?: string; active?: boolean };
+ type ItemDraft = Omit<MerchandisingItem, "id" | "createdAt" | "updatedAt" | "page">;
+ 
+ type SectionConfig = {
+@@ -24,6 +24,13 @@
+   initialHero: MerchandisingPageConfig["hero"];
+ };
+ 
++function relationLabel(relation: SectionConfig["relation"]) {
++  if (relation === "categories") return "category";
++  if (relation === "recipients") return "recipient";
++  if (relation === "occasions") return "occasion";
++  return "collection";
++}
++
+ const EMPTY_ITEM: ItemDraft = {
+   type: "category",
+   name: "",
+@@ -145,7 +152,7 @@
+ 
+   const saveItem = async () => {
+     if (!draft.name.trim()) { setError("Name is required."); return; }
+-    if (currentSection.relation && !draft.relatedId) { setError(`Select the existing ${currentSection.relation.slice(0, -1)} this item represents.`); return; }
++    if (currentSection.relation && !draft.relatedId) { setError(`Select the existing ${relationLabel(currentSection.relation)} this item represents.`); return; }
+     setSaving(true); setError("");
+     try {
+       const path = editingId ? `/api/admin/merchandising/${page}/items/${editingId}` : `/api/admin/merchandising/${page}/items`;
+@@ -163,7 +170,9 @@
+     catch (cause) { setError(cause instanceof Error ? cause.message : "Unable to archive item."); }
+   };
+ 
+-  const relationOptions = currentSection.relation === "categories" ? categories : currentSection.relation === "recipients" ? recipients : currentSection.relation === "occasions" ? occasions : collections;
++  const relationOptions = (currentSection.relation === "categories" ? categories : currentSection.relation === "recipients" ? recipients : currentSection.relation === "occasions" ? occasions : collections)
++    .filter((item) => item.active !== false);
++  const relationMissing = Boolean(currentSection.relation && relationOptions.length === 0);
+ 
+   return (
+     <div className="admin-page">
+@@ -178,7 +187,7 @@
+         </div>
+         <section className="mt-5 admin-card"><div className="admin-card-header"><div><h2 className="admin-card-title">{title} hero</h2><p className="admin-card-subtitle">Keep the storefront presentation editable without changing page code.</p></div><button className="admin-primary-button" disabled={saving || !heroDirty} onClick={() => void saveHero()}><Save size={15} /> {saving ? "Saving…" : "Save hero"}</button></div><div className="admin-card-body grid gap-5 xl:grid-cols-[minmax(0,1fr)_380px]"><div className="grid gap-4 sm:grid-cols-2"><Field label="Eyebrow" value={hero.eyebrow} onChange={(value) => { setHero((x) => ({ ...x, eyebrow: value })); setHeroDirty(true); }} /><Field label="Heading" value={hero.heading} onChange={(value) => { setHero((x) => ({ ...x, heading: value })); setHeroDirty(true); }} /><Field label="CTA text" value={hero.ctaText} onChange={(value) => { setHero((x) => ({ ...x, ctaText: value })); setHeroDirty(true); }} /><Field label="CTA link" value={hero.ctaLink} onChange={(value) => { setHero((x) => ({ ...x, ctaLink: value })); setHeroDirty(true); }} /><label className="sm:col-span-2"><span className="mb-1.5 block text-xs font-bold text-slate-600">Description</span><textarea value={hero.description} onChange={(event) => { setHero((x) => ({ ...x, description: event.target.value })); setHeroDirty(true); }} className="min-h-24 w-full rounded-[12px] border border-slate-200 bg-white px-3 py-2.5 text-sm outline-none focus:border-[#2f628f]" /></label><label className="flex items-center gap-3 text-sm font-semibold text-slate-700 sm:col-span-2"><input type="checkbox" checked={hero.active} onChange={(event) => { setHero((x) => ({ ...x, active: event.target.checked })); setHeroDirty(true); }} /> Hero is active</label></div><div className="grid gap-4"><ImageField label="Desktop image" value={hero.desktopImage} disabled={uploading} onUpload={async (file) => { setUploading(true); try { const form = new FormData(); form.append("file", file); form.append("page", page); form.append("section", "hero"); const response = await fetch("/api/admin/uploads/merchandising", { method: "POST", headers: { Authorization: `Bearer ${await getToken()}` }, body: form }); const result = await response.json() as { url?: string; error?: string }; if (!response.ok || !result.url) throw new Error(result.error || "Unable to upload image."); setHero((x) => ({ ...x, desktopImage: result.url || "" })); setHeroDirty(true); } catch (cause) { setError(cause instanceof Error ? cause.message : "Unable to upload image."); } finally { setUploading(false); } }} /><ImageField label="Mobile image" value={hero.mobileImage} disabled={uploading} onUpload={async (file) => { setUploading(true); try { const form = new FormData(); form.append("file", file); form.append("page", page); form.append("section", "hero-mobile"); const response = await fetch("/api/admin/uploads/merchandising", { method: "POST", headers: { Authorization: `Bearer ${await getToken()}` }, body: form }); const result = await response.json() as { url?: string; error?: string }; if (!response.ok || !result.url) throw new Error(result.error || "Unable to upload image."); setHero((x) => ({ ...x, mobileImage: result.url || "" })); setHeroDirty(true); } catch (cause) { setError(cause instanceof Error ? cause.message : "Unable to upload image."); } finally { setUploading(false); } }} /></div></div></section>
+         <section className="mt-5 grid gap-5 xl:grid-cols-[minmax(0,1fr)_380px]"><div className="admin-card min-w-0"><div className="admin-card-header"><div><h2 className="admin-card-title">{title} merchandising</h2><p className="admin-card-subtitle">Catalog data remains reusable; this controls storefront presentation.</p></div></div><div className="admin-card-body"><div className="flex flex-wrap gap-2 border-b border-[var(--admin-border)] pb-4">{sections.map((section) => <button key={section.type} onClick={() => { setActiveType(section.type); setEditingId(null); setDraft({ ...EMPTY_ITEM, type: section.type }); }} className={`rounded-full border px-3.5 py-2 text-xs font-bold transition ${activeType === section.type ? "border-[#d92f66] bg-[#fff1f6] text-[#bd1d52]" : "border-slate-200 bg-white text-slate-600 hover:border-[#cbd5e1]"}`}>{section.label} <span className="ml-1 opacity-60">{data?.items.filter((item) => item.type === section.type).length || 0}</span></button>)}</div><div className="mt-4 overflow-x-auto"><table className="w-full min-w-[720px] text-left text-sm"><thead><tr className="border-b border-[var(--admin-border)] text-[10px] uppercase tracking-[.12em] text-slate-400"><th className="px-3 py-3">Item</th><th className="px-3 py-3">Slug</th><th className="px-3 py-3">Order</th><th className="px-3 py-3">Status</th><th className="px-3 py-3 text-right">Actions</th></tr></thead><tbody>{items.map((item) => <tr key={item.id} className="border-b border-slate-100"><td className="px-3 py-3"><div className="flex items-center gap-3">{item.image ? <img src={item.image} alt="" className="h-10 w-10 rounded-[10px] object-cover" /> : <div className="grid h-10 w-10 place-items-center rounded-[10px] bg-[#f1f8fd] text-[#2f628f]"><ImagePlus size={16} /></div>}<div><strong className="text-[13px] text-slate-800">{item.name}</strong>{item.subtitle && <p className="mt-0.5 text-[11px] text-slate-400">{item.subtitle}</p>}</div></div></td><td className="px-3 py-3 text-xs text-slate-500">{item.slug}</td><td className="px-3 py-3 text-xs font-semibold text-slate-600">{item.sortOrder}</td><td className="px-3 py-3"><span className={`rounded-full px-2.5 py-1 text-[10px] font-bold ${item.active ? "bg-[#eefbf2] text-[#16803a]" : "bg-slate-100 text-slate-500"}`}>{item.active ? "Active" : "Archived"}</span></td><td className="px-3 py-3 text-right"><button onClick={() => edit(item)} className="mr-1 rounded-[9px] p-2 text-slate-500 hover:bg-slate-100 hover:text-[#2f628f]" aria-label="Edit"><Edit3 size={15} /></button>{item.active && <button onClick={() => void archive(item.id)} className="rounded-[9px] p-2 text-slate-500 hover:bg-[#fff1f6] hover:text-[#bd1d52]" aria-label="Archive"><Trash2 size={15} /></button>}</td></tr>)}{items.length === 0 && <tr><td colSpan={5} className="px-3 py-14 text-center"><p className="text-sm font-semibold text-slate-600">No {currentSection.label.toLowerCase()} yet.</p><p className="mt-1 text-xs text-slate-400">Add the first record using the button above.</p></td></tr>}</tbody></table></div></div></div>
+-          <div className="admin-card h-fit"><div className="admin-card-header"><div><h2 className="admin-card-title">{editingId ? "Edit item" : "New item"}</h2><p className="admin-card-subtitle">{currentSection.label}</p></div>{editingId && <button className="admin-icon-button !h-9 !w-9 !min-w-0" onClick={() => { setEditingId(null); setDraft({ ...EMPTY_ITEM, type: activeType }); }}><X size={15} /></button>}</div><div className="admin-card-body grid gap-4"><Field label="Name" value={draft.name} onChange={(value) => updateDraft("name", value)} placeholder={currentSection.placeholder || "Enter a name"} /><Field label="Slug" value={draft.slug} onChange={(value) => updateDraft("slug", value)} placeholder="auto-generated-from-name" /><Field label="Subtitle" value={draft.subtitle || ""} onChange={(value) => updateDraft("subtitle", value)} /><Field label="Description" value={draft.description || ""} onChange={(value) => updateDraft("description", value)} />{currentSection.relation && <Select label={currentSection.relation === "categories" ? "Existing category" : currentSection.relation === "recipients" ? "Existing recipient" : currentSection.relation === "occasions" ? "Existing occasion" : "Existing collection"} value={draft.relatedId || ""} options={[{ value: "", label: "Select source" }, ...relationOptions.map((item) => ({ value: item.id, label: item.name }))]} onChange={(value) => updateDraft("relatedId", value)} />}{currentSection.numbers === "budget" && <div className="grid grid-cols-2 gap-3"><NumberField label="Minimum" value={draft.min} onChange={(value) => updateDraft("min", value)} /><NumberField label="Maximum" value={draft.max} onChange={(value) => updateDraft("max", value)} /></div>}{currentSection.numbers === "age" && <div className="grid grid-cols-2 gap-3"><NumberField label="Minimum age" value={draft.minimumAge} onChange={(value) => updateDraft("minimumAge", value)} /><NumberField label="Maximum age" value={draft.maximumAge} onChange={(value) => updateDraft("maximumAge", value)} /></div>}{currentSection.numbers === "years" && <NumberField label="Years" value={draft.years} onChange={(value) => updateDraft("years", value)} />}<NumberField label="Display order" value={draft.sortOrder} onChange={(value) => updateDraft("sortOrder", value ?? 0)} /><ImageField label="Image" value={draft.image || ""} disabled={uploading} onUpload={(file) => void upload(file)} /><label className="flex items-center gap-3 text-sm font-semibold text-slate-700"><input type="checkbox" checked={draft.active} onChange={(event) => updateDraft("active", event.target.checked)} /> Active</label><button className="admin-primary-button w-full" disabled={saving || uploading} onClick={() => void saveItem()}><Save size={15} /> {saving ? "Saving…" : editingId ? "Save changes" : "Create item"}</button></div></div>
++          <div className="admin-card h-fit"><div className="admin-card-header"><div><h2 className="admin-card-title">{editingId ? "Edit item" : "New item"}</h2><p className="admin-card-subtitle">{currentSection.label}</p></div>{editingId && <button className="admin-icon-button !h-9 !w-9 !min-w-0" onClick={() => { setEditingId(null); setDraft({ ...EMPTY_ITEM, type: activeType }); }}><X size={15} /></button>}</div><div className="admin-card-body grid gap-4"><Field label="Name" value={draft.name} onChange={(value) => updateDraft("name", value)} placeholder={currentSection.placeholder || "Enter a name"} /><Field label="Slug" value={draft.slug} onChange={(value) => updateDraft("slug", value)} placeholder="auto-generated-from-name" /><Field label="Subtitle" value={draft.subtitle || ""} onChange={(value) => updateDraft("subtitle", value)} /><Field label="Description" value={draft.description || ""} onChange={(value) => updateDraft("description", value)} />{currentSection.relation && <Select label={currentSection.relation === "categories" ? "Existing category" : currentSection.relation === "recipients" ? "Existing recipient" : currentSection.relation === "occasions" ? "Existing occasion" : "Existing collection"} value={draft.relatedId || ""} options={[{ value: "", label: "Select source" }, ...relationOptions.map((item) => ({ value: item.id, label: item.name }))]} onChange={(value) => updateDraft("relatedId", value)} />}{relationMissing && currentSection.relation && <p className="-mt-2 rounded-[10px] bg-[#fff8e8] px-3 py-2 text-[11px] font-medium text-[#8a5a00]">No {currentSection.relation} are available yet. Create the catalog master record first in <a className="underline" href={`/admin/${currentSection.relation}`}>Catalog → {currentSection.relation}</a>.</p>}{currentSection.numbers === "budget" && <div className="grid grid-cols-2 gap-3"><NumberField label="Minimum" value={draft.min} onChange={(value) => updateDraft("min", value)} /><NumberField label="Maximum" value={draft.max} onChange={(value) => updateDraft("max", value)} /></div>}{currentSection.numbers === "age" && <div className="grid grid-cols-2 gap-3"><NumberField label="Minimum age" value={draft.minimumAge} onChange={(value) => updateDraft("minimumAge", value)} /><NumberField label="Maximum age" value={draft.maximumAge} onChange={(value) => updateDraft("maximumAge", value)} /></div>}{currentSection.numbers === "years" && <NumberField label="Years" value={draft.years} onChange={(value) => updateDraft("years", value)} />}<NumberField label="Display order" value={draft.sortOrder} onChange={(value) => updateDraft("sortOrder", value ?? 0)} /><ImageField label="Image" value={draft.image || ""} disabled={uploading} onUpload={(file) => void upload(file)} /><label className="flex items-center gap-3 text-sm font-semibold text-slate-700"><input type="checkbox" checked={draft.active} onChange={(event) => updateDraft("active", event.target.checked)} /> Active</label><button className="admin-primary-button w-full" disabled={saving || uploading || relationMissing} onClick={() => void saveItem()}><Save size={15} /> {saving ? "Saving…" : editingId ? "Save changes" : "Create item"}</button></div></div>
+         </section>
+       </>}
+     </div>
+diff -ru /mnt/data/gift4u_original/src/components/admin/products/ProductEditor.tsx /mnt/data/gift4u_audit/src/components/admin/products/ProductEditor.tsx
+--- /mnt/data/gift4u_original/src/components/admin/products/ProductEditor.tsx	2026-09-26 19:52:52.000000000 +0000
++++ /mnt/data/gift4u_audit/src/components/admin/products/ProductEditor.tsx	2026-10-05 16:34:35.160772263 +0000
+@@ -7,6 +7,10 @@
+ type TaxonomyItem = {
+   id: string;
+   name: string;
++  slug?: string;
++  active?: boolean;
++  sortOrder?: number;
++  parentId?: string | null;
+ };
+ 
+ type MerchandisingItem = {
+@@ -247,6 +251,12 @@
+     personalization: {
+       ...blankProduct.personalization,
+       ...(value.personalization || {}),
++      maxCharacters:
++        typeof value.personalization?.maxCharacters === "number"
++          ? value.personalization.maxCharacters
++          : typeof (value.personalization as unknown as { maxLength?: unknown } | undefined)?.maxLength === "number"
++            ? Number((value.personalization as unknown as { maxLength: number }).maxLength)
++            : blankProduct.personalization.maxCharacters,
+       fields: Array.isArray(value.personalization?.fields)
+         ? value.personalization.fields
+         : [],
+@@ -388,12 +398,36 @@
+     };
+   }, [productId]);
+ 
++  const categoryDisplayItems = useMemo(() => {
++    const byId = new Map(categories.map((item) => [item.id, item]));
++
++    const labelFor = (item: TaxonomyItem) => {
++      const names = [item.name];
++      const visited = new Set<string>([item.id]);
++      let parentId = item.parentId;
++
++      while (parentId && !visited.has(parentId)) {
++        visited.add(parentId);
++        const parent = byId.get(parentId);
++        if (!parent) break;
++        names.unshift(parent.name);
++        parentId = parent.parentId;
++      }
++
++      return names.join(" › ");
++    };
++
++    return [...categories]
++      .sort((a, b) => Number(a.sortOrder || 0) - Number(b.sortOrder || 0) || a.name.localeCompare(b.name))
++      .map((item) => ({ ...item, name: labelFor(item) }));
++  }, [categories]);
++
+   const taxonomyGroups = useMemo(
+     () => [
+       {
+         key: "categoryIds" as const,
+         label: "Categories",
+-        items: categories,
++        items: categoryDisplayItems,
+       },
+       {
+         key: "occasionIds" as const,
+@@ -411,7 +445,7 @@
+         items: collections,
+       },
+     ],
+-    [categories, occasions, recipients, collections],
++    [categoryDisplayItems, occasions, recipients, collections],
+   );
+ 
+   function setField<K extends keyof Product>(
+diff -ru /mnt/data/gift4u_original/src/lib/catalog/server.ts /mnt/data/gift4u_audit/src/lib/catalog/server.ts
+--- /mnt/data/gift4u_original/src/lib/catalog/server.ts	2026-09-26 19:52:52.000000000 +0000
++++ /mnt/data/gift4u_audit/src/lib/catalog/server.ts	2026-10-05 16:32:12.359487563 +0000
+@@ -5,6 +5,7 @@
+   type DocumentSnapshot,
+ } from "firebase-admin/firestore";
+ import { getAdminDb } from "../firebase-admin";
++import { removeUndefinedDeep } from "../firestore-sanitize";
+ 
+ import type {
+   Category,
+@@ -61,11 +62,12 @@
+   >,
+ ) {
+   const db = getAdminDb();
++  const safeData = removeUndefinedDeep(data);
+   const ref = db.collection(type).doc();
+   const slugRef = slugLockRef(
+     db,
+     type,
+-    data.slug,
++    safeData.slug,
+   );
+ 
+   await db.runTransaction(async (tx) => {
+@@ -77,17 +79,24 @@
+       ref.id,
+     );
+ 
++    if (type === "categories" && typeof safeData.parentId === "string") {
++      const parentSnap = await tx.get(db.collection("categories").doc(safeData.parentId));
++      if (!parentSnap.exists || parentSnap.data()?.active === false) {
++        throw new Error("Parent category must exist and be active.");
++      }
++    }
++
+     // WRITE
+     writeSlugLock(
+       tx,
+       db,
+       type,
+-      data.slug,
++      safeData.slug,
+       ref.id,
+     );
+ 
+     tx.set(ref, {
+-      ...data,
++      ...safeData,
+       createdAt:
+         FieldValue.serverTimestamp(),
+       updatedAt:
+@@ -109,6 +118,7 @@
+   >,
+ ) {
+   const db = getAdminDb();
++  const safeData = removeUndefinedDeep(data);
+   const ref = db.collection(type).doc(id);
+ 
+   await db.runTransaction(async (tx) => {
+@@ -126,9 +136,9 @@
+       entitySnap.data() as Category;
+ 
+     const slugChanged =
+-      typeof data.slug === "string" &&
+-      data.slug.length > 0 &&
+-      data.slug !== old.slug;
++      typeof safeData.slug === "string" &&
++      safeData.slug.length > 0 &&
++      safeData.slug !== old.slug;
+ 
+     let newSlugSnap:
+       | DocumentSnapshot
+@@ -142,7 +152,7 @@
+       const newSlugRef = slugLockRef(
+         db,
+         type,
+-        data.slug!,
++        safeData.slug!,
+       );
+ 
+       const oldSlugRef = slugLockRef(
+@@ -166,6 +176,37 @@
+       );
+     }
+ 
++    if (type === "categories" && Object.prototype.hasOwnProperty.call(safeData, "parentId")) {
++      const parentId = safeData.parentId;
++
++      if (typeof parentId === "string") {
++        if (parentId === id) {
++          throw new Error("A category cannot be its own parent.");
++        }
++
++        const visited = new Set<string>();
++        let cursorId: string | null = parentId;
++
++        while (cursorId) {
++          if (cursorId === id) {
++            throw new Error("A category cannot be moved under one of its own subcategories.");
++          }
++          if (visited.has(cursorId)) {
++            throw new Error("Invalid category hierarchy detected.");
++          }
++          visited.add(cursorId);
++
++          const parentSnap = await tx.get(db.collection("categories").doc(cursorId));
++          if (!parentSnap.exists || parentSnap.data()?.active === false) {
++            throw new Error("Parent category must exist and be active.");
++          }
++
++          const nextParentId = parentSnap.data()?.parentId;
++          cursorId = typeof nextParentId === "string" && nextParentId ? nextParentId : null;
++        }
++      }
++    }
++
+     // -----------------------------
+     // WRITE PHASE
+     // -----------------------------
+@@ -175,7 +216,7 @@
+         tx,
+         db,
+         type,
+-        data.slug!,
++        safeData.slug!,
+         id,
+       );
+ 
+@@ -190,7 +231,7 @@
+     }
+ 
+     tx.update(ref, {
+-      ...data,
++      ...safeData,
+       updatedAt:
+         FieldValue.serverTimestamp(),
+     });
+@@ -246,6 +287,15 @@
+     const products =
+       await tx.get(productsQuery);
+ 
++    if (type === "categories") {
++      const activeChildren = await tx.get(
++        db.collection("categories").where("parentId", "==", id),
++      );
++      if (activeChildren.docs.some((child) => child.data().active !== false)) {
++        throw new Error("Cannot archive a category while it has active subcategories.");
++      }
++    }
++
+     const hasLiveReference =
+       products.docs.some(
+         (product) =>
+@@ -279,6 +329,7 @@
+   >,
+ ) {
+   const db = getAdminDb();
++  const safeData = removeUndefinedDeep(data);
+ 
+   const ref =
+     db.collection("products").doc();
+@@ -289,7 +340,7 @@
+   const slugRef = slugLockRef(
+     db,
+     "products",
+-    data.slug,
++    safeData.slug,
+   );
+ 
+   await db.runTransaction(async (tx) => {
+@@ -307,12 +358,12 @@
+       tx,
+       db,
+       "products",
+-      data.slug,
++      safeData.slug,
+       ref.id,
+     );
+ 
+     tx.set(ref, {
+-      ...data,
++      ...safeData,
+       createdAt:
+         FieldValue.serverTimestamp(),
+       updatedAt:
+@@ -324,11 +375,11 @@
+       {
+         productId: ref.id,
+         quantity:
+-          data.inventory.quantity,
++          safeData.inventory.quantity,
+         reserved:
+-          data.inventory.reserved,
++          safeData.inventory.reserved,
+         sold:
+-          data.inventory.sold,
++          safeData.inventory.sold,
+         updatedAt:
+           FieldValue.serverTimestamp(),
+       },
+@@ -349,6 +400,7 @@
+   >,
+ ) {
+   const db = getAdminDb();
++  const safeData = removeUndefinedDeep(data);
+ 
+   const ref =
+     db.collection("products").doc(id);
+@@ -372,9 +424,9 @@
+       entitySnap.data() as Product;
+ 
+     const slugChanged =
+-      typeof data.slug === "string" &&
+-      data.slug.length > 0 &&
+-      data.slug !== old.slug;
++      typeof safeData.slug === "string" &&
++      safeData.slug.length > 0 &&
++      safeData.slug !== old.slug;
+ 
+     let newSlugSnap:
+       | DocumentSnapshot
+@@ -389,7 +441,7 @@
+         slugLockRef(
+           db,
+           "products",
+-          data.slug!,
++          safeData.slug!,
+         );
+ 
+       const oldSlugRef =
+@@ -421,7 +473,7 @@
+         tx,
+         db,
+         "products",
+-        data.slug!,
++        safeData.slug!,
+         id,
+       );
+ 
+@@ -436,17 +488,17 @@
+     }
+ 
+     tx.update(ref, {
+-      ...data,
++      ...safeData,
+       updatedAt:
+         FieldValue.serverTimestamp(),
+     });
+ 
+-    if (data.inventory) {
++    if (safeData.inventory) {
+       tx.set(
+         inventoryRef,
+         {
+           productId: id,
+-          ...data.inventory,
++          ...safeData.inventory,
+           updatedAt:
+             FieldValue.serverTimestamp(),
+         },
+diff -ru /mnt/data/gift4u_original/src/lib/catalog/types.ts /mnt/data/gift4u_audit/src/lib/catalog/types.ts
+--- /mnt/data/gift4u_original/src/lib/catalog/types.ts	2026-09-27 05:48:53.000000000 +0000
++++ /mnt/data/gift4u_audit/src/lib/catalog/types.ts	2026-10-05 16:31:23.544107010 +0000
+@@ -13,7 +13,7 @@
+ }
+ 
+ export interface Category extends TaxonomyBase {
+-  parentId?: string;
++  parentId?: string | null;
+ }
+ export type Occasion = TaxonomyBase;
+ export type Recipient = TaxonomyBase;
+diff -ru /mnt/data/gift4u_original/src/lib/catalog/validation.ts /mnt/data/gift4u_audit/src/lib/catalog/validation.ts
+--- /mnt/data/gift4u_original/src/lib/catalog/validation.ts	2026-09-26 19:52:52.000000000 +0000
++++ /mnt/data/gift4u_audit/src/lib/catalog/validation.ts	2026-10-05 16:31:17.395880051 +0000
+@@ -1,4 +1,5 @@
+ import type { CatalogStatus, Product, ProductDelivery, ProductImage, ProductPersonalization, ProductServiceability, ProductVariant, TaxonomyBase } from "./types";
++import { removeUndefinedDeep } from "../firestore-sanitize";
+ 
+ export function cleanString(value: unknown, fallback = "") {
+   return typeof value === "string" ? value.trim() : fallback;
+@@ -6,7 +7,7 @@
+ 
+ export function cleanStringArray(value: unknown) {
+   if (!Array.isArray(value)) return [];
+-  return [...new Set(value.filter((item): item is string =>typeof item === "string" && item.trim().length > 0).map((item) => item.trim()))];
++  return [...new Set(value.filter((item): item is string => typeof item === "string" && item.trim().length > 0).map((item) => item.trim()))];
+ }
+ 
+ export function slugify(value: string) {
+@@ -18,16 +19,42 @@
+   if (!name) throw new Error("Name is required.");
+   const slug = slugify(cleanString(body.slug) || name);
+   if (!slug) throw new Error("A valid slug is required.");
+-  return { name, slug, image: cleanString(body.image) || undefined, description: cleanString(body.description) || undefined, sortOrder: Number.isFinite(Number(body.sortOrder)) ? Number(body.sortOrder) : 0, active: body.active !== false };
++
++  return removeUndefinedDeep({
++    name,
++    slug,
++    image: cleanString(body.image) || undefined,
++    description: cleanString(body.description) || undefined,
++    sortOrder: Number.isFinite(Number(body.sortOrder)) ? Number(body.sortOrder) : 0,
++    active: body.active !== false,
++  });
+ }
+ 
+ export function parseCategoryInput(body: Record<string, unknown>) {
+-  return { ...parseTaxonomyInput(body), parentId: cleanString(body.parentId) || undefined };
++  // `null` is intentional: it lets PATCH move a subcategory back to the
++  // top-level without sending Firestore an undefined value.
++  const parentId = cleanString(body.parentId) || null;
++  return { ...parseTaxonomyInput(body), parentId };
++}
++
++function numberValue(value: unknown, fallback = 0) {
++  const n = Number(value);
++  return Number.isFinite(n) ? n : fallback;
++}
++
++function optionalNumber(value: unknown) {
++  if (value === undefined || value === null || value === "") return undefined;
++  const n = Number(value);
++  return Number.isFinite(n) ? n : undefined;
+ }
+ 
+-function numberValue(value: unknown, fallback = 0) { const n = Number(value); return Number.isFinite(n) ? n : fallback; }
+-function bool(value: unknown, fallback = false) { return typeof value === "boolean" ? value : fallback; }
++function bool(value: unknown, fallback = false) {
++  return typeof value === "boolean" ? value : fallback;
++}
+ 
++function record(value: unknown): Record<string, unknown> {
++  return value && typeof value === "object" ? value as Record<string, unknown> : {};
++}
+ 
+ export function validateProductForPublish(product: Omit<Product, "id" | "createdAt" | "updatedAt">) {
+   const errors: string[] = [];
+@@ -51,8 +78,12 @@
+     errors.push("Minimum delivery days cannot be greater than maximum delivery days.");
+   }
+ 
+-  if (product.personalization.enabled && product.personalization.fields && product.personalization.fields.length === 0) {
+-    errors.push("Add at least one personalization field or disable personalization.");
++  if (
++    product.personalization.enabled &&
++    (product.personalization.fields?.length ?? 0) === 0 &&
++    product.personalization.imageUpload !== true
++  ) {
++    errors.push("Add at least one personalization field, allow image upload, or disable personalization.");
+   }
+ 
+   if (errors.length > 0) {
+@@ -61,45 +92,137 @@
+ }
+ 
+ export function parseProductInput(body: Record<string, unknown>): Omit<Product, "id" | "createdAt" | "updatedAt"> {
+-  const title = cleanString(body.title); if (!title) throw new Error("Title is required.");
+-  const sku = cleanString(body.sku); if (!sku) throw new Error("SKU is required.");
+-  const slug = slugify(cleanString(body.slug) || title); if (!slug) throw new Error("A valid slug is required.");
+-  const status = cleanString(body.status) as CatalogStatus; if (!["draft", "live", "archived"].includes(status)) throw new Error("Invalid product status.");
++  const title = cleanString(body.title);
++  if (!title) throw new Error("Title is required.");
++
++  const sku = cleanString(body.sku);
++  if (!sku) throw new Error("SKU is required.");
++
++  const slug = slugify(cleanString(body.slug) || title);
++  if (!slug) throw new Error("A valid slug is required.");
++
++  const status = cleanString(body.status) as CatalogStatus;
++  if (!["draft", "live", "archived"].includes(status)) throw new Error("Invalid product status.");
++
+   const images: ProductImage[] = Array.isArray(body.images)
+     ? body.images
+-        .filter(
+-          (x): x is Record<string, unknown> =>
+-            Boolean(x && typeof x === "object"),
+-        )
+-        .map((x) => ({
++        .filter((x): x is Record<string, unknown> => Boolean(x && typeof x === "object"))
++        .map((x) => removeUndefinedDeep({
+           url: cleanString(x.url),
+           alt: cleanString(x.alt) || undefined,
+           fileId: cleanString(x.fileId) || undefined,
+           filePath: cleanString(x.filePath) || undefined,
+           thumbnailUrl: cleanString(x.thumbnailUrl) || undefined,
+-          width: Number.isFinite(Number(x.width))
+-            ? Number(x.width)
+-            : undefined,
+-          height: Number.isFinite(Number(x.height))
+-            ? Number(x.height)
+-            : undefined,
++          width: optionalNumber(x.width),
++          height: optionalNumber(x.height),
+         }))
+         .filter((x) => x.url)
+     : [];
+-  const variants: ProductVariant[] = Array.isArray(body.variants) ? body.variants.filter((x): x is Record<string, unknown> => Boolean(x && typeof x === "object")).map((x, i) => ({ id: cleanString(x.id) || `variant-${i + 1}`, name: cleanString(x.name) || `Variant ${i + 1}`, options: cleanStringArray(x.options), priceDelta: numberValue(x.priceDelta), sku: cleanString(x.sku) || undefined })) : [];
+-  const personalization: ProductPersonalization = typeof body.personalization === "object" && body.personalization !== null ? { enabled: bool((body.personalization as Record<string, unknown>).enabled), maxLength: numberValue((body.personalization as Record<string, unknown>).maxLength) || undefined, instructions: cleanString((body.personalization as Record<string, unknown>).instructions) || undefined } : { enabled: false };
+-  const delivery: ProductDelivery = typeof body.delivery === "object" && body.delivery !== null ? { minDays: numberValue((body.delivery as Record<string, unknown>).minDays) || undefined, maxDays: numberValue((body.delivery as Record<string, unknown>).maxDays) || undefined, sameDay: bool((body.delivery as Record<string, unknown>).sameDay) } : {};
+-  const serviceability: ProductServiceability = typeof body.serviceability === "object" && body.serviceability !== null ? { pincodes: cleanStringArray((body.serviceability as Record<string, unknown>).pincodes), nationwide: bool((body.serviceability as Record<string, unknown>).nationwide, true) } : { nationwide: true };
+-  const parsed = {
+-    sku, title, slug,
+-    shortDescription: cleanString(body.shortDescription), description: cleanString(body.description),
+-    categoryIds: cleanStringArray(body.categoryIds), occasionIds: cleanStringArray(body.occasionIds), recipientIds: cleanStringArray(body.recipientIds), cultureTagIds: cleanStringArray(body.cultureTagIds), stateTagIds: cleanStringArray(body.stateTagIds), tagIds: cleanStringArray(body.tagIds), collectionIds: cleanStringArray(body.collectionIds),
+-    images, thumbnail: cleanString(body.thumbnail) || images[0]?.url || "", price: numberValue(body.price), mrp: numberValue(body.mrp), discount: numberValue(body.discount), variants, personalization,
+-    inventory: { quantity: Math.max(0, numberValue((body.inventory as Record<string, unknown> | undefined)?.quantity)), reserved: Math.max(0, numberValue((body.inventory as Record<string, unknown> | undefined)?.reserved)), sold: Math.max(0, numberValue((body.inventory as Record<string, unknown> | undefined)?.sold)) },
+-    delivery, serviceability, status,
+-    featured: bool(body.featured), bestseller: bool(body.bestseller), newArrival: bool(body.newArrival), rating: numberValue(body.rating), reviewCount: Math.max(0, numberValue(body.reviewCount)),
+-    seo: typeof body.seo === "object" && body.seo !== null ? { title: cleanString((body.seo as Record<string, unknown>).title) || undefined, description: cleanString((body.seo as Record<string, unknown>).description) || undefined, keywords: cleanStringArray((body.seo as Record<string, unknown>).keywords) } : {},
+-  };
++
++  const variants: ProductVariant[] = Array.isArray(body.variants)
++    ? body.variants
++        .filter((x): x is Record<string, unknown> => Boolean(x && typeof x === "object"))
++        .map((x, i) => {
++          const options = cleanStringArray(x.options);
++          return removeUndefinedDeep({
++            id: cleanString(x.id) || `variant-${i + 1}`,
++            name: cleanString(x.name) || `Variant ${i + 1}`,
++            value: cleanString(x.value) || undefined,
++            options: options.length > 0 ? options : undefined,
++            price: optionalNumber(x.price),
++            priceDelta: optionalNumber(x.priceDelta),
++            sku: cleanString(x.sku) || undefined,
++          });
++        })
++    : [];
++
++  const personalizationBody = record(body.personalization);
++  const personalizationFields = cleanStringArray(personalizationBody.fields);
++  const personalization: ProductPersonalization = removeUndefinedDeep({
++    enabled: bool(personalizationBody.enabled),
++    fields: personalizationFields,
++    maxCharacters: optionalNumber(personalizationBody.maxCharacters),
++    maxLength: optionalNumber(personalizationBody.maxLength),
++    imageUpload: bool(personalizationBody.imageUpload),
++    instructions: cleanString(personalizationBody.instructions) || undefined,
++  });
++
++  const deliveryBody = record(body.delivery);
++  const delivery: ProductDelivery = removeUndefinedDeep({
++    minDays: optionalNumber(deliveryBody.minDays),
++    maxDays: optionalNumber(deliveryBody.maxDays),
++    sameDay: bool(deliveryBody.sameDay),
++    express: typeof deliveryBody.express === "boolean" ? deliveryBody.express : undefined,
++    scheduled: typeof deliveryBody.scheduled === "boolean" ? deliveryBody.scheduled : undefined,
++    midnight: typeof deliveryBody.midnight === "boolean" ? deliveryBody.midnight : undefined,
++    courier: typeof deliveryBody.courier === "boolean" ? deliveryBody.courier : undefined,
++    fee: optionalNumber(deliveryBody.fee),
++    slotFees: deliveryBody.slotFees && typeof deliveryBody.slotFees === "object"
++      ? Object.fromEntries(Object.entries(deliveryBody.slotFees as Record<string, unknown>).map(([key, value]) => [key, numberValue(value)]))
++      : undefined,
++    slotCapacities: deliveryBody.slotCapacities && typeof deliveryBody.slotCapacities === "object"
++      ? Object.fromEntries(Object.entries(deliveryBody.slotCapacities as Record<string, unknown>).map(([key, value]) => [key, Math.max(0, numberValue(value))]))
++      : undefined,
++    cutoffHour: optionalNumber(deliveryBody.cutoffHour),
++    capacityPerSlot: optionalNumber(deliveryBody.capacityPerSlot),
++    zoneMode: deliveryBody.zoneMode === "legacy" || deliveryBody.zoneMode === "inherit" ? deliveryBody.zoneMode : undefined,
++  });
++
++  const serviceabilityBody = record(body.serviceability);
++  const serviceability: ProductServiceability = removeUndefinedDeep({
++    pincodes: cleanStringArray(serviceabilityBody.pincodes),
++    cities: cleanStringArray(serviceabilityBody.cities),
++    nationwide: bool(serviceabilityBody.nationwide, true),
++  });
++
++  const inventoryBody = record(body.inventory);
++  const seoBody = record(body.seo);
++
++  const parsed: Omit<Product, "id" | "createdAt" | "updatedAt"> = removeUndefinedDeep({
++    sku,
++    title,
++    slug,
++    shortDescription: cleanString(body.shortDescription),
++    description: cleanString(body.description),
++    categoryIds: cleanStringArray(body.categoryIds),
++    occasionIds: cleanStringArray(body.occasionIds),
++    recipientIds: cleanStringArray(body.recipientIds),
++    cultureTagIds: cleanStringArray(body.cultureTagIds),
++    stateTagIds: cleanStringArray(body.stateTagIds),
++    tagIds: cleanStringArray(body.tagIds),
++    collectionIds: cleanStringArray(body.collectionIds),
++    images,
++    thumbnail: cleanString(body.thumbnail) || images[0]?.url || "",
++    price: numberValue(body.price),
++    mrp: numberValue(body.mrp),
++    discount: numberValue(body.discount),
++    variants,
++    personalization,
++    inventory: {
++      quantity: Math.max(0, numberValue(inventoryBody.quantity)),
++      reserved: Math.max(0, numberValue(inventoryBody.reserved)),
++      sold: Math.max(0, numberValue(inventoryBody.sold)),
++    },
++    delivery,
++    serviceability,
++    status,
++    featured: bool(body.featured),
++    bestseller: bool(body.bestseller),
++    newArrival: bool(body.newArrival),
++    rating: numberValue(body.rating),
++    reviewCount: Math.max(0, numberValue(body.reviewCount)),
++    seo: removeUndefinedDeep({
++      title: cleanString(seoBody.title) || undefined,
++      description: cleanString(seoBody.description) || undefined,
++      keywords: cleanStringArray(seoBody.keywords),
++    }),
++  });
++
++  // Even draft products must not point the primary image at a URL outside the
++  // gallery. Publishing adds the stricter business checks below.
++  if (parsed.thumbnail && parsed.images.length > 0 && !parsed.images.some((image) => image.url === parsed.thumbnail)) {
++    throw new Error("Primary image must be one of the product images.");
++  }
+ 
+   if (parsed.status === "live") {
+     validateProductForPublish(parsed);
+Only in /mnt/data/gift4u_audit/src/lib: firestore-sanitize.ts
+diff -ru /mnt/data/gift4u_original/src/lib/merchandising/cms.ts /mnt/data/gift4u_audit/src/lib/merchandising/cms.ts
+--- /mnt/data/gift4u_original/src/lib/merchandising/cms.ts	2026-09-26 19:52:52.000000000 +0000
++++ /mnt/data/gift4u_audit/src/lib/merchandising/cms.ts	2026-10-05 16:36:53.792560999 +0000
+@@ -1,5 +1,6 @@
+ import { FieldValue } from "firebase-admin/firestore";
+ import { getAdminDb } from "@/lib/firebase-admin";
++import { removeUndefinedDeep } from "@/lib/firestore-sanitize";
+ 
+ export type MerchandisingCmsType = "category" | "occasion";
+ 
+@@ -78,7 +79,7 @@
+ 
+ export async function saveTaxonomyPageCms(type: MerchandisingCmsType, data: ReturnType<typeof normalizeTaxonomyPageCmsInput>) {
+   const document = ref(type, data.taxonomyId);
+-  await document.set({ ...data, updatedAt: FieldValue.serverTimestamp() }, { merge: true });
++  await document.set({ ...removeUndefinedDeep(data), updatedAt: FieldValue.serverTimestamp() }, { merge: true });
+   return document.id;
+ }
+ 
+diff -ru /mnt/data/gift4u_original/src/lib/merchandising/server.ts /mnt/data/gift4u_audit/src/lib/merchandising/server.ts
+--- /mnt/data/gift4u_original/src/lib/merchandising/server.ts	2026-09-26 19:52:52.000000000 +0000
++++ /mnt/data/gift4u_audit/src/lib/merchandising/server.ts	2026-10-05 16:44:56.445464752 +0000
+@@ -81,9 +81,17 @@
+   wedding: ["event", "category", "budget", "culture", "state"],
+   birthday: ["recipient", "ageGroup", "category", "giftType", "budget"],
+   anniversary: ["category", "lovedOne", "milestone", "budget"],
+-  hampers: ["category", "budget"],
+-  personalised: ["category", "recipient", "budget"],
+-  lifestyle: ["category", "personality", "brand", "budget"],
++  hampers: ["collection", "featured", "curated"],
++  personalised: ["category", "recipient", "collection", "promotion"],
++  lifestyle: ["personality", "brand"],
++};
++
++const RELATION_COLLECTIONS: Partial<Record<MerchandisingPage, Partial<Record<MerchandisingItemType, "categories" | "occasions" | "recipients" | "collections">>>> = {
++  wedding: { event: "occasions", category: "categories" },
++  birthday: { recipient: "recipients", category: "categories" },
++  anniversary: { category: "categories", lovedOne: "recipients" },
++  hampers: { collection: "collections" },
++  personalised: { category: "categories", recipient: "recipients", collection: "collections" },
+ };
+ 
+ export function pageRef(page: MerchandisingPage) {
+@@ -203,10 +211,38 @@
+   await saveMerchandisingHero("wedding", hero);
+ }
+ 
++async function assertMerchandisingRelation(
++  page: MerchandisingPage,
++  data: { type: MerchandisingItemType; relatedId?: string },
++) {
++  const collection = RELATION_COLLECTIONS[page]?.[data.type];
++  if (!collection) return;
++  const label = collection === "categories"
++    ? "category"
++    : collection === "occasions"
++      ? "occasion"
++      : collection === "recipients"
++        ? "recipient"
++        : "collection";
++
++  if (!data.relatedId) {
++    throw new Error(`Select the existing ${label} this item represents.`);
++  }
++
++  const related = await getAdminDb().collection(collection).doc(data.relatedId).get();
++  if (!related.exists) {
++    throw new Error(`The selected ${label} no longer exists.`);
++  }
++  if (related.data()?.active === false) {
++    throw new Error(`The selected ${label} is archived. Restore it or choose an active ${label}.`);
++  }
++}
++
+ export async function createMerchandisingItem(
+   page: MerchandisingPage,
+   data: ReturnType<typeof normalizeMerchandisingItemInput> | ReturnType<typeof normalizeItemInput>,
+ ) {
++  await assertMerchandisingRelation(page, data);
+   const ref = itemsRef(page).doc();
+   await ref.set({ ...removeUndefinedFields(data as Record<string, unknown>), createdAt: FieldValue.serverTimestamp(), updatedAt: FieldValue.serverTimestamp() });
+   return ref.id;
+@@ -220,6 +256,7 @@
+   const ref = itemsRef(page).doc(id);
+   const snap = await ref.get();
+   if (!snap.exists) throw new Error("Not found.");
++  await assertMerchandisingRelation(page, data as { type: MerchandisingItemType; relatedId?: string });
+   await ref.update({ ...removeUndefinedFields(data as Record<string, unknown>), updatedAt: FieldValue.serverTimestamp() });
+ }
+ 
+diff -ru /mnt/data/gift4u_original/tests/catalog-validation.test.ts /mnt/data/gift4u_audit/tests/catalog-validation.test.ts
+--- /mnt/data/gift4u_original/tests/catalog-validation.test.ts	2026-09-21 17:41:06.000000000 +0000
++++ /mnt/data/gift4u_audit/tests/catalog-validation.test.ts	2026-10-05 16:41:17.153356841 +0000
+@@ -1,6 +1,6 @@
+ import test from "node:test";
+ import assert from "node:assert/strict";
+-import { parseProductInput, slugify } from "../src/lib/catalog/validation";
++import { parseCategoryInput, parseProductInput, parseTaxonomyInput, slugify } from "../src/lib/catalog/validation";
+ 
+ test("slugify creates stable URL slugs", () => {
+   assert.equal(slugify("  Luxury Rose Gift Box! "), "luxury-rose-gift-box");
+@@ -37,7 +37,7 @@
+         occasionIds: ["o1"],
+         recipientIds: ["r1"],
+       }),
+-    /at least one image/,
++    /At least one product image/,
+   );
+ 
+   assert.throws(
+@@ -72,3 +72,49 @@
+     /Primary image must be one of the product images/,
+   );
+ });
++
++function containsUndefined(value: unknown): boolean {
++  if (value === undefined) return true;
++  if (Array.isArray(value)) return value.some(containsUndefined);
++  if (value && typeof value === "object") {
++    return Object.values(value as Record<string, unknown>).some(containsUndefined);
++  }
++  return false;
++}
++
++test("taxonomy parser never emits undefined Firestore fields when optional inputs are blank", () => {
++  const taxonomy = parseTaxonomyInput({ name: "Wedding Gifts", image: "", description: "" });
++  assert.equal(containsUndefined(taxonomy), false);
++  assert.equal("image" in taxonomy, false);
++  assert.equal("description" in taxonomy, false);
++
++  const category = parseCategoryInput({ name: "Photo Frames", parentId: "" });
++  assert.equal(category.parentId, null);
++  assert.equal(containsUndefined(category), false);
++});
++
++test("product parser preserves Product Editor variants and personalization without undefined fields", () => {
++  const product = parseProductInput({
++    title: "Personalised Frame",
++    sku: "PF-1",
++    price: 999,
++    mrp: 1299,
++    status: "draft",
++    images: [{ url: "https://example.com/frame.jpg" }],
++    variants: [{ name: "Size", value: "Large", price: 1199, sku: "PF-L" }],
++    personalization: {
++      enabled: true,
++      fields: ["Name"],
++      maxCharacters: 40,
++      imageUpload: true,
++    },
++  });
++
++  assert.equal(product.variants[0]?.value, "Large");
++  assert.equal(product.variants[0]?.price, 1199);
++  assert.deepEqual(product.personalization.fields, ["Name"]);
++  assert.equal(product.personalization.maxCharacters, 40);
++  assert.equal(product.personalization.imageUpload, true);
++  assert.equal(containsUndefined(product), false);
++});
++

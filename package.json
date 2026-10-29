@@ -1,0 +1,11 @@
+{
+  "name": "aarvika-workspace",
+  "private": true,
+  "workspaces": ["apps/mobile", "apps/local-api", "packages/catalogue"],
+  "scripts": {
+    "api": "node apps/local-api/src/index.ts",
+    "test:api": "node --test apps/local-api/tests/*.test.ts",
+    "typecheck:api": "node apps/mobile/node_modules/typescript/bin/tsc -p apps/local-api/tsconfig.json",
+    "lint:api": "node apps/mobile/node_modules/eslint/bin/eslint.js --config apps/local-api/eslint.config.cjs apps/local-api packages/catalogue"
+  }
+}

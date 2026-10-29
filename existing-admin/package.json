@@ -1,0 +1,43 @@
+{
+  "name": "gift4u",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/run-isolated.cjs dev",
+    "dev:shared": "node scripts/run-shared.cjs dev",
+    "build": "node scripts/run-isolated.cjs build",
+    "start": "node scripts/run-isolated.cjs start",
+    "lint": "eslint",
+    "test:rules": "node scripts/test-isolated.cjs --rules",
+    "seed:catalog": "node scripts/seed-isolated.cjs",
+    "test:catalog": "node scripts/test-isolated.cjs",
+    "test:payment": "node scripts/test-isolated.cjs",
+    "test:orders": "node scripts/test-isolated.cjs",
+    "bootstrap:super-admin": "tsx scripts/bootstrap-super-admin.ts",
+    "verify:super-admin": "tsx scripts/verify-super-admin.ts",
+    "emulators": "node scripts/run-isolated.cjs emulators",
+    "test": "node scripts/test-isolated.cjs"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "firebase": "12.19.0",
+    "firebase-admin": "14.4.0",
+    "lucide-react": "^1.42.0",
+    "next": "16.3.4",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@firebase/rules-unit-testing": "5.0.2",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.4",
+    "firebase-tools": "15.30.0",
+    "tailwindcss": "^4",
+    "tsx": "4.23.13",
+    "typescript": "^5"
+  }
+}

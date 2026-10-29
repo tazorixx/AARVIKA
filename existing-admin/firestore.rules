@@ -1,0 +1,53 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Public storefront content that already exists in the root app.
+    match /homepage_sections/{sectionId} {
+      allow read: if resource.data.isActive == true;
+      allow write: if false;
+    }
+
+    match /category_pages/{pageId} {
+      allow read: if resource.data.isActive == true;
+      allow write: if false;
+    }
+
+    // Phase 3 TODO: no existing root page currently reads users/{uid}.
+    // Customer profile/address access will be added deliberately with the
+    // account model rather than exposing user documents here.
+    match /users/{uid} {
+      allow read, write: if false;
+
+      match /addresses/{addressId} {
+        allow read, write: if false;
+      }
+    }
+
+    // Products, inventory, orders, payment state and all future sensitive
+    // catalog mutations are trusted-server only. Next.js API routes use the
+    // Firebase Admin SDK and therefore do not depend on client rules.
+    match /products/{productId} {
+      allow read: if resource.data.status == 'live';
+      allow write: if false;
+    }
+    match /categories/{id} { allow read: if resource.data.active == true; allow write: if false; }
+    match /occasions/{id} { allow read: if resource.data.active == true; allow write: if false; }
+    match /recipients/{id} { allow read: if resource.data.active == true; allow write: if false; }
+    match /collections/{id} { allow read: if resource.data.active == true; allow write: if false; }
+    match /slugs/{id} { allow read, write: if false; }
+
+    match /inventory/{inventoryId} {
+      allow read, write: if false;
+    }
+
+    match /orders/{orderId} {
+      allow read: if request.auth != null && resource.data.uid == request.auth.uid;
+      allow write: if false;
+    }
+
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

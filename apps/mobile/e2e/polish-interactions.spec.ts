@@ -1,0 +1,108 @@
+import { test, expect } from '@playwright/test';
+import { readyImages } from './capture';
+
+test('editable addresses, cart variants and honest persistent local review', async ({ page }) => {
+  test.setTimeout(120000);
+  await page.goto('/product/cotton-kurta',{waitUntil:'domcontentloaded'});
+  await page.getByRole('button', { name: 'Add to demo cart', exact: true }).click();
+  await expect(page.getByText('Added to your demo cart.', { exact: true })).toBeVisible();
+  await page.goto('/cart',{waitUntil:'domcontentloaded'});
+  await page.getByRole('button', { name: 'Change variant Everyday cotton kurta', exact: true }).click();
+  await readyImages(page); await page.screenshot({path:'evidence/polish/after/cart-variant-sheet-390.png'});
+  await page.getByRole('button', { name: /Large · Cream ·/ }).click();
+  await expect(page.getByText('Cart variant updated.', { exact: true })).toBeVisible();
+  await page.reload({waitUntil:'domcontentloaded'});
+  await expect(page.getByText('Large · Cream', { exact: true })).toBeVisible();
+  await page.getByRole('button', { name: 'Review demo order', exact: true }).click();
+  await expect(page.getByRole('button', { name: 'Save demo review', exact: true })).toBeDisabled();
+  await page.getByRole('button', { name: 'Add or edit sample addresses', exact: true }).click();
+  await page.getByRole('button', { name: 'Continue with local demo profile' }).click();
+  await page.getByRole('textbox', { name: 'Demo profile name', exact: true }).fill('Review QA');
+  await page.getByRole('button', { name: 'Open demo profile', exact: true }).click();
+  // Account return routing deliberately goes back to the review after sign in.
+  await page.goto('/account',{waitUntil:'domcontentloaded'});
+  await page.getByRole('button', { name: 'Add sample address', exact: true }).click();
+  for (const [name, value] of [['Recipient name','Demo Recipient'],['Mobile number','9876543210'],['Street address','Sample street'],['City','Pune'],['State','Maharashtra'],['PIN code','411001']]) await page.getByRole('textbox', { name, exact:true }).fill(value);
+  await page.getByRole('button', { name: 'Save sample address', exact:true }).click();
+  await page.getByRole('button', { name: 'Edit address 411001', exact:true }).click();
+  await page.getByRole('textbox', { name:'Street address', exact:true }).fill('Updated sample street');
+  await readyImages(page); await page.screenshot({path:'evidence/polish/after/address-editor-390.png'});
+  await page.getByRole('button', { name: 'Update sample address', exact:true }).click();
+  await page.reload({waitUntil:'domcontentloaded'});
+  await expect(page.getByText(/Updated sample street/)).toBeVisible();
+  await page.goto('/review',{waitUntil:'domcontentloaded'});
+  await page.getByRole('button', { name: 'Save demo review', exact:true }).click();
+  await expect(page.getByText('Review saved on this device. No order was placed and no payment was taken.', {exact:true})).toBeVisible();
+  await expect(page.getByRole('button', { name:'Payments are disabled', exact:true })).toBeDisabled();
+  await page.reload({waitUntil:'domcontentloaded'});
+  await expect(page.getByText('Saved local review', {exact:true})).toBeVisible();
+  await readyImages(page); await page.screenshot({path:'evidence/polish/after/review-saved-390.png',fullPage:true});
+  await page.goto('/cart',{waitUntil:'domcontentloaded'});
+  await page.getByRole('button', { name:'Increase Everyday cotton kurta', exact:true }).click();
+  await page.goto('/review',{waitUntil:'domcontentloaded'});
+  await expect(page.getByText('The cart changed after this snapshot. Save again to update the review.', {exact:true})).toBeVisible();
+  await page.goto('/account',{waitUntil:'domcontentloaded'});
+  await page.getByRole('button', {name:'Remove address 411001',exact:true}).click();
+  await expect(page.getByRole('button', {name:'Edit address 411001',exact:true})).toHaveCount(0);
+  await page.getByRole('button',{name:'App settings',exact:true}).click();
+  await page.getByRole('button',{name:'Leave demo profile',exact:true}).click();
+  await page.goto('/review',{waitUntil:'domcontentloaded'});
+  await expect(page.getByText('Your cart is empty',{exact:true})).toBeVisible();
+  await expect(page.getByText('Saved local review',{exact:true})).toHaveCount(0);
+});
+
+test('category search, quick add and wishlist removal persist', async ({page})=>{
+  await page.goto('/categories',{waitUntil:'domcontentloaded'});
+  await page.getByRole('textbox',{name:'Find a category',exact:true}).fill('Necklaces');
+  await page.getByRole('button',{name:'Open Necklaces & Pendants in personalized',exact:true}).click();
+  await expect(page.getByRole('button',{name:'View Necklaces & Pendants · sample design',exact:true})).toBeVisible();
+  await page.goto('/product/cotton-kurta',{waitUntil:'domcontentloaded'});
+  await page.getByRole('button',{name:'♡ Save to wishlist',exact:true}).click();
+  await page.goto('/wishlist',{waitUntil:'domcontentloaded'});
+  await page.getByRole('button',{name:'Remove Everyday cotton kurta from wishlist',exact:true}).click();
+  await expect(page.getByText('Your favourites belong here',{exact:true})).toBeVisible();
+  await page.reload({waitUntil:'domcontentloaded'});
+  await expect(page.getByText('Your favourites belong here',{exact:true})).toBeVisible();
+  await page.goto('/search',{waitUntil:'domcontentloaded'});
+  await page.getByRole('textbox',{name:'Search catalogue',exact:true}).fill('pen pair');
+  await page.getByRole('button',{name:'Add The everyday pen pair to demo cart',exact:true}).click();
+  await expect(page.getByRole('button',{name:'Cart (1)',exact:true})).toBeVisible();
+});
+
+test('builder steps persist, search reaches all choices and filters close by keyboard', async ({page})=>{
+  await page.goto('/builder',{waitUntil:'domcontentloaded'});
+  await page.getByRole('textbox',{name:'Find builder items',exact:true}).fill('mug');
+  await page.getByRole('button',{name:'Choose Your-name ceramic mug',exact:true}).click();
+  await page.getByRole('button',{name:'Personalize your picks',exact:true}).click();
+  await expect(page.getByRole('textbox',{name:'Name to print *',exact:true})).toBeVisible();
+  await page.getByRole('textbox',{name:'Name to print *',exact:true}).fill('Aarvika');
+  await readyImages(page); await page.screenshot({path:'evidence/polish/after/hamper-details-390.png'});
+  await page.reload({waitUntil:'domcontentloaded'});
+  await expect(page.getByRole('textbox',{name:'Name to print *',exact:true})).toBeVisible();
+  await expect(page.getByRole('textbox',{name:'Name to print *',exact:true})).toHaveValue('Aarvika');
+  await page.getByRole('button',{name:'3. Finish',exact:true}).click();
+  await readyImages(page); await page.screenshot({path:'evidence/polish/after/hamper-finish-390.png'});
+  await page.goto('/search',{waitUntil:'domcontentloaded'});
+  await page.getByRole('button',{name:'Refine your finds',exact:true}).click();
+  await expect(page.getByRole('button',{name:'Show results',exact:true})).toBeVisible();
+  await readyImages(page); await page.screenshot({path:'evidence/polish/after/filter-sheet-390.png'});
+  await page.keyboard.press('Escape');
+  await expect(page.getByRole('button',{name:'Show results',exact:true})).toHaveCount(0);
+});
+
+test('loaded fixture shopping works offline and corrupt local storage has a recovery action', async ({page,context})=>{
+  test.skip(process.env.E2E_DATA_MODE==='local-api','Offline fixture behaviour is distinct from API failure/retry.');
+  await page.goto('/product/cotton-kurta',{waitUntil:'domcontentloaded'});
+  await expect(page.getByRole('button',{name:'Add to demo cart',exact:true})).toBeVisible();
+  await context.setOffline(true);
+  await page.getByRole('button',{name:'Add to demo cart',exact:true}).click();
+  await expect(page.getByText('Added to your demo cart.',{exact:true})).toBeVisible();
+  await context.setOffline(false);
+  await page.reload({waitUntil:'domcontentloaded'});
+  await expect(page.getByRole('button',{name:'Cart (1)',exact:true})).toBeVisible();
+  await page.evaluate(()=>localStorage.setItem('aarvika:demo:v1','broken-json'));
+  await page.reload({waitUntil:'domcontentloaded'});
+  await expect(page.getByText('Could not restore data',{exact:true})).toBeVisible();
+  await page.getByRole('button',{name:'Reset local demo data',exact:true}).click();
+  await expect(page.getByRole('button',{name:'Cart',exact:true})).toBeVisible();
+});

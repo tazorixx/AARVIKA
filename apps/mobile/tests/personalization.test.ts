@@ -1,0 +1,10 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { validatePersonalization, validateMedia, imageMime } from '../src/domain/personalization.ts';
+import { previewBundle } from '../src/domain/bundles.ts';
+import { schemas, bundleTemplates, products, skus } from '../src/services/catalog.ts';
+const media = { id: 'x', uri: 'local:test', mimeType: 'image/png', bytes: 100, ownerId: 'guest', localOnly: true };
+test('text limits, required choices and media size/type are validated', () => { assert.ok(validatePersonalization(schemas[0], {}, []).length); assert.equal(validatePersonalization(schemas[0], { name: 'Mira', font: 'Classic' }, [media]).length, 0); assert.ok(validatePersonalization(schemas[0], { name: 'a'.repeat(25), font: 'unknown' }, []).length); assert.ok(validateMedia({ ...media, bytes: 6e6 }, schemas[0])); assert.ok(validateMedia({ ...media, mimeType: 'image/svg+xml' }, schemas[0])); assert.equal(imageMime('not-an-image'), null); });
+const box = { templateId: 'gift-box', packaging: 'Lavender box', message: 'A little joy', components: [{ skuId: 'pen-set-standard', quantity: 1, personalization: {}, media: [] }, { skuId: 'return-pouch-standard', quantity: 1, personalization: {}, media: [] }] };
+test('bundle preview derives current fixture SKU prices and packaging', () => { assert.equal(previewBundle(box, bundleTemplates, products, skus, schemas).amount, 49700); });
+test('bundle rejects incompatible items, stock loss, over-capacity and missing customization', () => { for (const components of [[{ skuId: 'cotton-kurta-standard', quantity: 2, personalization: {}, media: [] }], [{ skuId: 'pen-set-standard', quantity: 26, personalization: {}, media: [] }], [{ skuId: 'ceremony-tray-standard', quantity: 4, personalization: {}, media: [] }], [{ skuId: 'name-mug-standard', quantity: 2, personalization: {}, media: [] }]]) assert.throws(() => previewBundle({ ...box, components }, bundleTemplates, products, skus, schemas)); });

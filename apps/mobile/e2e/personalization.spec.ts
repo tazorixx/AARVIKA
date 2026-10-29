@@ -1,0 +1,38 @@
+import { readyImages } from './capture';
+import { test, expect } from '@playwright/test';
+test('name/photo draft survives reload and personalized cart snapshot is preserved', async ({ page }) => {
+  await page.goto('/product/name-mug', { waitUntil: 'domcontentloaded' });
+  await page.getByRole('button', { name: 'Add to demo cart', exact: true }).click();
+  await expect(page.getByText('Name to print is required.', { exact: true })).toBeVisible();
+  await page.getByRole('textbox', { name: 'Name to print *', exact: true }).fill('Mira');
+  const chooser = page.waitForEvent('filechooser');
+  await page.getByRole('button', { name: 'Choose local photo', exact: true }).click();
+  await (await chooser).setFiles({ name: 'sample.png', mimeType: 'image/png', buffer: Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+a5t8AAAAASUVORK5CYII=', 'base64') });
+  await expect(page.getByRole('img', { name: 'Selected personalization photo', exact: true })).toBeVisible();
+  await page.reload();
+  await expect(page.getByRole('textbox', { name: 'Name to print *', exact: true })).toHaveValue('Mira');
+  await expect(page.getByRole('img', { name: 'Selected personalization photo', exact: true })).toBeVisible();
+  await page.getByRole('textbox', { name: 'Name to print *', exact: true }).scrollIntoViewIfNeeded();
+  await readyImages(page); await page.screenshot({ path: 'evidence/task-04-personalization-390.png', fullPage: true });
+  await page.getByRole('button', { name: 'Add to demo cart', exact: true }).click();
+  await page.getByRole('button', { name: 'View cart', exact: true }).click();
+  await expect(page.getByText('name: Mira', { exact: true })).toBeVisible();
+  await expect(page.getByText('1 local photo reference(s)', { exact: true })).toBeVisible();
+});
+test('bundle rules, price preview, draft and cart snapshot work', async ({ page }) => {
+  await page.goto('/builder', { waitUntil: 'domcontentloaded' });
+  await expect(page.getByRole('button', { name: 'Personalize your picks', exact: true })).toBeDisabled();
+  await page.getByRole('button', { name: 'Choose The everyday pen pair', exact: true }).click();
+  await page.getByRole('button', { name: 'Choose Cotton return-gift pouch', exact: true }).click();
+  await expect(page.getByText('Preview total: ₹497', { exact: true })).toBeVisible();
+  await page.getByRole('button', { name: '3. Finish', exact: true }).click();
+  await page.getByRole('textbox', { name: 'Gift message', exact: true }).fill('For your next chapter');
+  await page.reload();
+  await expect(page.getByRole('textbox', { name: 'Gift message', exact: true })).toHaveValue('For your next chapter');
+  await page.getByRole('button', { name: 'Add gift box to demo cart', exact: true }).click();
+  await expect(page.getByText('Gift box saved to your demo cart.', { exact: true })).toBeVisible();
+  await page.getByRole('button', { name: 'View gift box in cart', exact: true }).click();
+  await expect(page.getByText('The everyday pen pair × 1', { exact: true })).toBeVisible();
+  await expect(page.getByText('Gift message: For your next chapter', { exact: true })).toBeVisible();
+  await readyImages(page); await page.screenshot({ path: 'evidence/task-04-bundle-cart-390.png', fullPage: true });
+});

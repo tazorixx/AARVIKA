@@ -1,0 +1,3212 @@
+[
+  {
+    "id": "wedding-root",
+    "name": "Wedding",
+    "departmentId": "wedding",
+    "parentId": null
+  },
+  {
+    "id": "birthday-root",
+    "name": "Birthday",
+    "departmentId": "birthday",
+    "parentId": null
+  },
+  {
+    "id": "personalized-root",
+    "name": "Personalized Gifts",
+    "departmentId": "personalized",
+    "parentId": null
+  },
+  {
+    "id": "anniversary-root",
+    "name": "Anniversary",
+    "departmentId": "anniversary",
+    "parentId": null
+  },
+  {
+    "id": "hampers-root",
+    "name": "Hampers",
+    "departmentId": "hampers",
+    "parentId": null
+  },
+  {
+    "id": "clothing-root",
+    "name": "Clothing",
+    "departmentId": "clothing",
+    "parentId": null
+  },
+  {
+    "id": "stationery-root",
+    "name": "Stationery",
+    "departmentId": "stationery",
+    "parentId": null
+  },
+  {
+    "id": "furniture-root",
+    "name": "Furniture",
+    "departmentId": "furniture",
+    "parentId": null
+  },
+  {
+    "id": "hampers-1",
+    "name": "Birthday Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-root"
+  },
+  {
+    "id": "hampers-1-1",
+    "name": "For Her",
+    "departmentId": "hampers",
+    "parentId": "hampers-1"
+  },
+  {
+    "id": "hampers-1-2",
+    "name": "For Him",
+    "departmentId": "hampers",
+    "parentId": "hampers-1"
+  },
+  {
+    "id": "hampers-1-3",
+    "name": "For Kids",
+    "departmentId": "hampers",
+    "parentId": "hampers-1"
+  },
+  {
+    "id": "hampers-1-4",
+    "name": "For Friends",
+    "departmentId": "hampers",
+    "parentId": "hampers-1"
+  },
+  {
+    "id": "hampers-1-5",
+    "name": "For Couples",
+    "departmentId": "hampers",
+    "parentId": "hampers-1"
+  },
+  {
+    "id": "hampers-2",
+    "name": "Festival Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-root"
+  },
+  {
+    "id": "hampers-2-1",
+    "name": "Diwali Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-2"
+  },
+  {
+    "id": "hampers-2-2",
+    "name": "Raksha Bandhan Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-2"
+  },
+  {
+    "id": "hampers-2-3",
+    "name": "Christmas Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-2"
+  },
+  {
+    "id": "hampers-2-4",
+    "name": "New Year Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-2"
+  },
+  {
+    "id": "hampers-2-5",
+    "name": "Holi Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-2"
+  },
+  {
+    "id": "hampers-2-6",
+    "name": "Other Festival Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-2"
+  },
+  {
+    "id": "hampers-3",
+    "name": "Wedding & Engagement Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-root"
+  },
+  {
+    "id": "hampers-3-1",
+    "name": "Wedding Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-3"
+  },
+  {
+    "id": "hampers-3-2",
+    "name": "Engagement Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-3"
+  },
+  {
+    "id": "hampers-3-3",
+    "name": "Bridal Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-3"
+  },
+  {
+    "id": "hampers-3-4",
+    "name": "Groom Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-3"
+  },
+  {
+    "id": "hampers-3-5",
+    "name": "Bridesmaid Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-3"
+  },
+  {
+    "id": "hampers-3-6",
+    "name": "Wedding Return Gifts",
+    "departmentId": "hampers",
+    "parentId": "hampers-3"
+  },
+  {
+    "id": "hampers-4",
+    "name": "Anniversary & Romantic Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-root"
+  },
+  {
+    "id": "hampers-4-1",
+    "name": "Anniversary Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-4"
+  },
+  {
+    "id": "hampers-4-2",
+    "name": "Valentine's Day Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-4"
+  },
+  {
+    "id": "hampers-4-3",
+    "name": "Couple Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-4"
+  },
+  {
+    "id": "hampers-4-4",
+    "name": "Romantic Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-4"
+  },
+  {
+    "id": "hampers-5",
+    "name": "Corporate Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-root"
+  },
+  {
+    "id": "hampers-5-1",
+    "name": "Employee Welcome Kits",
+    "departmentId": "hampers",
+    "parentId": "hampers-5"
+  },
+  {
+    "id": "hampers-5-2",
+    "name": "Employee Appreciation Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-5"
+  },
+  {
+    "id": "hampers-5-3",
+    "name": "Client Gift Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-5"
+  },
+  {
+    "id": "hampers-5-4",
+    "name": "Corporate Festival Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-5"
+  },
+  {
+    "id": "hampers-5-5",
+    "name": "Conference & Event Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-5"
+  },
+  {
+    "id": "hampers-6",
+    "name": "Stationery Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-root"
+  },
+  {
+    "id": "hampers-6-1",
+    "name": "Student Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-6"
+  },
+  {
+    "id": "hampers-6-2",
+    "name": "Office Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-6"
+  },
+  {
+    "id": "hampers-6-3",
+    "name": "Journaling Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-6"
+  },
+  {
+    "id": "hampers-6-4",
+    "name": "Art & Craft Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-6"
+  },
+  {
+    "id": "hampers-6-5",
+    "name": "Premium Stationery Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-6"
+  },
+  {
+    "id": "hampers-7",
+    "name": "Self-Care & Lifestyle Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-root"
+  },
+  {
+    "id": "hampers-7-1",
+    "name": "Bath Accessories Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-7"
+  },
+  {
+    "id": "hampers-7-2",
+    "name": "Grooming Accessories Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-7"
+  },
+  {
+    "id": "hampers-7-3",
+    "name": "Travel Essentials Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-7"
+  },
+  {
+    "id": "hampers-7-4",
+    "name": "Relaxation Accessories Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-7"
+  },
+  {
+    "id": "hampers-7-5",
+    "name": "Lifestyle Accessories Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-7"
+  },
+  {
+    "id": "hampers-8",
+    "name": "Home & Décor Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-root"
+  },
+  {
+    "id": "hampers-8-1",
+    "name": "Housewarming Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-8"
+  },
+  {
+    "id": "hampers-8-2",
+    "name": "Home Décor Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-8"
+  },
+  {
+    "id": "hampers-8-3",
+    "name": "Desk Décor Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-8"
+  },
+  {
+    "id": "hampers-8-4",
+    "name": "Kitchen Accessories Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-8"
+  },
+  {
+    "id": "hampers-8-5",
+    "name": "Pooja Accessories Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-8"
+  },
+  {
+    "id": "hampers-9",
+    "name": "Baby & Kids Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-root"
+  },
+  {
+    "id": "hampers-9-1",
+    "name": "Newborn Gift Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-9"
+  },
+  {
+    "id": "hampers-9-2",
+    "name": "Baby Shower Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-9"
+  },
+  {
+    "id": "hampers-9-3",
+    "name": "Kids Activity Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-9"
+  },
+  {
+    "id": "hampers-9-4",
+    "name": "Kids Stationery Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-9"
+  },
+  {
+    "id": "hampers-9-5",
+    "name": "Baby Keepsake Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-9"
+  },
+  {
+    "id": "hampers-10",
+    "name": "Custom Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-root"
+  },
+  {
+    "id": "hampers-10-1",
+    "name": "Build Your Own Hamper",
+    "departmentId": "hampers",
+    "parentId": "hampers-10"
+  },
+  {
+    "id": "hampers-10-2",
+    "name": "Personalised Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-10"
+  },
+  {
+    "id": "hampers-10-3",
+    "name": "Budget-Based Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-10"
+  },
+  {
+    "id": "hampers-10-4",
+    "name": "Corporate Custom Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-10"
+  },
+  {
+    "id": "hampers-10-5",
+    "name": "Occasion-Based Hampers",
+    "departmentId": "hampers",
+    "parentId": "hampers-10"
+  },
+  {
+    "id": "stationery-1",
+    "name": "Notebooks & Diaries",
+    "departmentId": "stationery",
+    "parentId": "stationery-root"
+  },
+  {
+    "id": "stationery-1-1",
+    "name": "Notebooks",
+    "departmentId": "stationery",
+    "parentId": "stationery-1"
+  },
+  {
+    "id": "stationery-1-2",
+    "name": "Diaries",
+    "departmentId": "stationery",
+    "parentId": "stationery-1"
+  },
+  {
+    "id": "stationery-1-3",
+    "name": "Journals",
+    "departmentId": "stationery",
+    "parentId": "stationery-1"
+  },
+  {
+    "id": "stationery-1-4",
+    "name": "Writing Pads",
+    "departmentId": "stationery",
+    "parentId": "stationery-1"
+  },
+  {
+    "id": "stationery-1-5",
+    "name": "Memo Pads",
+    "departmentId": "stationery",
+    "parentId": "stationery-1"
+  },
+  {
+    "id": "stationery-2",
+    "name": "Pens & Writing Supplies",
+    "departmentId": "stationery",
+    "parentId": "stationery-root"
+  },
+  {
+    "id": "stationery-2-1",
+    "name": "Ball Pens",
+    "departmentId": "stationery",
+    "parentId": "stationery-2"
+  },
+  {
+    "id": "stationery-2-2",
+    "name": "Gel Pens",
+    "departmentId": "stationery",
+    "parentId": "stationery-2"
+  },
+  {
+    "id": "stationery-2-3",
+    "name": "Fountain Pens",
+    "departmentId": "stationery",
+    "parentId": "stationery-2"
+  },
+  {
+    "id": "stationery-2-4",
+    "name": "Pencils",
+    "departmentId": "stationery",
+    "parentId": "stationery-2"
+  },
+  {
+    "id": "stationery-2-5",
+    "name": "Mechanical Pencils",
+    "departmentId": "stationery",
+    "parentId": "stationery-2"
+  },
+  {
+    "id": "stationery-2-6",
+    "name": "Highlighters",
+    "departmentId": "stationery",
+    "parentId": "stationery-2"
+  },
+  {
+    "id": "stationery-2-7",
+    "name": "Pen Accessories",
+    "departmentId": "stationery",
+    "parentId": "stationery-2"
+  },
+  {
+    "id": "stationery-3",
+    "name": "School Stationery",
+    "departmentId": "stationery",
+    "parentId": "stationery-root"
+  },
+  {
+    "id": "stationery-3-1",
+    "name": "Writing Essentials",
+    "departmentId": "stationery",
+    "parentId": "stationery-3"
+  },
+  {
+    "id": "stationery-3-2",
+    "name": "Geometry & Mathematics Supplies",
+    "departmentId": "stationery",
+    "parentId": "stationery-3"
+  },
+  {
+    "id": "stationery-3-3",
+    "name": "School Organisation",
+    "departmentId": "stationery",
+    "parentId": "stationery-3"
+  },
+  {
+    "id": "stationery-3-4",
+    "name": "Exam Supplies",
+    "departmentId": "stationery",
+    "parentId": "stationery-3"
+  },
+  {
+    "id": "stationery-3-5",
+    "name": "Student Stationery Kits",
+    "departmentId": "stationery",
+    "parentId": "stationery-3"
+  },
+  {
+    "id": "stationery-4",
+    "name": "Office Stationery",
+    "departmentId": "stationery",
+    "parentId": "stationery-root"
+  },
+  {
+    "id": "stationery-4-1",
+    "name": "Paper Products",
+    "departmentId": "stationery",
+    "parentId": "stationery-4"
+  },
+  {
+    "id": "stationery-4-2",
+    "name": "Filing & Organisation",
+    "departmentId": "stationery",
+    "parentId": "stationery-4"
+  },
+  {
+    "id": "stationery-4-3",
+    "name": "Desk Supplies",
+    "departmentId": "stationery",
+    "parentId": "stationery-4"
+  },
+  {
+    "id": "stationery-4-4",
+    "name": "Office Accessories",
+    "departmentId": "stationery",
+    "parentId": "stationery-4"
+  },
+  {
+    "id": "stationery-4-5",
+    "name": "Business Stationery",
+    "departmentId": "stationery",
+    "parentId": "stationery-4"
+  },
+  {
+    "id": "stationery-5",
+    "name": "Planners & Calendars",
+    "departmentId": "stationery",
+    "parentId": "stationery-root"
+  },
+  {
+    "id": "stationery-5-1",
+    "name": "Daily Planners",
+    "departmentId": "stationery",
+    "parentId": "stationery-5"
+  },
+  {
+    "id": "stationery-5-2",
+    "name": "Weekly Planners",
+    "departmentId": "stationery",
+    "parentId": "stationery-5"
+  },
+  {
+    "id": "stationery-5-3",
+    "name": "Monthly Planners",
+    "departmentId": "stationery",
+    "parentId": "stationery-5"
+  },
+  {
+    "id": "stationery-5-4",
+    "name": "Academic Planners",
+    "departmentId": "stationery",
+    "parentId": "stationery-5"
+  },
+  {
+    "id": "stationery-5-5",
+    "name": "Habit Trackers",
+    "departmentId": "stationery",
+    "parentId": "stationery-5"
+  },
+  {
+    "id": "stationery-5-6",
+    "name": "Calendars",
+    "departmentId": "stationery",
+    "parentId": "stationery-5"
+  },
+  {
+    "id": "stationery-6",
+    "name": "Art & Craft Supplies",
+    "departmentId": "stationery",
+    "parentId": "stationery-root"
+  },
+  {
+    "id": "stationery-6-1",
+    "name": "Drawing Supplies",
+    "departmentId": "stationery",
+    "parentId": "stationery-6"
+  },
+  {
+    "id": "stationery-6-2",
+    "name": "Painting Supplies",
+    "departmentId": "stationery",
+    "parentId": "stationery-6"
+  },
+  {
+    "id": "stationery-6-3",
+    "name": "Paper Craft",
+    "departmentId": "stationery",
+    "parentId": "stationery-6"
+  },
+  {
+    "id": "stationery-6-4",
+    "name": "Scrapbooking Supplies",
+    "departmentId": "stationery",
+    "parentId": "stationery-6"
+  },
+  {
+    "id": "stationery-6-5",
+    "name": "DIY Craft Supplies",
+    "departmentId": "stationery",
+    "parentId": "stationery-6"
+  },
+  {
+    "id": "stationery-6-6",
+    "name": "Art & Craft Kits",
+    "departmentId": "stationery",
+    "parentId": "stationery-6"
+  },
+  {
+    "id": "stationery-7",
+    "name": "Aesthetic Stationery",
+    "departmentId": "stationery",
+    "parentId": "stationery-root"
+  },
+  {
+    "id": "stationery-7-1",
+    "name": "Decorative Stickers",
+    "departmentId": "stationery",
+    "parentId": "stationery-7"
+  },
+  {
+    "id": "stationery-7-2",
+    "name": "Washi Tapes",
+    "departmentId": "stationery",
+    "parentId": "stationery-7"
+  },
+  {
+    "id": "stationery-7-3",
+    "name": "Decorative Paper",
+    "departmentId": "stationery",
+    "parentId": "stationery-7"
+  },
+  {
+    "id": "stationery-7-4",
+    "name": "Bookmarks",
+    "departmentId": "stationery",
+    "parentId": "stationery-7"
+  },
+  {
+    "id": "stationery-7-5",
+    "name": "Journaling Accessories",
+    "departmentId": "stationery",
+    "parentId": "stationery-7"
+  },
+  {
+    "id": "stationery-7-6",
+    "name": "Cute Desk Accessories",
+    "departmentId": "stationery",
+    "parentId": "stationery-7"
+  },
+  {
+    "id": "stationery-8",
+    "name": "Desk Accessories",
+    "departmentId": "stationery",
+    "parentId": "stationery-root"
+  },
+  {
+    "id": "stationery-8-1",
+    "name": "Desk Organisers",
+    "departmentId": "stationery",
+    "parentId": "stationery-8"
+  },
+  {
+    "id": "stationery-8-2",
+    "name": "Pen Holders",
+    "departmentId": "stationery",
+    "parentId": "stationery-8"
+  },
+  {
+    "id": "stationery-8-3",
+    "name": "Desk Mats",
+    "departmentId": "stationery",
+    "parentId": "stationery-8"
+  },
+  {
+    "id": "stationery-8-4",
+    "name": "Desktop Accessories",
+    "departmentId": "stationery",
+    "parentId": "stationery-8"
+  },
+  {
+    "id": "stationery-8-5",
+    "name": "Workspace Organisation",
+    "departmentId": "stationery",
+    "parentId": "stationery-8"
+  },
+  {
+    "id": "stationery-9",
+    "name": "Packaging & Gift Wrapping",
+    "departmentId": "stationery",
+    "parentId": "stationery-root"
+  },
+  {
+    "id": "stationery-9-1",
+    "name": "Gift Wrapping Paper",
+    "departmentId": "stationery",
+    "parentId": "stationery-9"
+  },
+  {
+    "id": "stationery-9-2",
+    "name": "Gift Bags",
+    "departmentId": "stationery",
+    "parentId": "stationery-9"
+  },
+  {
+    "id": "stationery-9-3",
+    "name": "Gift Boxes",
+    "departmentId": "stationery",
+    "parentId": "stationery-9"
+  },
+  {
+    "id": "stationery-9-4",
+    "name": "Ribbons & Bows",
+    "departmentId": "stationery",
+    "parentId": "stationery-9"
+  },
+  {
+    "id": "stationery-9-5",
+    "name": "Gift Tags",
+    "departmentId": "stationery",
+    "parentId": "stationery-9"
+  },
+  {
+    "id": "stationery-9-6",
+    "name": "Greeting Cards",
+    "departmentId": "stationery",
+    "parentId": "stationery-9"
+  },
+  {
+    "id": "stationery-9-7",
+    "name": "Decorative Packaging",
+    "departmentId": "stationery",
+    "parentId": "stationery-9"
+  },
+  {
+    "id": "stationery-10",
+    "name": "Educational Supplies",
+    "departmentId": "stationery",
+    "parentId": "stationery-root"
+  },
+  {
+    "id": "stationery-10-1",
+    "name": "Learning Cards",
+    "departmentId": "stationery",
+    "parentId": "stationery-10"
+  },
+  {
+    "id": "stationery-10-2",
+    "name": "Educational Charts",
+    "departmentId": "stationery",
+    "parentId": "stationery-10"
+  },
+  {
+    "id": "stationery-10-3",
+    "name": "Activity Books",
+    "departmentId": "stationery",
+    "parentId": "stationery-10"
+  },
+  {
+    "id": "stationery-10-4",
+    "name": "Handwriting Practice Materials",
+    "departmentId": "stationery",
+    "parentId": "stationery-10"
+  },
+  {
+    "id": "stationery-10-5",
+    "name": "Learning Kits",
+    "departmentId": "stationery",
+    "parentId": "stationery-10"
+  },
+  {
+    "id": "stationery-11",
+    "name": "Stationery Gift Sets",
+    "departmentId": "stationery",
+    "parentId": "stationery-root"
+  },
+  {
+    "id": "stationery-11-1",
+    "name": "Student Gift Sets",
+    "departmentId": "stationery",
+    "parentId": "stationery-11"
+  },
+  {
+    "id": "stationery-11-2",
+    "name": "Office Gift Sets",
+    "departmentId": "stationery",
+    "parentId": "stationery-11"
+  },
+  {
+    "id": "stationery-11-3",
+    "name": "Premium Stationery Sets",
+    "departmentId": "stationery",
+    "parentId": "stationery-11"
+  },
+  {
+    "id": "stationery-11-4",
+    "name": "Journaling Sets",
+    "departmentId": "stationery",
+    "parentId": "stationery-11"
+  },
+  {
+    "id": "stationery-11-5",
+    "name": "Teacher Appreciation Sets",
+    "departmentId": "stationery",
+    "parentId": "stationery-11"
+  },
+  {
+    "id": "stationery-11-6",
+    "name": "Creative Stationery Sets",
+    "departmentId": "stationery",
+    "parentId": "stationery-11"
+  },
+  {
+    "id": "personalized-1",
+    "name": "Personalised Drinkware",
+    "departmentId": "personalized",
+    "parentId": "personalized-root"
+  },
+  {
+    "id": "personalized-1-1",
+    "name": "Mugs",
+    "departmentId": "personalized",
+    "parentId": "personalized-1"
+  },
+  {
+    "id": "personalized-1-2",
+    "name": "Water Bottles",
+    "departmentId": "personalized",
+    "parentId": "personalized-1"
+  },
+  {
+    "id": "personalized-1-3",
+    "name": "Tumblers",
+    "departmentId": "personalized",
+    "parentId": "personalized-1"
+  },
+  {
+    "id": "personalized-1-4",
+    "name": "Flasks",
+    "departmentId": "personalized",
+    "parentId": "personalized-1"
+  },
+  {
+    "id": "personalized-2",
+    "name": "Personalised Stationery",
+    "departmentId": "personalized",
+    "parentId": "personalized-root"
+  },
+  {
+    "id": "personalized-2-1",
+    "name": "Notebooks & Diaries",
+    "departmentId": "personalized",
+    "parentId": "personalized-2"
+  },
+  {
+    "id": "personalized-2-2",
+    "name": "Pens",
+    "departmentId": "personalized",
+    "parentId": "personalized-2"
+  },
+  {
+    "id": "personalized-2-3",
+    "name": "Planners",
+    "departmentId": "personalized",
+    "parentId": "personalized-2"
+  },
+  {
+    "id": "personalized-2-4",
+    "name": "Journals",
+    "departmentId": "personalized",
+    "parentId": "personalized-2"
+  },
+  {
+    "id": "personalized-2-5",
+    "name": "Bookmarks",
+    "departmentId": "personalized",
+    "parentId": "personalized-2"
+  },
+  {
+    "id": "personalized-3",
+    "name": "Personalised Photo Gifts",
+    "departmentId": "personalized",
+    "parentId": "personalized-root"
+  },
+  {
+    "id": "personalized-3-1",
+    "name": "Photo Frames",
+    "departmentId": "personalized",
+    "parentId": "personalized-3"
+  },
+  {
+    "id": "personalized-3-2",
+    "name": "Photo Albums",
+    "departmentId": "personalized",
+    "parentId": "personalized-3"
+  },
+  {
+    "id": "personalized-3-3",
+    "name": "Photo Collages",
+    "departmentId": "personalized",
+    "parentId": "personalized-3"
+  },
+  {
+    "id": "personalized-3-4",
+    "name": "Photo Prints",
+    "departmentId": "personalized",
+    "parentId": "personalized-3"
+  },
+  {
+    "id": "personalized-4",
+    "name": "Personalised Accessories",
+    "departmentId": "personalized",
+    "parentId": "personalized-root"
+  },
+  {
+    "id": "personalized-4-1",
+    "name": "Keychains",
+    "departmentId": "personalized",
+    "parentId": "personalized-4"
+  },
+  {
+    "id": "personalized-4-2",
+    "name": "Wallets",
+    "departmentId": "personalized",
+    "parentId": "personalized-4"
+  },
+  {
+    "id": "personalized-4-3",
+    "name": "Bags & Pouches",
+    "departmentId": "personalized",
+    "parentId": "personalized-4"
+  },
+  {
+    "id": "personalized-4-4",
+    "name": "Phone Cases",
+    "departmentId": "personalized",
+    "parentId": "personalized-4"
+  },
+  {
+    "id": "personalized-4-5",
+    "name": "Passport Covers",
+    "departmentId": "personalized",
+    "parentId": "personalized-4"
+  },
+  {
+    "id": "personalized-5",
+    "name": "Personalised Home Décor",
+    "departmentId": "personalized",
+    "parentId": "personalized-root"
+  },
+  {
+    "id": "personalized-5-1",
+    "name": "Name Plates",
+    "departmentId": "personalized",
+    "parentId": "personalized-5"
+  },
+  {
+    "id": "personalized-5-2",
+    "name": "Cushions",
+    "departmentId": "personalized",
+    "parentId": "personalized-5"
+  },
+  {
+    "id": "personalized-5-3",
+    "name": "Lamps",
+    "departmentId": "personalized",
+    "parentId": "personalized-5"
+  },
+  {
+    "id": "personalized-5-4",
+    "name": "Wall Décor",
+    "departmentId": "personalized",
+    "parentId": "personalized-5"
+  },
+  {
+    "id": "personalized-5-5",
+    "name": "Decorative Keepsakes",
+    "departmentId": "personalized",
+    "parentId": "personalized-5"
+  },
+  {
+    "id": "personalized-6",
+    "name": "Personalised Wearables",
+    "departmentId": "personalized",
+    "parentId": "personalized-root"
+  },
+  {
+    "id": "personalized-6-1",
+    "name": "T-Shirts",
+    "departmentId": "personalized",
+    "parentId": "personalized-6"
+  },
+  {
+    "id": "personalized-6-2",
+    "name": "Hoodies",
+    "departmentId": "personalized",
+    "parentId": "personalized-6"
+  },
+  {
+    "id": "personalized-6-3",
+    "name": "Caps",
+    "departmentId": "personalized",
+    "parentId": "personalized-6"
+  },
+  {
+    "id": "personalized-6-4",
+    "name": "Tote Bags",
+    "departmentId": "personalized",
+    "parentId": "personalized-6"
+  },
+  {
+    "id": "personalized-7",
+    "name": "Personalised Lifestyle Products",
+    "departmentId": "personalized",
+    "parentId": "personalized-root"
+  },
+  {
+    "id": "personalized-7-1",
+    "name": "Desk Accessories",
+    "departmentId": "personalized",
+    "parentId": "personalized-7"
+  },
+  {
+    "id": "personalized-7-2",
+    "name": "Travel Accessories",
+    "departmentId": "personalized",
+    "parentId": "personalized-7"
+  },
+  {
+    "id": "personalized-7-3",
+    "name": "Organisers",
+    "departmentId": "personalized",
+    "parentId": "personalized-7"
+  },
+  {
+    "id": "personalized-7-4",
+    "name": "Reusable Accessories",
+    "departmentId": "personalized",
+    "parentId": "personalized-7"
+  },
+  {
+    "id": "personalized-8",
+    "name": "Personalised Jewellery",
+    "departmentId": "personalized",
+    "parentId": "personalized-root"
+  },
+  {
+    "id": "personalized-8-1",
+    "name": "Necklaces & Pendants",
+    "departmentId": "personalized",
+    "parentId": "personalized-8"
+  },
+  {
+    "id": "personalized-8-2",
+    "name": "Bracelets",
+    "departmentId": "personalized",
+    "parentId": "personalized-8"
+  },
+  {
+    "id": "personalized-8-3",
+    "name": "Rings",
+    "departmentId": "personalized",
+    "parentId": "personalized-8"
+  },
+  {
+    "id": "personalized-8-4",
+    "name": "Engraved Accessories",
+    "departmentId": "personalized",
+    "parentId": "personalized-8"
+  },
+  {
+    "id": "personalized-9",
+    "name": "Create Your Own Combo",
+    "departmentId": "personalized",
+    "parentId": "personalized-root"
+  },
+  {
+    "id": "personalized-9-1",
+    "name": "Build Your Own Gift Box",
+    "departmentId": "personalized",
+    "parentId": "personalized-9"
+  },
+  {
+    "id": "personalized-9-2",
+    "name": "Personalised Birthday Combo",
+    "departmentId": "personalized",
+    "parentId": "personalized-9"
+  },
+  {
+    "id": "personalized-9-3",
+    "name": "Personalised Anniversary Combo",
+    "departmentId": "personalized",
+    "parentId": "personalized-9"
+  },
+  {
+    "id": "personalized-9-4",
+    "name": "Personalised Couple Combo",
+    "departmentId": "personalized",
+    "parentId": "personalized-9"
+  },
+  {
+    "id": "personalized-9-5",
+    "name": "Personalised Friendship Combo",
+    "departmentId": "personalized",
+    "parentId": "personalized-9"
+  },
+  {
+    "id": "personalized-9-6",
+    "name": "Personalised Wedding Combo",
+    "departmentId": "personalized",
+    "parentId": "personalized-9"
+  },
+  {
+    "id": "personalized-9-7",
+    "name": "Personalised Corporate Combo",
+    "departmentId": "personalized",
+    "parentId": "personalized-9"
+  },
+  {
+    "id": "personalized-9-8",
+    "name": "Custom Occasion Combo",
+    "departmentId": "personalized",
+    "parentId": "personalized-9"
+  },
+  {
+    "id": "wedding-1",
+    "name": "Ceremony Essentials",
+    "departmentId": "wedding",
+    "parentId": "wedding-root"
+  },
+  {
+    "id": "wedding-2",
+    "name": "Fashion",
+    "departmentId": "wedding",
+    "parentId": "wedding-root"
+  },
+  {
+    "id": "wedding-3",
+    "name": "Jewellery",
+    "departmentId": "wedding",
+    "parentId": "wedding-root"
+  },
+  {
+    "id": "wedding-4",
+    "name": "Decorations",
+    "departmentId": "wedding",
+    "parentId": "wedding-root"
+  },
+  {
+    "id": "wedding-5",
+    "name": "Gifts & Return Gifts",
+    "departmentId": "wedding",
+    "parentId": "wedding-root"
+  },
+  {
+    "id": "wedding-6",
+    "name": "Custom Combos",
+    "departmentId": "wedding",
+    "parentId": "wedding-root"
+  },
+  {
+    "id": "birthday-1",
+    "name": "Shop by Category",
+    "departmentId": "birthday",
+    "parentId": "birthday-root"
+  },
+  {
+    "id": "birthday-2",
+    "name": "Recipient",
+    "departmentId": "birthday",
+    "parentId": "birthday-root"
+  },
+  {
+    "id": "birthday-3",
+    "name": "Budget",
+    "departmentId": "birthday",
+    "parentId": "birthday-root"
+  },
+  {
+    "id": "birthday-4",
+    "name": "Interest",
+    "departmentId": "birthday",
+    "parentId": "birthday-root"
+  },
+  {
+    "id": "birthday-5",
+    "name": "Personalized Gifts",
+    "departmentId": "birthday",
+    "parentId": "birthday-root"
+  },
+  {
+    "id": "birthday-6",
+    "name": "Gift Hampers & Combos",
+    "departmentId": "birthday",
+    "parentId": "birthday-root"
+  },
+  {
+    "id": "birthday-7",
+    "name": "Birthday Milestones",
+    "departmentId": "birthday",
+    "parentId": "birthday-root"
+  },
+  {
+    "id": "birthday-8",
+    "name": "Delivery Options",
+    "departmentId": "birthday",
+    "parentId": "birthday-root"
+  },
+  {
+    "id": "birthday-9",
+    "name": "Trending Gifts",
+    "departmentId": "birthday",
+    "parentId": "birthday-root"
+  },
+  {
+    "id": "birthday-10",
+    "name": "All Gifts",
+    "departmentId": "birthday",
+    "parentId": "birthday-root"
+  },
+  {
+    "id": "anniversary-1",
+    "name": "Shop by Category",
+    "departmentId": "anniversary",
+    "parentId": "anniversary-root"
+  },
+  {
+    "id": "anniversary-2",
+    "name": "Recipient",
+    "departmentId": "anniversary",
+    "parentId": "anniversary-root"
+  },
+  {
+    "id": "anniversary-3",
+    "name": "Anniversary Milestone",
+    "departmentId": "anniversary",
+    "parentId": "anniversary-root"
+  },
+  {
+    "id": "anniversary-4",
+    "name": "Personalized Gifts",
+    "departmentId": "anniversary",
+    "parentId": "anniversary-root"
+  },
+  {
+    "id": "anniversary-5",
+    "name": "Hampers & Combos",
+    "departmentId": "anniversary",
+    "parentId": "anniversary-root"
+  },
+  {
+    "id": "anniversary-6",
+    "name": "Budget",
+    "departmentId": "anniversary",
+    "parentId": "anniversary-root"
+  },
+  {
+    "id": "anniversary-7",
+    "name": "Interest",
+    "departmentId": "anniversary",
+    "parentId": "anniversary-root"
+  },
+  {
+    "id": "anniversary-8",
+    "name": "Delivery",
+    "departmentId": "anniversary",
+    "parentId": "anniversary-root"
+  },
+  {
+    "id": "anniversary-9",
+    "name": "Trending",
+    "departmentId": "anniversary",
+    "parentId": "anniversary-root"
+  },
+  {
+    "id": "anniversary-10",
+    "name": "All Anniversary Gifts",
+    "departmentId": "anniversary",
+    "parentId": "anniversary-root"
+  },
+  {
+    "id": "clothing-1",
+    "name": "Men",
+    "departmentId": "clothing",
+    "parentId": "clothing-root"
+  },
+  {
+    "id": "clothing-2",
+    "name": "Women",
+    "departmentId": "clothing",
+    "parentId": "clothing-root"
+  },
+  {
+    "id": "clothing-3",
+    "name": "Kids",
+    "departmentId": "clothing",
+    "parentId": "clothing-root"
+  },
+  {
+    "id": "clothing-4",
+    "name": "Shop by Clothing Type",
+    "departmentId": "clothing",
+    "parentId": "clothing-root"
+  },
+  {
+    "id": "clothing-5",
+    "name": "Shop by Style",
+    "departmentId": "clothing",
+    "parentId": "clothing-root"
+  },
+  {
+    "id": "clothing-6",
+    "name": "Shop by Occasion",
+    "departmentId": "clothing",
+    "parentId": "clothing-root"
+  },
+  {
+    "id": "clothing-7",
+    "name": "Trending & Collections",
+    "departmentId": "clothing",
+    "parentId": "clothing-root"
+  },
+  {
+    "id": "clothing-8",
+    "name": "Deals & Budget",
+    "departmentId": "clothing",
+    "parentId": "clothing-root"
+  },
+  {
+    "id": "furniture-1",
+    "name": "Living Room",
+    "departmentId": "furniture",
+    "parentId": "furniture-root"
+  },
+  {
+    "id": "furniture-2",
+    "name": "Bedroom",
+    "departmentId": "furniture",
+    "parentId": "furniture-root"
+  },
+  {
+    "id": "furniture-3",
+    "name": "Dining Room",
+    "departmentId": "furniture",
+    "parentId": "furniture-root"
+  },
+  {
+    "id": "furniture-4",
+    "name": "Kitchen Furniture",
+    "departmentId": "furniture",
+    "parentId": "furniture-root"
+  },
+  {
+    "id": "furniture-5",
+    "name": "Study & Home Office",
+    "departmentId": "furniture",
+    "parentId": "furniture-root"
+  },
+  {
+    "id": "furniture-6",
+    "name": "Kids & Nursery",
+    "departmentId": "furniture",
+    "parentId": "furniture-root"
+  },
+  {
+    "id": "furniture-7",
+    "name": "Storage & Utility",
+    "departmentId": "furniture",
+    "parentId": "furniture-root"
+  },
+  {
+    "id": "furniture-8",
+    "name": "Outdoor & Balcony",
+    "departmentId": "furniture",
+    "parentId": "furniture-root"
+  },
+  {
+    "id": "furniture-9",
+    "name": "Special & Space-Saving",
+    "departmentId": "furniture",
+    "parentId": "furniture-root"
+  },
+  {
+    "id": "furniture-10",
+    "name": "Office & Corporate",
+    "departmentId": "furniture",
+    "parentId": "furniture-root"
+  },
+  {
+    "id": "furniture-11",
+    "name": "Retail Shops",
+    "departmentId": "furniture",
+    "parentId": "furniture-root"
+  },
+  {
+    "id": "furniture-12",
+    "name": "Restaurants & Cafés",
+    "departmentId": "furniture",
+    "parentId": "furniture-root"
+  },
+  {
+    "id": "furniture-13",
+    "name": "Hotels & Hospitality",
+    "departmentId": "furniture",
+    "parentId": "furniture-root"
+  },
+  {
+    "id": "furniture-14",
+    "name": "Salon, Spa & Beauty",
+    "departmentId": "furniture",
+    "parentId": "furniture-root"
+  },
+  {
+    "id": "furniture-15",
+    "name": "Education & Library",
+    "departmentId": "furniture",
+    "parentId": "furniture-root"
+  },
+  {
+    "id": "furniture-16",
+    "name": "Clinics & Healthcare",
+    "departmentId": "furniture",
+    "parentId": "furniture-root"
+  },
+  {
+    "id": "furniture-17",
+    "name": "Warehouse & Workshop",
+    "departmentId": "furniture",
+    "parentId": "furniture-root"
+  },
+  {
+    "id": "furniture-18",
+    "name": "Events & Venues",
+    "departmentId": "furniture",
+    "parentId": "furniture-root"
+  },
+  {
+    "id": "clothing-1-1",
+    "name": "T-shirts",
+    "departmentId": "clothing",
+    "parentId": "clothing-1"
+  },
+  {
+    "id": "clothing-1-2",
+    "name": "Shirts",
+    "departmentId": "clothing",
+    "parentId": "clothing-1"
+  },
+  {
+    "id": "clothing-1-3",
+    "name": "Polos",
+    "departmentId": "clothing",
+    "parentId": "clothing-1"
+  },
+  {
+    "id": "clothing-1-4",
+    "name": "Sweatshirts",
+    "departmentId": "clothing",
+    "parentId": "clothing-1"
+  },
+  {
+    "id": "clothing-1-5",
+    "name": "Hoodies",
+    "departmentId": "clothing",
+    "parentId": "clothing-1"
+  },
+  {
+    "id": "clothing-1-6",
+    "name": "Sweaters",
+    "departmentId": "clothing",
+    "parentId": "clothing-1"
+  },
+  {
+    "id": "clothing-1-7",
+    "name": "Jackets",
+    "departmentId": "clothing",
+    "parentId": "clothing-1"
+  },
+  {
+    "id": "clothing-1-8",
+    "name": "Blazers & Coats",
+    "departmentId": "clothing",
+    "parentId": "clothing-1"
+  },
+  {
+    "id": "clothing-1-9",
+    "name": "Jeans",
+    "departmentId": "clothing",
+    "parentId": "clothing-1"
+  },
+  {
+    "id": "clothing-1-10",
+    "name": "Trousers",
+    "departmentId": "clothing",
+    "parentId": "clothing-1"
+  },
+  {
+    "id": "clothing-1-11",
+    "name": "Cargo Pants",
+    "departmentId": "clothing",
+    "parentId": "clothing-1"
+  },
+  {
+    "id": "clothing-1-12",
+    "name": "Joggers",
+    "departmentId": "clothing",
+    "parentId": "clothing-1"
+  },
+  {
+    "id": "clothing-1-13",
+    "name": "Shorts",
+    "departmentId": "clothing",
+    "parentId": "clothing-1"
+  },
+  {
+    "id": "clothing-1-14",
+    "name": "Track Pants",
+    "departmentId": "clothing",
+    "parentId": "clothing-1"
+  },
+  {
+    "id": "clothing-1-15",
+    "name": "3/4 Pants",
+    "departmentId": "clothing",
+    "parentId": "clothing-1"
+  },
+  {
+    "id": "clothing-1-16",
+    "name": "Kurtas",
+    "departmentId": "clothing",
+    "parentId": "clothing-1"
+  },
+  {
+    "id": "clothing-1-17",
+    "name": "Kurta Sets",
+    "departmentId": "clothing",
+    "parentId": "clothing-1"
+  },
+  {
+    "id": "clothing-1-18",
+    "name": "Sherwanis",
+    "departmentId": "clothing",
+    "parentId": "clothing-1"
+  },
+  {
+    "id": "clothing-1-19",
+    "name": "Nehru Jackets",
+    "departmentId": "clothing",
+    "parentId": "clothing-1"
+  },
+  {
+    "id": "clothing-1-20",
+    "name": "Dhoti Pants",
+    "departmentId": "clothing",
+    "parentId": "clothing-1"
+  },
+  {
+    "id": "clothing-1-21",
+    "name": "Gym T-shirts",
+    "departmentId": "clothing",
+    "parentId": "clothing-1"
+  },
+  {
+    "id": "clothing-1-22",
+    "name": "Sports Jackets",
+    "departmentId": "clothing",
+    "parentId": "clothing-1"
+  },
+  {
+    "id": "clothing-1-23",
+    "name": "Swimwear",
+    "departmentId": "clothing",
+    "parentId": "clothing-1"
+  },
+  {
+    "id": "clothing-1-24",
+    "name": "Boxers & Briefs",
+    "departmentId": "clothing",
+    "parentId": "clothing-1"
+  },
+  {
+    "id": "clothing-1-25",
+    "name": "Vests",
+    "departmentId": "clothing",
+    "parentId": "clothing-1"
+  },
+  {
+    "id": "clothing-1-26",
+    "name": "Pyjama Sets",
+    "departmentId": "clothing",
+    "parentId": "clothing-1"
+  },
+  {
+    "id": "clothing-1-27",
+    "name": "Night Suits",
+    "departmentId": "clothing",
+    "parentId": "clothing-1"
+  },
+  {
+    "id": "clothing-1-28",
+    "name": "Lounge Sets",
+    "departmentId": "clothing",
+    "parentId": "clothing-1"
+  },
+  {
+    "id": "clothing-1-29",
+    "name": "Thermals",
+    "departmentId": "clothing",
+    "parentId": "clothing-1"
+  },
+  {
+    "id": "clothing-2-1",
+    "name": "T-shirts",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-2-2",
+    "name": "Crop Tops",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-2-3",
+    "name": "Shirts",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-2-4",
+    "name": "Blouses",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-2-5",
+    "name": "Tunics",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-2-6",
+    "name": "Tank Tops",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-2-7",
+    "name": "Polos",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-2-8",
+    "name": "Knit Tops",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-2-9",
+    "name": "Mini Dresses",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-2-10",
+    "name": "Midi Dresses",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-2-11",
+    "name": "Maxi Dresses",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-2-12",
+    "name": "Shirt Dresses",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-2-13",
+    "name": "Jumpsuits",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-2-14",
+    "name": "Rompers",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-2-15",
+    "name": "Party Dresses",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-2-16",
+    "name": "Jeans",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-2-17",
+    "name": "Trousers",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-2-18",
+    "name": "Leggings",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-2-19",
+    "name": "Shorts",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-2-20",
+    "name": "Skirts",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-2-21",
+    "name": "Culottes",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-2-22",
+    "name": "Palazzos",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-2-23",
+    "name": "Kurtis",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-2-24",
+    "name": "Kurta Sets",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-2-25",
+    "name": "Sarees",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-2-26",
+    "name": "Lehenga Sets",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-2-27",
+    "name": "Salwar Suits",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-2-28",
+    "name": "Dupattas",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-2-29",
+    "name": "Co-ord Sets",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-2-30",
+    "name": "Matching Sets",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-2-31",
+    "name": "Indo-Western",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-2-32",
+    "name": "Blazer Sets",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-2-33",
+    "name": "Skirt Sets",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-2-34",
+    "name": "Sweaters",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-2-35",
+    "name": "Hoodies",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-2-36",
+    "name": "Jackets",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-2-37",
+    "name": "Coats",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-2-38",
+    "name": "Shrugs",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-2-39",
+    "name": "Thermals",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-2-40",
+    "name": "Bras & Panties",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-2-41",
+    "name": "Shapewear",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-2-42",
+    "name": "Night Suits",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-2-43",
+    "name": "Lounge Sets",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-2-44",
+    "name": "Swimwear",
+    "departmentId": "clothing",
+    "parentId": "clothing-2"
+  },
+  {
+    "id": "clothing-3-1",
+    "name": "0–2 Years (Infants)",
+    "departmentId": "clothing",
+    "parentId": "clothing-3"
+  },
+  {
+    "id": "clothing-3-2",
+    "name": "3–5 Years (Toddlers)",
+    "departmentId": "clothing",
+    "parentId": "clothing-3"
+  },
+  {
+    "id": "clothing-3-3",
+    "name": "6–8 Years (Young Kids)",
+    "departmentId": "clothing",
+    "parentId": "clothing-3"
+  },
+  {
+    "id": "clothing-3-4",
+    "name": "9–12 Years (Kids)",
+    "departmentId": "clothing",
+    "parentId": "clothing-3"
+  },
+  {
+    "id": "clothing-3-5",
+    "name": "13–15 Years (Young Teens)",
+    "departmentId": "clothing",
+    "parentId": "clothing-3"
+  },
+  {
+    "id": "clothing-3-6",
+    "name": "16–18 Years (Teens)",
+    "departmentId": "clothing",
+    "parentId": "clothing-3"
+  },
+  {
+    "id": "clothing-3-7",
+    "name": "Boys Clothing",
+    "departmentId": "clothing",
+    "parentId": "clothing-3"
+  },
+  {
+    "id": "clothing-3-8",
+    "name": "Girls Clothing",
+    "departmentId": "clothing",
+    "parentId": "clothing-3"
+  },
+  {
+    "id": "clothing-3-9",
+    "name": "Infants Clothing",
+    "departmentId": "clothing",
+    "parentId": "clothing-3"
+  },
+  {
+    "id": "clothing-3-10",
+    "name": "T-shirts",
+    "departmentId": "clothing",
+    "parentId": "clothing-3"
+  },
+  {
+    "id": "clothing-3-11",
+    "name": "Shirts",
+    "departmentId": "clothing",
+    "parentId": "clothing-3"
+  },
+  {
+    "id": "clothing-3-12",
+    "name": "Jeans & Trousers",
+    "departmentId": "clothing",
+    "parentId": "clothing-3"
+  },
+  {
+    "id": "clothing-3-13",
+    "name": "Shorts & Joggers",
+    "departmentId": "clothing",
+    "parentId": "clothing-3"
+  },
+  {
+    "id": "clothing-3-14",
+    "name": "Hoodies & Jackets",
+    "departmentId": "clothing",
+    "parentId": "clothing-3"
+  },
+  {
+    "id": "clothing-3-15",
+    "name": "Ethnic Wear",
+    "departmentId": "clothing",
+    "parentId": "clothing-3"
+  },
+  {
+    "id": "clothing-3-16",
+    "name": "Nightwear",
+    "departmentId": "clothing",
+    "parentId": "clothing-3"
+  },
+  {
+    "id": "clothing-3-17",
+    "name": "School Basics",
+    "departmentId": "clothing",
+    "parentId": "clothing-3"
+  },
+  {
+    "id": "clothing-3-18",
+    "name": "Dresses & Frocks",
+    "departmentId": "clothing",
+    "parentId": "clothing-3"
+  },
+  {
+    "id": "clothing-3-19",
+    "name": "Tops & T-shirts",
+    "departmentId": "clothing",
+    "parentId": "clothing-3"
+  },
+  {
+    "id": "clothing-3-20",
+    "name": "Jeans & Leggings",
+    "departmentId": "clothing",
+    "parentId": "clothing-3"
+  },
+  {
+    "id": "clothing-3-21",
+    "name": "Skirts & Shorts",
+    "departmentId": "clothing",
+    "parentId": "clothing-3"
+  },
+  {
+    "id": "clothing-3-22",
+    "name": "Co-ord Sets",
+    "departmentId": "clothing",
+    "parentId": "clothing-3"
+  },
+  {
+    "id": "clothing-3-23",
+    "name": "Jackets & Sweaters",
+    "departmentId": "clothing",
+    "parentId": "clothing-3"
+  },
+  {
+    "id": "clothing-3-24",
+    "name": "Rompers",
+    "departmentId": "clothing",
+    "parentId": "clothing-3"
+  },
+  {
+    "id": "clothing-3-25",
+    "name": "Bodysuits",
+    "departmentId": "clothing",
+    "parentId": "clothing-3"
+  },
+  {
+    "id": "clothing-3-26",
+    "name": "Clothing Sets",
+    "departmentId": "clothing",
+    "parentId": "clothing-3"
+  },
+  {
+    "id": "clothing-3-27",
+    "name": "Sleepwear",
+    "departmentId": "clothing",
+    "parentId": "clothing-3"
+  },
+  {
+    "id": "clothing-3-28",
+    "name": "Winterwear",
+    "departmentId": "clothing",
+    "parentId": "clothing-3"
+  },
+  {
+    "id": "clothing-3-29",
+    "name": "Occasion Wear",
+    "departmentId": "clothing",
+    "parentId": "clothing-3"
+  },
+  {
+    "id": "clothing-4-1",
+    "name": "T-shirts",
+    "departmentId": "clothing",
+    "parentId": "clothing-4"
+  },
+  {
+    "id": "clothing-4-2",
+    "name": "Shirts",
+    "departmentId": "clothing",
+    "parentId": "clothing-4"
+  },
+  {
+    "id": "clothing-4-3",
+    "name": "Tops",
+    "departmentId": "clothing",
+    "parentId": "clothing-4"
+  },
+  {
+    "id": "clothing-4-4",
+    "name": "Jeans",
+    "departmentId": "clothing",
+    "parentId": "clothing-4"
+  },
+  {
+    "id": "clothing-4-5",
+    "name": "Trousers",
+    "departmentId": "clothing",
+    "parentId": "clothing-4"
+  },
+  {
+    "id": "clothing-4-6",
+    "name": "Shorts",
+    "departmentId": "clothing",
+    "parentId": "clothing-4"
+  },
+  {
+    "id": "clothing-4-7",
+    "name": "Dresses",
+    "departmentId": "clothing",
+    "parentId": "clothing-4"
+  },
+  {
+    "id": "clothing-4-8",
+    "name": "Ethnic Wear",
+    "departmentId": "clothing",
+    "parentId": "clothing-4"
+  },
+  {
+    "id": "clothing-4-9",
+    "name": "Co-ord Sets",
+    "departmentId": "clothing",
+    "parentId": "clothing-4"
+  },
+  {
+    "id": "clothing-4-10",
+    "name": "Sweatshirts",
+    "departmentId": "clothing",
+    "parentId": "clothing-4"
+  },
+  {
+    "id": "clothing-4-11",
+    "name": "Hoodies",
+    "departmentId": "clothing",
+    "parentId": "clothing-4"
+  },
+  {
+    "id": "clothing-4-12",
+    "name": "Jackets",
+    "departmentId": "clothing",
+    "parentId": "clothing-4"
+  },
+  {
+    "id": "clothing-4-13",
+    "name": "Sweaters",
+    "departmentId": "clothing",
+    "parentId": "clothing-4"
+  },
+  {
+    "id": "clothing-4-14",
+    "name": "Activewear",
+    "departmentId": "clothing",
+    "parentId": "clothing-4"
+  },
+  {
+    "id": "clothing-4-15",
+    "name": "Innerwear",
+    "departmentId": "clothing",
+    "parentId": "clothing-4"
+  },
+  {
+    "id": "clothing-4-16",
+    "name": "Sleepwear",
+    "departmentId": "clothing",
+    "parentId": "clothing-4"
+  },
+  {
+    "id": "clothing-4-17",
+    "name": "Swimwear",
+    "departmentId": "clothing",
+    "parentId": "clothing-4"
+  },
+  {
+    "id": "clothing-5-1",
+    "name": "Streetwear",
+    "departmentId": "clothing",
+    "parentId": "clothing-5"
+  },
+  {
+    "id": "clothing-5-2",
+    "name": "Minimal & Basics",
+    "departmentId": "clothing",
+    "parentId": "clothing-5"
+  },
+  {
+    "id": "clothing-5-3",
+    "name": "Casual Everyday",
+    "departmentId": "clothing",
+    "parentId": "clothing-5"
+  },
+  {
+    "id": "clothing-5-4",
+    "name": "Smart Casual",
+    "departmentId": "clothing",
+    "parentId": "clothing-5"
+  },
+  {
+    "id": "clothing-5-5",
+    "name": "Formal & Office",
+    "departmentId": "clothing",
+    "parentId": "clothing-5"
+  },
+  {
+    "id": "clothing-5-6",
+    "name": "Athleisure",
+    "departmentId": "clothing",
+    "parentId": "clothing-5"
+  },
+  {
+    "id": "clothing-5-7",
+    "name": "Y2K & Retro",
+    "departmentId": "clothing",
+    "parentId": "clothing-5"
+  },
+  {
+    "id": "clothing-5-8",
+    "name": "Graphic & Fandom",
+    "departmentId": "clothing",
+    "parentId": "clothing-5"
+  },
+  {
+    "id": "clothing-5-9",
+    "name": "Modest & Relaxed",
+    "departmentId": "clothing",
+    "parentId": "clothing-5"
+  },
+  {
+    "id": "clothing-5-10",
+    "name": "Premium & Luxury",
+    "departmentId": "clothing",
+    "parentId": "clothing-5"
+  },
+  {
+    "id": "clothing-6-1",
+    "name": "College & Campus",
+    "departmentId": "clothing",
+    "parentId": "clothing-6"
+  },
+  {
+    "id": "clothing-6-2",
+    "name": "Office & Work",
+    "departmentId": "clothing",
+    "parentId": "clothing-6"
+  },
+  {
+    "id": "clothing-6-3",
+    "name": "Party & Night Out",
+    "departmentId": "clothing",
+    "parentId": "clothing-6"
+  },
+  {
+    "id": "clothing-6-4",
+    "name": "Weddings & Festive",
+    "departmentId": "clothing",
+    "parentId": "clothing-6"
+  },
+  {
+    "id": "clothing-6-5",
+    "name": "Vacation & Travel",
+    "departmentId": "clothing",
+    "parentId": "clothing-6"
+  },
+  {
+    "id": "clothing-6-6",
+    "name": "Gym & Sports",
+    "departmentId": "clothing",
+    "parentId": "clothing-6"
+  },
+  {
+    "id": "clothing-6-7",
+    "name": "Winter & Cold Weather",
+    "departmentId": "clothing",
+    "parentId": "clothing-6"
+  },
+  {
+    "id": "clothing-6-8",
+    "name": "Everyday Essentials",
+    "departmentId": "clothing",
+    "parentId": "clothing-6"
+  },
+  {
+    "id": "clothing-6-9",
+    "name": "Date Night",
+    "departmentId": "clothing",
+    "parentId": "clothing-6"
+  },
+  {
+    "id": "clothing-6-10",
+    "name": "Gifting",
+    "departmentId": "clothing",
+    "parentId": "clothing-6"
+  },
+  {
+    "id": "clothing-7-1",
+    "name": "New Arrivals",
+    "departmentId": "clothing",
+    "parentId": "clothing-7"
+  },
+  {
+    "id": "clothing-7-2",
+    "name": "Bestsellers",
+    "departmentId": "clothing",
+    "parentId": "clothing-7"
+  },
+  {
+    "id": "clothing-7-3",
+    "name": "Trending This Week",
+    "departmentId": "clothing",
+    "parentId": "clothing-7"
+  },
+  {
+    "id": "clothing-7-4",
+    "name": "Most-Wishlisted",
+    "departmentId": "clothing",
+    "parentId": "clothing-7"
+  },
+  {
+    "id": "clothing-7-5",
+    "name": "Seasonal Edit",
+    "departmentId": "clothing",
+    "parentId": "clothing-7"
+  },
+  {
+    "id": "clothing-7-6",
+    "name": "Premium Collection",
+    "departmentId": "clothing",
+    "parentId": "clothing-7"
+  },
+  {
+    "id": "clothing-7-7",
+    "name": "Graphic Tees Collection",
+    "departmentId": "clothing",
+    "parentId": "clothing-7"
+  },
+  {
+    "id": "clothing-7-8",
+    "name": "Oversized Collections",
+    "departmentId": "clothing",
+    "parentId": "clothing-7"
+  },
+  {
+    "id": "clothing-7-9",
+    "name": "Denim Edit",
+    "departmentId": "clothing",
+    "parentId": "clothing-7"
+  },
+  {
+    "id": "clothing-7-10",
+    "name": "Linen Collection",
+    "departmentId": "clothing",
+    "parentId": "clothing-7"
+  },
+  {
+    "id": "clothing-7-11",
+    "name": "Matching Sets",
+    "departmentId": "clothing",
+    "parentId": "clothing-7"
+  },
+  {
+    "id": "clothing-7-12",
+    "name": "Limited Edition Drops",
+    "departmentId": "clothing",
+    "parentId": "clothing-7"
+  },
+  {
+    "id": "clothing-7-13",
+    "name": "Giftable Apparel",
+    "departmentId": "clothing",
+    "parentId": "clothing-7"
+  },
+  {
+    "id": "clothing-7-14",
+    "name": "Sustainable Collection",
+    "departmentId": "clothing",
+    "parentId": "clothing-7"
+  },
+  {
+    "id": "clothing-8-1",
+    "name": "Under ₹299",
+    "departmentId": "clothing",
+    "parentId": "clothing-8"
+  },
+  {
+    "id": "clothing-8-2",
+    "name": "₹300–₹499",
+    "departmentId": "clothing",
+    "parentId": "clothing-8"
+  },
+  {
+    "id": "clothing-8-3",
+    "name": "₹500–₹999",
+    "departmentId": "clothing",
+    "parentId": "clothing-8"
+  },
+  {
+    "id": "clothing-8-4",
+    "name": "₹1,000–₹1,999",
+    "departmentId": "clothing",
+    "parentId": "clothing-8"
+  },
+  {
+    "id": "clothing-8-5",
+    "name": "₹2,000 and above",
+    "departmentId": "clothing",
+    "parentId": "clothing-8"
+  },
+  {
+    "id": "clothing-8-6",
+    "name": "Flat 50% Off",
+    "departmentId": "clothing",
+    "parentId": "clothing-8"
+  },
+  {
+    "id": "clothing-8-7",
+    "name": "Buy 1 Get 1",
+    "departmentId": "clothing",
+    "parentId": "clothing-8"
+  },
+  {
+    "id": "clothing-8-8",
+    "name": "Combo Offers",
+    "departmentId": "clothing",
+    "parentId": "clothing-8"
+  },
+  {
+    "id": "clothing-8-9",
+    "name": "Clearance Sale",
+    "departmentId": "clothing",
+    "parentId": "clothing-8"
+  },
+  {
+    "id": "furniture-1-1",
+    "name": "Sofas: 1–4 seater, sectional, L/corner",
+    "departmentId": "furniture",
+    "parentId": "furniture-1"
+  },
+  {
+    "id": "furniture-1-2",
+    "name": "Recliners, sofa-beds, modular sofas",
+    "departmentId": "furniture",
+    "parentId": "furniture-1"
+  },
+  {
+    "id": "furniture-1-3",
+    "name": "Armchairs, accent, lounge, rockers",
+    "departmentId": "furniture",
+    "parentId": "furniture-1"
+  },
+  {
+    "id": "furniture-1-4",
+    "name": "Coffee, centre, side & nesting tables",
+    "departmentId": "furniture",
+    "parentId": "furniture-1"
+  },
+  {
+    "id": "furniture-1-5",
+    "name": "TV units, consoles, media cabinets",
+    "departmentId": "furniture",
+    "parentId": "furniture-1"
+  },
+  {
+    "id": "furniture-1-6",
+    "name": "Ottomans, pouffes, bean bags, benches",
+    "departmentId": "furniture",
+    "parentId": "furniture-1"
+  },
+  {
+    "id": "furniture-1-7",
+    "name": "Cabinets, display units, indoor swings",
+    "departmentId": "furniture",
+    "parentId": "furniture-1"
+  },
+  {
+    "id": "furniture-2-1",
+    "name": "Single, double, queen & king beds",
+    "departmentId": "furniture",
+    "parentId": "furniture-2"
+  },
+  {
+    "id": "furniture-2-2",
+    "name": "Storage, hydraulic, divan, folding beds",
+    "departmentId": "furniture",
+    "parentId": "furniture-2"
+  },
+  {
+    "id": "furniture-2-3",
+    "name": "Sliding / hinged / corner wardrobes",
+    "departmentId": "furniture",
+    "parentId": "furniture-2"
+  },
+  {
+    "id": "furniture-2-4",
+    "name": "Modular & walk-in wardrobe systems",
+    "departmentId": "furniture",
+    "parentId": "furniture-2"
+  },
+  {
+    "id": "furniture-2-5",
+    "name": "Dressing tables, vanity units, mirrors",
+    "departmentId": "furniture",
+    "parentId": "furniture-2"
+  },
+  {
+    "id": "furniture-2-6",
+    "name": "Bedside tables, chest of drawers",
+    "departmentId": "furniture",
+    "parentId": "furniture-2"
+  },
+  {
+    "id": "furniture-2-7",
+    "name": "Headboards, bedroom benches, bed bases",
+    "departmentId": "furniture",
+    "parentId": "furniture-2"
+  },
+  {
+    "id": "furniture-3-1",
+    "name": "2 / 4 / 6 / 8+ seater dining tables",
+    "departmentId": "furniture",
+    "parentId": "furniture-3"
+  },
+  {
+    "id": "furniture-3-2",
+    "name": "Round, square, rectangular, extendable",
+    "departmentId": "furniture",
+    "parentId": "furniture-3"
+  },
+  {
+    "id": "furniture-3-3",
+    "name": "Dining chairs, benches & complete sets",
+    "departmentId": "furniture",
+    "parentId": "furniture-3"
+  },
+  {
+    "id": "furniture-3-4",
+    "name": "Crockery cabinets & display storage",
+    "departmentId": "furniture",
+    "parentId": "furniture-3"
+  },
+  {
+    "id": "furniture-3-5",
+    "name": "Buffets, sideboards, serving consoles",
+    "departmentId": "furniture",
+    "parentId": "furniture-3"
+  },
+  {
+    "id": "furniture-3-6",
+    "name": "Bar units, cabinets, carts & stools",
+    "departmentId": "furniture",
+    "parentId": "furniture-3"
+  },
+  {
+    "id": "furniture-3-7",
+    "name": "Marble, glass, wood-top options",
+    "departmentId": "furniture",
+    "parentId": "furniture-3"
+  },
+  {
+    "id": "furniture-4-1",
+    "name": "Base, wall & tall cabinets",
+    "departmentId": "furniture",
+    "parentId": "furniture-4"
+  },
+  {
+    "id": "furniture-4-2",
+    "name": "Pantry units and modular kitchen sets",
+    "departmentId": "furniture",
+    "parentId": "furniture-4"
+  },
+  {
+    "id": "furniture-4-3",
+    "name": "Kitchen islands, peninsulas",
+    "departmentId": "furniture",
+    "parentId": "furniture-4"
+  },
+  {
+    "id": "furniture-4-4",
+    "name": "Breakfast counters and bar stools",
+    "departmentId": "furniture",
+    "parentId": "furniture-4"
+  },
+  {
+    "id": "furniture-4-5",
+    "name": "Kitchen trolleys and utility racks",
+    "departmentId": "furniture",
+    "parentId": "furniture-4"
+  },
+  {
+    "id": "furniture-4-6",
+    "name": "Pull-out storage and shelving",
+    "departmentId": "furniture",
+    "parentId": "furniture-4"
+  },
+  {
+    "id": "furniture-4-7",
+    "name": "Made-to-measure kitchen systems",
+    "departmentId": "furniture",
+    "parentId": "furniture-4"
+  },
+  {
+    "id": "furniture-5-1",
+    "name": "Writing, computer and study desks",
+    "departmentId": "furniture",
+    "parentId": "furniture-5"
+  },
+  {
+    "id": "furniture-5-2",
+    "name": "L-shaped, height-adjustable desks",
+    "departmentId": "furniture",
+    "parentId": "furniture-5"
+  },
+  {
+    "id": "furniture-5-3",
+    "name": "Ergonomic and student chairs",
+    "departmentId": "furniture",
+    "parentId": "furniture-5"
+  },
+  {
+    "id": "furniture-5-4",
+    "name": "Bookshelves and bookcases",
+    "departmentId": "furniture",
+    "parentId": "furniture-5"
+  },
+  {
+    "id": "furniture-5-5",
+    "name": "File drawers and storage pedestals",
+    "departmentId": "furniture",
+    "parentId": "furniture-5"
+  },
+  {
+    "id": "furniture-5-6",
+    "name": "Desk + chair combinations",
+    "departmentId": "furniture",
+    "parentId": "furniture-5"
+  },
+  {
+    "id": "furniture-5-7",
+    "name": "Work-from-home workstation sets",
+    "departmentId": "furniture",
+    "parentId": "furniture-5"
+  },
+  {
+    "id": "furniture-6-1",
+    "name": "Baby cots and cribs",
+    "departmentId": "furniture",
+    "parentId": "furniture-6"
+  },
+  {
+    "id": "furniture-6-2",
+    "name": "Bunk, loft, trundle and junior beds",
+    "departmentId": "furniture",
+    "parentId": "furniture-6"
+  },
+  {
+    "id": "furniture-6-3",
+    "name": "Children’s tables, chairs, study desks",
+    "departmentId": "furniture",
+    "parentId": "furniture-6"
+  },
+  {
+    "id": "furniture-6-4",
+    "name": "Toy storage, shelves and cabinets",
+    "departmentId": "furniture",
+    "parentId": "furniture-6"
+  },
+  {
+    "id": "furniture-6-5",
+    "name": "Kids wardrobes and dressers",
+    "departmentId": "furniture",
+    "parentId": "furniture-6"
+  },
+  {
+    "id": "furniture-6-6",
+    "name": "Activity and play furniture",
+    "departmentId": "furniture",
+    "parentId": "furniture-6"
+  },
+  {
+    "id": "furniture-6-7",
+    "name": "Age-suitable safety-led options",
+    "departmentId": "furniture",
+    "parentId": "furniture-6"
+  },
+  {
+    "id": "furniture-7-1",
+    "name": "Shoe racks, benches and cabinets",
+    "departmentId": "furniture",
+    "parentId": "furniture-7"
+  },
+  {
+    "id": "furniture-7-2",
+    "name": "Bookcases, wall and floating shelves",
+    "departmentId": "furniture",
+    "parentId": "furniture-7"
+  },
+  {
+    "id": "furniture-7-3",
+    "name": "Display, multipurpose storage cabinets",
+    "departmentId": "furniture",
+    "parentId": "furniture-7"
+  },
+  {
+    "id": "furniture-7-4",
+    "name": "Chests, drawers and organizers",
+    "departmentId": "furniture",
+    "parentId": "furniture-7"
+  },
+  {
+    "id": "furniture-7-5",
+    "name": "Laundry and cleaning utility cabinets",
+    "departmentId": "furniture",
+    "parentId": "furniture-7"
+  },
+  {
+    "id": "furniture-7-6",
+    "name": "Entryway storage and consoles",
+    "departmentId": "furniture",
+    "parentId": "furniture-7"
+  },
+  {
+    "id": "furniture-7-7",
+    "name": "Room dividers, partitions, coat racks",
+    "departmentId": "furniture",
+    "parentId": "furniture-7"
+  },
+  {
+    "id": "furniture-8-1",
+    "name": "Patio sofa, chair and dining sets",
+    "departmentId": "furniture",
+    "parentId": "furniture-8"
+  },
+  {
+    "id": "furniture-8-2",
+    "name": "Garden benches, swings and loungers",
+    "departmentId": "furniture",
+    "parentId": "furniture-8"
+  },
+  {
+    "id": "furniture-8-3",
+    "name": "Balcony chairs, folding bistro tables",
+    "departmentId": "furniture",
+    "parentId": "furniture-8"
+  },
+  {
+    "id": "furniture-8-4",
+    "name": "Outdoor side and coffee tables",
+    "departmentId": "furniture",
+    "parentId": "furniture-8"
+  },
+  {
+    "id": "furniture-8-5",
+    "name": "Weather-resistant outdoor storage",
+    "departmentId": "furniture",
+    "parentId": "furniture-8"
+  },
+  {
+    "id": "furniture-8-6",
+    "name": "Outdoor bar and serving furniture",
+    "departmentId": "furniture",
+    "parentId": "furniture-8"
+  },
+  {
+    "id": "furniture-8-7",
+    "name": "Garden and terrace furniture combos",
+    "departmentId": "furniture",
+    "parentId": "furniture-8"
+  },
+  {
+    "id": "furniture-9-1",
+    "name": "Pooja mandirs and prayer cabinets",
+    "departmentId": "furniture",
+    "parentId": "furniture-9"
+  },
+  {
+    "id": "furniture-9-2",
+    "name": "Folding, wall-mounted furniture",
+    "departmentId": "furniture",
+    "parentId": "furniture-9"
+  },
+  {
+    "id": "furniture-9-3",
+    "name": "Convertible and space-saving units",
+    "departmentId": "furniture",
+    "parentId": "furniture-9"
+  },
+  {
+    "id": "furniture-9-4",
+    "name": "Senior-friendly and accessible designs",
+    "departmentId": "furniture",
+    "parentId": "furniture-9"
+  },
+  {
+    "id": "furniture-9-5",
+    "name": "Pet furniture and integrated units",
+    "departmentId": "furniture",
+    "parentId": "furniture-9"
+  },
+  {
+    "id": "furniture-9-6",
+    "name": "Custom-sized niche furniture",
+    "departmentId": "furniture",
+    "parentId": "furniture-9"
+  },
+  {
+    "id": "furniture-9-7",
+    "name": "Modular and multifunctional furniture",
+    "departmentId": "furniture",
+    "parentId": "furniture-9"
+  },
+  {
+    "id": "furniture-10-1",
+    "name": "Executive desks and staff workstations",
+    "departmentId": "furniture",
+    "parentId": "furniture-10"
+  },
+  {
+    "id": "furniture-10-2",
+    "name": "Office chairs, conference seating",
+    "departmentId": "furniture",
+    "parentId": "furniture-10"
+  },
+  {
+    "id": "furniture-10-3",
+    "name": "Meeting and training tables",
+    "departmentId": "furniture",
+    "parentId": "furniture-10"
+  },
+  {
+    "id": "furniture-10-4",
+    "name": "Reception desks and visitor seating",
+    "departmentId": "furniture",
+    "parentId": "furniture-10"
+  },
+  {
+    "id": "furniture-10-5",
+    "name": "Cubicles, partitions, hot desks",
+    "departmentId": "furniture",
+    "parentId": "furniture-10"
+  },
+  {
+    "id": "furniture-10-6",
+    "name": "Filing cabinets, lockers, storage",
+    "departmentId": "furniture",
+    "parentId": "furniture-10"
+  },
+  {
+    "id": "furniture-10-7",
+    "name": "Collaborative sofas and lounge sets",
+    "departmentId": "furniture",
+    "parentId": "furniture-10"
+  },
+  {
+    "id": "furniture-11-1",
+    "name": "Billing counters and cash desks",
+    "departmentId": "furniture",
+    "parentId": "furniture-11"
+  },
+  {
+    "id": "furniture-11-2",
+    "name": "Sales, service and glass display counters",
+    "departmentId": "furniture",
+    "parentId": "furniture-11"
+  },
+  {
+    "id": "furniture-11-3",
+    "name": "Gondola, wall and product racks",
+    "departmentId": "furniture",
+    "parentId": "furniture-11"
+  },
+  {
+    "id": "furniture-11-4",
+    "name": "Jewellery showcases, boutique displays",
+    "departmentId": "furniture",
+    "parentId": "furniture-11"
+  },
+  {
+    "id": "furniture-11-5",
+    "name": "Clothing rails and trial-room fixtures",
+    "departmentId": "furniture",
+    "parentId": "furniture-11"
+  },
+  {
+    "id": "furniture-11-6",
+    "name": "Kiosks, product islands, shelving",
+    "departmentId": "furniture",
+    "parentId": "furniture-11"
+  },
+  {
+    "id": "furniture-11-7",
+    "name": "Backroom storage and shop fitting",
+    "departmentId": "furniture",
+    "parentId": "furniture-11"
+  },
+  {
+    "id": "furniture-12-1",
+    "name": "Café tables, bistro and dining sets",
+    "departmentId": "furniture",
+    "parentId": "furniture-12"
+  },
+  {
+    "id": "furniture-12-2",
+    "name": "Bar counters, high tables and stools",
+    "departmentId": "furniture",
+    "parentId": "furniture-12"
+  },
+  {
+    "id": "furniture-12-3",
+    "name": "Booth and banquette seating",
+    "departmentId": "furniture",
+    "parentId": "furniture-12"
+  },
+  {
+    "id": "furniture-12-4",
+    "name": "Indoor and outdoor restaurant chairs",
+    "departmentId": "furniture",
+    "parentId": "furniture-12"
+  },
+  {
+    "id": "furniture-12-5",
+    "name": "Serving stations and sideboards",
+    "departmentId": "furniture",
+    "parentId": "furniture-12"
+  },
+  {
+    "id": "furniture-12-6",
+    "name": "Host, cashier and reception counters",
+    "departmentId": "furniture",
+    "parentId": "furniture-12"
+  },
+  {
+    "id": "furniture-12-7",
+    "name": "Restaurant-ready coordinated packages",
+    "departmentId": "furniture",
+    "parentId": "furniture-12"
+  },
+  {
+    "id": "furniture-13-1",
+    "name": "Hotel beds, headboards, side tables",
+    "departmentId": "furniture",
+    "parentId": "furniture-13"
+  },
+  {
+    "id": "furniture-13-2",
+    "name": "Wardrobes, mini bars, luggage racks",
+    "departmentId": "furniture",
+    "parentId": "furniture-13"
+  },
+  {
+    "id": "furniture-13-3",
+    "name": "Guest-room desks, chairs and sofas",
+    "departmentId": "furniture",
+    "parentId": "furniture-13"
+  },
+  {
+    "id": "furniture-13-4",
+    "name": "Lobby lounge and reception furniture",
+    "departmentId": "furniture",
+    "parentId": "furniture-13"
+  },
+  {
+    "id": "furniture-13-5",
+    "name": "Banquet and breakfast dining setups",
+    "departmentId": "furniture",
+    "parentId": "furniture-13"
+  },
+  {
+    "id": "furniture-13-6",
+    "name": "Hotel storage and console furniture",
+    "departmentId": "furniture",
+    "parentId": "furniture-13"
+  },
+  {
+    "id": "furniture-13-7",
+    "name": "Bulk room furnishing packages",
+    "departmentId": "furniture",
+    "parentId": "furniture-13"
+  },
+  {
+    "id": "furniture-14-1",
+    "name": "Styling chairs and salon stations",
+    "departmentId": "furniture",
+    "parentId": "furniture-14"
+  },
+  {
+    "id": "furniture-14-2",
+    "name": "Barber chairs and reception desks",
+    "departmentId": "furniture",
+    "parentId": "furniture-14"
+  },
+  {
+    "id": "furniture-14-3",
+    "name": "Mirrors, storage and trolley units",
+    "departmentId": "furniture",
+    "parentId": "furniture-14"
+  },
+  {
+    "id": "furniture-14-4",
+    "name": "Manicure and pedicure workstations",
+    "departmentId": "furniture",
+    "parentId": "furniture-14"
+  },
+  {
+    "id": "furniture-14-5",
+    "name": "Spa beds and treatment furniture",
+    "departmentId": "furniture",
+    "parentId": "furniture-14"
+  },
+  {
+    "id": "furniture-14-6",
+    "name": "Waiting lounge and retail displays",
+    "departmentId": "furniture",
+    "parentId": "furniture-14"
+  },
+  {
+    "id": "furniture-14-7",
+    "name": "Custom salon interior furniture",
+    "departmentId": "furniture",
+    "parentId": "furniture-14"
+  },
+  {
+    "id": "furniture-15-1",
+    "name": "Classroom desks and benches",
+    "departmentId": "furniture",
+    "parentId": "furniture-15"
+  },
+  {
+    "id": "furniture-15-2",
+    "name": "Teacher tables and office furniture",
+    "departmentId": "furniture",
+    "parentId": "furniture-15"
+  },
+  {
+    "id": "furniture-15-3",
+    "name": "Library shelving, book racks",
+    "departmentId": "furniture",
+    "parentId": "furniture-15"
+  },
+  {
+    "id": "furniture-15-4",
+    "name": "Reading desks and chairs",
+    "departmentId": "furniture",
+    "parentId": "furniture-15"
+  },
+  {
+    "id": "furniture-15-5",
+    "name": "Training / computer room furniture",
+    "departmentId": "furniture",
+    "parentId": "furniture-15"
+  },
+  {
+    "id": "furniture-15-6",
+    "name": "Student lockers and lab workbenches",
+    "departmentId": "furniture",
+    "parentId": "furniture-15"
+  },
+  {
+    "id": "furniture-15-7",
+    "name": "Hostel and institutional furniture",
+    "departmentId": "furniture",
+    "parentId": "furniture-15"
+  },
+  {
+    "id": "furniture-16-1",
+    "name": "Clinic reception and billing desks",
+    "departmentId": "furniture",
+    "parentId": "furniture-16"
+  },
+  {
+    "id": "furniture-16-2",
+    "name": "Consultation desks and chairs",
+    "departmentId": "furniture",
+    "parentId": "furniture-16"
+  },
+  {
+    "id": "furniture-16-3",
+    "name": "Patient waiting-area seating",
+    "departmentId": "furniture",
+    "parentId": "furniture-16"
+  },
+  {
+    "id": "furniture-16-4",
+    "name": "Storage, filing and medicine cabinets",
+    "departmentId": "furniture",
+    "parentId": "furniture-16"
+  },
+  {
+    "id": "furniture-16-5",
+    "name": "Clinic display and utility units",
+    "departmentId": "furniture",
+    "parentId": "furniture-16"
+  },
+  {
+    "id": "furniture-16-6",
+    "name": "Accessible reception counters",
+    "departmentId": "furniture",
+    "parentId": "furniture-16"
+  },
+  {
+    "id": "furniture-16-7",
+    "name": "Clinical-use items: verify compliance",
+    "departmentId": "furniture",
+    "parentId": "furniture-16"
+  },
+  {
+    "id": "furniture-17-1",
+    "name": "Industrial racks and shelving",
+    "departmentId": "furniture",
+    "parentId": "furniture-17"
+  },
+  {
+    "id": "furniture-17-2",
+    "name": "Heavy-duty workbenches",
+    "departmentId": "furniture",
+    "parentId": "furniture-17"
+  },
+  {
+    "id": "furniture-17-3",
+    "name": "Tool cabinets and storage drawers",
+    "departmentId": "furniture",
+    "parentId": "furniture-17"
+  },
+  {
+    "id": "furniture-17-4",
+    "name": "Factory lockers and utility cabinets",
+    "departmentId": "furniture",
+    "parentId": "furniture-17"
+  },
+  {
+    "id": "furniture-17-5",
+    "name": "Industrial tables and prep stations",
+    "departmentId": "furniture",
+    "parentId": "furniture-17"
+  },
+  {
+    "id": "furniture-17-6",
+    "name": "Packing and maintenance workstations",
+    "departmentId": "furniture",
+    "parentId": "furniture-17"
+  },
+  {
+    "id": "furniture-17-7",
+    "name": "Rated shelving / load-capacity options",
+    "departmentId": "furniture",
+    "parentId": "furniture-17"
+  },
+  {
+    "id": "furniture-18-1",
+    "name": "Banquet and folding tables",
+    "departmentId": "furniture",
+    "parentId": "furniture-18"
+  },
+  {
+    "id": "furniture-18-2",
+    "name": "Stackable and folding chairs",
+    "departmentId": "furniture",
+    "parentId": "furniture-18"
+  },
+  {
+    "id": "furniture-18-3",
+    "name": "Event sofas, lounge and VIP seating",
+    "departmentId": "furniture",
+    "parentId": "furniture-18"
+  },
+  {
+    "id": "furniture-18-4",
+    "name": "Stage, display and reception furniture",
+    "departmentId": "furniture",
+    "parentId": "furniture-18"
+  },
+  {
+    "id": "furniture-18-5",
+    "name": "Portable counters, bar units, kiosks",
+    "departmentId": "furniture",
+    "parentId": "furniture-18"
+  },
+  {
+    "id": "furniture-18-6",
+    "name": "Wedding-venue furniture packages",
+    "departmentId": "furniture",
+    "parentId": "furniture-18"
+  },
+  {
+    "id": "furniture-18-7",
+    "name": "Event and exhibition booth furniture",
+    "departmentId": "furniture",
+    "parentId": "furniture-18"
+  }
+]

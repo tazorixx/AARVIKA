@@ -1,0 +1,9 @@
+import {View} from 'react-native';
+import type {Dispatch,SetStateAction} from 'react';
+import type {DeliveryDraft} from '../domain/delivery';
+import {Button,Input,styles} from './ui';
+import {LocationPicker} from './location-picker';
+export function AddressForm({value,onChange}:{value:DeliveryDraft;onChange:Dispatch<SetStateAction<DeliveryDraft>>}) {
+  function patch(next:Partial<DeliveryDraft>){onChange(previous=>({...previous,...next}));}
+  return <View style={{gap:10}}><LocationPicker point={value.coordinates} onSelect={patch}/><View style={styles.row}>{(['Home','Work','Other'] as const).map(label=><Button key={label} title={label} secondary selected={(value.label??'Home')===label} onPress={()=>patch({label})}/>)}</View><Input label="Recipient name" value={value.name} onChangeText={name=>patch({name})} maxLength={80} autoComplete="name"/><Input label="Mobile number" value={value.phone} onChangeText={phone=>patch({phone:phone.replace(/\D/g,'')})} maxLength={10} keyboardType="phone-pad" autoComplete="tel"/><Input label="Flat / house number" value={value.flat??''} onChangeText={flat=>patch({flat})} maxLength={80}/><Input label="Street address" placeholder="Building and street" value={value.line} onChangeText={line=>patch({line})} maxLength={160} autoComplete="street-address"/><Input label="Landmark (optional)" value={value.landmark??''} onChangeText={landmark=>patch({landmark})} maxLength={120}/><Input label="Area / locality" value={value.locality??''} onChangeText={locality=>patch({locality})} maxLength={100}/><Input label="City" value={value.city} onChangeText={city=>patch({city})} maxLength={80}/><Input label="State" value={value.state} onChangeText={state=>patch({state})} maxLength={80}/><Input label="PIN code" value={value.pincode} onChangeText={pincode=>patch({pincode:pincode.replace(/\D/g,'')})} maxLength={6} keyboardType="number-pad" autoComplete="postal-code"/></View>;
+}

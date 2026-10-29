@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>AARVIKA • Compact Commerce Layout Specimen (Demo)</title>
+<style>
+/* AARVIKA WEB UI tokens | Project proposal, not Amazon-extracted measurements */
+:root {
+  --brand:#62298E; --brand-deep:#3E155C; --canvas:#FAF8FC; --surface:#FFFFFF;
+  --text:#24212A; --muted:#665F6E; --border:#E8E1ED;
+  --lavender:#F1E8FC; --blush:#FBEAF1; --peach:#FFE7DB;
+  --mint:#E9F6F1; --cream:#FFF3DE;
+  --space-1:4px;--space-2:8px;--space-3:12px;--space-4:16px;
+  --space-5:20px;--space-6:24px;--space-8:32px;
+  --radius-sm:6px;--radius-md:10px;--radius-card:12px;
+  --content-width:1360px;
+  --shadow-hover:0 8px 24px rgba(62,21,92,.09);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--canvas);color:var(--text);font-family:Inter,system-ui,-apple-system,'Segoe UI',Arial,sans-serif;font-size:14px;line-height:1.45;font-synthesis:none}
+.container{width:min(calc(100% - 48px),var(--content-width));margin-inline:auto}
+a{color:inherit;text-decoration:none}
+button,input,select{font:inherit}
+button{cursor:pointer}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #ac82d7;outline-offset:2px}
+.section{margin-block:24px 32px}
+.section-title{font-size:20px;font-weight:700;letter-spacing:-.02em;line-height:1.25;margin:0}
+.section-head{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:14px}
+.link{color:var(--brand);font-weight:600}
+.product-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px}
+.product-card{border:1px solid var(--border);border-radius:var(--radius-card);background:var(--surface);min-width:0;overflow:hidden;transition:box-shadow .15s,transform .15s}
+.product-card:hover{transform:translateY(-2px);box-shadow:var(--shadow-hover)}
+.product-image{width:100%;aspect-ratio:1/1;display:grid;place-items:center;background:#f6f1fa;overflow:hidden}
+.product-image img{display:block;width:100%;height:100%;object-fit:contain}
+.product-body{padding:10px 11px 12px}
+.product-title{font-size:13.5px;line-height:1.4;font-weight:600;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:2.8em}
+.product-price{font-size:18px;line-height:1.2;font-weight:750;margin-top:8px}
+.product-note{font-size:12px;color:var(--muted);margin-top:3px}
+.category-grid{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));gap:12px}
+.category-card{border:1px solid var(--border);border-radius:12px;padding:10px;text-align:center;background:white;min-width:0}
+.category-card .photo{height:80px;display:grid;place-items:center;font-size:40px;border-radius:9px;margin-bottom:8px}
+.category-card .label{font-size:12.5px;line-height:1.25;font-weight:650}
+@media (max-width:1279px){.product-grid{grid-template-columns:repeat(4,minmax(0,1fr))}.category-grid{grid-template-columns:repeat(6,minmax(0,1fr))}}
+@media (max-width:1023px){.product-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.category-grid{grid-template-columns:repeat(4,minmax(0,1fr))}.section-title{font-size:19px}}
+@media (max-width:767px){.container{width:calc(100% - 28px)}.product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.category-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}.section{margin-block:20px 24px}.section-title{font-size:18px}.category-card{padding:7px 4px}.category-card .photo{height:60px;font-size:32px;margin-bottom:6px}.category-card .label{font-size:12px}.product-body{padding:9px}.product-title{font-size:13px}.product-price{font-size:17px}}
+@media (max-width:350px){.container{width:calc(100% - 24px)}.product-grid{gap:8px}.category-card .photo{height:55px}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+
+</style>
+<style>
+  body{padding-bottom:20px} .test-ribbon{background:#2a2133;color:white;font-size:11px;text-align:center;padding:5px 12px;letter-spacing:.02em}
+  .utility{border-bottom:1px solid var(--border);background:#fff}.utility .container{display:flex;align-items:center;justify-content:space-between;height:32px;font-size:12px;color:var(--muted)}
+  .utility-links{display:flex;gap:18px;align-items:center}
+  .header{background:#fff;border-bottom:1px solid var(--border)}.header-main{display:flex;align-items:center;gap:24px;min-height:66px}
+  .brand{color:var(--brand-deep);font-size:24px;font-weight:800;letter-spacing:-.05em;white-space:nowrap}
+  .brand span{color:var(--brand)}.searchform{display:flex;flex:1;height:42px;border:1px solid #d7cbdf;border-radius:10px;overflow:hidden;background:#fff}
+  .searchform:focus-within{box-shadow:0 0 0 2px #e4d2f4}.searchform input{flex:1;min-width:0;border:0;background:transparent;outline:none;padding:0 12px;font-size:14px}
+  .searchform button{background:var(--brand);border:0;color:#fff;padding:0 17px;font-size:14px;font-weight:650}
+  .hdr-actions{display:flex;gap:15px;align-items:center;font-size:13px;font-weight:600;white-space:nowrap}
+  .hdr-actions button{border:0;background:transparent;color:var(--text);padding:7px 2px}
+  .cart-count{display:inline-flex;min-width:18px;height:18px;align-items:center;justify-content:center;border-radius:9px;background:#f1dffc;color:var(--brand);font-weight:800;font-size:11px}
+  .topnav{background:#f5eefb;border-bottom:1px solid #e6d8f2}.navrow{display:flex;align-items:center;gap:26px;height:38px;overflow-x:auto;scrollbar-width:none;white-space:nowrap}
+  .navrow a{font-size:12.5px;font-weight:600;color:#4e375c}.navrow a:focus-visible{outline-offset:-1px}
+  .hero{display:grid;grid-template-columns:1.7fr .9fr;gap:14px;margin-top:18px}.hero-primary{min-height:235px;border-radius:14px;padding:25px 30px;background:linear-gradient(108deg,#44185f 0%,#7045a1 62%,#b89ad3 100%);color:#fff;position:relative;overflow:hidden;display:flex;align-items:center}
+  .hero-primary .copy{max-width:370px;position:relative;z-index:1}.eyebrow{font-size:11px;letter-spacing:.08em;font-weight:800;text-transform:uppercase;opacity:.9}
+  .hero h1{font-size:31px;line-height:1.12;letter-spacing:-.035em;margin:8px 0 9px;max-width:350px}.hero p{font-size:14px;line-height:1.5;margin:0 0 17px;max-width:370px;color:#f3e6ff}
+  .hero-primary:after{content:"🎁";position:absolute;right:35px;top:30px;font-size:118px;opacity:.85;transform:rotate(-12deg)}
+  .btn-white{display:inline-block;border:0;background:#fff;color:var(--brand-deep);font-size:13px;font-weight:750;padding:10px 15px;border-radius:8px}
+  .hero-secondary{border:1px solid #eddfed;background:#ffece9;border-radius:14px;padding:20px 22px;display:flex;flex-direction:column;justify-content:center;min-width:0}
+  .hero-secondary .ornament{font-size:45px;margin-bottom:10px}.hero-secondary h2{font-size:19px;letter-spacing:-.02em;line-height:1.2;margin:0 0 6px}.hero-secondary p{font-size:13px;color:#594552;margin:0 0 10px}
+  .pill{display:inline-flex;align-items:center;gap:5px;background:#fff;border:1px solid var(--border);border-radius:100px;padding:5px 10px;font-size:12px;white-space:nowrap}
+  .actions{display:flex;gap:8px;flex-wrap:wrap}.cta-strip{padding:14px 18px;background:#f1e8fc;border:1px solid #e7d9f5;border-radius:12px;display:flex;justify-content:space-between;align-items:center;gap:12px}
+  .cta-strip strong{display:block;font-size:15px}.cta-strip span{color:var(--muted);font-size:12.5px}
+  .purple-button{border:0;border-radius:8px;background:var(--brand);color:white;font-size:13px;padding:10px 14px;font-weight:700;min-height:42px}
+  .photo.p1{background:#f4e8fa}.photo.p2{background:#fbe4ec}.photo.p3{background:#fff0df}.photo.p4{background:#eaf4fb}.photo.p5{background:#f6e6ed}.photo.p6{background:#f8e9fa}.photo.p7{background:#fff3d8}.photo.p8{background:#e6f5ee}
+  .mock-image{font-size:74px}.mock-image.p1{background:#f5edf9}.mock-image.p2{background:#fff1ec}.mock-image.p3{background:#fdf2e4}.mock-image.p4{background:#f1edff}.mock-image.p5{background:#eff7ee}
+  .chip-bar{display:flex;gap:8px;overflow-x:auto;padding-bottom:3px;scrollbar-width:thin}.chip{border:1px solid #dfd2e8;background:white;color:#5a4d62;padding:7px 12px;font-weight:650;border-radius:99px;font-size:12px;white-space:nowrap;min-height:36px}
+  .chip[aria-pressed="true"]{background:var(--brand);color:white;border-color:var(--brand)}
+  .product-actions{display:flex;gap:6px;align-items:center;justify-content:space-between;margin-top:9px}.mini-action{min-height:34px;border-radius:7px;background:#f1e8fc;color:#4c246f;font-weight:750;font-size:12px;border:0;padding:0 10px}
+  .wish{width:34px;height:34px;border:1px solid var(--border);background:#fff;border-radius:7px;font-size:19px;line-height:1}.wish[aria-pressed="true"]{color:#ad2461;background:#ffe8ef}
+  .note{color:var(--muted);font-size:12px;margin-top:5px}.footer{border-top:1px solid var(--border);padding:18px 0;font-size:12px;color:var(--muted);margin-top:40px}
+  .mobile-bottom{display:none}.toast{position:fixed;right:20px;bottom:20px;background:#352044;color:#fff;padding:10px 14px;border-radius:10px;font-size:12px;z-index:30;opacity:0;transform:translateY(8px);transition:.2s;pointer-events:none}.toast.show{opacity:1;transform:none}
+  @media(max-width:1023px){.hdr-actions .optional{display:none}.hero h1{font-size:26px}.hero-primary{min-height:210px}}
+  @media(max-width:767px){body{padding-bottom:62px}.utility,.hdr-actions .optional,.topnav{display:none}.header-main{min-height:54px;gap:7px;flex-wrap:wrap;padding-block:9px}.brand{font-size:22px;order:0}.hdr-actions{order:1;margin-left:auto;gap:9px}.hdr-actions button{font-size:13px}.searchform{order:2;flex-basis:100%;height:44px}.hero{display:block;margin-top:13px}.hero-primary{min-height:169px;padding:18px 18px;border-radius:12px}.hero-primary h1{font-size:22px;max-width:240px;margin:5px 0 6px}.hero-primary p{font-size:12.5px;max-width:222px;margin-bottom:11px}.hero-primary:after{right:9px;top:38px;font-size:68px;opacity:.56}.hero-secondary{display:none}.btn-white{font-size:12px;padding:8px 10px}.cta-strip{padding:10px 12px}.cta-strip strong{font-size:14px}.cta-strip span{font-size:12px}.purple-button{padding:9px 10px;font-size:12px}.mock-image{font-size:65px}.mobile-bottom{display:flex;position:fixed;bottom:0;left:0;right:0;height:58px;padding-bottom:env(safe-area-inset-bottom);background:#fff;border-top:1px solid var(--border);align-items:center;justify-content:space-around;z-index:20}.mobile-bottom a{font-size:10px;display:flex;flex-direction:column;align-items:center;gap:1px;padding:5px 8px;color:#51415c}.mobile-bottom b{font-size:20px;line-height:1.1}.mobile-bottom a:first-child{color:var(--brand)}.toast{bottom:72px;left:12px;right:12px;text-align:center}}
+</style>
+</head>
+<body>
+<div class="test-ribbon">DESIGN DENSITY DEMO • SAMPLE PRODUCTS ONLY • NO LIVE INVENTORY / PAYMENTS</div>
+<div class="utility"><div class="container"><span>⌖ Delivery location: select a PIN code</span><div class="utility-links"><a href="#categories">Explore departments</a><a href="#products">Today's picks</a><span>Help & support</span></div></div></div>
+<header class="header"><div class="container header-main">
+<a class="brand" href="#top" aria-label="AARVIKA home">AAR<span>VIKA</span></a>
+<form class="searchform" id="searchform" role="search"><input id="searchbox" type="search" placeholder="Search gifts, products, cultures, combos..." aria-label="Search the sample catalogue"><button type="submit">Search</button></form>
+<div class="hdr-actions"><button class="optional" id="location" type="button">⌖ Location</button><button class="optional" type="button" id="account">♙ Account</button><button type="button" id="cart">🛒 Cart <span id="cartcount" class="cart-count">0</span></button></div>
+</div></header>
+<nav class="topnav" aria-label="Browse departments"><div class="container navrow"><a href="#categories">☰ All Departments</a><a href="#products" data-category="Wedding">Wedding</a><a href="#products" data-category="Birthday">Birthday</a><a href="#products" data-category="Personalized">Personalized Gifts</a><a href="#products" data-category="Anniversary">Anniversary</a><a href="#products" data-category="Hampers">Hampers</a><a href="#products" data-category="Clothing">Clothing</a><a href="#products" data-category="Stationery">Stationery</a><a href="#products" data-category="Furniture">Furniture</a></div></nav>
+<main id="top" class="container">
+<section class="hero" aria-label="Featured collections"><div class="hero-primary"><div class="copy"><div class="eyebrow">Curated for every occasion</div><h1>Every tradition, thoughtfully gifted.</h1><p>Discover Wedding collections, personal gifts and customizable combos.</p><a class="btn-white" href="#products" data-category="Wedding">Explore Wedding →</a></div></div><div class="hero-secondary"><div class="ornament">🎀</div><h2>Make it yours.</h2><p>Pick items, personalize details and create a meaningful gift.</p><a href="#products" class="link" data-category="Personalized">Explore personalized gifts →</a></div></section>
+<section class="section" id="categories"><div class="section-head"><h2 class="section-title">Shop by Category</h2><a class="link" href="#products">View all →</a></div><div class="category-grid" id="categorygrid"></div></section>
+<section class="section"><div class="cta-strip"><div><strong>🎁 Build Your Own Gift Combo</strong><span>Use eligible products across departments. Mix, match and personalize.</span></div><button class="purple-button" id="buildcombo">Explore Combos</button></div></section>
+<section class="section" id="products"><div class="section-head"><h2 class="section-title" id="productheading">Featured Sample Products</h2><a class="link" href="#categories">Categories ↑</a></div><div class="chip-bar" id="chips" role="group" aria-label="Filter sample products"></div><p class="note" id="resultinfo" aria-live="polite">Demonstration items. No seller prices, ratings or delivery promises.</p><div class="product-grid" id="productgrid"></div></section>
+<section class="section"><div class="section-head"><h2 class="section-title">Designed for useful shopping</h2></div><div class="actions"><span class="pill">✓ Compact grid</span><span class="pill">✓ Responsive layout</span><span class="pill">✓ Shared product cards</span><span class="pill">✓ No invented ratings</span><span class="pill">✓ Clear state feedback</span></div></section>
+</main>
+<footer class="footer"><div class="container">AARVIKA prototype: purple theme / compact layout specimen. This file is a layout and interaction reference, not a connected shopping application.</div></footer>
+<nav class="mobile-bottom" aria-label="Sample mobile bottom navigation"><a href="#top"><b>⌂</b>Home</a><a href="#categories"><b>▦</b>Categories</a><a href="#products"><b>◇</b>Offers</a><a href="#products"><b>♡</b>Wishlist</a><a href="#top"><b>♙</b>Account</a></nav>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script>
+const cats=[['Wedding','💍','p1'],['Birthday','🎂','p2'],['Personalized','🎨','p3'],['Anniversary','💝','p4'],['Hampers','🎀','p5'],['Clothing','👗','p6'],['Stationery','✏️','p7'],['Furniture','🛋️','p8']];
+const prods=[
+  {id:'w1',cat:'Wedding',icon:'🌼',name:'Ceremony gift tray and décor accents',bg:'p1'},
+  {id:'w2',cat:'Wedding',icon:'📿',name:'Traditional wedding accessory set',bg:'p2'},
+  {id:'b1',cat:'Birthday',icon:'🧸',name:'Soft keepsake teddy gift',bg:'p3'},
+  {id:'b2',cat:'Birthday',icon:'🎉',name:'Birthday celebration gift box',bg:'p4'},
+  {id:'p1',cat:'Personalized',icon:'🖼️',name:'Custom photo frame with message',bg:'p5'},
+  {id:'p2',cat:'Personalized',icon:'☕',name:'Name-print ceramic gift mug',bg:'p1'},
+  {id:'a1',cat:'Anniversary',icon:'💞',name:'Couple keepsake picture frame',bg:'p2'},
+  {id:'h1',cat:'Hampers',icon:'🎁',name:'Build-your-own gift hamper box',bg:'p3'},
+  {id:'c1',cat:'Clothing',icon:'👘',name:'Traditional festive outfit collection',bg:'p4'},
+  {id:'s1',cat:'Stationery',icon:'📔',name:'Aesthetic notebook and journaling kit',bg:'p5'},
+  {id:'f1',cat:'Furniture',icon:'🪑',name:'Compact wood-finish accent chair',bg:'p1'}
+];
+let filter='All',query='',cart=0;const favs=new Set();let toastTimer;
+function notify(m){const x=document.getElementById('toast');x.textContent=m;x.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>x.classList.remove('show'),2200)}
+function show(){document.getElementById('categorygrid').innerHTML=cats.map(([n,e,p])=>`<button class="category-card" type="button" data-cat="${n}" aria-label="Explore ${n}"><div class="photo ${p}" aria-hidden="true">${e}</div><div class="label">${n==='Personalized'?'Personalized Gifts':n}</div></button>`).join('');document.getElementById('chips').innerHTML=['All',...cats.map(x=>x[0])].map(c=>`<button class="chip" data-chip="${c}" aria-pressed="${c===filter}">${c==='All'?'All Products':c}</button>`).join('');renderProducts()}
+function renderProducts(){let matches=prods.filter(p=>(filter==='All'||filter===p.cat)&&p.name.toLowerCase().includes(query.toLowerCase()));document.getElementById('productheading').textContent=filter==='All'?'Featured Sample Products':filter+' • Sample Products';document.getElementById('resultinfo').textContent=matches.length+' demonstration product'+(matches.length===1?'':'s')+' shown. No live prices/ratings/delivery commitments.';document.getElementById('productgrid').innerHTML=matches.length?matches.map(p=>`<article class="product-card"><div class="product-image mock-image ${p.bg}" aria-hidden="true">${p.icon}</div><div class="product-body"><div class="product-title">${p.name}</div><div class="product-note">${p.cat} · Illustrative listing</div><div class="product-price">Price on listing</div><div class="product-actions"><button class="mini-action" data-add="${p.id}">Add (demo)</button><button class="wish" data-fav="${p.id}" aria-label="${favs.has(p.id)?'Remove from':'Add to'} wishlist: ${p.name}" aria-pressed="${favs.has(p.id)}">${favs.has(p.id)?'♥':'♡'}</button></div></div></article>`).join(''):'<div style="grid-column:1/-1;padding:24px 12px;border:1px solid var(--border);border-radius:10px;background:white"><strong>No sample products matched.</strong><p style="font-size:13px;color:var(--muted)">Try another keyword or clear the category filter.</p><button class="mini-action" data-reset="1">Show all products</button></div>'}
+function setFilter(f){filter=f;document.querySelectorAll('[data-chip]').forEach(x=>x.setAttribute('aria-pressed',String(x.dataset.chip===filter)));renderProducts();document.getElementById('products').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});}
+document.addEventListener('click',e=>{const t=e.target.closest('[data-cat],[data-category],[data-chip],[data-add],[data-fav],[data-reset]');if(!t)return;if(t.dataset.cat||t.dataset.category||t.dataset.chip){e.preventDefault();setFilter(t.dataset.cat||t.dataset.category||t.dataset.chip)}if(t.dataset.add){cart++;document.getElementById('cartcount').textContent=cart;notify('Added sample item (local demo only)')}if(t.dataset.fav){const id=t.dataset.fav;favs.has(id)?favs.delete(id):favs.add(id);renderProducts();notify('Wishlist demo updated')}if(t.dataset.reset){filter='All';query='';document.getElementById('searchbox').value='';show()}});
+document.getElementById('searchform').addEventListener('submit',e=>{e.preventDefault();query=document.getElementById('searchbox').value.trim();renderProducts();document.getElementById('products').scrollIntoView({behavior:'smooth'});notify('Search filtered local demo products')});
+document.getElementById('cart').onclick=()=>notify('Demo cart contains '+cart+' unit(s). Checkout is not connected.');document.getElementById('buildcombo').onclick=()=>notify('Combo builder entry point (not yet implemented)');document.getElementById('location').onclick=()=>notify('Delivery checker requires a live backend.');document.getElementById('account').onclick=()=>notify('Account needs authentication integration.');show();
+</script>
+</body>
+</html>

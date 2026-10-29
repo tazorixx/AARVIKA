@@ -1,0 +1,11 @@
+# Department configuration feature group
+
+Existing ProductEditor now conditionally exposes Wedding culture/region/ceremony IDs and kits, Birthday age/interests, Anniversary year/milestone/recipient specifications, typed text/photo/choice schemas, hamper components/packaging/capacity, clothing attributes and centimetre size guides, stationery type specifications, and Furniture Home/Commercial dimensions/material/finish/custom instructions. Approved taxonomy preserves ten hamper families, eleven stationery families, nine personalization families, eight clothing browsing paths and eighteen furniture families. Legacy Lifestyle and optional legacy Wedding controls remain intact.
+
+Server validation rejects invalid dimensions, duplicate size labels, unsafe photo formats/limits, empty published schemas/guides, invalid component references, nested bundles, unpublished components and incompatible product types. Kit totals derive from canonical component SKU prices plus packaging in paise; kits have no separate stock pool. Photos stay device-local in demo mode; no upload or payment service is enabled.
+
+Validation: TypeScript and build passed; lint zero errors / 97 warnings; 154 unit tests passed; 35 emulator HTTP checks passed including all eight departments, two apparel SKUs (including zero stock), inquiry-only Furniture and two component-backed kits; browser department controls/CSV typing/preview/draft passed at 390px with no runtime errors or external requests; 20 screenshots retained the original sidebar/header/content shell. Phase2 mobile checks remain green with no mobile source modifications. Final combined mobile regression still required.
+
+No live Firebase, original Gift4U, production migration, external provider or deployment was used. Remaining assigned scope includes Furniture inquiry management inside existing support, homepage publication history and mobile emulator catalogue integration. These controls alone do not claim full integration completion.
+
+Taxonomy correction verified during integration: the first seed read 247 base JSON categories; the expanded mobile source also adds Clothing/Furniture children. The seed now reads the complete typed snapshot and was verified to write all 535 categories, preserving the eight confirmed departments.

@@ -1,0 +1,14 @@
+"use client";
+
+type Master={id:string;name:string;departmentId?:string;parentId?:string|null;level?:number;active?:boolean};
+type Props={relation:'categories'|'recipients'|'occasions'|'collections';options:Master[];allCategories:Master[];department:string;editing:boolean;mode:'existing'|'create';onMode:(mode:'existing'|'create')=>void;selected:string;onSelected:(id:string)=>void;name:string;onName:(name:string)=>void;parentId:string;onParentId:(id:string)=>void};
+export function InlineRelationChoice({relation,options,allCategories,department,editing,mode,onMode,selected,onSelected,name,onName,parentId,onParentId}:Props){
+ const label=relation==='categories'?'category':relation==='recipients'?'recipient':relation==='occasions'?'occasion':'collection';
+ const create=!editing&&(mode==='create'||options.length===0);
+ const parents=allCategories.filter(item=>item.departmentId===department&&item.active!==false&&[1,2].includes(item.level??0));
+ return <div className="rounded-[12px] border border-slate-200 p-3">
+  <p className="mb-2 text-xs font-bold text-slate-600">Catalogue {label}</p>
+  {!editing&&<div className="mb-3 flex gap-2"><button type="button" disabled={!options.length} onClick={()=>onMode('existing')} className={`rounded-full border px-3 py-1.5 text-xs font-bold ${!create?'border-[#62298E] bg-[#E9DDF7] text-[#3E155C]':'border-slate-200'}`}>Select existing</button><button type="button" onClick={()=>onMode('create')} className={`rounded-full border px-3 py-1.5 text-xs font-bold ${create?'border-[#62298E] bg-[#E9DDF7] text-[#3E155C]':'border-slate-200'}`}>Create here</button></div>}
+  {create?<div className="grid gap-3"><label className="text-xs font-bold text-slate-600">New {label} name<input aria-label={`New ${label} name`} className="mt-1 w-full rounded-[10px] border border-slate-200 px-3 py-2 text-sm" value={name} onChange={event=>onName(event.target.value)} placeholder="Use the item name if left blank"/></label>{relation==='categories'&&<label className="text-xs font-bold text-slate-600">Place under<select aria-label="Parent category" className="mt-1 w-full rounded-[10px] border border-slate-200 px-3 py-2 text-sm" value={parentId} onChange={event=>onParentId(event.target.value)}><option value="">Main category</option>{parents.map(item=><option key={item.id} value={item.id}>{item.name}</option>)}</select></label>}<p className="text-[11px] text-slate-500">Saving creates this catalogue record and its presentation together.</p></div>:<label className="text-xs font-bold text-slate-600">Existing {label}<select aria-label={`Existing ${label}`} className="mt-1 w-full rounded-[10px] border border-slate-200 px-3 py-2 text-sm" value={selected} onChange={event=>onSelected(event.target.value)}><option value="">Choose {label}</option>{options.map(item=><option key={item.id} value={item.id}>{item.name}{item.departmentId?'':' · legacy'}</option>)}</select></label>}
+ </div>;
+}

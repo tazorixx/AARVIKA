@@ -1,0 +1,17 @@
+import { useCatalogue } from '../state/catalogue';
+import { useState } from 'react';
+import { router } from 'expo-router';
+import { View } from 'react-native';
+
+import { Button, Card, CategoryRail, FilterDisclosure, Input, Label, styles } from './ui';
+import { Choices } from './facet-controls';
+import { CatalogBrowser } from './catalog-browser';
+import type { SearchQuery } from '../domain/contracts';
+export function FurnitureHome({ categoryId }: { categoryId?: string }) { const { categories,products } = useCatalogue();
+  const [sector, setSector] = useState(''), [query, setQuery] = useState<SearchQuery>({ includeUnpriced: true });
+  const families = categories.filter(c => c.departmentId === 'furniture' && c.level === 2 && (!sector || (c.furnitureSector||(/^furniture-(?:[1-9]|1[0-8])$/.test(c.id)?Number(c.id.split('-')[1])<=9?'Home':'Commercial':'')) === sector));
+  const source=products.filter(p=>p.departmentIds.includes('furniture')&&(!categoryId||p.categoryIds.includes(categoryId)));
+  const values=(key:string)=>[...new Set(source.map(p=>p.specs[key]).filter(Boolean))];
+  function attr(key: string, value: string) { setQuery(q => ({ ...q, attributes: { ...q.attributes, [key]: value } })); }
+  return <><Card><Label heading>Make room for what matters</Label><Label muted>Unpriced concepts use inquiry actions. Custom designs, room sets and commercial projects need vendor approval. No delivery, assembly or compliance promise is made.</Label><View style={styles.row}><Button title="Request custom furniture" onPress={() => router.push('/furniture/inquiry')} /><Button title="Request a room set" secondary onPress={() => router.push('/furniture/inquiry?kind=room-set')} /><Button title="My furniture inquiries" secondary onPress={() => router.push('/furniture/requests')} /></View></Card>{!categoryId && <><Choices label="Sector" values={['Home', 'Commercial']} selected={sector} onSelect={v => { setSector(v); attr('Sector', v); }} /><CategoryRail label="Furniture families">{families.map(c => <Button key={c.id} title={c.name} secondary onPress={() => router.push(`/category/${c.id}`)} />)}</CategoryRail></>}<FilterDisclosure title="Edit furniture filters" summary="Material, finish, style and maximum dimensions"><Choices label="Furniture material" values={values('Material')} selected={query.attributes?.Material} onSelect={v => attr('Material', v)} /><Choices label="Finish" values={values('Finish')} selected={query.attributes?.Finish} onSelect={v => attr('Finish', v)} /><Choices label="Furniture style" values={values('Style')} selected={query.attributes?.Style} onSelect={v => attr('Style', v)} />{(['maxWidth', 'maxDepth', 'maxHeight'] as const).map((key, i) => <Input key={key} label={`Maximum ${['width', 'depth', 'height'][i]} (cm)`} value={query[key] === undefined ? '' : String(query[key])} keyboardType="decimal-pad" onChangeText={value => setQuery(q => ({ ...q, [key]: value === '' ? undefined : Number(value) }))} />)}<Label muted>Measurement guide: check room, access/door width, clearance and assembled dimensions. Illustrative dimensions are in centimetres. Unpriced inquiries remain visible under a budget; submit your budget in the request.</Label><Button title="Reset furniture filters" secondary onPress={() => { setQuery({ includeUnpriced: true }); setSector(''); }} /></FilterDisclosure><CatalogBrowser departmentId="furniture" categoryId={categoryId} filters={query} /></>;
+}

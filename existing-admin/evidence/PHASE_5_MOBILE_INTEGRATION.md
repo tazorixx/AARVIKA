@@ -1,0 +1,17 @@
+# Isolated admin-to-mobile catalogue integration
+
+Opt-in admin-emulator mode accepts only http://127.0.0.1:3100 and version-2 metadata identifying demo-aarvika-local, emulator-only Firebase, payments disabled and device-only customer data. Existing fixture default and version-1 local API guards remain intact. No live/staging source was enabled and the mobile .env.local was not edited.
+
+Read-only GET /api/mobile/v2/catalog projects published AARVIKA-managed records to packages/catalogue contracts. Original product IDs and canonical SKU identities survive; rupee inputs become integer paise once at authoring. Canonical SKU quantities minus reservations define demo availability. Kits reference component SKUs and packaging; no independent kit stock pool exists. Unmapped legacy records remain private until explicitly configured rather than inventing their departments or SKUs. Active taxonomy, publication status, collections, typed schemas, size guides, media references and versioned homepage sections map explicitly. Local media paths only; no mobile Firebase SDK calls. Customer data/photos/reviews remain device-local.
+
+Mobile refreshes changed snapshots and refetches visible listings/details. Price/stock changes and unpublishing reach an open screen; offline errors retain the last clearly labelled demo snapshot with retry. Clothing facet values derive from canonical SKU attributes. Default fixture/local API flows remain working.
+
+Seed correction: all 535 expanded categories are now loaded, including generated Clothing/Furniture children. Sixteen existing fixture designs can be seeded through the canonical authoring service; existing demo edits are retained on reseed. Local media reuse clearly labelled existing demonstration artwork.
+
+Checks: admin TypeScript/build passed; 155 unit tests; zero lint errors/97 warnings; 35 authoring and 6 isolation HTTP checks; 20 admin-to-mobile HTTP checks; actual mobile browser edit/unpublish/offline/stock/cart checks; 29 loaded screenshots across all departments at 320/390/768; zero observed external browser requests, direct mobile Firebase calls or runtime errors. Initial captures caught loading states and were regenerated behind readiness/image decoding checks. Admin capture found an early-hydration native form submit on login; inputs/submit are now disabled until React is ready, and fresh login/editor/homepage runs passed. Twenty admin screenshots preserve original shell geometry.
+
+Mobile TypeScript/lint passed; 39 unit tests; fixture browser 20 passed / 1 intentional local-mode skip; local API browser 1 passed; local API TypeScript/lint and 7 integration tests passed. Android/iOS/web exports passed. Native device runtime testing is unavailable; exports do not replace device testing. Transcripts are in phase5-results.
+
+Run: existing-admin node scripts/run-isolated.cjs emulators; then node scripts/seed-isolated.cjs; then node scripts/run-isolated.cjs dev. In apps/mobile run node scripts/start-admin-emulator.cjs and open http://127.0.0.1:8084. Default fixture launch remains node scripts/start-expo.cjs --web --offline --port 8081. Local API uses root node apps/local-api/src/index.ts plus apps/mobile node scripts/start-local-api.cjs.
+
+Remaining assigned work: compact Furniture inquiry controls on existing Support, accent-only AARVIKA branding, final template comparisons/security/regressions and final report. Real customer sync, credentials, provider integrations, live payments and deployment remain excluded.

@@ -1,0 +1,9 @@
+# Visual commerce mobile checkpoint
+
+All eight departments now share image-led heroes, visual discovery tiles, product rails, category grids, collections and useful editorial actions. Existing specialist shopping tools remain below the storefront as optional helpers with retained local selections. Wedding tradition/function discovery leads with products and visual functions; family guidance and kit confirmation remain optional and validated. Categories, search deep links and the directory use the same visual vocabulary. Existing image caching, typography, cart, wishlist, personalization, variant stock and inquiry rules are reused.
+
+No libraries installed. Existing Expo Image, router, motion/reduced-motion context, modal/sheet, touch feedback and project-local demo illustrations were sufficient. Imagery is explicitly illustrative, not merchant photography. Additive optional visual/page metadata preserves old adapters and product/SKU identity; default fixture compositions work offline. No new service or production Firebase call.
+
+Focused gates: mobile TypeScript passed; changed mobile/shared lint passed; five visual-contract/query unit tests passed; three browser cases passed (10.1 seconds), covering every department landing/product navigation at 390px, a 320px deep link, tablet Stationery, and Wedding optional kit → builder → cart. Relevant legacy selectors were adapted to the new optional helpers/tile labels; their old screenshot suites were not rerun. Prior unrelated checks were reused.
+
+Representative current views: [Wedding](commerce/wedding-after-390.png), [Furniture](commerce/furniture-after-390.png). Existing before reference: [previous Wedding](../../../existing-admin/evidence/mobile-emulator/wedding-390.png). Admin metadata publishing verification and the final combined report are recorded separately.

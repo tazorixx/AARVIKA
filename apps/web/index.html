@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#3E155C">
+  <meta name="description" content="Explore AARVIKA gift ideas across eight thoughtful departments. Local demonstration catalogue.">
+  <title>AARVIKA · Thoughtful gifting</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script type="module" src="/app.mjs"></script>
+</head>
+<body>
+  <div class="top-note">AARVIKA PREVIEW <span>·</span> Demonstration catalogue · No live orders or payments</div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/" data-nav aria-label="AARVIKA home">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M5 13h22v15H5V13Zm-2-5h26v5H3V8Zm13 0v20M16 8c-5 0-8-1-8-4 0-2 2-3 4-2 3 0 4 3 4 6Zm0 0c5 0 8-1 8-4 0-2-2-3-4-2-3 0-4 3-4 6Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg></span>
+        <span><strong>AARVIKA</strong><small>Gifts with a little more meaning</small></span>
+      </a>
+      <form class="header-search" id="search-form" role="search">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8" stroke="currentColor" stroke-width="1.7"/><path d="m16 16 5 5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+        <input id="search-input" type="search" name="q" placeholder="Search gifts, occasions, collections" aria-label="Search the catalogue" autocomplete="off">
+        <button type="submit">Search</button>
+      </form>
+      <nav class="header-actions" aria-label="Quick actions">
+        <a href="/?view=wishlist" data-nav aria-label="Wishlist" class="icon-link"><span aria-hidden="true">♡</span><em id="wish-count" class="count-badge" hidden>0</em></a>
+        <a href="/?view=cart" data-nav aria-label="Cart" class="icon-link"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 4h2l2.1 11h11.8l2-8H6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9" cy="20" r="1" fill="currentColor"/><circle cx="18" cy="20" r="1" fill="currentColor"/></svg><em id="cart-count" class="count-badge" hidden>0</em></a>
+      </nav>
+    </div>
+    <nav class="desktop-nav" aria-label="Primary"><a href="/" data-nav>Home</a><a href="/?view=categories" data-nav>Categories</a><a href="/?view=offers" data-nav>Offers</a><a href="/?view=wishlist" data-nav>Wishlist</a><a href="/?view=account" data-nav>Account</a></nav>
+  </header>
+  <main id="app" tabindex="-1"><div class="loading-state">Preparing the gift collection…</div></main>
+  <nav class="mobile-nav" aria-label="Mobile primary"><a href="/" data-nav><span>⌂</span>Home</a><a href="/?view=categories" data-nav><span>▦</span>Categories</a><a href="/?view=offers" data-nav><span>◇</span>Offers</a><a href="/?view=wishlist" data-nav><span>♡</span>Wishlist</a><a href="/?view=account" data-nav><span>♙</span>Account</a></nav>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

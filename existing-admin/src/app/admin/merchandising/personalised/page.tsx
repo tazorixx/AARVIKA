@@ -1,0 +1,5 @@
+"use client";
+import MerchandisingManager from "@/components/admin/merchandising/MerchandisingManager";
+import type { MerchandisingHero } from "@/lib/merchandising/types";
+const HERO: MerchandisingHero = { eyebrow: "Personalised gifting", heading: "Make your gift uniquely theirs", description: "Discover gifts you can personalise with names, messages and meaningful details.", ctaText: "Shop personalised gifts", ctaLink: "/personalised", desktopImage: "", mobileImage: "", active: true };
+export default function PersonalisedMerchandisingPage() { return <MerchandisingManager page="personalised" title="Personalized Gifts" description="Control how products with personalization enabled are grouped and promoted. Product personalization settings remain in Product Editor." sections={[{ type: "category", label: "Featured categories", relation: "categories" }, { type: "recipient", label: "Featured recipients", relation: "recipients" }, { type: "collection", label: "Personalised collections", relation: "collections" }, { type: "promotion", label: "Promotional sections" }, { type: "featured", label: "Featured personalized gifts" }]} initialHero={HERO} />; }

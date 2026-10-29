@@ -1,0 +1,7 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { categories, products, searchCatalog, schemas } from '../src/services/catalog.ts';
+import { validatePersonalization } from '../src/domain/personalization.ts';
+test('Birthday arbitrary age/recipient/interest/budget/personalization filters compose', () => { const found = searchCatalog({ departmentId: 'birthday', age: 47, recipient: 'Her', interest: 'Coffee', maxPrice: 44900, personalizedOnly: true }); assert.ok(found.products.some(p => p.id === 'name-mug')); assert.equal(searchCatalog({ age: -1 }).total, 0); assert.equal(searchCatalog({ verifiedDeliveryOnly: true }).total, 0); });
+test('every Personalized product child has a canonical demo example; combo children use builder', () => { for (const child of categories.filter(c => c.departmentId === 'personalized' && c.level === 3 && c.parentId !== 'personalized-9')) assert.ok(products.some(p => p.categoryIds.includes(child.id)), child.name); assert.equal(new Set(products.map(p => p.id)).size, products.length); });
+test('engraving and photo-required schemas validate independently', () => { const engraving = schemas.find(s => s.id === 'engraving')!, photo = schemas.find(s => s.id === 'photo-proof')!; assert.deepEqual(validatePersonalization(engraving, { engraving: 'Always', font: 'Classic' }, []), []); assert.ok(validatePersonalization(photo, { font: 'Classic' }, []).includes('Photo is required.')); });

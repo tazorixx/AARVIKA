@@ -1,0 +1,9 @@
+import { NextResponse } from "next/server";
+import { errorResponse, requireCatalogAdmin } from "@/lib/catalog/http";
+import { createMerchandisingItem, createMerchandisingItemWithMaster, getMerchandising, normalizeMerchandisingItemInput, serializeMerchandising } from "@/lib/merchandising/server";
+import type { MerchandisingPage } from "@/lib/merchandising/types";
+export const runtime = "nodejs";
+const PAGES: MerchandisingPage[] = ["wedding", "birthday", "anniversary", "hampers", "personalised", "clothing", "stationery", "furniture", "lifestyle"];
+function pageOf(value: string): MerchandisingPage { if (!PAGES.includes(value as MerchandisingPage)) throw new Error("Invalid merchandising page."); return value as MerchandisingPage; }
+export async function GET(request: Request, { params }: { params: Promise<{ page: string }> }) { try { await requireCatalogAdmin(request); const { page: raw } = await params; const data = await getMerchandising(pageOf(raw)); return NextResponse.json({ items: serializeMerchandising(data.items) }); } catch (error) { return errorResponse(error); } }
+export async function POST(request: Request, { params }: { params: Promise<{ page: string }> }) { try { await requireCatalogAdmin(request); const { page: raw } = await params; const page = pageOf(raw); const body=(await request.json()) as Record<string,unknown>; const data = normalizeMerchandisingItemInput(page, body); if(body.inlineMaster){if(typeof body.inlineMaster!=='object'||Array.isArray(body.inlineMaster))throw Error('Invalid catalogue record.');const result=await createMerchandisingItemWithMaster(page,data,body.inlineMaster as Record<string,unknown>);return NextResponse.json({...result,item:{id:result.id,...data,relatedId:result.masterId}},{status:201});} const id = await createMerchandisingItem(page, data); return NextResponse.json({ id, item: { id, ...data } }, { status: 201 }); } catch (error) { return errorResponse(error); } }

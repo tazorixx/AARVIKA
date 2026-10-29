@@ -1,0 +1,14 @@
+# Codex task report
+- Task name and source docs read:
+- Git branch / base commit:
+- Exact files changed:
+- Screens and workflows implemented:
+- Source requirements covered / intentionally deferred:
+- API/contract changes:
+- Test commands executed and results (no invented passes):
+- Device/simulator screenshot or recording paths:
+- Accessibility/performance/empty/error checks:
+- Staging vs production changes (production should be NONE unless approved):
+- Risks, compatibility and rollback:
+- Blockers / owner decisions:
+- Proposed next task, STOP:
