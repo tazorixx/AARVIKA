@@ -1,0 +1,8 @@
+{
+  "apphosting": [{
+    "backendId": "aarvika",
+    "rootDir": "existing-admin",
+    "alwaysDeployFromSource": true,
+    "ignore": [".git", ".local-preview", ".tools", "**/node_modules", "**/.next", "**/.expo", "**/.env*", "**/*.log", "**/evidence", "**/test-results", "visual-merchandising", "references"]
+  }]
+}

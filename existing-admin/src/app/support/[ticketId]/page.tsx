@@ -1,6 +1,6 @@
 "use client";
 
-import { FormEvent, useEffect, useState } from "react";
+import { FormEvent, use, useEffect, useState } from "react";
 import Link from "next/link";
 import { ArrowLeft, Loader2, Send } from "lucide-react";
 import { useAuth } from "@/hooks/useAuth";
@@ -50,10 +50,11 @@ function formatDate(value: string | null) {
 }
 
 export default function SupportTicketDetailPage({
-  params,
+  params: pendingParams,
 }: {
-  params: { ticketId: string };
+  params: Promise<{ ticketId: string }>;
 }) {
+  const params = use(pendingParams);
   const { user, loading: authLoading } = useAuth();
   const [ticket, setTicket] = useState<Ticket | null>(null);
   const [loading, setLoading] = useState(true);

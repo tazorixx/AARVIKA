@@ -10,6 +10,7 @@ import { addLine, validateAddress, validateCart } from '../domain/cart';
 
 import { CartCountContext, DeliverySummaryContext } from './header-context';
 import {useEmailAuth} from './email-auth';
+import {environment} from '../config/environment';
 import { State, Button, Page } from '../components/ui';
 
 export interface GiftReminder { id: string; title: string; date: string; occasion: 'Birthday' | 'Anniversary' | 'Wedding' | 'Other' }
@@ -17,7 +18,7 @@ interface Profile { selectedAddressId?: string; review?: DemoReview; reminders: 
 interface Stored { version: 1; active: string; profiles: Record<string, Profile> }
 const emptyProfile = (): Profile => ({ reminders: [], inquiries: [], drafts: {}, customer: null, wishlist: [], lines: [], addresses: [] });
 const empty = (): Stored => ({ version: 1, active: 'guest', profiles: { guest: emptyProfile() } });
-const STORAGE_KEY = 'aarvika:demo:v1';
+const STORAGE_KEY = environment.dataMode === 'shared-api' ? 'aarvika:shared:gift4u-4210f:v1' : 'aarvika:demo:v1';
 type Mode = 'normal' | 'slow' | 'failure';
 interface Store {
   profile: Profile; network: Mode; error: string; clearError(): void; networkMode(mode: Mode): void;

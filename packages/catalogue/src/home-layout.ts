@@ -1,4 +1,5 @@
 import type {PageLayout} from './contracts.ts';
+import {withOwnerHero} from './hero-images.ts';
 
 // Shared presentation only: no fixture products, prices or stock.
 export const defaultHomeLayout: PageLayout = { id: 'home', version: 2, sections: [
@@ -19,5 +20,5 @@ export function resolveHomeLayout(layout:PageLayout, options:{demo:boolean;produ
  if(options.demo||layout.version!==0||layout.sections.length)return layout;
  return {id:'home-default',version:0,sections:defaultHomeLayout.sections
   .filter(section=>(section.type!=='combo'||options.hasBundleTemplates)&&(section.dataSourceRef!=='@recipients'||options.hasRecipients))
-  .map(section=>section.type==='products'?{...section,productIds:options.productIds.slice(section.id==='more'?8:0,section.id==='more'?16:8)}:{...section})};
+  .map(section=>section.type==='products'?{...section,productIds:options.productIds.slice(section.id==='more'?8:0,section.id==='more'?16:8)}:withOwnerHero({...section},'home'))};
 }

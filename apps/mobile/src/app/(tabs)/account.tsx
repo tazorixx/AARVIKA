@@ -141,12 +141,12 @@ export default function Account() {
           <Text numberOfLines={1} style={[styles.text, { fontSize:17, lineHeight:23, fontWeight:'700' }]}>{customer ? 'Hello, ' + (customer.mode === 'staging' ? customer.name.split('@')[0] : customer.name) : 'Welcome to AARVIKA'}</Text>
           <Text numberOfLines={1} style={[styles.text, { fontSize:11, lineHeight:15, color:theme.colors.muted }]}>{customer?.mode === 'staging' ? customer.name : customer ? 'Your saved shopping details' : 'A place for your favourites and details'}</Text>
         </View>
-        <View style={{ borderRadius:20, paddingHorizontal:8, paddingVertical:4, backgroundColor:theme.colors.pale }}><Text style={{ color:theme.colors.primary, fontSize:9, fontWeight:'700' }}>{customer?.mode === 'staging' ? emailAuth.real ? 'FIREBASE' : 'LOCAL EMAIL' : 'LOCAL DEMO'}</Text></View>
+        <View style={{ borderRadius:20, paddingHorizontal:8, paddingVertical:4, backgroundColor:theme.colors.pale }}><Text style={{ color:theme.colors.primary, fontSize:9, fontWeight:'700' }}>{emailAuth.real ? customer ? 'ACCOUNT' : 'GUEST' : customer?.mode === 'staging' ? 'LOCAL EMAIL' : 'LOCAL DEMO'}</Text></View>
       </View>
       {!customer && <>
         <Button title="Sign up / Log in with email" icon="account" onPress={() => {setLoginOpen(true);setAuthMessage('');}} />
         <Text style={[styles.text, { fontSize:11, lineHeight:16, color:theme.colors.muted }]}>{emailAuth.real?'Sign in securely with your Firebase email and password.':'Use a six-digit code in the local test preview. No real email is sent.'}</Text>
-        <Button title="Continue with local demo profile" secondary onPress={() => setDemoOpen(true)} />
+        {!emailAuth.real && <Button title="Continue with local demo profile" secondary onPress={() => setDemoOpen(true)} />}
       </>}
     </View>
 
@@ -187,27 +187,27 @@ export default function Account() {
         </View>
         <Text style={[styles.text, { fontSize:12, lineHeight:17 }]}>{item.line}, {item.city}, {item.state} {item.pincode}</Text>
       </Card>)}
-      <Button title="Add sample address" icon="plus" secondary onPress={() => edit()}/>
+      <Button title={emailAuth.real?"Add address":"Add sample address"} icon="plus" secondary onPress={() => edit()}/>
     </View>}
 
     {!!store.profile.review && <AccountLink title="Saved review" detail="Continue your local gift review" icon="bag" accessibilityLabel="Saved demo review" onPress={() => router.push('/review')}/>}
 
     <View style={{ gap:9 }}>
       <Label heading>Settings</Label>
-      <FilterDisclosure title="App settings" summary="Profile and local preview">
+      <FilterDisclosure title="App settings" summary={emailAuth.real?"Account and device storage":"Profile and local preview"}>
         <Label muted>{customer?.mode === 'staging' ? emailAuth.real?'Firebase verifies this email. Cart, addresses and reminders remain on this device. Checkout is not available yet.':'Firebase emulator verifies this email. Cart, addresses and reminders are still saved only on this device. No order or payment is placed.' : 'This profile is saved on this device for preview. It is not a secure sign-in, and no order or payment is placed here.'}</Label>
         {customer && <Button title={customer.mode === 'staging' ? 'Sign out of email' : 'Leave demo profile'} secondary disabled={busy} onPress={() => { void store.signOut().catch(error => setNotice(error.message)); }}/>}
-        <FilterDisclosure title="Demo connection controls" summary="Local testing and recovery tools">
+        {!emailAuth.real && <FilterDisclosure title="Demo connection controls" summary="Local testing and recovery tools">
           <Label muted>Runtime: {environment.appEnv} · {environment.dataMode}</Label>
           <Label muted>Exercise loading, demo-profile failure and retry. Current mode: {store.network}.</Label>
           <View style={styles.row}>{(['normal', 'slow', 'failure'] as const).map(mode => <Button key={mode} title={'Network: ' + mode} selected={store.network === mode} secondary onPress={() => store.networkMode(mode)}/>)}</View>
           <Button title="Reset all local demo data" secondary onPress={() => setResetOpen(true)}/>
-        </FilterDisclosure>
+        </FilterDisclosure>}
       </FilterDisclosure>
     </View>
 
     <Sheet title="Email sign-in" visible={loginOpen} onClose={() => {if (!busy) setLoginOpen(false);}} closeLabel="Close email sign-in">
-      <Label muted>{emailAuth.real?'Use your Firebase email and password. Six-digit email codes need a separate verified mail service and are not enabled on the shared project.':'Enter your email, then use the six-digit code. This local test uses Firebase Authentication Emulator; the preview below stands in for an email notification.'}</Label>
+      <Label muted>{emailAuth.real?'Sign in with your email address and password.':'Enter your email, then use the six-digit code. This local test uses Firebase Authentication Emulator; the preview below stands in for an email notification.'}</Label>
       <Input label="Email address" value={email} onChangeText={value => {setEmail(value);setCodeSent(false);setPreviewCode('');}} autoCapitalize="none" autoComplete="email" keyboardType="email-address" placeholder="you@example.com" />
       {emailAuth.real ? <>
         <Input label="Password" value={password} onChangeText={setPassword} secureTextEntry autoComplete="password" placeholder="Your password" />

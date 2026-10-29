@@ -20,3 +20,11 @@ test('shared mode requires exact project, credential and no emulator endpoints',
   assert.throws(() => assertSharedServer({...valid, FIREBASE_PRIVATE_KEY:undefined}));
   assert.throws(() => assertSharedServer({...valid, AARVIKA_ISOLATED:'true'}));
 });
+
+test('managed hosting requires explicit mode and does not mix private keys',()=>{
+ const managed={...valid,FIREBASE_CLIENT_EMAIL:undefined,FIREBASE_PRIVATE_KEY:undefined,AARVIKA_APPHOSTING:'true',AARVIKA_FIREBASE_CREDENTIALS:'application-default'};
+ assert.doesNotThrow(()=>assertSharedServer(managed));
+ assert.throws(()=>assertSharedServer({...managed,AARVIKA_APPHOSTING:undefined}));
+ assert.throws(()=>assertSharedServer({...managed,FIREBASE_PRIVATE_KEY:'unexpected'}));
+ assert.throws(()=>assertSharedServer({...managed,FIREBASE_PROJECT_ID:'other'}));
+});

@@ -11,9 +11,9 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 # Gift4U Project Rules & Architecture Decisions
 
 ## 1. Hosting & Deployment Target
-- **Target Platform**: **Netlify** ONLY.
-- **Forbidden**: Vercel (commercial use is prohibited on its free tier) and Firebase App Hosting (requires the paid Blaze plan, which is deliberately not used).
-- Do not introduce Vercel or Firebase App Hosting deployment configs or dependencies.
+- **Current owner-approved target (29 October 2026)**: Firebase App Hosting for the copied AARVIKA admin and shared mobile storefront in `gift4u-4210f`. This explicit authorization supersedes the earlier Netlify-only hosting restriction.
+- Preserve the isolated local launcher. Deploy only the intended App Hosting backend; do not automatically deploy database rules or seed/migrate production records.
+- Keep server secrets in Secret Manager and use managed Firebase server credentials. Never put private keys in mobile code or Git.
 
 ## 2. Authentication
 - **Implemented Method**: Firebase Email/Password authentication ONLY (`signInWithEmailAndPassword`, `createUserWithEmailAndPassword`).

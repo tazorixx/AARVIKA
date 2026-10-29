@@ -24,3 +24,4 @@ existing-admin/.phase*-failure.png
 **/*.p12
 **/service-account*.json
 **/serviceAccount*.json
+existing-admin/public/storefront/

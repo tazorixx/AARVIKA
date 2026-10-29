@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "AARVIKA Demo",
+    "name": "AARVIKA",
     "slug": "aarvika-mobile",
     "scheme": "aarvika-demo",
     "plugins": [
@@ -40,6 +40,7 @@
       "predictiveBackGestureEnabled": false
     },
     "web": {
+      "output": "single",
       "favicon": "./assets/favicon.png"
     }
   }

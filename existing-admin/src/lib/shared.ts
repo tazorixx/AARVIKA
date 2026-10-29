@@ -14,6 +14,9 @@ export function assertSharedServer(env: Env = process.env) {
   assertSharedClient(env);
   if (env.AARVIKA_SHARED !== 'true' || env.AARVIKA_ISOLATED === 'true' || env.FIREBASE_PROJECT_ID !== SHARED_PROJECT_ID) throw new Error('Shared server mode or project is invalid.');
   if (env.FIREBASE_AUTH_EMULATOR_HOST || env.FIRESTORE_EMULATOR_HOST) throw new Error('Shared mode cannot use Firebase emulator endpoints.');
-  if (!env.FIREBASE_CLIENT_EMAIL?.endsWith(`@${SHARED_PROJECT_ID}.iam.gserviceaccount.com`) || !env.FIREBASE_PRIVATE_KEY?.includes('BEGIN PRIVATE KEY')) throw new Error('Missing or mismatched server credential.');
+  if (env.AARVIKA_FIREBASE_CREDENTIALS === 'application-default') {
+    if (env.AARVIKA_APPHOSTING !== 'true') throw new Error('Managed credentials require the explicit App Hosting mode.');
+    if (env.FIREBASE_PRIVATE_KEY || env.FIREBASE_CLIENT_EMAIL) throw new Error('Do not mix managed credentials with a private service-account key.');
+  } else if (!env.FIREBASE_CLIENT_EMAIL?.endsWith(`@${SHARED_PROJECT_ID}.iam.gserviceaccount.com`) || !env.FIREBASE_PRIVATE_KEY?.includes('BEGIN PRIVATE KEY')) throw new Error('Missing or mismatched server credential.');
   for (const key of ['GCLOUD_PROJECT', 'GOOGLE_CLOUD_PROJECT']) if (env[key] && env[key] !== SHARED_PROJECT_ID) throw new Error(`Unexpected ${key}.`);
 }

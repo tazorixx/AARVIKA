@@ -1,5 +1,7 @@
 # AARVIKA — mobile app and existing admin
 
+**Unified hosting setup:** see [APP_HOSTING.md](APP_HOSTING.md). The App Hosting production build serves the existing mobile storefront at `/` and admin at `/admin`, using the same real published catalogue. The local sample commands below remain development tools, not the online release mode.
+
 This repository contains the current AARVIKA source snapshot: the existing Next.js admin, Expo customer app, shared catalogue contracts, local development services and web preview. Clone the **whole repository**: the admin imports shared code from `packages/catalogue`.
 
 The repository contains code and public display assets, not Firebase account records, private keys, passwords or a database backup. Uploading this source to GitHub does not host the admin or grant administrator access. This is a development handoff, not a claim that production checkout, payments or every native-device flow is release-tested.

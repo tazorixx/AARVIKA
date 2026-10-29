@@ -1,6 +1,6 @@
 import { assertIsolatedServer, DEMO_PROJECT_ID } from "./isolated";
 import { assertSharedServer, SHARED_PROJECT_ID } from './shared';
-import { cert, getApps, initializeApp, type App } from "firebase-admin/app";
+import { applicationDefault, cert, getApps, initializeApp, type App } from "firebase-admin/app";
 import { getAuth, type Auth } from "firebase-admin/auth";
 import { getFirestore, type Firestore } from "firebase-admin/firestore";
 
@@ -35,7 +35,7 @@ function getAdminApp(): App {
   }
 
   adminApp = shared
-    ? initializeApp({ projectId: SHARED_PROJECT_ID, credential: cert({
+    ? initializeApp({ projectId: SHARED_PROJECT_ID, credential: process.env.AARVIKA_FIREBASE_CREDENTIALS === 'application-default' ? applicationDefault() : cert({
       projectId: SHARED_PROJECT_ID,
       clientEmail: process.env.FIREBASE_CLIENT_EMAIL!,
       privateKey: process.env.FIREBASE_PRIVATE_KEY!.replace(/\\n/g, '\n'),
