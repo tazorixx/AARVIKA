@@ -9,7 +9,7 @@ Live deployment (29 October 2026):
 
 The deployed source is commit `4de6261` on `codex/admin-team-handoff`. Firebase confirmed the successful rollout. Live checks passed for the published catalogue, mobile homepage and its image assets, Birthday deep link, real email account interface, and rejection of unauthenticated admin requests. The feed has eight departments, 48 categories and zero published products at verification time.
 
-The intended administrator's UID, verified email and SUPER_ADMIN claim were confirmed read-only. However, Firebase rejected the password in the private local configuration. Authenticated online admin access and its ImageKit signature endpoint therefore still need verification with the owner's current password. No password, role, account or catalogue record was changed during deployment. The approved ImageKit key is stored in Secret Manager and referenced only by the server.
+The intended administrator's UID, verified email and SUPER_ADMIN claim were confirmed read-only. The owner subsequently confirmed successful online admin sign-in with their current password; the saved private local password was stale and has not been changed. The authenticated ImageKit signature endpoint still needs a live-session check because the browser tool could not access the owner's signed-in session. No password, role, account or catalogue record was changed during deployment. The approved ImageKit key is stored in Secret Manager and referenced only by the server. No test image upload or publication has been performed.
 
 - `/`: the existing mobile UI, compiled for browsers with the real published catalogue.
 - `/admin`: the existing protected admin panel.
