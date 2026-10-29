@@ -2,6 +2,15 @@
 
 The mobile storefront and the existing admin are packaged together for the `aarvika` Firebase App Hosting backend in `gift4u-4210f`, region `asia-southeast1`.
 
+Live deployment (29 October 2026):
+
+- [Mobile storefront](https://aarvika--gift4u-4210f.asia-southeast1.hosted.app/)
+- [Admin sign-in](https://aarvika--gift4u-4210f.asia-southeast1.hosted.app/admin/login)
+
+The deployed source is commit `4de6261` on `codex/admin-team-handoff`. Firebase confirmed the successful rollout. Live checks passed for the published catalogue, mobile homepage and its image assets, Birthday deep link, real email account interface, and rejection of unauthenticated admin requests. The feed has eight departments, 48 categories and zero published products at verification time.
+
+The intended administrator's UID, verified email and SUPER_ADMIN claim were confirmed read-only. However, Firebase rejected the password in the private local configuration. Authenticated online admin access and its ImageKit signature endpoint therefore still need verification with the owner's current password. No password, role, account or catalogue record was changed during deployment. The approved ImageKit key is stored in Secret Manager and referenced only by the server.
+
 - `/`: the existing mobile UI, compiled for browsers with the real published catalogue.
 - `/admin`: the existing protected admin panel.
 - `/api/mobile/v2/catalog`: the published catalogue shared by both.
