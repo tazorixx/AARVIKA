@@ -30,5 +30,6 @@ if(process.env.AARVIKA_APPHOSTING!=='true') {
   }
   run(process.execPath,[path.join(mobile,'node_modules/expo/bin/cli'),'export','--platform','web','--output-dir',path.join(admin,'public/storefront')],mobile,mobileEnv);
   if(!fs.existsSync(path.join(admin,'public/storefront/index.html')))throw Error('Mobile web export did not produce the storefront.');
+  require('./storefront-recovery.cjs').installStorefrontRecovery(path.join(admin,'public/storefront/index.html'));
   run(process.execPath,[path.join(admin,'node_modules/next/dist/bin/next'),'build','--webpack'],admin);
 }
