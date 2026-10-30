@@ -2,12 +2,12 @@
 
 The mobile storefront and the existing admin are packaged together for the `aarvika` Firebase App Hosting backend in `gift4u-4210f`, region `asia-southeast1`.
 
-Live deployment (29 October 2026):
+Live deployment (updated 30 October 2026):
 
 - [Mobile storefront](https://aarvika--gift4u-4210f.asia-southeast1.hosted.app/)
 - [Admin sign-in](https://aarvika--gift4u-4210f.asia-southeast1.hosted.app/admin/login)
 
-The deployed source is commit `4de6261` on `codex/admin-team-handoff`. Firebase confirmed the successful rollout. Live checks passed for the published catalogue, mobile homepage and its image assets, Birthday deep link, real email account interface, and rejection of unauthenticated admin requests. The feed has eight departments, 48 categories and zero published products at verification time.
+The deployed source is commit `5e01737` on `codex/admin-team-handoff`, including the newer mobile theme shown in the owner's recording. Firebase confirmed the successful rollout. Live checks passed at 320px and 390px for the home carousel, category grid, five tabs, Birthday navigation, real email account interface and absence of sample live coupons; automatic carousel motion also passed with zero browser errors. The preceding deployment verified the published API and rejection of unauthenticated admin requests. At that earlier verification the feed contained eight departments, 48 categories and zero published products. See `apps/mobile/evidence/HOSTED_MOBILE_THEME.md` for the focused theme checks.
 
 The intended administrator's UID, verified email and SUPER_ADMIN claim were confirmed read-only. The owner subsequently confirmed successful online admin sign-in with their current password; the saved private local password was stale and has not been changed. The authenticated ImageKit signature endpoint still needs a live-session check because the browser tool could not access the owner's signed-in session. No password, role, account or catalogue record was changed during deployment. The approved ImageKit key is stored in Secret Manager and referenced only by the server. No test image upload or publication has been performed.
 

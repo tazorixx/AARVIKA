@@ -16,4 +16,4 @@ Validation before deployment:
 
 No admin redesign, data-contract changes, database writes, image uploads or authentication changes. Rollback is the prior successful Firebase App Hosting rollout containing source commit `4de6261`.
 
-Live verification is recorded after rollout; predeployment success alone does not confirm deployment.
+Deployment: Firebase App Hosting confirmed the successful rollout of source commit `5e01737` on 30 October 2026 at the existing hosted address. `.local-preview/check-theme.cjs --live` passed the same 320px/390px checks plus automatic carousel advancement with normal motion enabled. Zero browser runtime errors. The actual hosted mobile screenshot was visually checked against the candidate and owner's recording.
