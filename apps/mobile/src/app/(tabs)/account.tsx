@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Image, Pressable, Text, View } from 'react-native';
+import { Pressable, Text, View } from 'react-native';
 import { router, useLocalSearchParams, type Href } from 'expo-router';
 import { Page, Label, Button, Card, Input, FilterDisclosure, IconButton, Notice, Sheet, styles } from '../../components/ui';
 import { Icon, type IconName } from '../../components/illustration';
@@ -7,6 +7,7 @@ import { environment } from '../../config/environment';
 import { useStore } from '../../state/store';
 import {useEmailAuth} from '../../state/email-auth';
 import { theme } from '../../theme';
+import { GiftHeading, palette, bodyFont, displayFont } from '../../components/aarvika-mobile';
 import type { DeliveryAddress as Address } from '../../domain/delivery';
 import { emptyDelivery } from '../../domain/delivery';
 import { AddressForm } from '../../components/address-form';
@@ -18,9 +19,9 @@ function QuickAction({ title, detail, icon, onPress, accessibilityLabel }: { tit
     accessibilityRole="button"
     accessibilityLabel={accessibilityLabel ?? title}
     onPress={onPress}
-    style={({ pressed }) => ({ width: '48.5%', minHeight:74, borderRadius:12, borderWidth:1, borderColor:theme.colors.border, backgroundColor:pressed?theme.colors.pale:theme.colors.surface, padding:10, flexDirection:'row', alignItems:'center', gap:8 })}
+    style={({ pressed }) => ({ width: '48.5%', minHeight:74, borderRadius:16, borderWidth:1, borderColor:palette.line, backgroundColor:pressed?palette.soft:'white', padding:10, flexDirection:'row', alignItems:'center', gap:8 })}
   >
-    <View style={{ width:32, height:32, borderRadius:10, backgroundColor:theme.colors.pale, alignItems:'center', justifyContent:'center' }}><Icon name={icon} size={19}/></View>
+    <View style={{ width:40, height:40, borderRadius:12, backgroundColor:palette.soft, alignItems:'center', justifyContent:'center' }}><Icon name={icon} size={19}/></View>
     <View style={{flex:1}}><Text numberOfLines={2} style={[styles.text, { fontSize:12.5, lineHeight:17, fontWeight:'700' }]}>{title}</Text><Text numberOfLines={1} style={[styles.text, { fontSize:10, lineHeight:14, color:theme.colors.muted }]}>{detail}</Text></View>
   </Pressable>;
 }
@@ -30,9 +31,9 @@ function AccountLink({ title, detail, icon, onPress, accessibilityLabel }: { tit
     accessibilityRole="button"
     accessibilityLabel={accessibilityLabel ?? title}
     onPress={onPress}
-    style={({ pressed }) => ({ minHeight:60, borderRadius:12, borderWidth:1, borderColor:theme.colors.border, backgroundColor:pressed?theme.colors.pale:theme.colors.surface, paddingHorizontal:12, flexDirection:'row', alignItems:'center', gap:10 })}
+    style={({ pressed }) => ({ minHeight:60, borderRadius:16, borderWidth:1, borderColor:palette.line, backgroundColor:pressed?palette.soft:'white', paddingHorizontal:12, flexDirection:'row', alignItems:'center', gap:10 })}
   >
-    <View style={{ width:34, height:34, borderRadius:10, backgroundColor:theme.colors.pale, alignItems:'center', justifyContent:'center' }}><Icon name={icon} size={18}/></View>
+    <View style={{ width:40, height:40, borderRadius:12, backgroundColor:palette.soft, alignItems:'center', justifyContent:'center' }}><Icon name={icon} size={18}/></View>
     <View style={{ flex:1 }}><Text style={[styles.text, { fontSize:14, fontWeight:'600' }]}>{title}</Text><Text style={[styles.text, { fontSize:11, lineHeight:15, color:theme.colors.muted }]}>{detail}</Text></View>
     <Icon name="right" size={16}/>
   </Pressable>;
@@ -125,40 +126,25 @@ export default function Account() {
     finally { setBusy(false); }
   }
 
-  return <Page title="My account">
-    <View style={{height:136,overflow:'hidden',borderRadius:14,justifyContent:'center',backgroundColor:theme.colors.pale}}>
-      <Image source={require('../../../assets/editorial/personalized-editorial.webp')} resizeMode="cover" style={{position:'absolute',right:-7,top:-24,width:300,height:200}} />
-      <View style={{width:'59%',height:'100%',paddingHorizontal:13,justifyContent:'center',backgroundColor:'#F7F0FFEB',gap:3}}>
-        <Text style={[styles.text,{fontSize:9,lineHeight:13,letterSpacing:1.5,fontWeight:'800',color:theme.colors.primary}]}>AARVIKA GIFTING</Text>
-        <Text style={[styles.text,{fontSize:21,lineHeight:24,fontWeight:'800',color:theme.colors.plum}]}>Gifts worth remembering.</Text>
-        <Text style={[styles.text,{fontSize:11,lineHeight:15,color:theme.colors.text}]}>Find, save and plan a gift.</Text>
-      </View>
-    </View>
-    <View style={{ borderRadius:14, borderWidth:1, borderColor:theme.colors.border, backgroundColor:theme.colors.surface, padding:13, gap:11 }}>
-      <View style={{ flexDirection:'row', alignItems:'center', gap:10 }}>
-        <View style={{ width:44, height:44, borderRadius:22, backgroundColor:theme.colors.lavender, alignItems:'center', justifyContent:'center' }}><Icon name="account" size={24}/></View>
-        <View style={{ flex:1 }}>
-          <Text numberOfLines={1} style={[styles.text, { fontSize:17, lineHeight:23, fontWeight:'700' }]}>{customer ? 'Hello, ' + (customer.mode === 'staging' ? customer.name.split('@')[0] : customer.name) : 'Welcome to AARVIKA'}</Text>
-          <Text numberOfLines={1} style={[styles.text, { fontSize:11, lineHeight:15, color:theme.colors.muted }]}>{customer?.mode === 'staging' ? customer.name : customer ? 'Your saved shopping details' : 'A place for your favourites and details'}</Text>
-        </View>
-        <View style={{ borderRadius:20, paddingHorizontal:8, paddingVertical:4, backgroundColor:theme.colors.pale }}><Text style={{ color:theme.colors.primary, fontSize:9, fontWeight:'700' }}>{emailAuth.real ? customer ? 'ACCOUNT' : 'GUEST' : customer?.mode === 'staging' ? 'LOCAL EMAIL' : 'LOCAL DEMO'}</Text></View>
-      </View>
-      {!customer && <>
-        <Button title="Sign up / Log in with email" icon="account" onPress={() => {setLoginOpen(true);setAuthMessage('');}} />
-        <Text style={[styles.text, { fontSize:11, lineHeight:16, color:theme.colors.muted }]}>{emailAuth.real?'Sign in securely with your Firebase email and password.':'Use a six-digit code in the local test preview. No real email is sent.'}</Text>
-        {!emailAuth.real && <Button title="Continue with local demo profile" secondary onPress={() => setDemoOpen(true)} />}
+  return <Page>
+    <View style={{borderRadius:24,padding:20,borderWidth:1,borderColor:palette.line,backgroundColor:palette.soft,gap:8,shadowColor:palette.brand,shadowOffset:{width:0,height:9},shadowOpacity:.12,shadowRadius:12,elevation:3}}>
+      <Text style={{fontSize:10,letterSpacing:1.3,fontWeight:'800',color:palette.brand2,fontFamily:bodyFont}}>AARVIKA GIFTING</Text>
+      <Text accessibilityRole="header" style={{fontFamily:displayFont,fontWeight:'700',fontSize:21,color:palette.ink}}>{customer ? `Welcome, ${customer.name.split('@')[0]}` : 'Welcome to AARVIKA'}</Text>
+      <Text style={{fontFamily:bodyFont,fontSize:12,color:palette.muted,marginBottom:6}}>A place for your favourites and details.</Text>
+      {!customer&&<>
+        <Button title="Sign up / Log in with email" icon="account" onPress={()=>{setLoginOpen(true);setAuthMessage('');}}/>
+        {!emailAuth.real && <Button title="Continue with local demo profile" secondary onPress={()=>setDemoOpen(true)}/>}
       </>}
     </View>
-
     {!!(notice || store.error) && <Notice>{notice || store.error}</Notice>}
 
     <View style={{ gap:9 }}>
-      <Label heading>Quick access</Label>
+      <GiftHeading title="Quick access"/>
       <View style={{ flexDirection:'row', flexWrap:'wrap', justifyContent:'space-between', rowGap:8 }}>
         <QuickAction title="My orders" detail="Orders & reviews" icon="bag" onPress={() => router.push('/orders')}/>
         <QuickAction title="Reminders" detail={store.profile.reminders.length + ' saved dates'} icon="birthday" onPress={() => router.push('/reminders')}/>
-        <QuickAction title="Help & support" detail="Get assistance" icon="account" onPress={() => router.push('/help')}/>
-        <QuickAction title="Saved addresses" detail={addressCount + ' saved'} icon="home" accessibilityLabel="Addresses" onPress={() => router.push('/location')}/>
+        <QuickAction title="Help" detail="Get assistance" icon="account" onPress={() => router.push('/help')}/>
+        <QuickAction title="Addresses" detail={addressCount + ' saved'} icon="home" accessibilityLabel="Addresses" onPress={() => router.push('/location')}/>
       </View>
     </View>
 

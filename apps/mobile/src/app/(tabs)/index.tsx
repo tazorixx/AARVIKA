@@ -11,7 +11,7 @@ export default function Home() {
     hasBundleTemplates: bundleTemplates.length > 0,
     hasRecipients: products.some(product => product.recipientIds.length > 0),
   });
-  return <Page headerTools="home" sideRailActive="all">
+  return <Page headerTools="home">
     {!layout.sections.some(section => section.enabled) && !meta.demo
       ? <State title="Catalogue is being prepared" message="Published collections and featured gifts will appear here when they are ready." />
       : <HomeDiscovery layout={layout} />}

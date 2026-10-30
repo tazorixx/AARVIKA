@@ -6,6 +6,7 @@ import { router } from 'expo-router';
 import { theme } from '../theme';
 import { CartCountContext, DeliverySummaryContext } from '../state/header-context';
 import { Icon, type IconName } from './illustration';
+import { GiftIcon, palette, displayFont, bodyFont } from './aarvika-mobile';
 import { DepartmentSideRail } from './department-side-rail';
 import type { DepartmentId } from '../domain/departments';
 
@@ -54,10 +55,18 @@ function HeaderAction({label,hint,onPress,disabled,children}:{label:string;hint?
   return <Animated.View style={{flex:1,minWidth:0,transform:[{scale}]}}><Pressable accessibilityRole="button" accessibilityLabel={label} accessibilityHint={hint} disabled={disabled} onPress={onPress} onPressIn={()=>feedback(true)} onPressOut={()=>feedback(false)} style={({pressed})=>[styles.headerAction,pressed&&{backgroundColor:theme.colors.lavender}]}>{children}</Pressable></Animated.View>;
 }
 
+function CartPulseBadge({count}:{count:number}){
+  const reduced=useContext(MotionContext),[scale]=useState(()=>new Animated.Value(1));
+  useEffect(()=>{if(reduced)return;scale.setValue(1);const a=Animated.sequence([Animated.spring(scale,{toValue:1.35,speed:22,bounciness:9,useNativeDriver:true}),Animated.spring(scale,{toValue:1,speed:20,bounciness:5,useNativeDriver:true})]);a.start();return()=>a.stop();},[count,reduced,scale]);
+  if(!count)return null;
+  return <Animated.View pointerEvents="none" style={{position:'absolute',top:-4,right:-4,minWidth:18,height:18,paddingHorizontal:3,borderRadius:9,backgroundColor:palette.gold,alignItems:'center',justifyContent:'center',transform:[{scale}]}}><Text style={{fontSize:10,color:'#2B1700',fontWeight:'800'}}>{count>99?'99+':count}</Text></Animated.View>;
+}
 export function Header({navigationEnabled=true,tools='none'}:{navigationEnabled?:boolean;tools?:HeaderTools}){
   const count=useContext(CartCountContext),delivery=useContext(DeliverySummaryContext);
   const home=tools==='home',hasDelivery=delivery!=='Choose delivery location';
-  return <View style={styles.headerSurface}><View style={styles.header}><Pressable accessibilityRole="button" accessibilityLabel="AARVIKA home" disabled={!navigationEnabled} onPress={()=>router.navigate('/')} style={{flexDirection:'row',alignItems:'center',minHeight:44,gap:8}}><View style={{width:32,height:36,backgroundColor:theme.colors.pale,borderRadius:10,alignItems:'center',justifyContent:'center'}}><Icon name="gift" size={22}/></View><View><Text style={[styles.text,styles.brand]}>{theme.brand}</Text><Text style={[styles.text,styles.tagline]}>Gifts with a little more meaning</Text></View></Pressable><View><IconButton label={count?`Cart (${count})`:'Cart'} icon="cart" disabled={!navigationEnabled} onPress={()=>router.push('/cart')}/>{count>0&&<View pointerEvents="none" style={{position:'absolute',top:-3,right:-3,minWidth:18,height:18,paddingHorizontal:3,borderRadius:9,backgroundColor:theme.colors.primary,alignItems:'center',justifyContent:'center'}}><Text style={{fontSize:10,color:'white',fontWeight:'700'}}>{count>99?'99+':count}</Text></View>}</View></View>
+  useEffect(()=>{if(Platform.OS!=='web'||typeof document==='undefined'||document.getElementById('aarvika-fonts'))return;const link=document.createElement('link');link.id='aarvika-fonts';link.rel='stylesheet';link.href='https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap';document.head.appendChild(link);},[]);
+
+  return <View style={styles.headerSurface}><View style={styles.header}><Pressable accessibilityRole="button" accessibilityLabel="AARVIKA home" disabled={!navigationEnabled} onPress={()=>router.navigate('/')} style={{flexDirection:'row',alignItems:'center',minHeight:44,gap:9}}><View style={{width:36,height:36,backgroundColor:palette.brand,borderRadius:11,alignItems:'center',justifyContent:'center'}}><GiftIcon name="gift" size={20} color="white"/></View><View><Text style={[styles.text,styles.brand]}>{theme.brand}</Text><Text style={[styles.text,styles.tagline]}>Gifts with a little more meaning</Text></View></Pressable><View><Pressable accessibilityRole="button" accessibilityLabel={count?`Cart (${count})`:'Cart'} disabled={!navigationEnabled} onPress={()=>router.push('/cart')} style={{width:40,height:40,borderRadius:12,borderWidth:1,borderColor:palette.line,alignItems:'center',justifyContent:'center',backgroundColor:'white'}}><GiftIcon name="bag" size={22}/></Pressable><CartPulseBadge count={count}/></View></View>
     {tools!=='none'&&<View style={styles.headerTools}>
       <View testID="header-search" style={[styles.compactSearch,{flex:home?7:1}]}>
         <HeaderAction label="Search gifts" disabled={!navigationEnabled} onPress={()=>router.navigate('/search')}><Icon name="search" size={18}/><Text numberOfLines={1} style={[styles.text,styles.searchPrompt]}>Search gifts</Text></HeaderAction>
@@ -75,18 +84,18 @@ export function Page({title,children,back=false,navigationEnabled=true,headerToo
 export function SkeletonGrid(){return <View accessibilityElementsHidden importantForAccessibility="no-hide-descendants" style={{flexDirection:'row',gap:8}}>{[0,1].map(i=><View key={i} style={{flex:1,borderRadius:12,padding:8,backgroundColor:theme.colors.surface,borderWidth:1,borderColor:theme.colors.border,gap:10}}><View style={{height:126,borderRadius:9,backgroundColor:theme.colors.pale}}/><View style={{height:12,width:'90%',borderRadius:4,backgroundColor:theme.colors.border}}/><View style={{height:12,width:'60%',borderRadius:4,backgroundColor:theme.colors.pale}}/><View style={{height:16,width:'40%',borderRadius:4,backgroundColor:theme.colors.lavender}}/></View>)}</View>;}
 export function State({title,message,retry,loading=false}:{title:string;message:string;retry?:()=>void;loading?:boolean}){return <View accessibilityLiveRegion="polite" style={{padding:14,borderRadius:12,backgroundColor:theme.colors.pale,gap:8}}><View style={{flexDirection:'row',alignItems:'center',gap:10}}>{loading?<ActivityIndicator color={theme.colors.primary}/>:<Icon name={retry?'search':'bag'} size={22}/>}<View style={{flex:1}}><Label heading>{title}</Label></View></View><Label muted>{message}</Label>{retry&&<Button title="Try again" onPress={retry}/>}</View>;}
 export const styles=StyleSheet.create({
- safe:{flex:1,backgroundColor:theme.colors.base},page:{width:'100%',maxWidth:960,alignSelf:'center',padding:12,gap:12},
+ safe:{flex:1,backgroundColor:theme.colors.surface},page:{width:'100%',maxWidth:960,alignSelf:'center',padding:16,gap:10},
  text:{fontSize:14,lineHeight:21,color:theme.colors.text,fontFamily:Platform.select({ios:'System',android:'sans-serif',default:'system-ui'})},muted:{color:theme.colors.muted,fontSize:13},heading:{fontSize:19,lineHeight:25,fontWeight:'700'},
- header:{flexDirection:'row',alignItems:'center',justifyContent:'space-between',paddingHorizontal:12,paddingVertical:6,backgroundColor:'white',gap:8},brand:{color:theme.colors.primary,fontWeight:'800',fontSize:19,lineHeight:24,letterSpacing:1.6},tagline:{fontSize:9,lineHeight:13,color:theme.colors.muted},
+ header:{flexDirection:'row',alignItems:'center',justifyContent:'space-between',paddingHorizontal:16,paddingTop:12,paddingBottom:8,backgroundColor:'white',gap:8},brand:{color:palette.brand2,fontWeight:'800',fontFamily:displayFont,fontSize:19,lineHeight:23,letterSpacing:2.5},tagline:{fontSize:10,lineHeight:13,fontFamily:bodyFont,color:palette.muted},
  headerSurface:{backgroundColor:theme.colors.surface,borderBottomColor:theme.colors.border,borderBottomWidth:1},
- headerTools:{width:'100%',maxWidth:960,alignSelf:'center',flexDirection:'row',gap:8,paddingHorizontal:12,paddingBottom:8},
- compactSearch:{minWidth:0,flexDirection:'row',alignItems:'center',borderWidth:1,borderColor:theme.colors.border,borderRadius:12,backgroundColor:theme.colors.base,overflow:'hidden'},
- compactDelivery:{flex:3,minWidth:0,borderWidth:1,borderColor:theme.colors.lavender,borderRadius:12,backgroundColor:theme.colors.pale,overflow:'hidden'},
+ headerTools:{width:'100%',maxWidth:960,alignSelf:'center',flexDirection:'row',gap:8,paddingHorizontal:16,paddingBottom:10},
+ compactSearch:{minWidth:0,flexDirection:'row',alignItems:'center',borderWidth:1,borderColor:palette.line,borderRadius:14,backgroundColor:'white',overflow:'hidden'},
+ compactDelivery:{flex:3,minWidth:0,borderRadius:14,backgroundColor:palette.soft,overflow:'hidden'},
  headerAction:{flex:1,minHeight:44,minWidth:44,paddingHorizontal:9,paddingVertical:5,flexDirection:'row',alignItems:'center',gap:6,borderRadius:11},
- searchPrompt:{flex:1,minWidth:0,fontSize:13,lineHeight:18,color:theme.colors.muted},
+ searchPrompt:{flex:1,minWidth:0,fontSize:13,lineHeight:18,color:palette.muted,fontFamily:bodyFont},
  photoSearch:{borderLeftWidth:1,borderLeftColor:theme.colors.border},
  deliveryCaption:{fontSize:10,lineHeight:13,color:theme.colors.muted},
- deliveryValue:{fontSize:11,lineHeight:16,fontWeight:'600',color:theme.colors.plum},
+ deliveryValue:{fontSize:12,lineHeight:16,fontWeight:'700',color:palette.brand2},
  button:{minWidth:44,minHeight:44,paddingHorizontal:12,paddingVertical:10,backgroundColor:theme.colors.primary,borderWidth:1,borderColor:'transparent',borderRadius:10,flexDirection:'row',gap:7,alignItems:'center',justifyContent:'center'},secondary:{backgroundColor:theme.colors.pale,borderColor:theme.colors.border},buttonText:{color:'white',fontWeight:'600',fontSize:13,lineHeight:18,flexShrink:1,textAlign:'center'},
  input:{minHeight:46,paddingHorizontal:12,paddingVertical:10,borderWidth:1,borderColor:theme.colors.border,borderRadius:10,backgroundColor:'white',color:theme.colors.text,fontSize:14},card:{padding:12,borderWidth:1,borderColor:theme.colors.border,borderRadius:12,backgroundColor:'white',gap:8},row:{flexDirection:'row',flexWrap:'wrap',gap:8}
 });
