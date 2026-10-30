@@ -7,7 +7,9 @@ import {VisualTiles, categoryTiles} from '../../../components/visual-commerce';
 import {Icon, type IconName} from '../../../components/illustration';
 import {useCatalogue} from '../../../state/catalogue';
 
-const referenceTiles:{id:string;name:string;art:GiftArtName;bg:string}[]=[
+import type {DepartmentId} from '../../../domain/departments';
+
+const referenceTiles:{id:DepartmentId|'home';name:string;art:GiftArtName;bg:string}[]=[
   {id:'wedding',name:'Wedding',art:'rings',bg:palette.peach},
   {id:'birthday',name:'Birthday',art:'cake',bg:palette.rose},
   {id:'personalized',name:'Personalised',art:'frame',bg:palette.mint},
@@ -25,7 +27,7 @@ export default function Categories(){
   return <Page>
     <View style={{height:44,flexDirection:'row',alignItems:'center',gap:8,paddingHorizontal:12,borderWidth:1,borderColor:palette.line,borderRadius:14,backgroundColor:'white'}}><GiftIcon name="search" size={18} color={palette.muted}/><TextInput accessibilityLabel="Find a category" value={query} onChangeText={v=>{setQuery(v);setLimit(20);}} returnKeyType="search" placeholder="Try notebooks, mugs or living room" placeholderTextColor={palette.muted} style={{flex:1,minWidth:0,height:44,fontSize:12,color:palette.ink,fontFamily:bodyFont}}/></View>
     <View style={{gap:3,marginTop:5}}><Text accessibilityRole="header" style={{fontFamily:displayFont,fontSize:19,fontWeight:'700',color:palette.ink}}>Explore departments</Text><Text style={{fontFamily:bodyFont,fontSize:12,color:palette.muted}}>Find your next thoughtful detail.</Text></View>
-    {!q&&<View testID="categories-nine-tile-grid" style={{flexDirection:'row',flexWrap:'wrap',gap:10,marginTop:5}}>{referenceTiles.filter(t=>t.id==='home'||departments.some(d=>d.id===t.id&&d.active)).map((t,i)=><GiftRise key={t.id} index={i} style={{width:'30.8%',flexGrow:1}}><GiftTile small label={t.name} art={t.art} bg={t.bg} onPress={()=>router.push(t.id==='home'?'/search?text=home%20decor':`/department/${t.id}`)}/></GiftRise>)}</View>}
+    {!q&&<View testID="categories-nine-tile-grid" style={{flexDirection:'row',flexWrap:'wrap',gap:10,marginTop:5}}>{referenceTiles.filter(t=>t.id==='home'||departments.some(d=>d.id===t.id&&d.active)).map((t,i)=><GiftRise key={t.id} index={i} style={{width:'30.8%',flexGrow:1}}><GiftTile small departmentId={t.id} label={t.name} art={t.art} bg={t.bg} onPress={()=>router.push(t.id==='home'?'/search?text=home%20decor':`/department/${t.id}`)}/></GiftRise>)}</View>}
     {q?<View style={{gap:8,marginTop:8}}><Label muted>{Math.min(limit,matches.length)} of {matches.length} matching categories</Label>{matches.slice(0,limit).map(c=><Pressable key={c.id} accessibilityRole="button" accessibilityLabel={`Open ${c.name} in ${c.departmentId}`} onPress={()=>router.push(`/category/${c.id}`)} style={{minHeight:58,padding:12,borderRadius:14,backgroundColor:'white',borderWidth:1,borderColor:palette.line,flexDirection:'row',alignItems:'center',gap:10}}><View style={{flex:1}}><Label>{c.name}</Label><Text style={[styles.text,{fontSize:11,color:palette.muted}]}>{departments.find(d=>d.id===c.departmentId)?.title}{c.parentId?` › ${categories.find(p=>p.id===c.parentId)?.name}`:''}</Text></View><Icon name="right" size={17}/></Pressable>)}{matches.length>limit&&<Button title="More matching categories" secondary onPress={()=>setLimit(v=>v+20)}/>}</View>
     :<View style={{gap:10,marginTop:18}}>
       <GiftHeading title="Browse the catalogue" />

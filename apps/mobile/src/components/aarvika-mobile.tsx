@@ -4,6 +4,10 @@
 import React, {useContext, useEffect, useState} from 'react';
 import {Animated, Image, Platform, Pressable, Text, View, type ImageStyle, type StyleProp, type ViewStyle} from 'react-native';
 import {MotionContext} from '../state/motion-context';
+import {useCatalogue} from '../state/catalogue';
+import {LocalDemoImage} from './local-demo-image';
+import {ownerHeroImages, responsiveHeroPath} from '../../../../packages/catalogue/src/hero-images';
+import type {DepartmentId} from '../domain/departments';
 
 export const palette = {
   ink:'#1E1030', muted:'#6C5F80', line:'#E7DCF4', brand:'#4A1D7A', brand2:'#7B3FC4',
@@ -60,9 +64,19 @@ function GiftShine(){
   if(reduced)return null;
   return <Animated.View pointerEvents="none" style={{position:'absolute',top:-45,width:32,height:190,backgroundColor:'#FFFFFF40',transform:[{rotate:'22deg'},{translateX:v.interpolate({inputRange:[0,1],outputRange:[-160,270]})}]}}/>;
 }
-export function GiftTile({label,art,bg,onPress,small=false}:{label:string;art:GiftArtName;bg:string;onPress:()=>void;small?:boolean}){
+export function DepartmentPhoto({id,style}:{id:DepartmentId|'home';style:StyleProp<ImageStyle>}){
+  const {commercePages}=useCatalogue();
+  const department=id==='home'?'furniture':id;
+  // Reuse the owner's department imagery, not the earlier bulk-sourced thumbnails.
+  // Explicitly published department hero edits remain the admin's source of truth.
+  const visual=commercePages?.find(page=>page.key==='department:'+department)?.sections.find(section=>section.enabled&&section.type==='hero');
+  const supplied=ownerHeroImages[department];
+  const path=responsiveHeroPath(visual||{},390);
+  return <LocalDemoImage path={path?.startsWith('https://')?path:supplied.mobile} label={visual?.imageAlt||supplied.alt} fit="cover" use="grid" style={style} fallback={<LocalDemoImage path={supplied.mobile} label={supplied.alt} fit="cover" use="grid" style={style}/>}/>;
+}
+export function GiftTile({label,art,bg,onPress,small=false,departmentId}:{label:string;art:GiftArtName;bg:string;onPress:()=>void;small?:boolean;departmentId?:DepartmentId|'home'}){
   return <Pressable accessibilityRole="button" accessibilityLabel={`Explore ${label}`} onPress={onPress} style={({pressed})=>({flex:1,borderRadius:small?13:20,overflow:'hidden',borderWidth:1,borderColor:palette.line,backgroundColor:'white',opacity:pressed?.75:1,transform:[{scale:pressed?.97:1}]})}>
-    <View style={{height:small?90:104,backgroundColor:bg,alignItems:'center',justifyContent:'center'}}><GiftFloat duration={4000}><GiftArt kind={art} size={small?62:76}/></GiftFloat><GiftShine/></View>
+    <View style={{aspectRatio:small?1:4/3,backgroundColor:bg,alignItems:'center',justifyContent:'center',overflow:'hidden'}}>{departmentId?<DepartmentPhoto id={departmentId} style={{width:'100%',height:'100%'}}/>:<><GiftFloat duration={4000}><GiftArt kind={art} size={small?62:76}/></GiftFloat><GiftShine/></>}</View>
     <View style={{paddingHorizontal:small?5:12,paddingVertical:small?7:10,gap:2}}><Text numberOfLines={2} style={{fontFamily:bodyFont,fontWeight:'700',fontSize:small?11:13,color:palette.ink,textAlign:small?'center':'left'}}>{label}</Text>{!small&&<Text style={{fontFamily:bodyFont,fontSize:11,fontWeight:'700',color:palette.brand2}}>Explore gifts →</Text>}</View>
   </Pressable>;
 }

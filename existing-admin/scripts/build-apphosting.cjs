@@ -14,6 +14,8 @@ if(process.env.AARVIKA_APPHOSTING!=='true') {
 } else {
   if(process.env.FIREBASE_PROJECT_ID!=='gift4u-4210f'||process.env.AARVIKA_SHARED!=='true')throw Error('The hosted build requires the real shared project.');
   const mobileEnv={...process.env,EXPO_NO_DOTENV:'1',EXPO_NO_TELEMETRY:'1',EXPO_PUBLIC_APP_ENV:'production',EXPO_PUBLIC_DATA_MODE:'shared-api',EXPO_PUBLIC_API_BASE_URL:'same-origin',EXPO_PUBLIC_CUSTOMER_AUTH_MODE:'shared'};
+  // Public CDN endpoint enables existing admin-uploaded category and product photos.
+  if(process.env.IMAGEKIT_URL_ENDPOINT)mobileEnv.EXPO_PUBLIC_IMAGEKIT_URL_ENDPOINT=process.env.IMAGEKIT_URL_ENDPOINT;
   for(const key of ['PROJECT_ID','API_KEY','AUTH_DOMAIN','APP_ID']) {
     const value=process.env['NEXT_PUBLIC_FIREBASE_'+key];
     if(!value)throw Error('Missing Firebase web configuration: '+key);

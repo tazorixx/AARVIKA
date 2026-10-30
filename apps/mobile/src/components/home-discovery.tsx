@@ -1,6 +1,7 @@
 import React, {useContext, useEffect, useRef, useState} from 'react';
 import {Animated, Easing, Image, Pressable, ScrollView, Text, TextInput, View, type LayoutChangeEvent} from 'react-native';
 import {router, type Href} from 'expo-router';
+import type {DepartmentId} from '../domain/departments';
 import type {PageLayout, Product, Section} from '../domain/contracts';
 import {useCatalogue} from '../state/catalogue';
 import {useStore} from '../state/store';
@@ -8,16 +9,16 @@ import {MotionContext} from '../state/motion-context';
 import {LocalDemoImage} from './local-demo-image';
 import {previewProductPrice} from '../domain/product-price';
 import {money} from '../domain/money';
-import {responsiveHeroPath} from '../../../../packages/catalogue/src/hero-images';
-import {GiftArt, GiftIcon, GiftFloat, GiftHeading, GiftRise, GiftTile, bodyFont, displayFont, giftHeroBackgrounds, palette, type GiftArtName} from './aarvika-mobile';
+import {responsiveHeroPath, ownerHeroImages} from '../../../../packages/catalogue/src/hero-images';
+import {DepartmentPhoto, GiftArt, GiftIcon, GiftFloat, GiftHeading, GiftRise, GiftTile, bodyFont, displayFont, giftHeroBackgrounds, palette, type GiftArtName} from './aarvika-mobile';
 
 function go(path:string){router.push(path as Href);}
-const occasionIcons:{id:string;name:string;art:GiftArtName}[]=[
+const occasionIcons:{id:DepartmentId;name:string;art:GiftArtName}[]=[
   {id:'wedding',name:'Wedding',art:'rings'},{id:'birthday',name:'Birthday',art:'cake'},
   {id:'anniversary',name:'Anniversary',art:'heartA'},{id:'personalized',name:'Custom',art:'pen'},
   {id:'hampers',name:'Hampers',art:'hamper'},
 ];
-const cards:{id:string;name:string;art:GiftArtName;bg:string}[]=[
+const cards:{id:DepartmentId;name:string;art:GiftArtName;bg:string}[]=[
   {id:'wedding',name:'Wedding gifts',art:'hamper',bg:palette.peach},
   {id:'birthday',name:'Birthday gifts',art:'cake',bg:palette.soft},
   {id:'anniversary',name:'Anniversary',art:'heartA',bg:palette.rose},
@@ -41,9 +42,9 @@ function MobileHero({first}:{first?:Section}) {
     <Animated.View style={{flexDirection:'row',width:width*3,height:210,transform:[{translateX:x}]}}>{slides.map((s,i)=>
       <View key={i} style={{width,height:210,overflow:'hidden'}}>
         <Image source={giftHeroBackgrounds[i]} resizeMode="stretch" style={{width:'100%',height:'100%',position:'absolute'}}/>
-        {i===0&&first?.imagePath&&<><Image source={{uri:responsiveHeroPath(first,width)}} resizeMode="cover" accessibilityLabel={first.imageAlt||first.title} style={{width:'100%',height:'100%',position:'absolute'}}/><View style={{position:'absolute',top:0,left:0,right:0,bottom:0,backgroundColor:'#3B126688'}}/></>}
-        <View style={{width:i===1?90:120,height:i===1?90:120,borderRadius:60,backgroundColor:'#FFFFFF1E',position:'absolute',right:i===1?60:-30,top:-30}}/>
-        <GiftFloat duration={5000} translate={12} style={{position:'absolute',top:10,right:-6}}><GiftArt kind={s[3]} size={150}/></GiftFloat>
+        <LocalDemoImage path={i===0?(responsiveHeroPath(first||{},width)||ownerHeroImages.home.mobile):i===1?ownerHeroImages.personalized.mobile:ownerHeroImages.stationery.mobile} label={i===0?(first?.imageAlt||ownerHeroImages.home.alt):i===1?ownerHeroImages.personalized.alt:ownerHeroImages.stationery.alt} fit="cover" use="hero" priority={i===0} style={{width:'100%',height:'100%',position:'absolute'}}/>
+        <View pointerEvents="none" style={{position:'absolute',top:0,left:0,right:0,bottom:0,backgroundColor:'#2F0F5555'}}/>
+        <View pointerEvents="none" style={{position:'absolute',left:0,right:0,bottom:0,height:128,backgroundColor:'#2F0F5577'}}/>
         <View style={{flex:1,padding:20,justifyContent:'flex-end',paddingBottom:28,gap:6}}>
           <Text style={{fontFamily:bodyFont,fontSize:10,color:'white',letterSpacing:1.6,fontWeight:'800',opacity:.85}}>{s[0]}</Text>
           <Text accessibilityRole="header" style={{fontFamily:displayFont,fontSize:25,lineHeight:28,fontWeight:'700',color:'white',maxWidth:240}}>{i===0&&first?.title?first.title:s[1]}</Text>
@@ -125,8 +126,8 @@ export function HomeDiscovery({layout}:{layout:PageLayout}){
   return <View testID="home-discovery" style={{gap:0,paddingBottom:8}}>
     {showHero&&<GiftRise index={0}><MobileHero first={hero}/></GiftRise>}
     {showOccasions&&<><GiftRise index={2}><GiftHeading title="Gifts for every occasion"/></GiftRise>
-    <GiftRise index={3}><ScrollView accessibilityLabel="Gifts for every occasion" horizontal showsHorizontalScrollIndicator={false} style={{marginHorizontal:-16}} contentContainerStyle={{paddingHorizontal:16,gap:14,paddingTop:4,paddingBottom:8}}>{occasionIcons.map((o,i)=>{const active=selectedOccasion===o.id;return <Pressable key={o.id} accessibilityRole="button" accessibilityLabel={`Shop ${o.name}`} accessibilityState={{selected:active}} onPress={()=>{setSelectedOccasion(o.id);go(destination(o.id));}} style={{width:68,alignItems:'center',gap:5}}><View style={{width:64,height:64,borderRadius:32,backgroundColor:active?palette.brand:palette.soft,borderWidth:2,borderColor:active?palette.brand2:'transparent',alignItems:'center',justifyContent:'center',transform:[{scale:active?1.06:1}]}}><GiftFloat duration={4000+i*100}><GiftArt kind={o.art} size={44}/></GiftFloat></View><Text style={{fontSize:11,fontFamily:bodyFont,fontWeight:'700',color:palette.ink}}>{o.name}</Text></Pressable>})}</ScrollView></GiftRise>
-    <View style={{flexDirection:'row',flexWrap:'wrap',gap:12,marginTop:12}}>{cards.map((c,i)=><GiftRise key={c.id} index={4+i} style={{width:'48.2%',flexGrow:1}}><GiftTile label={c.name} art={c.art} bg={c.bg} onPress={()=>go(destination(c.id))}/></GiftRise>)}</View>
+    <GiftRise index={3}><ScrollView accessibilityLabel="Gifts for every occasion" horizontal showsHorizontalScrollIndicator={false} style={{marginHorizontal:-16}} contentContainerStyle={{paddingHorizontal:16,gap:14,paddingTop:4,paddingBottom:8}}>{occasionIcons.map(o=>{const active=selectedOccasion===o.id;return <Pressable key={o.id} accessibilityRole="button" accessibilityLabel={`Shop ${o.name}`} accessibilityState={{selected:active}} onPress={()=>{setSelectedOccasion(o.id);go(destination(o.id));}} style={{width:68,alignItems:'center',gap:5}}><View style={{width:64,height:64,borderRadius:32,backgroundColor:active?palette.brand:palette.soft,borderWidth:2,borderColor:active?palette.brand2:'transparent',alignItems:'center',justifyContent:'center',overflow:'hidden',transform:[{scale:active?1.06:1}]}}><DepartmentPhoto id={o.id} style={{width:'100%',height:'100%'}}/></View><Text style={{fontSize:11,fontFamily:bodyFont,fontWeight:'700',color:palette.ink}}>{o.name}</Text></Pressable>})}</ScrollView></GiftRise>
+    <View style={{flexDirection:'row',flexWrap:'wrap',gap:12,marginTop:12}}>{cards.map((c,i)=><GiftRise key={c.id} index={4+i} style={{width:'48.2%',flexGrow:1}}><GiftTile departmentId={c.id} label={c.name} art={c.art} bg={c.bg} onPress={()=>go(destination(c.id))}/></GiftRise>)}</View>
     </>}
     <MovingOfferStrip/>
     {showProducts&&<><GiftHeading title="Shop by gift style" action="See all" onPress={()=>router.navigate('/categories')}/>

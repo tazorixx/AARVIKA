@@ -40,3 +40,11 @@ test('responsive media keeps the existing safe-image validation', () => {
   snapshot.layout.sections.find(section => section.type === 'hero')!.mobileImagePath = 'https://untrusted.invalid/image.webp';
   assert.throws(() => validateSnapshot(snapshot));
 });
+
+test('superseded batch hero is replaced without overriding future admin photos', () => {
+  const old='https://ik.imagekit.io/gift4u4210/aarvika/heroes/birthday/birthday-root--79b021e1c522b45d.webp?tr=w-768';
+  assert.equal(responsiveHeroPath({imagePath:old},320),ownerHeroImages.birthday.mobile);
+  assert.equal(responsiveHeroPath({imagePath:old},1024),ownerHeroImages.birthday.desktop);
+  const newAdminPhoto='https://ik.imagekit.io/gift4u4210/aarvika/heroes/birthday/new-approved-photo.webp';
+  assert.equal(responsiveHeroPath({imagePath:newAdminPhoto},320),newAdminPhoto);
+});

@@ -15,5 +15,18 @@ export function withOwnerHero(section: Section, page: HeroPage): Section {
 }
 
 export function responsiveHeroPath(section: Pick<Section, 'imagePath' | 'mobileImagePath'>, width: number) {
-  return width < 768 ? section.mobileImagePath || section.imagePath : section.imagePath;
+  const path = width < 768 ? section.mobileImagePath || section.imagePath : section.imagePath;
+  // These six older batch assets were superseded by the owner's supplied image set.
+  // Match exact immutable files so future admin uploads retain priority.
+  const replaced:Record<string,HeroPage> = {
+    'wedding/wedding-root--e6827fd57fab15f9.webp':'wedding',
+    'birthday/birthday-root--79b021e1c522b45d.webp':'birthday',
+    'anniversary/anniversary-root--4503d066c12b32b6.webp':'anniversary',
+    'hampers/hampers-root--315c41a97451e989.webp':'hampers',
+    'clothing/clothing-root--7ac74d3b08c37e2f.webp':'clothing',
+    'furniture/furniture-root--a65ee4c89f796bad.webp':'furniture',
+  };
+  const prefix=ownerHeroEndpoint+'/aarvika/heroes/';
+  const page=path?.startsWith(prefix)?replaced[path.slice(prefix.length).split('?')[0]]:undefined;
+  return page?(width<768?images[page].mobile:images[page].desktop):path;
 }
