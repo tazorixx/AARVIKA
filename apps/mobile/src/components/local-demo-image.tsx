@@ -30,8 +30,13 @@ export function LocalDemoImage({path,label,style,fallback=null,fallbackPath,use=
   const reduced=useContext(MotionContext),{height}=useWindowDimensions(),ref=useRef<ComponentRef<typeof View>>(null);
   const [failure,setFailure]=useState<string>(),[width,setWidth]=useState(0),[near,setNear]=useState(false);
   const generated=categoryArtworkData(path),photo=path?categoryPhotoAssets[path]:undefined;
-  const local=environment.dataMode==='admin-emulator'&&isLocalMediaPath(path);
-  const uri=generated||(photo?`local:${path}`:path?(local?environment.apiBaseUrl+path:boundedImageKitUrl(path,publicMedia.imageKitEndpoint ?? (isOwnerHeroPath(path) ? ownerHeroEndpoint : undefined),width,PixelRatio.get(),use)):undefined);
+  // Old /category-photo/* identifiers are remote media, not bundled local assets.
+  // Only resolve them against the explicitly configured public ImageKit account.
+  const relativePhoto=path?.startsWith('/category-photo/') && publicMedia.imageKitEndpoint
+    ? publicMedia.imageKitEndpoint.replace(/\/$/, '')+path : undefined;
+  const remotePath=relativePhoto || path;
+  const local=!relativePhoto&&environment.dataMode==='admin-emulator'&&isLocalMediaPath(path);
+  const uri=generated||(photo?`local:${path}`:remotePath?(local?environment.apiBaseUrl+path:boundedImageKitUrl(remotePath,publicMedia.imageKitEndpoint ?? (isOwnerHeroPath(remotePath) ? ownerHeroEndpoint : undefined),width,PixelRatio.get(),use)):undefined);
   const fallbackUri=categoryArtworkData(fallbackPath);
   const allowed=!!uri;
   useEffect(()=>{

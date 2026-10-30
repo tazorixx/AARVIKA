@@ -70,9 +70,12 @@ export function DepartmentPhoto({id,style}:{id:DepartmentId|'home';style:StylePr
   // Reuse the owner's department imagery, not the earlier bulk-sourced thumbnails.
   // Explicitly published department hero edits remain the admin's source of truth.
   const visual=commercePages?.find(page=>page.key==='department:'+department)?.sections.find(section=>section.enabled&&section.type==='hero');
-  const supplied=ownerHeroImages[department];
-  const path=responsiveHeroPath(visual||{},390);
-  return <LocalDemoImage path={path?.startsWith('https://')?path:supplied.mobile} label={visual?.imageAlt||supplied.alt} fit="cover" use="grid" style={style} fallback={<LocalDemoImage path={supplied.mobile} label={supplied.alt} fit="cover" use="grid" style={style}/>}/>;
+  const supplied=ownerHeroImages[department] ?? ownerHeroImages.home;
+  const path=visual ? responsiveHeroPath(visual,390) : undefined;
+  const selected=path?.startsWith('https://') ? path : supplied?.mobile;
+  return <LocalDemoImage path={selected} label={visual?.imageAlt||supplied?.alt||'AARVIKA gifts'} fit="cover" use="grid" style={style} fallback={supplied?.mobile && selected!==supplied.mobile
+    ? <LocalDemoImage path={supplied.mobile} label={supplied.alt} fit="cover" use="grid" style={style}/>
+    : <View style={[style,{backgroundColor:palette.soft,alignItems:'center',justifyContent:'center'}]}><GiftArt kind="gift" size={44}/></View>}/>;
 }
 export function GiftTile({label,art,bg,onPress,small=false,departmentId}:{label:string;art:GiftArtName;bg:string;onPress:()=>void;small?:boolean;departmentId?:DepartmentId|'home'}){
   return <Pressable accessibilityRole="button" accessibilityLabel={`Explore ${label}`} onPress={onPress} style={({pressed})=>({flex:1,borderRadius:small?13:20,overflow:'hidden',borderWidth:1,borderColor:palette.line,backgroundColor:'white',opacity:pressed?.75:1,transform:[{scale:pressed?.97:1}]})}>

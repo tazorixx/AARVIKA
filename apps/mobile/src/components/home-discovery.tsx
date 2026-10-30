@@ -42,7 +42,7 @@ function MobileHero({first}:{first?:Section}) {
     <Animated.View style={{flexDirection:'row',width:width*3,height:210,transform:[{translateX:x}]}}>{slides.map((s,i)=>
       <View key={i} style={{width,height:210,overflow:'hidden'}}>
         <Image source={giftHeroBackgrounds[i]} resizeMode="stretch" style={{width:'100%',height:'100%',position:'absolute'}}/>
-        <LocalDemoImage path={i===0?(responsiveHeroPath(first||{},width)||ownerHeroImages.home.mobile):i===1?ownerHeroImages.personalized.mobile:ownerHeroImages.stationery.mobile} label={i===0?(first?.imageAlt||ownerHeroImages.home.alt):i===1?ownerHeroImages.personalized.alt:ownerHeroImages.stationery.alt} fit="cover" use="hero" priority={i===0} style={{width:'100%',height:'100%',position:'absolute'}}/>
+        <LocalDemoImage path={i===0?((first?responsiveHeroPath(first,width):undefined)||ownerHeroImages.home?.mobile):i===1?ownerHeroImages.personalized?.mobile:ownerHeroImages.stationery?.mobile} label={i===0?(first?.imageAlt||ownerHeroImages.home?.alt||'AARVIKA gifts'):i===1?(ownerHeroImages.personalized?.alt||'Personalised gifts'):(ownerHeroImages.stationery?.alt||'Stationery gifts')} fit="cover" use="hero" priority={i===0} style={{width:'100%',height:'100%',position:'absolute'}}/>
         <View pointerEvents="none" style={{position:'absolute',top:0,left:0,right:0,bottom:0,backgroundColor:'#2F0F5555'}}/>
         <View pointerEvents="none" style={{position:'absolute',left:0,right:0,bottom:0,height:128,backgroundColor:'#2F0F5577'}}/>
         <View style={{flex:1,padding:20,justifyContent:'flex-end',paddingBottom:28,gap:6}}>
